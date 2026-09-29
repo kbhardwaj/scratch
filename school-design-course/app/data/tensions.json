@@ -1,0 +1,225 @@
+{
+  "tensions": [
+    {
+      "id": "t01",
+      "name": "Explicit instruction vs productive failure",
+      "pole_a": "Instruct first. Novices searching a problem space spend working memory on search, not schema building; worked examples are among the most replicated effects; explicit-first beat problem-first on high element-interactivity material (Ashman, Kalyuga & Sweller 2020).",
+      "pole_b": "Generate first, then instruct. A short designed problem-solving phase activates prior knowledge, exposes what students' ideas cannot do, primes them for the answer, and sets up a consolidation that shows which features matter (Kapur; Sinha & Kapur 2021, g about 0.36 on concepts and transfer).",
+      "rule": "IF the goal is a load-bearing concept AND students have relevant prior knowledge to activate AND the problem admits multiple methods AND a scripted consolidation lesson is guaranteed AND early failure is safe, THEN run a named generate-then-consolidate cycle to introduce that concept (about one per major idea). IF the goal is procedural fluency, a foundational skill, or learners cannot produce any attempt, THEN explicit instruction with worked examples first. IF learners are elementary-age, THEN lighter forms and smaller expected benefit.",
+      "switch_signal": "Consolidation phases rushed or skipped on observation; delayed conceptual and transfer items show no advantage over explicit-first; procedural fluency falls; students generate one solution or none. Revert that unit to explicit-first. Opposite signal: students pass immediate procedural quizzes and fail delayed transfer (unproductive success), which argues for adding a PF cycle.",
+      "evidence": "Both camps reject unguided discovery and PF includes full explicit instruction. PF wins on conceptual knowledge and transfer (g about 0.36, higher with high fidelity), shows no difference on procedures (g about -0.03), helps grade 6 and up more than elementary, and depends on fidelity. Its advantage over other preparatory activities (contrasting cases, worked examples first) was not significant. Many studies are from proponents; treat as an upper estimate. [E] both mechanisms; [H] proportion of lessons and transfer beyond STEM.",
+      "sources": [
+        "04-productive-failure",
+        "00-foundational-papers",
+        "01-how-learning-happens",
+        "12-why-we-remember"
+      ]
+    },
+    {
+      "id": "t02",
+      "name": "Knowledge-rich curriculum vs curiosity and inquiry",
+      "pole_a": "Knowledge first. Comprehension is knowledge (Recht & Leslie); content-free skills saturate quickly; content-light schooling widens gaps; a coherent sequenced spine compounds; inquiry for novices is inefficient and favours those who already know.",
+      "pole_b": "Curiosity first. Children arrive as question-askers and school teaches them to stop (Tizard & Hughes: about 26 questions per hour at home vs 2 at school, small sample); adults who follow up and model curiosity keep children asking; demonstration narrows exploration (Bonawitz 2011); intellectual life is an end in itself.",
+      "rule": "IF the decision is what fills K-8 core instructional time, THEN a sequenced knowledge spine with content from kindergarten. IF the decision is classroom norms, THEN protect curiosity through behaviour (questions followed up, a parking lot with scheduled return, teachers modelling not knowing, problem-not-recipe where exploration is the goal) rather than content-free time. IF the school wants a protected block for children's own ideas, THEN adopt it as [V] with an [H] evaluation, sized never to substitute for foundational instruction, with pre-taught vocabulary and background.",
+      "switch_signal": "Student-originated question rates per hour fall across grades in your own sampled observations: fix norms and pacing, not the curriculum. Inquiry time shows shallow, repetitive questions and the same children dominating: the spine is too thin or pre-teaching is missing. Standardized reading lagging two to three years after adoption is expected; five years is an implementation audit.",
+      "evidence": "Mostly a false tension once Gruber et al. are read properly: curiosity is an information gap and you need knowledge to notice a gap. Knowledge driving comprehension is robust; whole-curriculum effects on general reading tests are positive but often small and can plateau. Engel's counts are small-sample and illustrative; the causal claim that schooling drives the decline is argued, not shown; the Idea Workshop has no outcome evaluation. [E] knowledge; [E] question rates fall in typical classrooms; [H] workshop; [V] intellectual life as aim.",
+      "sources": [
+        "06-beyond-the-science-of-reading",
+        "03-intellectual-lives-of-children",
+        "00-foundational-papers",
+        "10-creating-the-schools-our-children-need",
+        "01-how-learning-happens"
+      ]
+    },
+    {
+      "id": "t03",
+      "name": "Teacher-led instruction vs student agency",
+      "pole_a": "The teacher directs. Small steps, many questions, models, guided practice, high success rates (Rosenshine); cognitive activity matters, not organizational control (ICAP); self-direction and anytime-anywhere models sit in tension with novice-guidance evidence and have mixed evaluations.",
+      "pole_b": "The student owns it. Activating students as owners of learning (Wiliam & Leahy); sincere questions confer respect and shift ownership while the standard stays fixed (Yeager); choice, purpose and real responsibility are why the periphery works (Mehta & Fine); experience of agency is a leading indicator (Transcend, correlational).",
+      "rule": "IF the learner is a novice in the content, THEN the teacher sets sequence, examples and success criteria, and agency is expressed through generation, self-assessment, choice among structured options and revision. IF diagnostics show expertise, THEN fade guidance toward self-directed projects with checkpoints. In all cases, THEN treat students as capable agents in how they are addressed, in real high-status responsibilities, and in transparency about why.",
+      "switch_signal": "Self-directed work produces busy, satisfied students with flat delayed and transfer measures: pull direction back. Teacher-led rooms produce compliance with falling experience-survey scores and question rates: add ownership without removing structure.",
+      "evidence": "Agency over what to think and agency over how the lesson runs are different. Strongest evidence: high teacher direction of content for novices, combined with high student generation inside that structure. Status and ownership mechanisms are supported; self-directed models at scale are not. Experience-survey correlations cannot separate cause from selection. [E] direction for novices; [E] status mechanisms; [H] self-directed models.",
+      "sources": [
+        "01-how-learning-happens",
+        "07-embedding-formative-assessment",
+        "05-10-to-25",
+        "09-in-search-of-deeper-learning",
+        "08-extraordinary-learning-for-all",
+        "00-foundational-papers"
+      ]
+    },
+    {
+      "id": "t04",
+      "name": "Standardization and fidelity vs community co-design",
+      "pole_a": "Standardize the mechanisms. Tight but loose, non-negotiable active ingredients, shared materials, one spine across grades; practices die by lethal mutation; PF's effect depends on fidelity; adopting a curriculum is not teaching it.",
+      "pole_b": "Design with the community. Imposed models get reverted; a diverse design team including students and the least-served families surfaces needs experts miss and sustains the school (Transcend); everything works somewhere, nothing works everywhere (Wiliam, Bryk); identity and purpose cannot be imported (Mehta & Fine).",
+      "rule": "IF the layer is purpose, culture, graduate aims, target student experience, the periphery, and which knowledge to prioritise where evidence is silent, THEN co-design it with students and the least-served families and revisit it. IF the layer is a mechanism with robust evidence (phonics, retrieval and spacing, guidance for novices, formative use of evidence, comment-only feedback), THEN hold it tight, adapt only technique, and write this distinction into the compact before the first design session. IF a community proposal would change a mechanism, THEN run an evidence review, not a vote.",
+      "switch_signal": "Co-design proposes mechanism changes ('drop phonics'): the compact was unclear; repair governance. Fidelity audits show techniques keeping names and losing mechanisms: retrain on mechanism, loosen nothing. Staff and families describe the school as done to them: the open layer has closed; reopen it.",
+      "evidence": "Implementation research supports both halves: reforms without ownership fade, and practices that lose their mechanism stop working. Community-based design as a process has no causal evaluation and comes from the organization that sells it; communities can converge on ineffective ideas and the book is thin on adjudication. [E] imposed models revert and mutation kills mechanisms; [V] co-design; [H] its design-quality benefits.",
+      "sources": [
+        "10-creating-the-schools-our-children-need",
+        "06-beyond-the-science-of-reading",
+        "01-how-learning-happens",
+        "04-productive-failure",
+        "08-extraordinary-learning-for-all",
+        "11-improvement-in-action"
+      ]
+    },
+    {
+      "id": "t05",
+      "name": "Accountability measurement vs improvement measurement",
+      "pole_a": "Accountability. Boards and authorizers need comparable, audited annual measures; what is assessed gets taught (IB's depth-demanding assessments moved teaching toward depth); accountability data exposed the weak effects of popular reforms.",
+      "pole_b": "Improvement. Practical measures are short, frequent, low-stakes, tied to specific changes and returned within days (Bryk); using accountability measures for improvement gives lagging annual data; using improvement measures for accountability corrupts them (Campbell's law); formative data and TLC observation must stay out of evaluation or safety collapses.",
+      "rule": "IF a measure decides a job, salary or rating, THEN it is an accountability measure: multiple measures over multiple years, never a practical measure, never TLC observation. IF a measure is used to learn whether a change worked, THEN it is practical: embedded in the work, returned within days, owned by the team, never reported upward by individual. Report accountability measures honestly; do not manage to them. Track balancing measures (workload, well-being) with every change.",
+      "switch_signal": "Practical measures improve for two years while accountability measures do not: the driver diagram is wrong or measures are gamed. Accountability improves while practical measures do not: teaching to the test or insensitive measures. A principal cites PDSA data in an evaluation: the wall is breached; repair it publicly.",
+      "evidence": "High-stakes use corrupting indicators is well documented; single-year value-added and single observations are unreliable for consequential decisions (MET). Improvement science's school record rests on case narratives selected for success; healthcare PDSA is often done without rigor. The wall is [E] in reason and [V] in commitment; the improvement system's effect on outcomes is [H].",
+      "sources": [
+        "11-improvement-in-action",
+        "07-embedding-formative-assessment",
+        "10-creating-the-schools-our-children-need",
+        "09-in-search-of-deeper-learning",
+        "01-how-learning-happens"
+      ]
+    },
+    {
+      "id": "t06",
+      "name": "Selecting teachers vs developing them",
+      "pole_a": "Hire and fire. Teacher effects are the largest in-school variable; Hanushek's arithmetic says replacing the bottom 5-10% with average teachers would close national gaps; the rare deep teachers had learned deeply themselves, so hire for disciplinary depth.",
+      "pole_b": "Love the one you're with. Credentials and interviews predict effectiveness weakly (Kane, Rockoff & Staiger); identifying weak teachers is slow and costly; merit-pay trials are null; the supply of proven teachers is small; develop the teachers you have through teacher learning communities (EEF trial: about two months' extra progress).",
+      "rule": "IF choosing between spending on selection (salary premiums, recruiting) and on development (protected TLC time, coaching, materials), THEN development first, with salary set to retain. IF hiring, THEN use work samples and probes for disciplinary depth, coachability, curiosity and the mentor stance, and make TLC participation a condition of employment. IF a teacher refuses development, THEN treat it as a compact question, not a talent question.",
+      "switch_signal": "After two full years of TLCs, within-school variation in practice and practical measures has not narrowed: the TLC design is broken (no accountability for trying techniques, turnover, or meetings that became sharing sessions). Turnover above local norms despite development: working conditions are the problem, not salary first.",
+      "evidence": "Both facts hold: teacher effects are large and hiring signals are weak. Development is the only lever a single school can pull at scale, but the TLC model has one large independent trial with a modest effect and its necessary ingredients are untested; broader PD syntheses support sustained, practice-based, collaborative designs. [E] weak hiring signals, null merit pay, modest TLC effect; [H] hiring criteria.",
+      "sources": [
+        "10-creating-the-schools-our-children-need",
+        "07-embedding-formative-assessment",
+        "09-in-search-of-deeper-learning"
+      ]
+    },
+    {
+      "id": "t07",
+      "name": "Core vs periphery",
+      "pole_a": "Put the energy where deep learning lives. Across about 30 schools the richest learning was in debate, theatre, robotics, publications, teams and some electives, because of choice, purpose, real performance, apprenticeship and mixed-age community (Mehta & Fine); the periphery gives adolescents status (Yeager) and keeps intellectual life alive (Engel).",
+      "pole_b": "The core is the school. Teacher time is finite and all students spend most of it in the core (Wiliam); knowledge is built in required courses (Wexler); the periphery finding is a diagnosis whose cure is to make the core more like the periphery, not to add periphery.",
+      "rule": "IF allocating design effort, THEN the core first: every core course, every term, one authentic product for a real audience, with drafts expected and the teacher's disciplinary practice visible, on top of explicit instruction and a knowledge spine. IF allocating budget under pressure, THEN protect the periphery as infrastructure with mixed-age leadership ladders. Never build a two-tier school.",
+      "switch_signal": "Students say the only place they learn is a club: the core has failed; redesign core units. Core measures rise while agency, belonging and joy fall and periphery participation drops: the periphery is starved or the core is control-heavy. Authentic products lack rigor on moderation: the feature displaced the spine; restore sequence and critique protocols.",
+      "evidence": "The periphery pattern is striking and recurs, but it is ethnographic and selection-confounded: students choose it, groups are small, test pressure is absent, and coaches are highly directive, so it is not evidence for minimal guidance. Importing apprenticeship features into required courses has no outcome data. [E] depth is rare in core classes; [H] importing features; [V] protecting the periphery.",
+      "sources": [
+        "09-in-search-of-deeper-learning",
+        "10-creating-the-schools-our-children-need",
+        "05-10-to-25",
+        "03-intellectual-lives-of-children",
+        "06-beyond-the-science-of-reading"
+      ]
+    },
+    {
+      "id": "t08",
+      "name": "High standards vs support (enforcer, protector, mentor)",
+      "pole_a": "Enforce. No-excuses operating systems deliver coherent instruction and measurable gains for disadvantaged students; high success rates need tight structure; rigor is an equity lever.",
+      "pole_b": "Protect. Adolescents under stress need sympathy; well-being is a graduate aim; struggle can read as 'I am not a maths person'; No Excuses High was joyless.",
+      "rule": "IF designing any adult-student routine (feedback, discipline, advising, grading, the conversation with the student who stopped working), THEN audit it against the 2x2: does it hold the bar, supply the scaffold, and say why. IF a student fails or refuses, THEN a support plan toward the same standard, not a lowered bar and not a zero. IF a routine lowers status in public, THEN remove it regardless of short-term compliance.",
+      "switch_signal": "Compliance rises while effort quality and question rates fall: drifting to enforcer. Satisfaction rises while effort quality and practical measures fall: drifting to protector. Wise-feedback lines appear as boilerplate and revision rates do not move: script has replaced sincerity; coach the stance.",
+      "evidence": "Yeager argues both poles are the same error: both communicate disrespect. The mentor mindset is supported by the wise-feedback field experiment (71% vs 17% revision among Black seventh graders; large effect, small sample, limited direct replication), empathic-discipline work, stress-reappraisal experiments and correlational parenting research; the 2x2 as a trained construct at scale is untested. Growth-mindset effects are small and heterogeneous. [E] components; [H] training at scale; [V] dignity.",
+      "sources": [
+        "05-10-to-25",
+        "09-in-search-of-deeper-learning",
+        "01-how-learning-happens",
+        "04-productive-failure"
+      ]
+    },
+    {
+      "id": "t09",
+      "name": "Curiosity hooks vs target learning",
+      "pole_a": "Hook them first. A curious state improves memory even for incidental faces shown while waiting for an answer (Gruber, Gelman & Ranganath 2014); open with something surprising and the learning rides along.",
+      "pole_b": "The hook is the objective. The incidental benefit is small, brief (Murphy 2021), inconsistent (Galli 2018) and reversed for complex school-like facts (Keller, Salvi, Leiker, Gruber & Dunsmoor 2024): the open question pulls processing toward itself; an unrelated hook is extraneous load (Sweller).",
+      "rule": "IF opening a lesson or unit, THEN pose a question whose answer is the objective (a prediction, pretest or anomaly the concept explains), right before teaching it, and close it with the target content. IF a proposed hook is exciting and unrelated, THEN cut it, especially before high element-interactivity content. IF the aim is curiosity as a disposition, THEN that belongs to norms and the protected block, not the first two minutes of a maths lesson.",
+      "switch_signal": "Hinge data show students remembering the hook and not the content; students retell the story but cannot state the principle; hooks eating more than a few minutes. Conversely, openings that are pure announcement with low engagement on the first retrieval: add a target-bearing question.",
+      "evidence": "Curiosity for the target replicates reasonably well; the halo does not, and most work is adults and trivia. Put the objective inside the question and resolve it with the target content. Posner's dissatisfaction condition and Kapur's awareness phase are the same move with the same warning. [E] target curiosity; [E] unrelated hooks can hurt, from one 2024 study; [H] classroom transfer.",
+      "sources": [
+        "00-foundational-papers",
+        "12-why-we-remember",
+        "03-intellectual-lives-of-children"
+      ]
+    },
+    {
+      "id": "t10",
+      "name": "Conceptual change vs coverage",
+      "pole_a": "Cover the standards. Pacing guides and accountability tests; breadth of knowledge matters; every hour revisiting a concept is an hour not spent elsewhere (Wiliam's cost lens).",
+      "pole_b": "Fewer things, restructured, revisited. Misconceptions are theories; telling produces synthetic models that pass recall tests; old theories coexist with new ones for life; mastery means the scientific model reliably wins, which takes mechanism, multiple representations and returns across years; some concepts need prerequisites (particulate matter before photosynthesis).",
+      "rule": "IF a concept is load-bearing and has a documented intuitive rival (force, energy, matter, heat, evolution, proportion), THEN plan it as a multi-year progression with a diagnostic, a mechanism, a named change type, standard representations across grades, and assessment by prediction and transfer items; fund the time by cutting topics nothing later depends on. IF a topic is factual and nothing depends on it, THEN cover it efficiently or cut it. Coverage is never a reason to teach a hard concept once.",
+      "switch_signal": "End-of-unit recall high while delayed prediction items show the intuitive model: a spiral is missing or revisits without confronting. Concept-inventory pre/post gains near zero with good pacing compliance: the course is covering. Students holding both models in different contexts: normal waypoint; do not grade it as failure formatively, but plan the return.",
+      "evidence": "Which misconceptions, how persistent, coexistence in experts, and lecture leaving them intact are among the most replicated findings in science education. Intervention evidence is thinner: refutation texts, bridging analogies, mechanism teaching and interactive engagement have moderate support; no school-scale multi-year trial; cognitive conflict alone often fails. [E] the problem; [E/H] fixes; [H] any specific spiral schedule.",
+      "sources": [
+        "02-scienceblind",
+        "13-learning-scientific-concepts",
+        "00-foundational-papers",
+        "09-in-search-of-deeper-learning",
+        "10-creating-the-schools-our-children-need"
+      ]
+    },
+    {
+      "id": "t11",
+      "name": "Confront the intuitive theory vs build on it",
+      "pole_a": "Theory-change. Intuitive knowledge is coherent enough to behave like a theory (Shtulman, Vosniadou, Chi, Posner): surface it, create dissatisfaction, supply a better mechanism, reclassify where the error is ontological.",
+      "pole_b": "Knowledge-in-pieces. Intuitive knowledge is fragmented p-prims activated by context (diSessa, Hammer, Minstrell via Amin); many misconceptions are productive pieces in the wrong place; treat intuitions as resources; coherence is partly an interview artifact. Kapur's activation phase and Engel's respect for children's theories sit here.",
+      "rule": "IF beginning a hard concept, THEN elicit and honour the intuition first, identify productive pieces, and build placeholder structures explicitly. IF the error is ontological (heat as substance, evolution as individual transformation), THEN dedicated instruction on the category is required. IF confronting with an anomaly, THEN do it after the alternative is intelligible, with a mechanism ready and immediate correction, and never leave the wrong model as the last thing seen.",
+      "switch_signal": "After a confrontation-heavy unit, hinge distractor rates for the misconception rise: the confrontation is remembered as the content; move the anomaly later and the mechanism earlier. After a resource-heavy unit, students hold refined intuitions but cannot use the scientific model: the restructuring phase was skipped; add explicit concept and category work.",
+      "evidence": "The coherence debate is unresolved and method-dependent; Amin's synthesis says both are true at different levels, which is coherent and hard to falsify. Both camps agree telling alone fails, prior ideas must be elicited, and hybrid states are normal. Different concepts (force, energy, matter, species) need different kinds of change. [E] elicitation and mechanism matter; contested structure; [H] any specific sequence.",
+      "sources": [
+        "13-learning-scientific-concepts",
+        "02-scienceblind",
+        "00-foundational-papers",
+        "04-productive-failure",
+        "03-intellectual-lives-of-children"
+      ]
+    },
+    {
+      "id": "t12",
+      "name": "Testing as measurement vs testing as learning",
+      "pole_a": "Assess to measure and report. Families, boards and transcripts need grades; comparable measures are needed to judge reforms; assessment alignment moves teaching toward whatever the assessment demands.",
+      "pole_b": "Assess to learn. The testing effect is among the most robust findings in memory research; retrieval rewrites memory; fluency misleads (Roediger & Karpicke, Bjork, Ranganath); formative is a use of evidence; grades swamp comments (Butler); a third of feedback interventions lower performance (Kluger & DeNisi); generation phases must be ungraded (Kapur).",
+      "rule": "IF an assessment is formative (most of them), THEN it is frequent, low-stakes, spaced, answered by every student, returned with comments that require action, and never graded. IF summative, THEN few, cumulative, demanding transfer and depth, revision allowed where feasible, and the only source of grades. IF families or students treat every check as a judgment, THEN the communication has failed: rename, explain, show the retrieval rationale.",
+      "switch_signal": "Teachers asking for grades on everything so students take it seriously: effort is being bought with status threat; fix feedback so it requires work. Students opting out of or copying retrieval quizzes: the quizzes have become high-stakes in fact. Summative grades stable while delayed transfer is poor: summative points are recall-only; redesign them.",
+      "evidence": "The testing effect and grade-swamps-comment are solid, though Butler's samples were small. Revision-rewarding grading has mentor-mindset backing and mixed outcome evidence. Alignment effects are ethnographic but consistent with a long literature. [E] retrieval and comment-only mechanisms; [H] grading policy designs; [V] what to report.",
+      "sources": [
+        "01-how-learning-happens",
+        "12-why-we-remember",
+        "07-embedding-formative-assessment",
+        "04-productive-failure",
+        "10-creating-the-schools-our-children-need"
+      ]
+    },
+    {
+      "id": "t13",
+      "name": "Structural reform vs instructional reform",
+      "pole_a": "Change the structure. The grammar of schooling (periods, silos, seat time, isolated teachers, grades as currency) works against depth whatever the mission says (Mehta & Fine); derive schedule, staffing and space from the target experience (Transcend); institutionalize the workshop or lose it (Engel).",
+      "pole_b": "Change the contents, not the container. Class size, choice, governance and autonomy have small or expensive effects and a new school guarantees nothing (Wiliam); method not medium (Kirschner & Hendrick); map the process before redesigning the org chart (Bryk); change capacity is finite.",
+      "rule": "IF a structural change is proposed, THEN it must name the instructional or developmental need it serves, the mechanism it enables, and what it displaces; otherwise keep structure conventional and spend change capacity on instruction, assessment and adult learning. IF an instructional default is blocked by structure (no common planning time, no observation slots, no block long enough to iterate a product), THEN change the structure minimally to unblock it.",
+      "switch_signal": "TLCs cancelled for lack of time, teachers unable to observe each other, authentic products always rushed, departments in a schedule war: structural blocks get structural fixes, by subject if necessary. A structural redesign occupying leadership for a year while classroom practical measures are flat: the container has eaten the contents.",
+      "evidence": "The structural critique is a well-supported diagnosis and an untested prescription; evidence that structure-only reform fails is strong. Some structures are instructional prerequisites: TLC time, near-daily contact for spacing in skill subjects, blocks long enough to iterate, weekly team time for PDSA. [E] structure alone does nothing; [H] each specific change; [V] the periphery.",
+      "sources": [
+        "09-in-search-of-deeper-learning",
+        "08-extraordinary-learning-for-all",
+        "10-creating-the-schools-our-children-need",
+        "11-improvement-in-action",
+        "01-how-learning-happens",
+        "03-intellectual-lives-of-children"
+      ]
+    },
+    {
+      "id": "t14",
+      "name": "Name the answer in advance vs discover it locally",
+      "pole_a": "The answers are known; implement them. Decades of cognitive science and a cost lens already say what to do (knowledge-rich curriculum, formative assessment, TLCs); local trial-and-error wastes the scarcest resource; import mechanisms, do not reinvent them (Wiliam, Wexler, Kirschner & Hendrick).",
+      "pole_b": "The answers are local; learn them. Reform keeps adopting solutions and rolling them out with variable, mediocre results; outcomes are produced by systems that must be seen; what works, for whom, under what conditions is empirical; small predicted tests build practical knowledge no meta-analysis contains (Bryk; Transcend's map, zoom in, test-drive).",
+      "rule": "IF the question is which mechanism, THEN answer from the evidence and adopt. IF the question is how the mechanism works here, for whom it is failing, and what adaptation keeps its active ingredient, THEN answer with a driver diagram, small predicted tests and practical measures. Every change idea attaches to a driver that attaches to a known mechanism; no cycle is run to discover pedagogy from scratch.",
+      "switch_signal": "PDSA cycles proposing to test whether retrieval practice or phonics works for our kids: rediscovery drift; redirect to implementation questions. An adopted mechanism failing for a subgroup while leaders insist the evidence says it works: dogma drift; study the variation. PDSA templates filled in after the fact: compliance drift; stop the routine until predictions are written first.",
+      "evidence": "Both are right in their own territory. Settled mechanisms should not be rediscovered; how they survive contact with this building is exactly what improvement cycles are for. Bryk's cases mostly concern measurable structural outcomes; fit for hard-to-measure depth is weaker. Wiliam's headline effect sizes have been revised downward; the cost-effectiveness case survives. [E] settled mechanisms; [E/H] improvement as implementation method; [H] its effect on outcomes.",
+      "sources": [
+        "10-creating-the-schools-our-children-need",
+        "11-improvement-in-action",
+        "07-embedding-formative-assessment",
+        "08-extraordinary-learning-for-all",
+        "06-beyond-the-science-of-reading"
+      ]
+    }
+  ]
+}

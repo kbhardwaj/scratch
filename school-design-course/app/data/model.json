@@ -1,0 +1,487 @@
+{
+  "bands": [
+    {
+      "id": "minds",
+      "title": "Minds: how learners work",
+      "certainty": "Mostly [E]. Robust: working memory limits, worked examples for novices, expertise reversal, retrieval and spacing, prior-knowledge effects, persistence of intuitive theories, curiosity for the target, adolescent status sensitivity. Thin: incidental curiosity spillover, reconsolidation in humans, mindset effects, wise-feedback replication base; most samples are adults in labs.",
+      "nodes": [
+        {
+          "id": "m1",
+          "label": "Working memory bottleneck",
+          "summary": "Working memory holds a few interacting elements for seconds. Intrinsic load comes from the material; extraneous load from poor design (split attention, redundancy, clutter). Everything in the design band is a way to conserve this capacity for the target.",
+          "tag": "E",
+          "links": [
+            "d1",
+            "d5"
+          ],
+          "sources": [
+            "00-foundational-papers",
+            "01-how-learning-happens"
+          ]
+        },
+        {
+          "id": "m2",
+          "label": "Schemas are expertise",
+          "summary": "Experts chunk; they do not have more working memory. Physics experts sort problems by principle, novices by surface. Schemas let a learner remember more by memorizing less, so knowledge compounds and so do gaps.",
+          "tag": "E",
+          "links": [
+            "d1",
+            "d3"
+          ],
+          "sources": [
+            "00-foundational-papers",
+            "01-how-learning-happens",
+            "12-why-we-remember"
+          ]
+        },
+        {
+          "id": "m3",
+          "label": "Prior knowledge drives comprehension",
+          "summary": "Weak readers who knew baseball out-comprehended strong readers who did not (Recht & Leslie). Comprehension is knowledge applied to a text, not a transferable skill. Find out what the learner knows and teach accordingly.",
+          "tag": "E",
+          "links": [
+            "d3",
+            "d6"
+          ],
+          "sources": [
+            "06-beyond-the-science-of-reading",
+            "01-how-learning-happens",
+            "12-why-we-remember"
+          ]
+        },
+        {
+          "id": "m4",
+          "label": "Retrieval, spacing, corrected error",
+          "summary": "Effortful recall, spaced and interleaved practice, and being wrong then promptly corrected build durable memory; rereading and massed practice build confidence without retention. Learning and performance are different variables and can move in opposite directions.",
+          "tag": "E",
+          "links": [
+            "d2",
+            "d5",
+            "d7"
+          ],
+          "sources": [
+            "01-how-learning-happens",
+            "12-why-we-remember",
+            "04-productive-failure"
+          ]
+        },
+        {
+          "id": "m5",
+          "label": "Intuitive theories outcompeted, not deleted",
+          "summary": "Children build causal frameworks (impetus, heat as substance, flat ground, essentialism). Instruction fuses with them into synthetic models that pass recall and fail prediction. Experts still carry the old theory under time pressure. Change needs dissatisfaction plus an intelligible, plausible, fruitful alternative, and the type of change sets the difficulty.",
+          "tag": "E",
+          "links": [
+            "d4",
+            "d2",
+            "d6"
+          ],
+          "sources": [
+            "02-scienceblind",
+            "13-learning-scientific-concepts",
+            "00-foundational-papers"
+          ]
+        },
+        {
+          "id": "m6",
+          "label": "Curiosity: a gap on the target",
+          "summary": "An open question the learner wants closed improves memory for its answer. Spillover to unrelated material is small, brief, inconsistent and reverses for complex school facts (Keller et al. 2024). Curiosity needs enough knowledge to notice a gap.",
+          "tag": "E",
+          "links": [
+            "d9",
+            "d2"
+          ],
+          "sources": [
+            "00-foundational-papers",
+            "12-why-we-remember",
+            "03-intellectual-lives-of-children"
+          ]
+        },
+        {
+          "id": "m7",
+          "label": "Adolescent status and respect",
+          "summary": "Motivation problems are often respect problems. Critical feedback is ambiguous; a sincere statement of high standards plus belief resolves it (71% vs 17% revision in a small field experiment). Status threat produces resistance; conferred respect produces effort.",
+          "tag": "E",
+          "links": [
+            "d7",
+            "d8",
+            "d10"
+          ],
+          "sources": [
+            "05-10-to-25"
+          ]
+        },
+        {
+          "id": "m8",
+          "label": "Motivation follows competence",
+          "summary": "Self-efficacy grows from mastery experiences; attributions and mindsets shape persistence with small, heterogeneous effects. Engineer a high success rate and controllable causes; do not wait for motivation before teaching.",
+          "tag": "E",
+          "links": [
+            "d8"
+          ],
+          "sources": [
+            "01-how-learning-happens",
+            "05-10-to-25"
+          ]
+        },
+        {
+          "id": "m9",
+          "label": "Safety and attention as infrastructure",
+          "summary": "Divided attention impairs encoding; chronic threat narrows flexible learning; errors are productive only where they are safe. Kapur's affect condition, Yeager's stress reappraisal and Ranganath's emotion chapters converge.",
+          "tag": "H",
+          "links": [
+            "d2",
+            "d8"
+          ],
+          "sources": [
+            "12-why-we-remember",
+            "05-10-to-25",
+            "04-productive-failure"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "design",
+      "title": "Design: how learning experiences are built",
+      "certainty": "[E] for mechanisms, [H] for parameters. Solid: explicit-first for novices, PF for concepts under conditions, knowledge drives comprehension, grades swamp comments, formative use of evidence. Thin: whole-curriculum effects on general tests, specific doses and cadences, mentor-mindset training at scale, apprenticeship features transplanted into required courses.",
+      "nodes": [
+        {
+          "id": "d1",
+          "label": "Guidance dial: explicit, then fade",
+          "summary": "Novices learn best from worked examples, small steps, many checks, and guided then independent practice. The same supports become redundant load once schemas exist (expertise reversal). Unguided discovery for novices is rejected by every source.",
+          "tag": "E",
+          "links": [
+            "i3",
+            "i4"
+          ],
+          "sources": [
+            "00-foundational-papers",
+            "01-how-learning-happens"
+          ]
+        },
+        {
+          "id": "d2",
+          "label": "Generate-then-consolidate for core concepts",
+          "summary": "A short designed problem-solving phase before instruction beats instruction-first on conceptual knowledge and transfer (g about 0.36; no difference on procedures; stronger from grade 6 up) when the concept is load-bearing, students have knowledge to activate, the problem admits multiple methods, and a consolidation compares student solutions with the canonical one. Without consolidation it is unproductive failure.",
+          "tag": "E",
+          "links": [
+            "i4",
+            "i8"
+          ],
+          "sources": [
+            "04-productive-failure",
+            "00-foundational-papers",
+            "12-why-we-remember"
+          ]
+        },
+        {
+          "id": "d3",
+          "label": "Knowledge-rich, coherent curriculum",
+          "summary": "Decoding is taught systematically and separately; knowledge in science, history, geography and the arts runs from kindergarten, sequenced so units build and texts cluster. Comprehension strategies are short and embedded; writing is taught at sentence level inside content. Mechanism is [E], scale effects [H], content choice [V].",
+          "tag": "E",
+          "links": [
+            "i4",
+            "i6"
+          ],
+          "sources": [
+            "06-beyond-the-science-of-reading",
+            "10-creating-the-schools-our-children-need",
+            "01-how-learning-happens"
+          ]
+        },
+        {
+          "id": "d4",
+          "label": "Conceptual-change design",
+          "summary": "Each hard concept gets a named intuitive theory, a diagnostic, a canonical anomaly, a mechanism rather than a conclusion, multiple representations, and planned returns across years. Cognitive conflict alone fails. Assess with prediction and transfer items because recall cannot detect synthetic models.",
+          "tag": "H",
+          "links": [
+            "i4",
+            "i7"
+          ],
+          "sources": [
+            "02-scienceblind",
+            "13-learning-scientific-concepts",
+            "00-foundational-papers"
+          ]
+        },
+        {
+          "id": "d5",
+          "label": "Structural retrieval and spacing",
+          "summary": "Daily retrieval starters, cumulative quizzes, interleaved homework from prior weeks, cumulative end-of-year assessment, individual recall before group discussion. Homework is retrieval of old material, never new content.",
+          "tag": "E",
+          "links": [
+            "i3"
+          ],
+          "sources": [
+            "01-how-learning-happens",
+            "12-why-we-remember"
+          ]
+        },
+        {
+          "id": "d6",
+          "label": "Formative assessment: every student, every lesson",
+          "summary": "Formative is a use of evidence, not a kind of test. No hands up, all-student response, hinge questions with misconception-keyed distractors, exit tickets that plan tomorrow. Realistic whole-school effect about 0.1 SD over two years, still among the best buys.",
+          "tag": "E",
+          "links": [
+            "i1"
+          ],
+          "sources": [
+            "07-embedding-formative-assessment",
+            "10-creating-the-schools-our-children-need"
+          ]
+        },
+        {
+          "id": "d7",
+          "label": "Feedback that moves learning and protects status",
+          "summary": "A third of feedback interventions lower performance; grades swamp comments (Butler); wise feedback resolves the ambiguity of criticism. So: comment-only on formative work, feedback that requires student work, revision expected, and a sincere statement of standard plus belief.",
+          "tag": "E",
+          "links": [
+            "i1",
+            "i9"
+          ],
+          "sources": [
+            "07-embedding-formative-assessment",
+            "05-10-to-25",
+            "01-how-learning-happens"
+          ]
+        },
+        {
+          "id": "d8",
+          "label": "Mentor stance: high standards, high support, say why",
+          "summary": "Enforcer and protector both read as disrespect. The mentor holds the bar, scaffolds the climb, explains why, asks sincere questions, and frames stress as fuel. Applies to discipline, advising and grading. Components [E]; the trained 2x2 at scale [H].",
+          "tag": "H",
+          "links": [
+            "i5",
+            "i7"
+          ],
+          "sources": [
+            "05-10-to-25",
+            "01-how-learning-happens"
+          ]
+        },
+        {
+          "id": "d9",
+          "label": "Curiosity on target; intellectual life protected",
+          "summary": "Open the question right before teaching its answer; never use unrelated hooks to prime hard content. Separately, protect children's own questions: teachers who follow up and model curiosity keep question rates up; a protected block for pursuing ideas is a value choice with untested outcomes.",
+          "tag": "H",
+          "links": [
+            "i10"
+          ],
+          "sources": [
+            "03-intellectual-lives-of-children",
+            "00-foundational-papers",
+            "12-why-we-remember"
+          ]
+        },
+        {
+          "id": "d10",
+          "label": "Apprenticeship features in the core",
+          "summary": "Deep learning (mastery, identity, creativity together) shows up where students make real things for real audiences, revise toward a standard, and learn from practitioners. Evidence is observational and selection-confounded; the bet is to import these features into required courses without abandoning guidance and the knowledge spine.",
+          "tag": "H",
+          "links": [
+            "i5"
+          ],
+          "sources": [
+            "09-in-search-of-deeper-learning",
+            "05-10-to-25",
+            "07-embedding-formative-assessment"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "institution",
+      "title": "Institution: how good learning happens consistently",
+      "certainty": "[H] and [V] heavy. Solid: the TLC delivery model (one large trial), weak hiring signals, null merit pay, modest costly class-size effects, Campbell's law. Thin: community co-design as a method, improvement science in schools (case narratives), deeper-learning prescriptions (ethnography), leadership dependence and turnover.",
+      "nodes": [
+        {
+          "id": "i1",
+          "label": "Develop the teachers you have (TLCs)",
+          "summary": "Teacher quality is the largest in-school lever; hiring signals are weak; deselection and merit pay have not worked. Groups of 8-12 meeting monthly for 75-120 minutes over two years, each committing to one or two techniques, with peer observation and accountability. One 140-school trial: about two months' extra progress.",
+          "tag": "E",
+          "links": [
+            "i8"
+          ],
+          "sources": [
+            "07-embedding-formative-assessment",
+            "10-creating-the-schools-our-children-need"
+          ]
+        },
+        {
+          "id": "i2",
+          "label": "Benefit per teacher-hour; stop doing",
+          "summary": "Class size, technology, structure and choice have small or expensive effects. Effect sizes shrink with age, inflate with proximal tests, and cannot be ranked across studies. Every proposal states effect, cost in teacher-hours, scalability and what it displaces. Publish a stop-doing list yearly.",
+          "tag": "E",
+          "links": [
+            "i1",
+            "i4",
+            "i5"
+          ],
+          "sources": [
+            "10-creating-the-schools-our-children-need"
+          ]
+        },
+        {
+          "id": "i3",
+          "label": "Common model, tight but loose",
+          "summary": "Rosenshine plus cognitive apprenticeship as shared language for planning, observation and coaching, framed as mechanisms not a checklist. Name the active ingredient of every practice and its likely lethal mutation.",
+          "tag": "H",
+          "links": [
+            "i8"
+          ],
+          "sources": [
+            "01-how-learning-happens",
+            "07-embedding-formative-assessment",
+            "10-creating-the-schools-our-children-need"
+          ]
+        },
+        {
+          "id": "i4",
+          "label": "School-owned materials and banks",
+          "summary": "A sequenced knowledge spine per subject, a bank of misconception-keyed hinge questions per unit, curated generate-then-consolidate tasks with consolidation scripts, and a hard-concepts register with multi-year progressions. Teachers do not invent alone.",
+          "tag": "H",
+          "links": [
+            "i8"
+          ],
+          "sources": [
+            "06-beyond-the-science-of-reading",
+            "07-embedding-formative-assessment",
+            "04-productive-failure",
+            "02-scienceblind",
+            "13-learning-scientific-concepts"
+          ]
+        },
+        {
+          "id": "i5",
+          "label": "Core designed for depth; periphery protected",
+          "summary": "The grammar of school pushes toward doing school. Change structure only where an instructional need requires it; put an authentic product in every core course; fund clubs, arts, debate and publications as infrastructure with mixed-age ladders. No two-tier school.",
+          "tag": "H",
+          "links": [
+            "i10"
+          ],
+          "sources": [
+            "09-in-search-of-deeper-learning",
+            "10-creating-the-schools-our-children-need"
+          ]
+        },
+        {
+          "id": "i6",
+          "label": "Community co-design, bounded by evidence",
+          "summary": "Graduate aims across intellectual prowess, wayfinding and well-being; a concrete target student experience; a design team including students and the least-served families. The compact says which layer is open: purpose, culture, periphery and content priorities are co-designed; phonics, retrieval, feedback and novice guidance are not up for a vote.",
+          "tag": "V",
+          "links": [
+            "i8"
+          ],
+          "sources": [
+            "08-extraordinary-learning-for-all",
+            "11-improvement-in-action"
+          ]
+        },
+        {
+          "id": "i7",
+          "label": "Symmetry: adults learn as students learn",
+          "summary": "Teachers who teach deeply usually learned deeply. Give adults mastery, identity and creativity in their discipline; give novice teachers worked examples, not discovery; treat development as retrieval, spacing and feedback for adults. TLCs and PDSA teams are the structures.",
+          "tag": "H",
+          "links": [
+            "i1",
+            "i8"
+          ],
+          "sources": [
+            "09-in-search-of-deeper-learning",
+            "07-embedding-formative-assessment",
+            "11-improvement-in-action",
+            "00-foundational-papers"
+          ]
+        },
+        {
+          "id": "i8",
+          "label": "Improvement system: aim, drivers, PDSA",
+          "summary": "Two or three aims per year by subgroup; a living driver diagram every initiative attaches to; two-to-four-week cycles with a written prediction, a practical measure returned within days, and a study meeting. Variation is the problem: ask for whom and under what conditions before scaling. Improvement implements proven content; it does not discover pedagogy.",
+          "tag": "H",
+          "links": [
+            "d1",
+            "d6",
+            "i9"
+          ],
+          "sources": [
+            "11-improvement-in-action",
+            "08-extraordinary-learning-for-all"
+          ]
+        },
+        {
+          "id": "i9",
+          "label": "Improvement data walled from accountability",
+          "summary": "Practical measures never enter teacher evaluation; accountability measures are reported, not managed to; single-year value-added and single observations never drive consequential decisions. Balancing measures (workload, well-being) travel with every change. [E] that high-stakes use corrupts; [V] trust over surveillance.",
+          "tag": "V",
+          "links": [
+            "i8"
+          ],
+          "sources": [
+            "11-improvement-in-action",
+            "07-embedding-formative-assessment",
+            "10-creating-the-schools-our-children-need"
+          ]
+        },
+        {
+          "id": "i10",
+          "label": "Leading indicators of minds and experience",
+          "summary": "Student-experience surveys each term, sampled counts of student-originated questions per hour by grade, whole-day student shadowing by leaders, revision rates, hinge-question misconception rates. These are the loop's sensors; test scores are lagging.",
+          "tag": "H",
+          "links": [
+            "i8"
+          ],
+          "sources": [
+            "08-extraordinary-learning-for-all",
+            "03-intellectual-lives-of-children",
+            "09-in-search-of-deeper-learning",
+            "07-embedding-formative-assessment"
+          ]
+        },
+        {
+          "id": "i11",
+          "label": "Leadership: safety, time, succession",
+          "summary": "Improvement run as compliance becomes paperwork. The leader models inquiry, protects weekly team time in the master schedule, budgets teacher time like money, writes the operating system into roles and documents so it survives turnover, and holds a three-to-five-year horizon.",
+          "tag": "H",
+          "links": [
+            "i8",
+            "i1"
+          ],
+          "sources": [
+            "11-improvement-in-action",
+            "10-creating-the-schools-our-children-need",
+            "08-extraordinary-learning-for-all"
+          ]
+        }
+      ]
+    }
+  ],
+  "chain": [
+    "A learner holds only a few new elements at once; every school decision spends that capacity on the target or wastes it.",
+    "Organized knowledge in long-term memory is the way around the limit; expertise, comprehension and thinking run on schemas, so knowledge is the product.",
+    "Knowledge gets there through effortful spaced retrieval and corrected error, not rereading or fluency; learning is not performance.",
+    "Learners arrive with intuitive theories that are outcompeted, not deleted; hard concepts need diagnosis, mechanism and multi-year returns.",
+    "Encoding is gated by state: a gap on the target helps; status threat and unsafe errors shut effort down.",
+    "So instruction is explicit and worked-example-led for novices, fading with expertise, with generate-then-consolidate reserved for core concepts under conditions.",
+    "So the curriculum is a coherent cumulative knowledge spine owned by the school, with hard concepts planned as progressions.",
+    "So assessment elicits evidence from every student and changes the next step; feedback is comment-only, requires work, and protects status.",
+    "None of this happens reliably by itself: teaching runs on habit and practices die by mutation, so the institution makes the right defaults easy through a common model, shared materials and sustained peer-accountable development.",
+    "Teacher time is the scarcest resource; every initiative is judged by benefit per adult hour, and the leader stops good things.",
+    "The grammar of school pushes against depth; the core is designed for depth on purpose and the periphery protected.",
+    "The school itself learns: few aims, a driver diagram, small predicted tests, practical measures walled from accountability, community co-designing purpose while evidence bounds mechanism."
+  ],
+  "laws": [
+    "Working memory is the budget. Every lesson, slide, routine and building decision either spends it on the target or wastes it.",
+    "Knowledge in long-term memory is the product. The curriculum is a sequenced, cumulative knowledge spine owned by the school, from kindergarten, in every subject.",
+    "Guidance is a dial, not a side. Explicit, worked-example-led instruction is the default for novices; guidance fades with expertise; generate-then-consolidate is a named exception with conditions; unguided discovery is not a lesson type.",
+    "Learning is not performance. Retrieval, spacing and interleaving are structural; homework is old material; lessons are judged by delayed and transfer outcomes.",
+    "Students are not blank. Every hard concept has a named intuitive theory, a diagnostic, a mechanism and a multi-year revisit schedule; recall tests are not evidence of change.",
+    "Open the gap on the target, then close it. Hooks lead into the objective, never beside it. Children's own questions are protected as an end, not a tool.",
+    "High standards, high support, and say why. Enforcer and protector stances are both disrespect. Errors are safe, revision is expected, and nothing lowers a student's status in public.",
+    "Assessment is formative only if it changes the next decision. Every lesson elicits evidence from every student; comments without grades on formative work; few summative points.",
+    "Improve the teachers we have. Hire for disciplinary depth and coachability; develop through monthly, multi-year, peer-accountable learning communities; keep development separate from evaluation.",
+    "Teacher time is the scarcest resource. Every initiative states effect, cost in adult hours, and what it displaces. A stop-doing list is published every year.",
+    "The core is designed for depth; the periphery is protected. Every core course ends in a real product for a real audience; structure changes only when instruction needs it; no two-tier school.",
+    "The school learns in the open. Few aims, a living driver diagram, small predicted tests, practical measures returned in days and never used for evaluation, variation studied before scaling. The community co-designs purpose and experience; the evidence sets the mechanisms."
+  ],
+  "loop": "The institution is the thing that learns. Aim (i8) leads to a driver diagram naming which design defaults (band 2) should move which mind-level mechanisms (band 1); a small test runs with a written prediction; a practical measure is taken from the work (retrieval scores, hinge misconception rates, revision rates, question rates, experience surveys: i10) and returned within days; a study meeting revises the default or the theory; the cycle repeats and scales only when it works across contexts and subgroups. The loop breaks in two predictable ways: when its measures are used for accountability (i9), and when it is asked to rediscover pedagogy that decades of evidence have settled. Formative assessment is the same loop at lesson scale, TLCs at teacher scale, PDSA at school scale."
+}

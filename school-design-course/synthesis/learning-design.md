@@ -1,9 +1,10 @@
 # Learning design for the anabolic phase
 
-Status: designed against the SPEC curriculum and slugs; the per-book files in `books/` were not yet
-written when this was drafted, so every "draws on" reference is to the slug, not to a section
-number. When the book files land, the hinge questions and worked examples below should be checked
-against them and adjusted where a book file contradicts a claim made here.
+Status: designed against the SPEC curriculum and slugs before the per-book files existed, then
+reconciled against the finished `books/` files (see the reconciliation log at the end). Where a
+book file and this document disagreed, the book file won. The cross-cutting artifacts in section 4
+are now expanded in `synthesis/unified-model.md` and `synthesis/tensions.md`, which are the
+authoritative versions.
 
 Learner profile assumed throughout: software/product background, comfortable with systems
 thinking, product specs, and iteration loops; time-poor; wants *usable* understanding, not
@@ -43,10 +44,12 @@ read the thirteen books and the papers.
    still active.
 
 5. **Retrieve, space, interleave.** (`01-how-learning-happens`, Roediger & Karpicke, Cepeda et al.,
-   Rohrer; `12-why-we-remember` Ranganath on error-driven and reconsolidation-based memory.)
-   Every third day is a retrieval day, not a new-content day. Retrieval questions mix modules
-   (interleaving) and include "spot the misconception" prompts, because Ranganath's point is that
-   memory improves most when retrieval is effortful and slightly wrong, then corrected.
+   Rohrer; `12-why-we-remember` Ranganath on error-driven learning and retrieval as an act that
+   updates memory. The strong reconsolidation account is contested in humans; the testing effect
+   stands on its own.) Every third day is a retrieval day, not a new-content day. Retrieval
+   questions mix modules (interleaving) and include "spot the misconception" prompts, because
+   Ranganath's point is that memory improves most when retrieval is effortful and slightly wrong,
+   then corrected.
 
 6. **Formative assessment with hinge questions, and decisions made on the evidence.**
    (`07-embedding-formative-assessment` Wiliam & Leahy; `10-creating-the-schools-our-children-need`.)
@@ -67,7 +70,10 @@ read the thirteen books and the papers.
 9. **Curiosity is a state to be engineered, not a trait to be waited for.** (`03-intellectual-
    lives-of-children` Engel; `00-foundational-papers` Gruber, Gelman & Ranganath 2014.) Modules
    open with a genuine question whose answer the learner cannot yet guess, because information gap
-   plus prior knowledge is what drives the dopaminergic curiosity state that improves encoding.
+   plus prior knowledge is what drives the curiosity state that improves encoding of the answer.
+   The hook's answer must be the module's target: the spillover to unrelated material is small,
+   brief, and reverses for complex school-like facts (Keller, Salvi, Leiker, Gruber & Dunsmoor
+   2024), so an exciting but unrelated opener is extraneous load, not a primer.
 
 10. **Every institutional claim carries an [E]/[H]/[V] tag.** (`10-creating-the-schools-our-
     children-need`, `09-in-search-of-deeper-learning`.) The learner will be tempted to launder
@@ -311,9 +317,10 @@ Chi-style ontological miscategorization (heat as substance) from Vosniadou-style
    intuitive answers under time pressure (Shtulman's reaction-time studies). Curriculum must
    therefore revisit core concepts across years, not "cover" them once.
 
-**Curiosity hook.** "Ask a physics PhD whether a bowling ball or a tennis ball falls faster, but
-make them answer in under a second. Are they slower to say 'same'?" (They are; the intuitive
-theory is suppressed, not deleted.)
+**Curiosity hook.** "Give biology professors a speeded task: classify things as alive or not.
+Are they slower and less accurate on plants than on animals?" (They are, in Shtulman &
+Valcarcel 2012 and related speeded-verification studies; the intuitive theory is suppressed, not
+deleted, and reaction time is where it shows.)
 
 **Attempt (productive failure).** "A 9-year-old insists that a heavy sweater 'makes heat'. Design
 a 15-minute intervention that changes their mind, and predict what they will say a month later."
@@ -377,8 +384,8 @@ years, inquiry, invention, and ideas as intellectual activity; how classrooms su
 `05-10-to-25` (Yeager: the mentor mindset vs. enforcer and protector mindsets; status and respect
 as the adolescent's central concern; wise feedback; the "transparency statement"; stress-is-
 enhancing reappraisal), `00-foundational-papers` (Gruber, Gelman & Ranganath 2014: curiosity
-states enhance hippocampal-dependent memory for both target and incidental information via
-dopaminergic midbrain activity).
+states enhance hippocampal-dependent memory for the target answer, with a small incidental
+effect for faces that later work found brief, inconsistent, and reversed for complex facts).
 
 **Learning objectives.** (a) Explain the neural and behavioral case that curiosity is a state that
 improves encoding, and what triggers it; (b) diagnose an adult's interaction with a teenager as
@@ -395,9 +402,11 @@ asking rather than suppressing it.
    enforcer (standards without support) and the protector (support without standards), and the
    mechanism is that it preserves the teenager's status while asking more of them.
 
-**Curiosity hook.** "Engel observed classrooms and counted the questions children asked per
-hour. Give a number for kindergarten and for fifth grade." (The drop is steep; the exact counts
-will be in the `03` file.)
+**Curiosity hook.** "The same four-year-olds were recorded at home and at nursery school. Guess
+the ratio of questions per hour in the two settings." (Tizard & Hughes 1984: roughly 26 per hour
+at home versus 2 at school, in a small, older UK sample. Engel's own classroom logs found a few
+curiosity episodes per two-hour stretch in kindergarten and some fifth-grade rooms with none; the
+`03` file is explicit that these counts are small-sample and illustrative, not population facts.)
 
 **Attempt (case prompt).** "A 15-year-old has stopped doing work in your school's math class. Her
 teacher's current message is: 'I'm not going to keep chasing you. It's your choice.' Rewrite the
@@ -406,8 +415,10 @@ soften the message (protector) or add consequences (enforcer). The reading then 
 option.
 
 **Worked example.** *Decision: how does the school give feedback on written work?* Reasoning: (1)
-Yeager's wise-feedback studies: a note stating high standards plus explicit belief the student can
-reach them roughly doubled revision rates among students who most distrusted school. (2) The
+Yeager et al. 2014: a note stating high standards plus explicit belief the student can reach them
+raised essay revision among Black seventh graders from about 17% to about 71%, with the largest
+effects among students with the least trust in school; a large effect from a small sample with a
+limited direct-replication base. (2) The
 mechanism is status: the feedback removes the threat that criticism means "you don't belong". (3)
 So the feedback policy has three fixed parts: the standard, the specific gap, the statement of
 belief and the next step. (4) It is paired with a norm that first drafts are expected to be
@@ -425,7 +436,9 @@ trivia questions?
 - (b) When the face is shown while the person is waiting for the answer to a question they were
   curious about. **Correct**.
 - (c) Only for the trivia answer itself, not incidental material. *Diagnoses: narrow-encoding
-  model; the incidental effect is the striking finding.*
+  model. Closer to right than it looks: the incidental effect in 2014 was real for faces but small
+  (a few recognition points), later found brief, inconsistent, and reversed for complex school
+  facts (Keller et al. 2024). The design lesson is to put the objective inside the question.*
 - (d) When the question was easy. *Diagnoses: fluency-equals-engagement; easy questions generate
   no gap.*
 
@@ -472,9 +485,11 @@ profile, choose a sequence and defend it with the expertise-reversal effect.
 2. Productive failure is *not* unguided discovery: it is a designed generation phase (a problem
    with multiple plausible approaches, drawing on prior knowledge, in small groups) followed by
    explicit consolidation that contrasts student solutions with the canonical one. Its gains are on
-   conceptual understanding and transfer, less on procedural fluency, and it depends on the
-   consolidation being done well. Framed correctly, Kapur and Kirschner disagree on emphasis and
-   on how much prior knowledge counts as "enough", not on the core mechanism.
+   conceptual understanding and transfer (meta-analytic g about 0.36, higher with high-fidelity
+   design); on procedural knowledge it makes no difference (g about -0.03); effects are larger
+   from grade 6 up than in elementary; and it depends on the consolidation being done well.
+   Framed correctly, Kapur and Kirschner disagree on emphasis and on how much prior knowledge
+   counts as "enough", not on the core mechanism.
 
 **Curiosity hook.** "In Kapur's studies, the students who struggled first did *worse* during
 the lesson and *better* on the test. What test, and why the reversal?"
@@ -492,9 +507,10 @@ a *conceptual* idea, the students have relevant prior knowledge, the problem adm
 plausible approaches, and the teacher has a scripted consolidation. (3) The override is a named
 lesson type ("generate-then-consolidate") with its own planning template, not a teacher's
 improvisation. (4) The school explicitly forbids "discovery" as a lesson type without the
-consolidation phase. Resulting policy tagged [E] for both mechanisms, [H] for the proportion of
-lessons (say 15-25%) run as PF, [V] for the commitment to teach conceptual understanding rather
-than only procedures.
+consolidation phase. Resulting policy tagged [E] for both mechanisms, [H] for the budget (Kapur's
+own model is roughly one generation-plus-consolidation cycle per major concept, a small targeted
+slice, not a fixed share of lessons), [V] for the commitment to teach conceptual understanding
+rather than only procedures.
 
 **Hinge questions.**
 
@@ -563,12 +579,15 @@ proposal on the grounds that more practice on the metric should move the metric.
 taught systematically and explicitly; this is settled and takes 30-45 min daily in K-2 [E]. (2)
 The remainder of literacy time is content: read-alouds and texts about a sequenced set of topics
 across science, history, and geography, with vocabulary taught in context, because comprehension
-is knowledge [E]. (3) Comprehension strategies are taught briefly, once, not as a multi-year
-strand [E]. (4) Writing is embedded in every content unit, as sentence-level work first (Wexler's
-argument from The Writing Revolution), because writing about content consolidates both [E-ish,
-labeled H for the specific method]. (5) The topic sequence is fixed school-wide so that Year 3
-teachers can assume what Year 2 taught [H for the specific sequence, V for the choice of what
-knowledge matters]. Policy: "Reading is 40% decoding and 60% knowledge in K-2, then knowledge-
+is knowledge [E]. (3) Comprehension strategies are taught in short episodes embedded in content
+lessons, not as a skill-of-the-week strand; the gains are real but saturate quickly [E for
+diminishing returns, H for the dose]. (4) Writing is embedded in every content unit, as
+sentence-level work first (Wexler's argument from The Writing Revolution), because writing about
+content consolidates both [E for the principles, H for the specific Hochman sequence, which lacks
+controlled trials]. (5) The topic sequence is fixed school-wide so that Year 3 teachers can assume
+what Year 2 taught [H for the specific sequence, V for the choice of what knowledge matters]. (6)
+External standardized reading scores are expected to lag two to three years; the board is told
+so in advance [H]. Policy: "Reading is 40% decoding and 60% knowledge in K-2, then knowledge-
 dominant."
 
 **Hinge questions.**
@@ -635,11 +654,13 @@ for five modules, so the mechanism is felt).
 Grades on formative work suppress the effect of comments [E]. (2) Therefore formative work
 receives comments only, and a small number of summative points per term receive grades [E for the
 mechanism, H for the frequency]. (3) Every lesson has at least one all-student response check
-(whiteboards or hinge question) [E]. (4) Teachers meet in TLCs monthly for 75 minutes, with a
-fixed protocol: each teacher reports on one technique they tried and commits to one for next
-month; peer observation is the accountability mechanism [E for TLC design, H for the cadence].
-(5) Success criteria are shared, but co-constructed with students where possible [E]. Policy
-tagged.
+(whiteboards or hinge question) [E]. (4) Teachers meet in TLCs of 8-12, monthly for 75-120
+minutes, for at least two years, with a fixed protocol: each teacher reports on one technique
+they tried and commits to one for next month; peer observation between meetings is the
+accountability mechanism [E for the delivery model, from the 140-school EEF trial; H for the
+specific parameters]. (5) Success criteria are shared, but co-constructed with students where
+possible [E]. (6) The expected whole-school effect is about 0.1 SD over two years, not the 0.4-0.7
+of the 1998 review; the board is told this up front [E]. Policy tagged.
 
 **Hinge questions.**
 
@@ -771,8 +792,10 @@ state the case for developing teachers over selecting them.
    student age, inflate with test proximity to the intervention, and are not comparable across
    studies without adjustment.
 
-**Curiosity hook.** "Wiliam estimates the effect of being in a top-quartile versus bottom-
-quartile teacher's class for a year. How many months of extra learning is it?"
+**Curiosity hook.** "Wiliam's rhetorical summary of teacher value-added spreads: with the most
+effective teachers, students learn the same material in roughly what fraction of the time it takes
+with the least effective?" (About half versus about twice as long, a rough four-fold range; the
+`10` file flags this as an approximate summary, not a measured quartile figure.)
 
 **Attempt (case prompt).** "You have $600k of annual discretionary budget. Options: reduce class
 sizes from 26 to 22; hire an instructional coach per department; buy 1:1 devices and adaptive
@@ -842,8 +865,10 @@ accountability, research, and improvement, and what each does to behavior.
    are not the accountability measures. Using accountability measures to drive improvement
    produces gaming and despair; using research measures produces paralysis.
 
-**Curiosity hook.** "Bryk's teams often find that a promising intervention works for 60% of
-students and hurts 20%. What is the first question improvement science asks about that?"
+**Curiosity hook.** "Suppose a promising intervention helps 60% of students and hurts 20% (a
+hypothetical, not a figure from Bryk). What is the first question improvement science asks about
+that?" (For whom, and under what conditions: variation is the problem to solve, not noise to
+average away.)
 
 **Attempt (productive failure).** "Your school's Year 7 math attainment is flat. Draw the
 system that produces it, name three drivers you could change, and write the first two-week test
@@ -957,6 +982,10 @@ See section 4f.
 
 ### 4a. Unified model: learning → design → institution (diagram spec)
 
+This is the original four-box-per-band sketch. `synthesis/unified-model.md` expands it to about
+thirty nodes with sources, links, a mermaid diagram and the twelve laws, and is the version the
+learner should reproduce in Module 10.
+
 Three horizontal bands, bottom to top, connected by upward arrows labeled "constrains" and
 downward arrows labeled "enables". A fourth element, a loop on the right-hand edge, labeled
 "improvement", connects the top band back to the bottom.
@@ -1010,6 +1039,10 @@ The badge distribution itself teaches something: certainty declines as you go up
 ### 4b. Major tensions with conditional decision rules
 
 Each is written as: the tension, who argues what, the decision rule, what would make you switch.
+This list is the short form. `synthesis/tensions.md` is the authoritative version: fourteen
+tensions, each with both poles steelmanned from the book files. It sharpens tension 1 with the
+meta-analytic numbers (no difference on procedures; Kapur's budget of about one cycle per major
+concept) and reframes tension 8 as confront-versus-reorganize, not confront-versus-avoid.
 
 1. **Explicit instruction vs. productive failure.** (Kirschner/Sweller vs. Kapur.) Rule: default
    explicit. Use generate-then-consolidate when all four hold: conceptual (not procedural) goal;
@@ -1367,13 +1400,56 @@ institution must do so that it happens well and consistently.
 
 ---
 
-## Notes for the co-planning agents
+## Reconciliation log
 
-- The hinge questions assert specific findings (Butler 1988; Roediger & Karpicke 2006; Recht &
-  Leslie 1988; Gruber et al. 2014; Vosniadou; Kapur's boundary conditions; Wiliam's effect-size
-  traps). When the book files land, check each against the file's "Evidence strength & limits"
-  section and soften any hinge where replication is contested (wise feedback is the likeliest).
-- Reading maps should be built from each book file's "5-10 ideas" and "Mental models" sections
-  first; the target is that the learner reads 25-35% of each file during the course.
-- Modules 3 and 7 depend most on specifics from `03`, `05`, `08`, and `09` (Engel's question
-  counts, Yeager's studies, Transcend's leaps, Mehta & Fine's cases); revise once those land.
+This document was drafted before the `books/` files existed. After they landed, every factual
+claim in the modules, hinge questions and section 4 was checked against the relevant file's
+"Evidence strength & limits" section. The book files won every disagreement. Changes made:
+
+- **Curiosity spillover (principle 9; M3 draws-on; M3 hinge Q1).** The draft treated Gruber,
+  Gelman & Ranganath 2014 as showing that curiosity boosts memory for incidental material in
+  general. `00` and `12` show the incidental effect was small (a few recognition points for faces),
+  is brief (Murphy et al. 2021), inconsistent (Galli et al. 2018), and reverses for complex
+  scholastic facts (Keller, Salvi, Leiker, Gruber & Dunsmoor 2024). Wording now says the hook's
+  answer must be the target, and the Q1 diagnosis for option (c) carries the caveat.
+- **Wise feedback (M3 worked example).** "Roughly doubled revision rates" replaced with the actual
+  figures from `05`: about 17% to about 71% among Black seventh graders, largest for low-trust
+  students, from a small field experiment with a limited direct-replication base.
+- **Engel's question counts (M3 hook).** The draft promised exact per-hour counts by grade. `03`
+  says the home-versus-school figures are Tizard & Hughes 1984 (about 26 versus 2 per hour, small
+  older UK sample) and that Engel's own classroom logs are small-sample and illustrative. The hook
+  now uses the Tizard & Hughes ratio and says the counts are not population facts.
+- **Wiliam's teacher-quality figure (M8 hook).** The draft asked for "months of extra learning"
+  between top- and bottom-quartile teachers. `10` records Wiliam's framing as "half the time versus
+  twice as long," an approximate four-fold range, not a quartile-months estimate. Hook rewritten.
+- **Productive failure results and budget (M4 idea 2; M4 worked example; 4b tension 1).** "Less on
+  procedural fluency" corrected to "no difference" (g about -0.03), with the conceptual/transfer
+  effect (g about 0.36) and the grade-6-and-up age moderator added from `04`. The "15-25% of
+  lessons" figure was replaced with Kapur's own budget: about one generate-plus-consolidate cycle
+  per major concept.
+- **Shtulman speeded-task hook (M2 hook).** The bowling-ball example was an invention. Replaced
+  with the verified Shtulman & Valcarcel 2012 pattern described in `02` (biology professors slower
+  and less accurate classifying plants as alive under time pressure).
+- **Comprehension strategies and writing (M5 worked example).** "Taught briefly, once" changed to
+  short episodes embedded in content, matching `06`; the Hochman sequence is now tagged [H] with
+  the note that the branded program lacks controlled trials; an expectation that external reading
+  scores lag two to three years was added, also from `06`.
+- **TLC parameters and effect (M6 worked example).** Added group size (8-12), duration (75-120
+  minutes), the two-year cycle, the 140-school EEF trial as the evidence base, and the realistic
+  whole-school effect of about 0.1 SD rather than the 1998 review's 0.4-0.7, from `07` and `10`.
+- **Reconsolidation (principle 5).** `12` says the strong reconsolidation account is contested in
+  humans and that the testing effect does not depend on it. Wording softened accordingly.
+- **Bryk "60% / 20%" (M9 hook).** Not a figure from `11`; now marked as a hypothetical.
+- **Section 4 pointers.** 4a and 4b now point to `unified-model.md` and `tensions.md` as the
+  authoritative expansions; 4b's tension 8 ("confront vs avoid") is reframed there as
+  confront-versus-reorganize (theory-change vs knowledge-in-pieces), per `13`.
+- **Checked, no change needed.** Roediger & Karpicke 2006, Recht & Leslie 1988, Butler (the `07`
+  file dates it 1987/88), Rosenshine, Project Follow Through, Mehta & Fine's roughly 30 schools over
+  roughly six years, Wiliam's class-size and merit-pay conclusions, Vosniadou's earth models, and
+  Chi's ontological categories all match the book files. Two corrections the book authors made to
+  their own briefs do not touch this document: `12` confirms *Why We Remember* has three parts,
+  not two (Part 2 is "The Unseen Forces"), and `11` confirms BTEN is a *Learning to Improve* (2015)
+  example, not one of the six *Improvement in Action* cases; neither claim appears here.
+- **Still open.** Reading maps should be built from each file's "5-10 ideas" and "Mental models"
+  sections first, targeting 25-35% of each file read during the course. The casebook's case 12
+  ("the 60/20 result") remains a scenario, which is fine; it is not a citation.
