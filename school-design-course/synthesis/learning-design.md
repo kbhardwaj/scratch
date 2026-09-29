@@ -1355,38 +1355,25 @@ added as full books; each is a compact addition of one to three hours, and most 
    not yet in, and that the most plausible wins are in teacher-side workload (feedback drafting,
    hinge-question generation, practice-set generation) rather than replacing instruction.
 
-10. *Family engagement and the home.* The curriculum touches families only through Yeager. The
-    evidence on home reading, on parental expectations, and on what schools can actually change
-    in the home is relevant and not covered. Recommendation: thirty minutes; treat it as [H].
+10. *Family engagement, physical environment, and the founder's own leadership.* Each gets thirty
+    minutes at most. Family engagement: [H]. Facilities: [H]; acoustics and air quality have the
+    clearest effects, open-plan has weak-to-negative evidence (consistent with M1). Founder
+    leadership: [V]; apply Yeager's mentor mindset to the board and staff relationship and Bryk's
+    "see the system" to the founder's own calendar.
 
-11. *Physical environment and facilities.* Nothing in the curriculum. The evidence is thin;
-    label [H]; thirty minutes on what is known (acoustics and air quality have the clearest
-    effects; open-plan design has weak-to-negative evidence, consistent with M1).
-
-12. *The founder's own learning and leadership.* Bryk and Wiliam describe improvement systems and
-    TLCs; neither addresses the founder as a person under load. A short addition applying Yeager's
-    mentor mindset to the founder's relationship with the board and staff, and Bryk's
-    "see the system" to the founder's own calendar, would be appropriate. Label: [V].
-
-**What the curriculum has that founders usually skip, and should not.** Worth stating because the
-gaps above could tempt the learner to swap out curriculum for operations. The thirteen books
-answer the question almost no founder asks well: what actually happens in the mind of the child
-in the median lesson, and what the institution must do so that it happens well and consistently.
-Every gap above is a supplement to that, not a replacement.
+The gaps above are supplements, not replacements. The thirteen books answer the question almost
+no founder asks well: what happens in the mind of the child in the median lesson, and what the
+institution must do so that it happens well and consistently.
 
 ---
 
 ## Notes for the co-planning agents
 
-- The hinge questions above assert specific findings (Butler 1988; Roediger & Karpicke 2006;
-  Recht & Leslie 1988; Gruber, Gelman & Ranganath 2014; Vosniadou's earth studies; Kapur's
-  boundary conditions; Wiliam's effect-size traps). When the book files are complete, check each
-  against the file's "Evidence strength & limits" section and soften any hinge where the file
-  reports contested replication (wise feedback is the most likely candidate).
-- The reading maps ("which sections of the book file to read for this module") should be built
-  from the book files' "5-10 ideas you must carry" and "Mental models" sections first, with the
-  chapter-by-chapter section as optional depth. The target is that a learner reads about 25-35%
-  of each book file during the course and uses the rest as reference.
-- Module 3 and Module 7 rely most on the `03`, `05`, `08`, and `09` files for specifics (Engel's
-  question counts, Yeager's study details, Transcend's leaps, Mehta & Fine's school cases); those
-  modules should be revised once the files land.
+- The hinge questions assert specific findings (Butler 1988; Roediger & Karpicke 2006; Recht &
+  Leslie 1988; Gruber et al. 2014; Vosniadou; Kapur's boundary conditions; Wiliam's effect-size
+  traps). When the book files land, check each against the file's "Evidence strength & limits"
+  section and soften any hinge where replication is contested (wise feedback is the likeliest).
+- Reading maps should be built from each book file's "5-10 ideas" and "Mental models" sections
+  first; the target is that the learner reads 25-35% of each file during the course.
+- Modules 3 and 7 depend most on specifics from `03`, `05`, `08`, and `09` (Engel's question
+  counts, Yeager's studies, Transcend's leaps, Mehta & Fine's cases); revise once those land.
