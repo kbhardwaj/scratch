@@ -22,17 +22,28 @@ and 10 retrieval questions.
 
 **Phase 2 (anabolic): build it back up.** `synthesis/` holds:
 
-- `learning-design.md` is the course design, co-planned with a Fable agent. It sets out
-  modules, a productive-failure opener, hinge questions and a 3-week spaced schedule.
-- `unified-model.md` shows how minds → design → institutions connect in one model.
-- `tensions.md` covers the live debates, each with a conditional decision rule.
-- `design-brief-template.md` is your evolving school-design brief, with every decision labeled E/H/V.
-- `casebook.md` holds founder dilemmas to practice judgment on.
-- `capstone.md` defines the final performance that proves mastery, with a rubric.
-- `flashcards.json` is the spaced-retrieval deck.
+- `learning-design.md` is the course design, co-planned with a Fable agent. It sets out 11 modules,
+  a productive-failure opener, hinge questions, a 3-week spaced schedule, and a log of where it was
+  reconciled against the book files.
+- `unified-model.md` shows how minds → design → institution connect: 30 ideas, the causal chain, and
+  the 12 laws of the school. **Reread this before any big decision.**
+- `tensions.md` covers 14 live debates, each with a conditional IF/THEN rule, a switch signal, and a
+  common mistake.
+- `design-brief-template.md` is your evolving school-design brief: 11 sections, E/H/V labeling,
+  a worked example (a hypothetical 400-student K–8), and registers for hypotheses and values.
+- `casebook.md` holds 24 founder dilemmas with model answers.
+- `capstone.md` defines the final performance that proves mastery: the brief, a defense against
+  six challenges, and a first-90-days plan, scored on a 10-criterion rubric.
+- `founder-gaps-primer.md` covers what the reading list leaves out for an actual founder: finance,
+  governance, special education, early reading and numeracy, math, hiring, assessment, behavior,
+  AI tutoring, families, and leadership.
 
-**Phase 3 (experience).** `app/index.html` is the interactive course. It includes the
-modules, retrieval quizzes, flashcards with spacing, the casebook and the design brief builder.
+**Phase 3 (experience).** The `app/` folder holds the interactive course, called *Founding School*:
+modules with attempt-first prompts and hinge questions, a 212-card spaced-repetition deck, the
+casebook, the tensions, the unified model, a diagnostic you take at the start and the end, and a
+design brief builder. Mentor feedback from Claude is available on your attempts, cases and brief.
+Rebuild it with `python3 app/build.py`, which inlines `app/data/*.json` into
+`app/founding-school.html`.
 
 ## How to use it (short version)
 
@@ -40,6 +51,7 @@ modules, retrieval quizzes, flashcards with spacing, the casebook and the design
    Failing at it is the point.
 2. Work through one module a day (45–60 min). Do the hinge questions honestly.
 3. Do the flashcard review daily (5–10 min). The spacing is where the learning comes from.
+   Cards unlock as you complete modules.
 4. After each module, add decisions to your design brief, each labeled E/H/V.
 5. Finish with the capstone.
 

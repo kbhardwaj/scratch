@@ -1,4 +1,5 @@
 # School-design brief: template and guide
+
 The versioned brief the learner writes from Module 0 (v0) to the capstone (v5). It follows the
 template in `synthesis/learning-design.md` section 4c. For each of the 11 sections this guide gives:
 what the section is for, the tags a reader should expect, prompts to draft from, an example entry
@@ -51,9 +52,9 @@ the cumulative changelog from v0 to v5.
 
 ---
 
-## 1. Purpose and community  [mostly [V]]
+## 1. Purpose and community (mostly [V])
 
-**Guidance.** Say who the school serves, what "world-class" means for these children, and how the community takes part in design. This section is mostly value commitments, and that is fine, as long as they are named as values and not dressed up as findings. Define "world-class" through observable outcomes and experiences, not adjectives. State which design layers are open to community codesign (purpose, culture, the periphery, and which knowledge to prioritize where the evidence is silent) and which are mechanisms that go through an evidence review first. This split is the governance rule for tension t03. Leaving it unstated is the most common founding mistake (`08-extraordinary-learning-for-all`).
+**Guidance.** Say who the school serves, what "world-class" means for these children, and how the community takes part in design. This section is mostly value commitments, and that is fine, as long as they are named as values and not dressed up as findings. Define "world-class" through observable outcomes and experiences, not adjectives. State which design layers are open to community codesign (purpose, culture, the periphery, and which knowledge to prioritize where the evidence is silent) and which are mechanisms that go through an evidence review first. This split is the governance rule for tension t04. Leaving it unstated is the most common founding mistake (`08-extraordinary-learning-for-all`).
 
 **Expected tags.** Mostly [V]. Use [E] only for claims about how community ownership affects sustainment. The split between open and closed layers is itself [V], with an [H] that it produces better designs.
 
@@ -79,7 +80,7 @@ The founding design team (six families, three students, four teachers, two neigh
 
 ---
 
-## 2. The three Tuesdays  [narrative; tagged inline]
+## 2. The three Tuesdays (narrative; tagged inline)
 
 **Guidance.** Describe a February Tuesday for three children at different ages (the default is 7, 12 and 16; a K-8 school uses its youngest, middle and oldest bands, for example 7, 10 and 13). For each child, give one lesson minute by minute, plus a sentence on the rest of the day. This section forces the design down to the median classroom, where Mehta & Fine found depth usually is not (`09-in-search-of-deeper-learning`). Tag inline: each design choice visible in the minute-by-minute carries [E], [H] or [V]. The narrative as a whole is a hypothesis about what your system will produce. Test it in year one by shadowing a student for a whole day.
 
@@ -105,7 +106,7 @@ Rest of her day: math with a concrete-to-abstract number line, 40 minutes of sci
 
 **Leo, 10 (grade 5), math.** A five-question retrieval starter mixes last month's fractions with this week's. A worked example is paired with a similar problem for students to try. A hinge question goes up on whiteboards: at 80% or better the class moves on, and below that the teacher re-teaches using the most common distractor [E for mechanisms; H for the threshold].
 
-**Noor, 13 (grade 8), science.** She predicts what happens to the particles when a sealed syringe of air is compressed, commits in writing, then watches a simulation. The explanation that follows targets the "particles shrink" misconception (t08) [E]. In the afternoon she runs a design review for grade-6 students in the studio [H].
+**Noor, 13 (grade 8), science.** She predicts what happens to the particles when a sealed syringe of air is compressed, commits in writing, then watches a simulation. The explanation that follows targets the "particles shrink" misconception (t11) [E]. In the afternoon she runs a design review for grade-6 students in the studio [H].
 
 **Common failures.**
 
@@ -115,7 +116,7 @@ Rest of her day: math with a concrete-to-abstract number line, 40 minutes of sci
 
 ---
 
-## 3. Model of the learner  [mostly [E]]
+## 3. Model of the learner (mostly [E])
 
 **Guidance.** Write five commitments about memory, prior knowledge and motivation that the school designs around. Each one must be accurate to the evidence, cite a source slug, and be load-bearing: later sections should point back to it by number ("per L2"). Then list the folk theories the school explicitly rejects. This is the section the capstone rubric checks first. Learning styles, "motivation must come before competence" and "knowledge is obsolete because you can search for it" must not appear, except in the rejected list.
 
@@ -147,7 +148,7 @@ Rest of her day: math with a concrete-to-abstract number line, 40 minutes of sci
 
 ---
 
-## 4. Curriculum  [[E] for mechanisms, [V] for content choices]
+## 4. Curriculum ([E] for mechanisms, [V] for content choices)
 
 **Guidance.** Sketch the knowledge sequence across grades, the concept progressions (spirals) in science and math, how literacy time is allocated, and what is deliberately excluded. The mechanisms (a coherent, cumulative, prerequisite-mapped sequence, phonics as a separate track, content-embedded writing) are [E]. Which periods, texts and cultures are studied is [V], so log those choices in the value register with who might disagree. Show at least one concept whose progression is designed across three or more grades.
 
@@ -180,7 +181,7 @@ Excluded: skill-of-the-week comprehension units (`06`) [E], a stand-alone "21st-
 
 ---
 
-## 5. Instruction  [[E] defaults, [H] parameters]
+## 5. Instruction ([E] defaults, [H] parameters)
 
 **Guidance.** Specify the default lesson, the named exceptions and the conditions under which each applies, and the policy on homework and practice. The default is explicit, with guidance fading as expertise grows [E]. Exceptions such as productive failure, the studio, or seminar discussion must state their conditions, and they must be switchable: say what observation or data would send a unit back to the default (tension t01). Unguided discovery is excluded for novices. Show how scaffolding changes between the youngest and oldest students, which makes the expertise-reversal effect visible.
 
@@ -221,9 +222,9 @@ Excluded: skill-of-the-week comprehension units (`06`) [E], a stand-alone "21st-
 
 ---
 
-## 6. Assessment and feedback  [[E] mechanisms, [H] cadence]
+## 6. Assessment and feedback ([E] mechanisms, [H] cadence)
 
-**Guidance.** Specify the formative toolkit, the grading policy, the standard every hinge question must meet, how mastery is defined, and how results are reported to families. Grading policy must reflect Butler: no grades on formative work (`07-embedding-formative-assessment`) [E]. Reporting must be honest enough that families know where their child stands. Otherwise the t07 switch signal will fire, as it does in casebook k03. Define mastery for core concepts as success on transfer and delayed items, not on recall.
+**Guidance.** Specify the formative toolkit, the grading policy, the standard every hinge question must meet, how mastery is defined, and how results are reported to families. Grading policy must reflect Butler: no grades on formative work (`07-embedding-formative-assessment`) [E]. Reporting must be honest enough that families know where their child stands. Otherwise families will treat every check as a judgment (t12), as in casebook k03. Define mastery for core concepts as success on transfer and delayed items, not on recall.
 
 **Expected tags.** [E] for comment-only formative feedback, retrieval-as-learning, all-student response and generative items. [H] for cadence, thresholds and the hinge-question bank. [V] for the definition of mastery and reporting choices.
 
@@ -260,7 +261,7 @@ Excluded: skill-of-the-week comprehension units (`06`) [E], a stand-alone "21st-
 
 ---
 
-## 7. Adults  [[E] for TLCs, [H] for hiring criteria]
+## 7. Adults ([E] for TLCs, [H] for hiring criteria)
 
 **Guidance.** Cover hiring, the development plan for each teacher's first three years, the TLC compact, and how adults talk to students. Tension t06 sets the default: develop, don't rely on selection. Pre-hire signals predict effectiveness weakly (`10-creating-the-schools-our-children-need`) [E]. Hiring should look for disciplinary depth and coachability, and the development system has to be designed to fill the rest. Apply the mentor mindset to adults as well as to students.
 
@@ -292,7 +293,7 @@ Time for TLCs comes from cutting the weekly staff meeting to twice a month and e
 
 **Talking to students.** Major feedback carries a sincere standard-and-belief statement plus a revision chance (`05-10-to-25`) [E, modest replication base]. No public behavior charts [V/H].
 
-**Switch signal.** If within-school variation in effectiveness hasn't narrowed by the end of year three, redesign the TLCs (t06).
+**Switch signal.** If within-school variation in effectiveness hasn't narrowed after two full years, redesign the TLCs (t06).
 
 **Common failures.**
 
@@ -302,9 +303,9 @@ Time for TLCs comes from cutting the weekly staff meeting to twice a month and e
 
 ---
 
-## 8. Structure  [[H]]
+## 8. Structure ([H])
 
-**Guidance.** Cover the schedule, grouping, the periphery, and what is kept conventional, with reasons. Tension t09 says spend change capacity on instruction, assessment and adult learning first, and change structure only where a specific instructional need requires it. Name that need each time you depart from convention. The periphery (studio, clubs, arts, debate) must be protected in the timetable and designed with apprenticeship features. Everything here is a hypothesis unless a source directly supports it.
+**Guidance.** Cover the schedule, grouping, the periphery, and what is kept conventional, with reasons. Tension t13 says spend change capacity on instruction, assessment and adult learning first, and change structure only where a specific instructional need requires it. Name that need each time you depart from convention. The periphery (studio, clubs, arts, debate) must be protected in the timetable and designed with apprenticeship features. Everything here is a hypothesis unless a source directly supports it.
 
 **Expected tags.** Mostly [H]. Use [E] only where evidence speaks directly (for example daily math supporting spacing, or targeted small-group tutoring). Use [V] for protecting the periphery and for detracking commitments.
 
@@ -332,9 +333,9 @@ Time for TLCs comes from cutting the weekly staff meeting to twice a month and e
 
 ---
 
-## 9. Improvement system  [[E] method, [V] aim]
+## 9. Improvement system ([E] method, [V] aim)
 
-**Guidance.** Give the year-one aim, the driver diagram, the PDSA cadence, the practical measures, and how improvement data is kept separate from accountability. The aim is a value choice: which problem matters most this year, and for whom. The method (predicted small tests, practical measures, attention to variation) has a strong track record in other sectors, while the school evidence is case-based (`11-improvement-in-action`). Write the rule for tension t04 into the charter: improvement measures never enter evaluation.
+**Guidance.** Give the year-one aim, the driver diagram, the PDSA cadence, the practical measures, and how improvement data is kept separate from accountability. The aim is a value choice: which problem matters most this year, and for whom. The method (predicted small tests, practical measures, attention to variation) has a strong track record in other sectors, while the school evidence is case-based (`11-improvement-in-action`). Write the rule for tension t05 into the charter: improvement measures never enter evaluation.
 
 **Expected tags.** [V] for the aim and for keeping improvement data out of evaluation. [E] that high-stakes use corrupts indicators and that aggregates hide gaps. [H] for the specific drivers, change ideas and target numbers.
 
@@ -375,7 +376,7 @@ Time for TLCs comes from cutting the weekly staff meeting to twice a month and e
 
 ---
 
-## 10. Open hypotheses register  [[H]]
+## 10. Open hypotheses register ([H])
 
 **Guidance.** List every [H] in sections 3-9, each with the evidence or PDSA cycle that would resolve it. The register is where the brief admits what it doesn't know, and it drives the improvement agenda. A strong register is specific: each entry has a written prediction, a practical measure, a decision rule, and a review date. Make sure your riskiest bets are there, not just your safest.
 
@@ -418,7 +419,7 @@ Time for TLCs comes from cutting the weekly staff meeting to twice a month and e
 
 ---
 
-## 11. Value commitments register  [[V]]
+## 11. Value commitments register ([V])
 
 **Guidance.** List every [V] in the brief, with one sentence on who might reasonably disagree and why. The point is not to defend values with evidence. It is to hold them knowingly, to see what they cost, and to prevent values from being laundered as findings. Evidence can inform a value commitment (by revealing its costs) but cannot settle it. At least two of your capstone defense challenges will attack entries here.
 
