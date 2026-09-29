@@ -1,0 +1,1700 @@
+{
+ "cards": [
+  {
+   "id": "c001",
+   "module": "m1",
+   "type": "recall",
+   "front": "In Kirschner & Hendrick's working definition, what *is* learning, and which memory structure is the bottleneck?",
+   "back": "Learning is a durable change in **long-term memory**. The bottleneck is **working memory**: small, short-lived, able to handle only a few new elements at once.",
+   "source": "01-how-learning-happens"
+  },
+  {
+   "id": "c002",
+   "module": "m1",
+   "type": "recall",
+   "front": "Name the three types of cognitive load and what produces each.",
+   "back": "- **Intrinsic**: the element interactivity of the material itself\n- **Extraneous**: poor instructional design\n- **Germane**: schema building (redefined in 2019 as the working-memory resources devoted to intrinsic load, not a separate additive load)",
+   "source": "00-foundational-papers"
+  },
+  {
+   "id": "c003",
+   "module": "m1",
+   "type": "explain",
+   "front": "Why does the same material overload a novice but feel easy to an expert? Use *element interactivity* and *schema*.",
+   "back": "Element interactivity is how many elements must be processed together. Experts have chunked those elements into schemas that working memory treats as a single element, so the effective load collapses. Novices must juggle every element separately.",
+   "source": "00-foundational-papers"
+  },
+  {
+   "id": "c004",
+   "module": "m1",
+   "type": "explain",
+   "front": "Why can solving conventional problems by means-ends analysis produce right answers but little learning?",
+   "back": "Means-ends search holds the current state, goal, differences and subgoals in working memory. That uses the capacity needed to notice and store the problem's structure, so the answer is found but no schema is built.",
+   "source": "00-foundational-papers"
+  },
+  {
+   "id": "c005",
+   "module": "m1",
+   "type": "recall",
+   "front": "What is the worked example effect, and for whom does it hold?",
+   "back": "Studying worked solutions produces more learning than solving the equivalent problems. It holds for **novices**; it fades or reverses as expertise grows.",
+   "source": "00-foundational-papers"
+  },
+  {
+   "id": "c006",
+   "module": "m1",
+   "type": "recall",
+   "front": "Give the standard three-step guidance-fading progression.",
+   "back": "Worked example, then completion problem (partly solved), then independent problem.",
+   "source": "00-foundational-papers"
+  },
+  {
+   "id": "c007",
+   "module": "m1",
+   "type": "apply",
+   "front": "Your strongest maths students call worked-example lessons \"boring and slow\" and their gains have flattened. Name the effect and the fix.",
+   "back": "**Expertise reversal**: for more expert learners, worked examples are redundant and add load. Fade to completion problems and independent problems for them, using quick diagnostics to decide who moves on.",
+   "source": "00-foundational-papers"
+  },
+  {
+   "id": "c008",
+   "module": "m1",
+   "type": "apply",
+   "front": "A teacher reads the text of every slide aloud, word for word. Which design effect is being violated, and what is the fix?",
+   "back": "The **redundancy** effect: the same words arriving by ear and by eye add extraneous load. Fix: speak over a sparse visual (diagram, key image) or let students read silently, not both.",
+   "source": "01-how-learning-happens"
+  },
+  {
+   "id": "c009",
+   "module": "m1",
+   "type": "apply",
+   "front": "A worksheet puts a diagram on one page and its labels in a key on the next page. Name the effect and the fix.",
+   "back": "**Split attention**: learners must hold and match two separated sources in working memory. Fix: integrate the labels directly into the diagram.",
+   "source": "01-how-learning-happens"
+  },
+  {
+   "id": "c010",
+   "module": "m1",
+   "type": "recall",
+   "front": "Name Dunlosky et al.'s two high-utility study techniques.",
+   "back": "Practice testing (retrieval practice) and distributed (spaced) practice.",
+   "source": "01-how-learning-happens"
+  },
+  {
+   "id": "c011",
+   "module": "m1",
+   "type": "explain",
+   "front": "Rereading and highlighting are students' favourite techniques. Why do they mislead students about what they know?",
+   "back": "They raise **familiarity**, which produces a feeling of knowing. Familiarity is a separate process from **recollection**: the material feels known on recognition but cannot be retrieved on demand.",
+   "source": "12-why-we-remember"
+  },
+  {
+   "id": "c012",
+   "module": "m1",
+   "type": "discriminate",
+   "front": "Distinguish *learning* from *performance*, and name one technique that boosts performance now but is weak for learning.",
+   "back": "Performance is momentary success; learning is a durable change that shows up later and in new contexts. Rereading, massing and blocking feel productive now but are weak; retrieval, spacing and interleaving feel hard but are strong.",
+   "source": "01-how-learning-happens"
+  },
+  {
+   "id": "c013",
+   "module": "m1",
+   "type": "explain",
+   "front": "Why does Ranganath treat forgetting as a feature, and what does that demand of a curriculum?",
+   "back": "Memory exists to guide future action, so the brain keeps what signals likely future use and drops the rest. A curriculum must signal usefulness through repeated, spaced, meaningful retrieval, not single exposures.",
+   "source": "12-why-we-remember"
+  },
+  {
+   "id": "c014",
+   "module": "m1",
+   "type": "explain",
+   "front": "Retrieval changes the memory it retrieves. Why does that mean quizzes need immediate corrective feedback?",
+   "back": "A recalled memory is re-stored in updated form. If a wrong answer is recalled and left uncorrected, retrieval strengthens the error; feedback while it is active means the corrected version is stored.",
+   "source": "12-why-we-remember"
+  },
+  {
+   "id": "c015",
+   "module": "m1",
+   "type": "recall",
+   "front": "What is *hypercorrection*, and how can a teacher exploit it?",
+   "back": "Confidently held errors are more easily corrected than low-confidence ones once feedback arrives. Have students commit to an answer and rate confidence **before** giving feedback.",
+   "source": "12-why-we-remember"
+  },
+  {
+   "id": "c016",
+   "module": "m1",
+   "type": "apply",
+   "front": "You are setting a school-wide norm for class discussion. Should individual or group recall come first, and why?",
+   "back": "Individual first (write it down), then share. Group recall disrupts individuals' own retrieval (**collaborative inhibition**) and hearing others first can import their errors (**social contagion**). The teacher then checks what the group converged on.",
+   "source": "12-why-we-remember"
+  },
+  {
+   "id": "c017",
+   "module": "m1",
+   "type": "discriminate",
+   "front": "\"Context-dependent memory means we should teach in the room where the exam will be held.\" What is wrong with this?",
+   "back": "Matching one context helps recall there but keeps knowledge context-bound. For durable, transferable knowledge, **vary** the contexts and formats of practice. Context effects in real settings are usually modest anyway.",
+   "source": "12-why-we-remember"
+  },
+  {
+   "id": "c018",
+   "module": "m1",
+   "type": "discriminate",
+   "front": "\"Emotional lessons are memorable lessons.\" Correct this claim.",
+   "back": "Emotion prioritizes emotionally central content, often at the expense of peripheral details. A dramatic lesson can leave students remembering the drama, not the concept. Make the emotionally charged element the concept itself.",
+   "source": "12-why-we-remember"
+  },
+  {
+   "id": "c019",
+   "module": "m1",
+   "type": "discriminate",
+   "front": "\"Cognitive load theory means make learning easy.\" What does CLT actually say?",
+   "back": "Reduce **extraneous** load so capacity goes to the intrinsic challenge. Desirable difficulties (retrieval, spacing) deliberately add productive effort, but only difficulties the learner can successfully respond to.",
+   "source": "01-how-learning-happens"
+  },
+  {
+   "id": "c020",
+   "module": "m1",
+   "type": "discriminate",
+   "front": "\"Use dual coding for visual learners and podcasts for auditory learners.\" Which two ideas are being confused?",
+   "back": "**Dual coding** (everyone benefits from well-combined words and visuals) is confused with **learning styles** (matching mode to a learner's 'style'), for which the meshing hypothesis has no adequate evidence (Pashler et al. 2008). Choose mode by content, not learner.",
+   "source": "01-how-learning-happens"
+  },
+  {
+   "id": "c021",
+   "module": "m1",
+   "type": "explain",
+   "front": "Evidence check: how strong is the evidence for the testing effect and spacing, and what is the main limit?",
+   "back": "**Robust**: decades of replication, with classroom extensions. Limit: much of it is lab-based (short retention intervals, adult participants, simple materials), so specific classroom prescriptions are extrapolations to test locally.",
+   "source": "12-why-we-remember"
+  },
+  {
+   "id": "c022",
+   "module": "m1",
+   "type": "explain",
+   "front": "Evidence check: how strong are the split-attention, redundancy and modality effects in real classrooms?",
+   "back": "**Moderate**. They are well established in the lab, but effects shrink outside it. Treat them as design constraints for materials review, not guaranteed classroom gains.",
+   "source": "00-foundational-papers"
+  },
+  {
+   "id": "c023",
+   "module": "m2",
+   "type": "recall",
+   "front": "State Posner et al.'s (1982) four conditions for conceptual change.",
+   "back": "1. **Dissatisfaction** with the current conception\n2. The new one is **intelligible**\n3. **plausible**\n4. **fruitful**",
+   "source": "00-foundational-papers"
+  },
+  {
+   "id": "c024",
+   "module": "m2",
+   "type": "explain",
+   "front": "Why does a single surprising (discrepant-event) demonstration so often fail to change a student's conception?",
+   "back": "It may create dissatisfaction but supplies no intelligible, plausible, fruitful alternative. Students explain the anomaly away or file school knowledge in a separate compartment.",
+   "source": "00-foundational-papers"
+  },
+  {
+   "id": "c025",
+   "module": "m2",
+   "type": "recall",
+   "front": "What is a *synthetic model*? Give Vosniadou's classic example.",
+   "back": "A hybrid of taught information and unrevised presuppositions that passes recall tests but fails prediction tests. Example: the **hollow sphere** Earth, round, with people living on a flat floor inside.",
+   "source": "00-foundational-papers"
+  },
+  {
+   "id": "c026",
+   "module": "m2",
+   "type": "apply",
+   "front": "A 7-year-old confidently says \"the Earth is round.\" Give two follow-up prompts that would expose a synthetic model.",
+   "back": "\"Draw the Earth and show where people live.\" \"If you walked straight for a very long time, where would you end up? Could you fall off?\" Generative prompts beat recall because a memorized sentence can't answer them.",
+   "source": "02-scienceblind"
+  },
+  {
+   "id": "c027",
+   "module": "m2",
+   "type": "recall",
+   "front": "Name Chi's three kinds of conceptual change, from easiest to hardest.",
+   "back": "1. **Belief revision** (a single false belief)\n2. **Mental model transformation** (a flawed model; self-explanation helps)\n3. **Categorical (ontological) shift** (the concept is the wrong kind of thing)",
+   "source": "00-foundational-papers"
+  },
+  {
+   "id": "c028",
+   "module": "m2",
+   "type": "apply",
+   "front": "A student says heat \"flows into the cold spoon like water.\" Which kind of change does this require, and why is it hard?",
+   "back": "An **ontological shift**: heat is treated as a substance, but it is an **emergent process** of molecular interactions. It is hard because the student must reclassify the concept, not just revise a fact.",
+   "source": "02-scienceblind"
+  },
+  {
+   "id": "c029",
+   "module": "m2",
+   "type": "recall",
+   "front": "What is an *emergent process*? Give two examples.",
+   "back": "An outcome of many interacting agents with no central control. Examples: heat, diffusion, evolution, traffic jams, markets.",
+   "source": "00-foundational-papers"
+  },
+  {
+   "id": "c030",
+   "module": "m2",
+   "type": "discriminate",
+   "front": "Distinguish *differentiation* from *coalescence*, with one example of each.",
+   "back": "**Differentiation**: one concept splits into two (heat vs. temperature; weight vs. density). **Coalescence**: separate concepts merge into one (plants and animals into \"living things\").",
+   "source": "02-scienceblind"
+  },
+  {
+   "id": "c031",
+   "module": "m2",
+   "type": "explain",
+   "front": "What is the signature finding of Shtulman & Valcarcel (2012), and what does it imply about intuitive theories?",
+   "back": "Educated adults verified statements more slowly and less accurately when intuition and science conflicted (\"the moon has gravity\"). The intuitive theory is not erased: it coexists and must be suppressed each time.",
+   "source": "02-scienceblind"
+  },
+  {
+   "id": "c032",
+   "module": "m2",
+   "type": "discriminate",
+   "front": "\"Can repeat the explanation\" vs. \"the model has changed\": name three test conditions that separate the two students.",
+   "back": "Any three: a novel/transfer question; prediction before a demonstration; a delayed test months later; a speeded or distracted test; explaining the mechanism in their own words. The \"can repeat\" student reverts in each.",
+   "source": "02-scienceblind"
+  },
+  {
+   "id": "c033",
+   "module": "m2",
+   "type": "apply",
+   "front": "Year 10 scored 88% on the Newton's laws unit test (definitions and F = ma problems). The team wants to move on. What's the problem?",
+   "back": "Definitional and quantitative success coexists with impetus beliefs. The test measured \"can repeat\", not model change. Add qualitative prediction and transfer items (e.g. a concept inventory) and a delayed re-test.",
+   "source": "02-scienceblind"
+  },
+  {
+   "id": "c034",
+   "module": "m2",
+   "type": "recall",
+   "front": "What is a *concept inventory*, and why is it the right tool for hard concepts?",
+   "back": "A multiple-choice test whose distractors each encode a known misconception (e.g. the FCI). Wrong answers diagnose which intuitive theory a student holds, at scale.",
+   "source": "02-scienceblind"
+  },
+  {
+   "id": "c035",
+   "module": "m2",
+   "type": "explain",
+   "front": "Why did teaching children that germs are living things beat teaching hygiene rules (Au et al. 2008)?",
+   "back": "A causal **mechanism** (germs are alive, reproduce, spread by hands) lets children infer new behaviours and reasons; rules are brittle and don't generalize. Mechanism beats conclusion for transfer, behaviour and even acceptance.",
+   "source": "02-scienceblind"
+  },
+  {
+   "id": "c036",
+   "module": "m2",
+   "type": "discriminate",
+   "front": "Transformational vs. variational evolution: what distinguishes them, and why doesn't the phrase \"natural selection\" tell you which a student holds?",
+   "back": "**Transformational**: the whole population changes because individuals need to. **Variational**: individuals already vary, and heritable variants that aid reproduction spread. Both groups use the term; only a mechanistic explanation starting from a varied population reveals the model.",
+   "source": "02-scienceblind"
+  },
+  {
+   "id": "c037",
+   "module": "m2",
+   "type": "discriminate",
+   "front": "Why should a school measure *understanding* and *acceptance* separately (e.g. for evolution)?",
+   "back": "Shtulman (2006) found them only weakly related: people accept without understanding and vice versa. Understanding is the educational goal and can be assessed; requiring acceptance is a separate value question [V].",
+   "source": "02-scienceblind"
+  },
+  {
+   "id": "c038",
+   "module": "m2",
+   "type": "discriminate",
+   "front": "Framework theory vs. knowledge-in-pieces: how would each shape a teacher's approach to misconceptions?",
+   "back": "**Framework theory** (Vosniadou, Shtulman): elicit and overturn a coherent intuitive theory. **Knowledge-in-pieces** (diSessa): intuitions are context-cued fragments (p-prims); identify productive ones and reorganize them. Good teaching likely does both.",
+   "source": "13-learning-scientific-concepts"
+  },
+  {
+   "id": "c039",
+   "module": "m2",
+   "type": "discriminate",
+   "front": "\"Knowledge-in-pieces says students' ideas are wrong fragments to be replaced.\" Correct this.",
+   "back": "KiP says the pieces (p-prims) are often correct in their proper context and are resources. Learning **reorganizes and recontextualizes** them into coherent systems; it does not replace them.",
+   "source": "13-learning-scientific-concepts"
+  },
+  {
+   "id": "c040",
+   "module": "m2",
+   "type": "discriminate",
+   "front": "\"Once students truly learn the scientific concept, the intuitive idea disappears.\" What does the evidence say?",
+   "back": "Intuitions persist into expertise and must be inhibited or **outcompeted** (Shtulman & Valcarcel 2012; Potvin and colleagues). Instruction builds a stronger, better-coordinated system; mastery means the scientific model reliably wins.",
+   "source": "13-learning-scientific-concepts"
+  },
+  {
+   "id": "c041",
+   "module": "m2",
+   "type": "recall",
+   "front": "What is *Quinian bootstrapping*? Give a school example.",
+   "back": "Building a concept that can't be defined from existing ones: first learn an external placeholder (symbols, a formula, a model), then fill in its meaning through analogy, modelling and limiting cases. Example: density = mass/volume, used with models to separate density from weight.",
+   "source": "13-learning-scientific-concepts"
+  },
+  {
+   "id": "c042",
+   "module": "m2",
+   "type": "apply",
+   "front": "You are sequencing K-8 science. What must come before photosynthesis, and what diagnostic would you use?",
+   "back": "Students must accept that gases are matter with mass, with a particle model, because plant mass comes mostly from CO2 in the air. Diagnostic: \"A 1 g seed becomes a 500 kg tree. Where did the mass come from?\"",
+   "source": "02-scienceblind"
+  },
+  {
+   "id": "c043",
+   "module": "m2",
+   "type": "explain",
+   "front": "Evidence check: how does the evidence on *describing* misconceptions compare with the evidence on *fixing* them?",
+   "back": "Descriptive evidence is **robust** (replicated across countries and ages; lecture leaves misconceptions intact). Intervention evidence is **thinner**: promising studies are mostly small or short, with no school-scale, multi-year RCT.",
+   "source": "02-scienceblind"
+  },
+  {
+   "id": "c044",
+   "module": "m3",
+   "type": "recall",
+   "front": "Gruber, Gelman & Ranganath (2014): what two memory effects did high curiosity produce?",
+   "back": "1. Much better memory for the **answers** to high-curiosity trivia questions (large effect).\n2. Slightly better recognition of **unrelated faces** shown while waiting for the answer (small effect). Midbrain dopaminergic and hippocampal activity tracked both.",
+   "source": "00-foundational-papers"
+  },
+  {
+   "id": "c045",
+   "module": "m3",
+   "type": "explain",
+   "front": "Why does curiosity depend on prior knowledge?",
+   "back": "Curiosity is an **information gap**: wanting an answer you know you lack. You need enough knowledge to notice the gap and care about it; with nothing to build on, questions stay shallow.",
+   "source": "00-foundational-papers"
+  },
+  {
+   "id": "c046",
+   "module": "m3",
+   "type": "apply",
+   "front": "A teacher opens with a gripping volcano mystery, then spends ten minutes on unrelated grammar facts before returning to volcanoes. What's the risk?",
+   "back": "High curiosity impaired memory for complex, unrelated school facts presented nearby (Keller et al. 2024), and any incidental boost is limited to just after curiosity is raised (Murphy et al. 2021). Make the hook lead straight into the target content.",
+   "source": "00-foundational-papers"
+  },
+  {
+   "id": "c047",
+   "module": "m3",
+   "type": "explain",
+   "front": "Evidence check: how strong is the evidence that curiosity boosts memory for *unrelated* material?",
+   "back": "**Contested and narrow**. The spillover is small, limited to just after curiosity is raised (Murphy et al. 2021) and reversed for complex academic facts (Keller et al. 2024); samples are mostly adults on lab tasks. The **robust** effect is on memory for the curiosity target itself.",
+   "source": "00-foundational-papers"
+  },
+  {
+   "id": "c048",
+   "module": "m3",
+   "type": "recall",
+   "front": "Name Engel's three modes of children's intellectual life.",
+   "back": "**Inquiry** (seeking information: questions, collecting, sorting), **invention** (acting on materials to make or solve something), and **ideas** (explanations and theories developed over time).",
+   "source": "03-intellectual-lives-of-children"
+  },
+  {
+   "id": "c049",
+   "module": "m3",
+   "type": "recall",
+   "front": "What did Tizard & Hughes (1984) find about the same young children's questions at home vs. at nursery school?",
+   "back": "They asked far more at home (commonly cited as about 26 per hour) than at nursery school (about 2 per hour). A small, older UK sample, but a striking gap within the same children.",
+   "source": "03-intellectual-lives-of-children"
+  },
+  {
+   "id": "c050",
+   "module": "m3",
+   "type": "explain",
+   "front": "What is the \"double-edged sword of pedagogy\" (Bonawitz et al. 2011), and why does it matter for design?",
+   "back": "When an adult deliberately demonstrates one function of a toy, children copy it and explore less, finding fewer other functions. Instruction transmits efficiently but narrows exploration, so decide on purpose when to demonstrate first.",
+   "source": "03-intellectual-lives-of-children"
+  },
+  {
+   "id": "c051",
+   "module": "m3",
+   "type": "apply",
+   "front": "A principal says: \"Our 4th graders answer 90% of teacher questions correctly, so our classrooms are intellectually rich.\" How would Engel respond, and what would you measure?",
+   "back": "Answering adults' questions isn't pursuing your own. Measure student-originated questions per hour, the number of multi-week student investigations, and discussion where students build on each other.",
+   "source": "03-intellectual-lives-of-children"
+  },
+  {
+   "id": "c052",
+   "module": "m3",
+   "type": "explain",
+   "front": "Why does Engel insist the Idea Workshop be a timetabled structure rather than a teaching style?",
+   "back": "Curiosity-friendly moves by individual teachers get squeezed out by coverage and testing. Pursuing an idea needs continuity across weeks, which only happens if the institution schedules and protects it.",
+   "source": "03-intellectual-lives-of-children"
+  },
+  {
+   "id": "c053",
+   "module": "m3",
+   "type": "apply",
+   "front": "Mid-phonics lesson, a kindergartner asks, \"Where do people go when they die?\" What's a good response in Engel's terms?",
+   "back": "Acknowledge it's a big, real question, ask what the child thinks, put it on the class question board, and take it up in a scheduled discussion time. Poor: deflect and never return. This respects both the lesson and the idea.",
+   "source": "03-intellectual-lives-of-children"
+  },
+  {
+   "id": "c054",
+   "module": "m3",
+   "type": "discriminate",
+   "front": "\"The drop in question-asking from kindergarten to fifth grade proves school kills curiosity.\" What's wrong?",
+   "back": "Overclaim. The observations are small-sample and correlational; older children may ask fewer questions aloud for developmental or social reasons. Treat it as a hypothesis to test in your own school, e.g. by tracking question rates.",
+   "source": "03-intellectual-lives-of-children"
+  },
+  {
+   "id": "c055",
+   "module": "m3",
+   "type": "recall",
+   "front": "Place Yeager's three adult mindsets on the standards/support grid.",
+   "back": "- **Enforcer**: high standards, low support\n- **Protector**: low standards, high support\n- **Mentor**: high standards, high support\n(Low/low is disengagement.)",
+   "source": "05-10-to-25"
+  },
+  {
+   "id": "c056",
+   "module": "m3",
+   "type": "discriminate",
+   "front": "Enforcer vs. protector: one looks harsh, one kind. Why does Yeager call both disrespectful?",
+   "back": "The enforcer disrespects the young person's **autonomy and dignity** (control, no explanation, no help). The protector disrespects their **competence** (implying they can't meet the bar). Status-sensitive adolescents disengage or resist either way.",
+   "source": "05-10-to-25"
+  },
+  {
+   "id": "c057",
+   "module": "m3",
+   "type": "apply",
+   "front": "One team proposes \"late work gets a zero, no exceptions\"; another \"late work accepted anytime, no penalty.\" Classify each and sketch the mentor version.",
+   "back": "Zero = enforcer; amnesty = protector. Mentor: keep the standard (work must meet the bar), explain why deadlines matter, ask what got in the way, and set a concrete support plan with a new deadline.",
+   "source": "05-10-to-25"
+  },
+  {
+   "id": "c058",
+   "module": "m3",
+   "type": "recall",
+   "front": "Describe the design and headline result of the 2014 wise-feedback study.",
+   "back": "Seventh graders' essays got critique plus either a note conveying high standards and belief they could meet them, or a neutral note. Among African American students about 71% revised with the wise note vs. about 17% in control.",
+   "source": "05-10-to-25"
+  },
+  {
+   "id": "c059",
+   "module": "m3",
+   "type": "explain",
+   "front": "Why did wise feedback work best for students who distrusted school?",
+   "back": "For them, critique is ambiguous: it might reflect bias or low expectations. The note resolves the ambiguity by signalling high standards and belief in the student, turning a status threat into a status signal.",
+   "source": "05-10-to-25"
+  },
+  {
+   "id": "c060",
+   "module": "m3",
+   "type": "explain",
+   "front": "Evidence check: how strong is the evidence for wise feedback, and what is the main limit?",
+   "back": "A well-designed randomized field experiment with a large, theoretically coherent effect, conceptually extended since. Limit: small samples (a handful of classrooms) and few large-scale direct replications. Strong in mechanism, modest in replication base.",
+   "source": "05-10-to-25"
+  },
+  {
+   "id": "c061",
+   "module": "m3",
+   "type": "discriminate",
+   "front": "A school pastes the same \"I have high expectations and know you can reach them\" line onto all feedback. Why might it do nothing?",
+   "back": "Wise feedback works because it is **credible**: backed by genuinely high standards, specific feedback and real support such as a chance to revise. Boilerplate contradicted by other practices is ignored or read as insincere.",
+   "source": "05-10-to-25"
+  },
+  {
+   "id": "c062",
+   "module": "m3",
+   "type": "apply",
+   "front": "Students are anxious before a public exhibition. A kind teacher proposes making it optional and private. What would Yeager suggest instead?",
+   "back": "Keep the challenge (lowering it is the protector move and signals doubt) and add support: rehearsal, clear expectations, and **stress reappraisal**, reading a racing heart as the body preparing to perform, ideally paired with growth mindset.",
+   "source": "05-10-to-25"
+  },
+  {
+   "id": "c063",
+   "module": "m3",
+   "type": "explain",
+   "front": "Why do belonging interventions say \"worries about belonging are common and fade\" rather than \"you belong here\"?",
+   "back": "Assertions of belonging are easily discounted and feel like protector reassurance. Normalizing worries, via older students' stories, changes how students interpret setbacks: as normal transition bumps, not proof they don't belong.",
+   "source": "05-10-to-25"
+  },
+  {
+   "id": "c064",
+   "module": "m3",
+   "type": "explain",
+   "front": "Why does *self-transcendent* purpose matter for boring-but-important schoolwork?",
+   "back": "Reasons that reach beyond the self (\"so I can help others\") sustain effort on tedious tasks longer than self-oriented reasons. Use it when framing practice that students can't be made to enjoy.",
+   "source": "05-10-to-25"
+  },
+  {
+   "id": "c065",
+   "module": "m3",
+   "type": "explain",
+   "front": "Evidence check: how strong is the evidence for growth-mindset interventions?",
+   "back": "**Contested**. The NSLM (large, preregistered) found small average effects (about 0.1 GPA for lower achievers) that depended on context. Meta-analyses disagree (Macnamara & Burgoyne vs. Burnette; Tipton); the EEF school trial found no attainment effect. Not a general booster.",
+   "source": "05-10-to-25"
+  },
+  {
+   "id": "c066",
+   "module": "m4",
+   "type": "recall",
+   "front": "What exactly did Kirschner, Sweller & Clark (2006) argue fails, and for whom?",
+   "back": "**Minimally guided** instruction (discovery, unguided inquiry) fails **novices**: problem solving without a schema overloads working memory and doesn't build long-term knowledge.",
+   "source": "00-foundational-papers"
+  },
+  {
+   "id": "c067",
+   "module": "m4",
+   "type": "discriminate",
+   "front": "\"Kirschner, Sweller & Clark showed that project-based learning doesn't work.\" What's wrong?",
+   "back": "They targeted minimal guidance for novices, not the project format. Well-run PBL and inquiry are heavily scaffolded; KSC's rejoinder says guided versions work *because* of the guidance. The claim concerns guidance levels.",
+   "source": "00-foundational-papers"
+  },
+  {
+   "id": "c068",
+   "module": "m4",
+   "type": "discriminate",
+   "front": "Productive failure vs. discovery learning: what is the essential difference?",
+   "back": "PF **ends in full explicit instruction** that builds on students' attempts; only the sequence changes (generate first, then teach). Discovery expects students to find the knowledge without that instruction. Guidance in PF is delayed, not withheld.",
+   "source": "04-productive-failure"
+  },
+  {
+   "id": "c069",
+   "module": "m4",
+   "type": "recall",
+   "front": "Name the two phases of productive failure and the phase where implementations most often fail.",
+   "back": "1. **Generation**: multiple solution attempts on a rich problem before instruction.\n2. **Consolidation**: explicit teaching that contrasts student solutions with the canonical one.\nImplementations most often fail in **consolidation** (skipped, thinned, or not built on student work).",
+   "source": "04-productive-failure"
+  },
+  {
+   "id": "c070",
+   "module": "m4",
+   "type": "recall",
+   "front": "What did Sinha & Kapur (2021) find for conceptual/transfer outcomes vs. procedural outcomes?",
+   "back": "Conceptual knowledge and transfer: g ≈ 0.36 favouring problem-solving-first (≈ 0.37-0.58 with high-fidelity PF design). Procedural knowledge: g ≈ -0.03, no difference. 53 studies, 166 comparisons.",
+   "source": "04-productive-failure"
+  },
+  {
+   "id": "c071",
+   "module": "m4",
+   "type": "discriminate",
+   "front": "Define *unproductive success* and *unproductive failure*.",
+   "back": "**Unproductive success**: good in-lesson performance without durable learning or transfer. **Unproductive failure**: struggle with no consolidation, so nothing is learned. Both look different from how they turn out.",
+   "source": "04-productive-failure"
+  },
+  {
+   "id": "c072",
+   "module": "m4",
+   "type": "recall",
+   "front": "Name Kapur's Four As, the mechanisms of productive failure.",
+   "back": "**Activation** (of prior knowledge), **Awareness** (of what one's ideas can't handle), **Affect** (safety to fail), **Assembly** (consolidation into the canonical concept).",
+   "source": "04-productive-failure"
+  },
+  {
+   "id": "c073",
+   "module": "m4",
+   "type": "explain",
+   "front": "Why did students who studied others' failed solutions (vicarious failure) learn less than those who generated their own?",
+   "back": "Generating activates and differentiates the learner's *own* prior knowledge and makes them aware of which features their ideas can't handle. Evaluating others' work does less of this. Showing common errors doesn't substitute for attempting first.",
+   "source": "04-productive-failure"
+  },
+  {
+   "id": "c074",
+   "module": "m4",
+   "type": "recall",
+   "front": "What task properties make a problem suitable for a productive-failure generation phase?",
+   "back": "It activates relevant prior knowledge, has a **low floor and high ceiling**, and admits **multiple representations and solution methods** (RSMs). A single-path, one-answer task is not a PF task.",
+   "source": "04-productive-failure"
+  },
+  {
+   "id": "c075",
+   "module": "m4",
+   "type": "apply",
+   "front": "A 3rd-grade teacher wants to use productive failure to teach the standard multi-digit subtraction algorithm. Your advice?",
+   "back": "Probably not: the target is procedural (PF shows no procedural advantage), learners are young (smaller benefits), and the task may be high element-interactivity for them. Teach explicitly with worked examples.",
+   "source": "04-productive-failure"
+  },
+  {
+   "id": "c076",
+   "module": "m4",
+   "type": "apply",
+   "front": "Walkthrough data show PF lessons score lower than lecture-first lessons on \"% of students on track by end of lesson.\" Is PF failing?",
+   "back": "Not necessarily: that metric measures short-term performance, which the generation phase lowers by design. Judge by **delayed conceptual and transfer** assessments, and check fidelity: was there a real consolidation?",
+   "source": "04-productive-failure"
+  },
+  {
+   "id": "c077",
+   "module": "m4",
+   "type": "explain",
+   "front": "What does Ashman, Kalyuga & Sweller (2020) add to the PF debate?",
+   "back": "A randomized classroom experiment in which explicit-instruction-first produced higher application and transfer scores on **high element-interactivity** material. Boundary condition: when content is very complex for these learners, teach first or simplify the problem.",
+   "source": "04-productive-failure"
+  },
+  {
+   "id": "c078",
+   "module": "m4",
+   "type": "explain",
+   "front": "Kapur vs. Sweller: what is the *real*, narrow disagreement?",
+   "back": "Both agree unguided learning fails and explicit instruction is needed. They disagree only on whether a short, bounded generation phase **before** instruction improves what students learn **from** that instruction.",
+   "source": "04-productive-failure"
+  },
+  {
+   "id": "c079",
+   "module": "m4",
+   "type": "explain",
+   "front": "Evidence check: how strong is the productive-failure evidence, and what are its main limits?",
+   "back": "A moderate meta-analytic advantage for conceptual outcomes. Limits: many studies by PF proponents, substantial heterogeneity, disputes over weak control conditions, mostly STEM concepts with canonical answers, and a companion meta-analysis found no significant edge over other preparatory sensemaking activities.",
+   "source": "04-productive-failure"
+  },
+  {
+   "id": "c080",
+   "module": "m4",
+   "type": "explain",
+   "front": "How can CLT, Posner and Gruber together justify a short \"predict first\" phase before explicit teaching, and what limits it?",
+   "back": "Predicting activates prior conceptions, creates dissatisfaction when wrong (Posner), and opens an information gap that aids memory for the explanation (Gruber). CLT limits it: keep it short and low-search for novices, then teach promptly.",
+   "source": "00-foundational-papers"
+  },
+  {
+   "id": "c081",
+   "module": "m4",
+   "type": "recall",
+   "front": "Name five of Rosenshine's principles of instruction.",
+   "back": "Any five: daily review; small steps; many questions to all students; provide models; guided practice; check for understanding; obtain a high success rate; scaffolds for difficult tasks; independent practice; weekly/monthly spaced review.",
+   "source": "01-how-learning-happens"
+  },
+  {
+   "id": "c082",
+   "module": "m4",
+   "type": "discriminate",
+   "front": "Direct instruction written \"di\" vs. \"DI\": what's the difference?",
+   "back": "**di**: explicit, interactive, checked teaching in general. **DI**: Engelmann's specific scripted programme. Debates about \"traditional teaching\" often blur them.",
+   "source": "01-how-learning-happens"
+  },
+  {
+   "id": "c083",
+   "module": "m4",
+   "type": "discriminate",
+   "front": "Pure vs. guided discovery: what does the evidence say?",
+   "back": "Pure (unassisted) discovery underperforms other methods; guided discovery can work (Mayer 2004). The dividing line is the amount of guidance, not whether students are active.",
+   "source": "01-how-learning-happens"
+  },
+  {
+   "id": "c084",
+   "module": "m4",
+   "type": "discriminate",
+   "front": "\"Kirschner and Hendrick say students should be passive.\" Correct this using ICAP.",
+   "back": "The book separates behavioural from **cognitive** activity. ICAP (Interactive > Constructive > Active > Passive) shows generative thinking produces most learning, and it can happen inside explicit instruction. What the book opposes is minimal guidance for novices.",
+   "source": "01-how-learning-happens"
+  },
+  {
+   "id": "c085",
+   "module": "m4",
+   "type": "discriminate",
+   "front": "\"ICAP means group work beats everything.\" What's wrong?",
+   "back": "*Interactive* requires both partners to be constructive, and the strict ordering is contested. Self-explaining a good worked example can beat unproductive discussion. ICAP is a prompt for generation, not a ranking of formats.",
+   "source": "00-foundational-papers"
+  },
+  {
+   "id": "c086",
+   "module": "m4",
+   "type": "apply",
+   "front": "Science proposes that Year 7 spend a term \"being scientists\", designing their own investigations. How do you restructure it?",
+   "back": "Novices aren't little experts. Teach the needed concepts and experimental design (control of variables) explicitly with worked examples; then guided investigations with fading scaffolds; open student-designed inquiry later, once students know enough to use it.",
+   "source": "01-how-learning-happens"
+  },
+  {
+   "id": "c087",
+   "module": "m4",
+   "type": "recall",
+   "front": "State Hattie & Timperley's three feedback questions and the least effective feedback level.",
+   "back": "Where am I going? (feed up) How am I going? (feedback) Where to next? (feed forward). Of the four levels (task, process, self-regulation, self), feedback about the **self** is least effective.",
+   "source": "01-how-learning-happens"
+  },
+  {
+   "id": "c088",
+   "module": "m5",
+   "type": "recall",
+   "front": "State the Simple View of Reading.",
+   "back": "Reading comprehension = **decoding × language comprehension**. If either is zero, comprehension is zero. Use it to ask of any struggling reader: is it the code, or language and knowledge?",
+   "source": "06-beyond-the-science-of-reading"
+  },
+  {
+   "id": "c089",
+   "module": "m5",
+   "type": "recall",
+   "front": "Describe the design and headline result of Recht & Leslie (1988).",
+   "back": "Students were grouped by reading ability and baseball knowledge, then read about a baseball game. Knowledge mattered far more than reading ability: low-ability readers who knew baseball outperformed high-ability readers who didn't.",
+   "source": "06-beyond-the-science-of-reading"
+  },
+  {
+   "id": "c090",
+   "module": "m5",
+   "type": "explain",
+   "front": "Why won't practising \"find the main idea\" on unconnected levelled texts reliably raise reading scores?",
+   "back": "Comprehension isn't a general skill: finding the main idea depends on understanding the content, which depends on background knowledge. Random texts build little knowledge, strategy gains plateau quickly, and the time displaces content learning.",
+   "source": "06-beyond-the-science-of-reading"
+  },
+  {
+   "id": "c091",
+   "module": "m5",
+   "type": "discriminate",
+   "front": "\"Wexler says comprehension strategies are useless.\" Correct this.",
+   "back": "Strategies (e.g. comprehension monitoring) give a small, quickly saturating benefit. Teach them briefly, embedded in content, not as the organizing goal of literacy time. Her stance: not either/or, but how much and when.",
+   "source": "06-beyond-the-science-of-reading"
+  },
+  {
+   "id": "c092",
+   "module": "m5",
+   "type": "explain",
+   "front": "Using cognitive load, explain why an open-ended essay prompt may teach a 4th grader little about the content.",
+   "back": "A novice writer's working memory is consumed by transcription, spelling, syntax and organization, leaving little for the content. Sentence-level tasks narrow the demand so the thinking goes into the content.",
+   "source": "06-beyond-the-science-of-reading"
+  },
+  {
+   "id": "c093",
+   "module": "m5",
+   "type": "recall",
+   "front": "What is the because/but/so technique, and what does it check?",
+   "back": "A sentence stem completed three ways, e.g. \"Plants need sunlight because... / but... / so...\". It checks causal understanding, contrast and consequence in the content, and doubles as retrieval practice.",
+   "source": "06-beyond-the-science-of-reading"
+  },
+  {
+   "id": "c094",
+   "module": "m5",
+   "type": "apply",
+   "front": "Your K-5 timetable has 120 minutes of ELA and 20 of combined science and social studies. What would Wexler change?",
+   "back": "Make ELA itself knowledge-building (topic units tied to science and history) and expand content time, keeping a protected K-2 phonics block. Tyner & Kabourek (2020) associated extra social-studies time with reading gains; correlational.",
+   "source": "06-beyond-the-science-of-reading"
+  },
+  {
+   "id": "c095",
+   "module": "m5",
+   "type": "discriminate",
+   "front": "Decoding and knowledge are two tracks. When should each start, and why?",
+   "back": "Both from **kindergarten**. Phonics is necessary and settled, but knowledge can't wait until children \"learn to read\"; in K-2 read-alouds and content units carry it.",
+   "source": "06-beyond-the-science-of-reading"
+  },
+  {
+   "id": "c096",
+   "module": "m5",
+   "type": "recall",
+   "front": "What is the *Matthew effect* in reading and knowledge?",
+   "back": "Advantages compound: knowledge makes new knowledge easier to acquire, so early gaps grow unless the curriculum deliberately builds knowledge for everyone.",
+   "source": "06-beyond-the-science-of-reading"
+  },
+  {
+   "id": "c097",
+   "module": "m5",
+   "type": "explain",
+   "front": "Why does Wexler call *coherence* the key design variable of a curriculum?",
+   "back": "Knowledge compounds when each unit builds on earlier ones, texts cluster around a topic and subjects reinforce each other across years. Teacher-by-teacher topic choice wastes that compounding.",
+   "source": "06-beyond-the-science-of-reading"
+  },
+  {
+   "id": "c098",
+   "module": "m5",
+   "type": "explain",
+   "front": "Why does Wiliam treat a knowledge-rich curriculum as an equity measure?",
+   "back": "Comprehension and thinking depend on background knowledge. Advantaged children get much of it at home, so a school relying on generic \"skills\" leaves the knowledge gap, and so the achievement gap, in place or wider.",
+   "source": "10-creating-the-schools-our-children-need"
+  },
+  {
+   "id": "c099",
+   "module": "m5",
+   "type": "discriminate",
+   "front": "\"Knowledge-rich means rote memorization.\" What's the distinction the books draw?",
+   "back": "**Meaningful** learning is anchored to prior ideas in organized, connected schemas; **rote** learning is isolated. Ausubel, Wexler and Wiliam argue for the former: organized knowledge that makes thinking possible, not fact lists.",
+   "source": "01-how-learning-happens"
+  },
+  {
+   "id": "c100",
+   "module": "m5",
+   "type": "explain",
+   "front": "Why do the books argue critical thinking and problem solving can't be taught as separate generic skills?",
+   "back": "They are largely domain-specific and knowledge-dependent: you think critically *about* something you know. Teach them inside subjects, on top of knowledge.",
+   "source": "01-how-learning-happens"
+  },
+  {
+   "id": "c101",
+   "module": "m5",
+   "type": "recall",
+   "front": "Define the intended, enacted and achieved curriculum.",
+   "back": "Intended: what's planned. Enacted: what's actually taught. Achieved: what's learned. The gaps between them are where improvement lives.",
+   "source": "10-creating-the-schools-our-children-need"
+  },
+  {
+   "id": "c102",
+   "module": "m5",
+   "type": "apply",
+   "front": "Two years after adopting a highly rated knowledge curriculum, observers see mostly worksheet-style standards tasks. Diagnosis and response?",
+   "back": "Adoption isn't enactment: SRI found about two-thirds of comprehension lessons stayed surface-level even in knowledge-curriculum districts. Invest in curriculum-specific coaching, observe for meaning-focused discussion, align assessments, cut competing test prep.",
+   "source": "06-beyond-the-science-of-reading"
+  },
+  {
+   "id": "c103",
+   "module": "m5",
+   "type": "discriminate",
+   "front": "Content-agnostic reading test vs. curriculum-embedded assessment: why should internal tests be embedded?",
+   "back": "A content-agnostic test uses passages on unpredictable topics, so it partly measures background knowledge while claiming to measure skill. Embedded tests show whether the knowledge you taught was learned.",
+   "source": "06-beyond-the-science-of-reading"
+  },
+  {
+   "id": "c104",
+   "module": "m5",
+   "type": "explain",
+   "front": "Evidence check: how strong is the evidence that a knowledge curriculum raises *general* standardized reading scores?",
+   "back": "The knowledge-comprehension link for specific texts is **robust**. Effects on general tests are **positive in direction but uncertain in size**, often small in the short run (e.g. MORE: ES about 0.11 on a distal measure). Expect external scores to lag.",
+   "source": "06-beyond-the-science-of-reading"
+  },
+  {
+   "id": "c105",
+   "module": "m5",
+   "type": "discriminate",
+   "front": "\"The Core Knowledge lottery study proves a knowledge curriculum closes the income gap.\" What are the caveats?",
+   "back": "Grissmer et al. (2023) found large gains, but it wasn't peer-reviewed at the time, curriculum can't be separated from other school features, the low-income estimate rested on about 16 students at one school, and gains plateaued after grade 3.",
+   "source": "06-beyond-the-science-of-reading"
+  },
+  {
+   "id": "c106",
+   "module": "m5",
+   "type": "discriminate",
+   "front": "Levelled texts vs. grade-level complex texts: what does Wexler recommend, and what are decodables for?",
+   "back": "Levelling can cap exposure to complex language and content, so use complex grade-level texts with support for knowledge and language. Decodable texts are for **code practice** in K-2, not for rationing content.",
+   "source": "06-beyond-the-science-of-reading"
+  },
+  {
+   "id": "c107",
+   "module": "m5",
+   "type": "apply",
+   "front": "A 3rd grader decodes fluently but understands little of a history text. Using the Simple View of Reading, where is the problem and what do you do?",
+   "back": "Decoding is fine, so the gap is **language comprehension**: background knowledge and vocabulary for the topic. Build topic knowledge (read-alouds, clustered text sets, content units), not more phonics or skill-of-the-week strategy drills.",
+   "source": "06-beyond-the-science-of-reading"
+  },
+  {
+   "id": "c108",
+   "module": "m6",
+   "type": "recall",
+   "front": "What makes an assessment *formative* in Wiliam's definition?",
+   "back": "Its **use**, not its type: evidence of learning is elicited, interpreted and used by teachers, learners or peers to make better next-step decisions than they would have made without it.",
+   "source": "07-embedding-formative-assessment"
+  },
+  {
+   "id": "c109",
+   "module": "m6",
+   "type": "discriminate",
+   "front": "Formative vs. summative: the same quiz can be either. What decides which it is?",
+   "back": "Whether the evidence **changes a next-step decision** about teaching or learning. A score recorded for reporting is summative use; the same quiz used to re-plan tomorrow's lesson is formative.",
+   "source": "10-creating-the-schools-our-children-need"
+  },
+  {
+   "id": "c110",
+   "module": "m6",
+   "type": "recall",
+   "front": "State the big idea behind Wiliam & Leahy's five strategies.",
+   "back": "Use evidence about learning to adapt teaching to meet learning needs.",
+   "source": "07-embedding-formative-assessment"
+  },
+  {
+   "id": "c111",
+   "module": "m6",
+   "type": "recall",
+   "front": "Name Wiliam & Leahy's five key strategies of formative assessment.",
+   "back": "1. Clarify and share learning intentions and success criteria\n2. Engineer discussions and tasks that elicit evidence\n3. Feedback that moves learning forward\n4. Activate students as learning resources for one another\n5. Activate students as owners of their own learning",
+   "source": "07-embedding-formative-assessment"
+  },
+  {
+   "id": "c112",
+   "module": "m6",
+   "type": "discriminate",
+   "front": "Short, medium and long assessment cycles: which gives most of the payoff, and why do most data systems miss it?",
+   "back": "The **short cycle** (minutes to days, within and between lessons). Most data systems run on long cycles (terms, years) that don't change tomorrow's teaching.",
+   "source": "07-embedding-formative-assessment"
+  },
+  {
+   "id": "c113",
+   "module": "m6",
+   "type": "recall",
+   "front": "What defines a hinge-point question?",
+   "back": "A planned diagnostic at a decision point in the lesson. All students answer within a couple of minutes, the teacher reads responses in about 30 seconds, and **each wrong answer maps to a specific misconception**.",
+   "source": "07-embedding-formative-assessment"
+  },
+  {
+   "id": "c114",
+   "module": "m6",
+   "type": "apply",
+   "front": "A teacher asks the class a question, takes answers from three raised hands, all correct, and moves on. What went wrong, and how do you redesign it?",
+   "back": "Evidence came only from confident volunteers. Redesign as a hinge question: multiple choice with misconception-keyed distractors, all students answer at once (ABCD cards, whiteboards) after wait time, and a pre-set threshold decides move on vs. reteach.",
+   "source": "07-embedding-formative-assessment"
+  },
+  {
+   "id": "c115",
+   "module": "m6",
+   "type": "recall",
+   "front": "What did Ruth Butler find about grades and comments, and what policy follows?",
+   "back": "Students given comments only improved; those given grades, or grades plus comments, did not. Policy: comment-only marking on formative work, or delay grades until students have acted on the comments.",
+   "source": "07-embedding-formative-assessment"
+  },
+  {
+   "id": "c116",
+   "module": "m6",
+   "type": "explain",
+   "front": "Why does putting a grade on formative work suppress the effect of the comments?",
+   "back": "The grade captures attention and makes the task **ego-involving** (how do I compare?) rather than **task-involving** (how do I improve?). Students read the grade and ignore the comment.",
+   "source": "07-embedding-formative-assessment"
+  },
+  {
+   "id": "c117",
+   "module": "m6",
+   "type": "recall",
+   "front": "What did Kluger & DeNisi (1996) find about feedback interventions?",
+   "back": "In roughly a third (about 38%) of feedback interventions, feedback made performance **worse**. Feedback focused on the self (praise, ranking) is the usual culprit.",
+   "source": "07-embedding-formative-assessment"
+  },
+  {
+   "id": "c118",
+   "module": "m6",
+   "type": "explain",
+   "front": "In Ramaprasad's sense, why are unread or unused written comments not feedback at all?",
+   "back": "Feedback is information about a gap that is **used** to close it. If the student doesn't act on it, nothing closes. Judge marking by the student response it provokes, not by volume.",
+   "source": "07-embedding-formative-assessment"
+  },
+  {
+   "id": "c119",
+   "module": "m6",
+   "type": "discriminate",
+   "front": "\"Formative assessment means more frequent quizzes, with scores tracked in a dashboard.\" What's wrong?",
+   "back": "Frequency and recording aren't the point. It's formative only if evidence changes teaching or learning, mostly on the short cycle. Tracker data nobody acts on next lesson is monitoring, and frequent grading can harm learning.",
+   "source": "10-creating-the-schools-our-children-need"
+  },
+  {
+   "id": "c120",
+   "module": "m6",
+   "type": "explain",
+   "front": "Why use \"no hands up\", and what must accompany it?",
+   "back": "Volunteers are a biased sample, and cold-calling makes everyone think and samples fairly. It needs supportive norms (\"I'll come back to you\", \"phone a friend\") so it isn't experienced as being put on the spot. Hands are for asking questions.",
+   "source": "07-embedding-formative-assessment"
+  },
+  {
+   "id": "c121",
+   "module": "m6",
+   "type": "recall",
+   "front": "What is *wait time* (Rowe), and what's the practical guidance?",
+   "back": "The pause after a question (and after an answer). The typical pause is about 1 second; 3 or more seconds is better. Cheap and applicable everywhere.",
+   "source": "07-embedding-formative-assessment"
+  },
+  {
+   "id": "c122",
+   "module": "m6",
+   "type": "discriminate",
+   "front": "Evaluative vs. interpretive listening: what's the difference?",
+   "back": "**Evaluative**: listening for the right answer. **Interpretive**: listening to understand how the student is thinking. Only the second yields evidence you can act on.",
+   "source": "07-embedding-formative-assessment"
+  },
+  {
+   "id": "c123",
+   "module": "m6",
+   "type": "recall",
+   "front": "What two conditions must a cooperative learning task meet to work (Slavin)?",
+   "back": "**Group goals** and **individual accountability**.",
+   "source": "07-embedding-formative-assessment"
+  },
+  {
+   "id": "c124",
+   "module": "m6",
+   "type": "apply",
+   "front": "A lesson objective reads \"Make a poster about the water cycle.\" What's the problem?",
+   "back": "It states the **task**, not the **learning intention**. Separate what students will learn (e.g. why evaporated water returns as precipitation) from what they will do, and share success criteria, ideally with exemplars.",
+   "source": "07-embedding-formative-assessment"
+  },
+  {
+   "id": "c125",
+   "module": "m6",
+   "type": "apply",
+   "front": "A teacher collects exit tickets daily, but tomorrow's lesson never changes. Is this formative assessment?",
+   "back": "No. An exit ticket only works if it is sorted and the next lesson actually changes in response. Without that, it is data collection, not formative assessment.",
+   "source": "07-embedding-formative-assessment"
+  },
+  {
+   "id": "c126",
+   "module": "m6",
+   "type": "discriminate",
+   "front": "\"Peer assessment is just students marking each other's work.\" What's its real value?",
+   "back": "Its main value is students **learning the criteria and judgement** of quality. It needs structure, group goals and individual accountability.",
+   "source": "07-embedding-formative-assessment"
+  },
+  {
+   "id": "c127",
+   "module": "m6",
+   "type": "explain",
+   "front": "Evidence check: how credible is the 0.4-0.7 SD effect often quoted for formative assessment?",
+   "back": "It came from Black & Wiliam's 1998 **narrative** review, not a formal meta-analysis. Kingston & Nash (2011) estimated about 0.2; the EEF trial at scale found about 0.1 SD. Plan on roughly 0.1: cheap and worthwhile, not transformative alone.",
+   "source": "07-embedding-formative-assessment"
+  },
+  {
+   "id": "c128",
+   "module": "m7",
+   "type": "recall",
+   "front": "What three elements make up Mehta & Fine's definition of deeper learning?",
+   "back": "**Mastery** (real understanding of a domain), **identity** (seeing the domain as part of who you are) and **creativity** (producing something within the domain), experienced together.",
+   "source": "09-in-search-of-deeper-learning"
+  },
+  {
+   "id": "c129",
+   "module": "m7",
+   "type": "explain",
+   "front": "Why does the periphery (debate, theatre, robotics, sport) produce deeper learning than core classes?",
+   "back": "It combines choice, real purpose and an authentic audience, apprenticeship to practitioners, mixed-age communities with a path from novice to leader, and time for iterative practice. The core usually reverses these. Selection and lower test pressure also help.",
+   "source": "09-in-search-of-deeper-learning"
+  },
+  {
+   "id": "c130",
+   "module": "m7",
+   "type": "recall",
+   "front": "What is the \"grammar of schooling\" (Tyack & Cuban), and why must a founder care?",
+   "back": "The durable structures of school: age grades, subject silos, fixed periods, seat-time credit, one teacher per class, grades as currency. Reforms that ignore them get absorbed, so design structure deliberately rather than inheriting it.",
+   "source": "09-in-search-of-deeper-learning"
+  },
+  {
+   "id": "c131",
+   "module": "m7",
+   "type": "discriminate",
+   "front": "Dewey High (project-based) vs. No Excuses High: what was each one's signature failure, and why are they complementary?",
+   "back": "Dewey: engagement with uneven rigor and no shared picture of quality. No Excuses: raised floors but joyless and controlled, students not treated as thinkers. Combine Dewey's vision of learning with No Excuses' adult operating system (shared language, coaching, feedback).",
+   "source": "09-in-search-of-deeper-learning"
+  },
+  {
+   "id": "c132",
+   "module": "m7",
+   "type": "discriminate",
+   "front": "IB High vs. Attainment High: what was each one's signature failure?",
+   "back": "**IB High**: depth confined to the IB programme, creating a two-tier school. **Attainment High**: performance and grade-chasing (\"doing school\") instead of learning, with tracking that gave lower tracks a thinner experience.",
+   "source": "09-in-search-of-deeper-learning"
+  },
+  {
+   "id": "c133",
+   "module": "m7",
+   "type": "apply",
+   "front": "Six months into a new project-based high school, students are engaged, but none can explain the maths behind their projects. Diagnose and prescribe.",
+   "back": "Dewey High's failure: engagement without mastery. Set explicit disciplinary goals per project, a knowledge sequence projects must hit, exemplars and critique for quality, direct instruction where novices need it, and adult systems so quality doesn't depend on individual teachers.",
+   "source": "09-in-search-of-deeper-learning"
+  },
+  {
+   "id": "c134",
+   "module": "m7",
+   "type": "discriminate",
+   "front": "\"Mehta & Fine show extracurriculars cause deeper learning, so replace some classes with clubs.\" Two errors?",
+   "back": "1. The evidence is qualitative and selection-confounded (students choose clubs), so it doesn't show causation.\n2. Their point is to make the core **more like** the periphery while keeping disciplinary mastery, not to abolish academics.",
+   "source": "09-in-search-of-deeper-learning"
+  },
+  {
+   "id": "c135",
+   "module": "m7",
+   "type": "recall",
+   "front": "What is Mehta & Fine's *symmetry principle*, and what does it imply for teacher development?",
+   "back": "Teachers need the same learning conditions the school wants for students. PD should itself be deep learning (disciplinary study, collaborative design, analysis of student work, coaching), not compliance sessions.",
+   "source": "09-in-search-of-deeper-learning"
+  },
+  {
+   "id": "c136",
+   "module": "m7",
+   "type": "apply",
+   "front": "Dashboards look great (high GPAs, AP passes) but students are stressed and constantly ask \"is this on the test?\" What's happening, and what do you change?",
+   "back": "\"Doing school\": performance instead of learning (Attainment High). Change incentives: mastery grading with revision, fewer high-stakes grade competitions, assessments of real performance and transfer, and student-experience measures alongside achievement.",
+   "source": "09-in-search-of-deeper-learning"
+  },
+  {
+   "id": "c137",
+   "module": "m7",
+   "type": "discriminate",
+   "front": "\"Authentic work means minimal guidance.\" Why does the periphery disprove this?",
+   "back": "The periphery is full of coaching, modelling, drilling and critique; coaches and directors are highly directive. \"Authentic\" refers to purpose and audience, not to the absence of instruction.",
+   "source": "09-in-search-of-deeper-learning"
+  },
+  {
+   "id": "c138",
+   "module": "m7",
+   "type": "explain",
+   "front": "Evidence check: how strong is the evidence behind *In Search of Deeper Learning*?",
+   "back": "Rich qualitative case study (about 30 schools, about 750 hours of observation), but **not causal**: schools chosen for reputation, no measured learning outcomes, one school per model, and the authors' own lens defines depth. It shows patterns; its prescriptions are hypotheses.",
+   "source": "09-in-search-of-deeper-learning"
+  },
+  {
+   "id": "c139",
+   "module": "m7",
+   "type": "recall",
+   "front": "What are the three areas of Transcend's Graduate Aims?",
+   "back": "**Intellectual prowess**, **wayfinding** (purpose, identity, agency, navigating one's path) and **well-being**. Academics are one of three pillars: \"and\", not \"instead of\".",
+   "source": "08-extraordinary-learning-for-all"
+  },
+  {
+   "id": "c140",
+   "module": "m7",
+   "type": "recall",
+   "front": "Name the three layers of the school design blueprint, in the order you design them.",
+   "back": "1. Aims and guiding concepts\n2. The **student experience**\n3. School and system elements (schedule, staffing, curriculum, assessment, space, tech, budget)\nJudge every element by whether it produces the target experience.",
+   "source": "08-extraordinary-learning-for-all"
+  },
+  {
+   "id": "c141",
+   "module": "m7",
+   "type": "discriminate",
+   "front": "Map It vs. Zoom In vs. Test-Drive: what does each stage of the design cycle do?",
+   "back": "**Map It**: whole-school vision (aims, priority Leaps, blueprint sketch). **Zoom In**: detailed design of one component. **Test-Drive**: pilot, measure, refine. (**Look Ahead** plans the next cycle.)",
+   "source": "08-extraordinary-learning-for-all"
+  },
+  {
+   "id": "c142",
+   "module": "m7",
+   "type": "apply",
+   "front": "Your founding team wants playlists, a competency-based transcript, new advisory, project weeks and 1:1 laptops, all in year one. What does the book advise?",
+   "back": "Don't redesign everything at once. Map the vision, Zoom In on the one or two highest-leverage components, Test-Drive them with clear measures, then scale. Check community conditions and capacity, and check each idea against evidence first.",
+   "source": "08-extraordinary-learning-for-all"
+  },
+  {
+   "id": "c143",
+   "module": "m7",
+   "type": "apply",
+   "front": "Family focus groups strongly favour letting students learn \"in their own learning style.\" How should the design team respond?",
+   "back": "Take the underlying need seriously (instruction doesn't feel like it fits), but run the solution through research review: learning-styles matching lacks evidence. Community voice sets needs and priorities; evidence constrains solutions.",
+   "source": "08-extraordinary-learning-for-all"
+  },
+  {
+   "id": "c144",
+   "module": "m7",
+   "type": "explain",
+   "front": "Why does codification matter, and which case school shows it?",
+   "back": "**Van Ness Elementary**: its whole-child practices were written down as teachable routines, which let them survive turnover and spread to other schools. Tacit culture doesn't survive staff changes.",
+   "source": "08-extraordinary-learning-for-all"
+  },
+  {
+   "id": "c145",
+   "module": "m7",
+   "type": "explain",
+   "front": "Evidence check: how strong is the evidence that community-based design produces better schools?",
+   "back": "**Thin**. No causal evaluation of the process; cases are selected success stories without comparison groups; Transcend's survey-outcome links are correlational and self-published. The survey instrument's psychometrics are reasonable. Treat it as a process and vocabulary, not proof.",
+   "source": "08-extraordinary-learning-for-all"
+  },
+  {
+   "id": "c146",
+   "module": "m7",
+   "type": "discriminate",
+   "front": "Student-experience survey data vs. learning outcomes: how should a school treat each?",
+   "back": "Experience data is a **leading indicator** that correlates with grades, attendance and discipline and moves long before test scores. It is not a substitute: you still need direct measures of what students know and can do.",
+   "source": "08-extraordinary-learning-for-all"
+  },
+  {
+   "id": "c147",
+   "module": "m8",
+   "type": "recall",
+   "front": "Name the six popular reforms Wiliam argues \"won't help much.\"",
+   "back": "1. Getting smarter people into teaching\n2. Firing bad teachers\n3. Paying good teachers more\n4. Reducing class size\n5. Copying other countries\n6. Expanding school choice",
+   "source": "10-creating-the-schools-our-children-need"
+  },
+  {
+   "id": "c148",
+   "module": "m8",
+   "type": "recall",
+   "front": "What are Wiliam's two recommended priorities instead?",
+   "back": "1. A **knowledge-rich curriculum**.\n2. **Improving the teachers you have** through sustained, school-based teacher learning communities focused on classroom formative assessment.",
+   "source": "10-creating-the-schools-our-children-need"
+  },
+  {
+   "id": "c149",
+   "module": "m8",
+   "type": "explain",
+   "front": "Teacher quality is the biggest in-school lever. Why does Wiliam still reject a strategy built on selection and deselection?",
+   "back": "Quality can't be measured reliably before hiring (credentials predict weakly) or after (value-added and observations are noisy). Deselection is slow, depends on replacements who are often novices, and can harm climate. Development reaches everyone now.",
+   "source": "10-creating-the-schools-our-children-need"
+  },
+  {
+   "id": "c150",
+   "module": "m8",
+   "type": "explain",
+   "front": "Tennessee STAR found gains from smaller classes. Why did California's statewide class-size reduction disappoint?",
+   "back": "Scaling required hiring many new, often inexperienced or uncertified teachers quickly; stronger teachers moved to advantaged schools and facilities were stretched. Lost teacher quality offset much of the benefit, at a large recurring cost.",
+   "source": "10-creating-the-schools-our-children-need"
+  },
+  {
+   "id": "c151",
+   "module": "m8",
+   "type": "apply",
+   "front": "A board member proposes cutting class sizes from 24 to 18, costing about the same as a multi-year TLC programme plus new curriculum materials. How do you evaluate it?",
+   "back": "Compare expected learning per unit cost, recurring cost, scalability and opportunity cost. Class-size effects are modest, the cost recurs and it requires more (possibly weaker) hires. TLCs plus curriculum improve every class more cheaply. Acknowledge non-achievement values honestly.",
+   "source": "10-creating-the-schools-our-children-need"
+  },
+  {
+   "id": "c152",
+   "module": "m8",
+   "type": "apply",
+   "front": "A vendor says its programme's effect size is 0.4 and class size is \"only 0.2\", so it's twice as good. What's wrong?",
+   "back": "Effect sizes aren't comparable across studies: they depend on student age, the test (aligned researcher tests inflate them) and the sample. Cost and scalability are also missing. You need comparable measures and a benefit-per-cost judgement.",
+   "source": "10-creating-the-schools-our-children-need"
+  },
+  {
+   "id": "c153",
+   "module": "m8",
+   "type": "discriminate",
+   "front": "\"Our charter status and freedom from district rules will make us better than local schools.\" What does the evidence say?",
+   "back": "Structure changes the container, not the contents. Choice schools show small average effects and wide variation; successful ones win through curriculum, instruction and teacher development. Autonomy helps only if spent on those levers.",
+   "source": "10-creating-the-schools-our-children-need"
+  },
+  {
+   "id": "c154",
+   "module": "m8",
+   "type": "explain",
+   "front": "What does \"everything works somewhere; nothing works everywhere\" imply when someone says \"it worked in Finland\"?",
+   "back": "Effects are context-dependent. Borrow **mechanisms**, not policies; pick best-odds bets from research, adapt while keeping the active ingredient, and test in your own context.",
+   "source": "10-creating-the-schools-our-children-need"
+  },
+  {
+   "id": "c155",
+   "module": "m8",
+   "type": "explain",
+   "front": "Why does Wiliam say a leader's hardest job is stopping good things?",
+   "back": "Teacher time is the binding constraint. Almost everything works a little, so adding initiatives has a large **opportunity cost**; initiative overload is the default failure. De-implementation frees capacity for the highest-return work.",
+   "source": "10-creating-the-schools-our-children-need"
+  },
+  {
+   "id": "c156",
+   "module": "m8",
+   "type": "discriminate",
+   "front": "\"Wiliam says teacher quality doesn't matter.\" Correct this.",
+   "back": "The opposite: he says it matters most. His claim is that the weak levers are **selection, removal and incentives**; the strong lever is developing the teachers you already have.",
+   "source": "10-creating-the-schools-our-children-need"
+  },
+  {
+   "id": "c157",
+   "module": "m8",
+   "type": "recall",
+   "front": "What is Bloom's \"2 sigma problem\", and what caution applies to the number?",
+   "back": "Tutoring plus mastery learning far outperformed class teaching; the challenge is to get close with group methods. Caution: small, short studies with aligned tests; modern high-dosage tutoring shows large but smaller effects (roughly 0.3-0.4 SD). A design target, not a forecast.",
+   "source": "01-how-learning-happens"
+  },
+  {
+   "id": "c158",
+   "module": "m8",
+   "type": "recall",
+   "front": "What is a *lethal mutation*? Give a school example.",
+   "back": "An implementation that keeps a practice's name but removes its active ingredient. Example: \"retrieval practice\" becomes weekly graded tests students cram for, losing the low-stakes, spaced, feedback-rich recall that made it work.",
+   "source": "01-how-learning-happens"
+  },
+  {
+   "id": "c159",
+   "module": "m8",
+   "type": "discriminate",
+   "front": "Media vs. method (Clark): what's the distinction, and what procurement rule follows?",
+   "back": "The **medium** is the delivery vehicle; the **method** is the instructional mechanism that causes learning. Technology doesn't teach by itself, so every EdTech/AI purchase must name the method it enables and evidence of effect; never buy for \"engagement\" alone.",
+   "source": "01-how-learning-happens"
+  },
+  {
+   "id": "c160",
+   "module": "m8",
+   "type": "recall",
+   "front": "Name three debunked ideas for a school's \"myth firewall\" in hiring, PD and procurement.",
+   "back": "Any three: learning styles (meshing), the learning pyramid, digital natives, left/right-brain learners.",
+   "source": "01-how-learning-happens"
+  },
+  {
+   "id": "c161",
+   "module": "m8",
+   "type": "explain",
+   "front": "Evidence check: how strong is the evidence for matching instruction to learning styles?",
+   "back": "Essentially **none**: the meshing hypothesis lacks adequate evidence (Pashler et al. 2008). It is among the most robust negative findings in the book; choose mode by content, not learner.",
+   "source": "01-how-learning-happens"
+  },
+  {
+   "id": "c162",
+   "module": "m8",
+   "type": "explain",
+   "front": "Evidence check: what do randomized US merit-pay trials show?",
+   "back": "Mostly **null** effects (POINT 2010; Fryer 2013). Paying good teachers more is not a reliable route to better outcomes.",
+   "source": "10-creating-the-schools-our-children-need"
+  },
+  {
+   "id": "c163",
+   "module": "m8",
+   "type": "explain",
+   "front": "Evidence check: how reliable are single-year value-added scores and single-observer lesson ratings for judging teachers?",
+   "back": "**Unreliable** (MET project): both are noisy from year to year. That is why hiring, firing and pay built on them are weak levers.",
+   "source": "10-creating-the-schools-our-children-need"
+  },
+  {
+   "id": "c164",
+   "module": "m8",
+   "type": "explain",
+   "front": "Evidence check: how well supported is the TLC as *the* delivery model for teacher development?",
+   "back": "**Moderate**: it rests mostly on Wiliam's own development work plus one decent-sized trial (EEF). The general principles (sustained, practice-based, collaborative PD) have broader support in later syntheses.",
+   "source": "10-creating-the-schools-our-children-need"
+  },
+  {
+   "id": "c165",
+   "module": "m8",
+   "type": "explain",
+   "front": "Why does Bryk put variation, not average effects, at the centre of improvement?",
+   "back": "The same intervention works in some contexts and fails in others, so the average hides the useful information. The goal is **quality reliably at scale**: understand and shrink the bad tail by asking what works, for whom, under what conditions.",
+   "source": "11-improvement-in-action"
+  },
+  {
+   "id": "c166",
+   "module": "m8",
+   "type": "apply",
+   "front": "A vendor pitches an AI tutor because it \"really engages students\" and cites Bloom's 2 sigma. What do you require before buying?",
+   "back": "Engagement isn't a mechanism. The tool must name the instructional **method** it enables (retrieval, feedback, worked examples) and show evidence of effect. Treat 2 sigma as a design target: real high-dosage tutoring effects are smaller.",
+   "source": "01-how-learning-happens"
+  },
+  {
+   "id": "c167",
+   "module": "m9",
+   "type": "recall",
+   "front": "Name the six improvement principles from *Learning to Improve*.",
+   "back": "1. Make the work problem-specific and user-centred\n2. Focus on variation in performance\n3. See the system that produces the outcomes\n4. You can't improve at scale what you can't measure\n5. Anchor improvement in disciplined inquiry (PDSA)\n6. Accelerate learning through networked improvement communities",
+   "source": "11-improvement-in-action"
+  },
+  {
+   "id": "c168",
+   "module": "m9",
+   "type": "recall",
+   "front": "Name the four columns of a driver diagram, left to right.",
+   "back": "Aim → primary drivers → secondary drivers → change ideas, with a measure at every level. It is a working theory you keep revising, not a plan you defend.",
+   "source": "11-improvement-in-action"
+  },
+  {
+   "id": "c169",
+   "module": "m9",
+   "type": "recall",
+   "front": "What three things must an aim statement specify?",
+   "back": "**How much**, **by when**, and **for whom**. \"Improve reading\" is not an aim.",
+   "source": "11-improvement-in-action"
+  },
+  {
+   "id": "c170",
+   "module": "m9",
+   "type": "discriminate",
+   "front": "\"A PDSA cycle is basically an A/B test for teachers.\" What's the difference?",
+   "back": "An A/B test uses randomization and a large sample to estimate a causal effect. A PDSA is usually n = 1 with no control: a small test with a **written prediction** that builds practical knowledge through repetition, run charts and replication across contexts.",
+   "source": "11-improvement-in-action"
+  },
+  {
+   "id": "c171",
+   "module": "m9",
+   "type": "recall",
+   "front": "What makes a measure \"practical\" in Carnegie's sense?",
+   "back": "Specific to the change being tested, quick and cheap, frequent, predictive of the outcome, returned fast enough to act on, and **low stakes** (never used to evaluate people).",
+   "source": "11-improvement-in-action"
+  },
+  {
+   "id": "c172",
+   "module": "m9",
+   "type": "discriminate",
+   "front": "Practical measures vs. accountability measures: what's the rule for keeping them apart?",
+   "back": "Keep the two systems separate: practical/improvement measures are **never** used to evaluate people; accountability measures are reported, not managed to. Mixing them invites gaming and kills honest reporting of failure.",
+   "source": "11-improvement-in-action"
+  },
+  {
+   "id": "c173",
+   "module": "m9",
+   "type": "recall",
+   "front": "Name the four kinds of measure in an improvement effort and the question each answers.",
+   "back": "- **Outcome**: did the aim move?\n- **Driver**: did the lever move?\n- **Process**: did we actually do the change?\n- **Balancing**: did we break something else?",
+   "source": "11-improvement-in-action"
+  },
+  {
+   "id": "c174",
+   "module": "m9",
+   "type": "apply",
+   "front": "A new advisory curriculum raises attendance. Which balancing measures should you check?",
+   "back": "Examples: advisor workload or burnout, instructional time lost from core classes, student stress, or grades dropping in other courses. Balancing measures catch an improvement that quietly breaks something else.",
+   "source": "11-improvement-in-action"
+  },
+  {
+   "id": "c175",
+   "module": "m9",
+   "type": "apply",
+   "front": "9th-grade course failure is 30%. A board member says \"buy an online tutoring platform.\" What would Bryk have you do first?",
+   "back": "Resist **solutionitis**. Break failures out by course, teacher, subgroup and cause; talk to students and teachers; map how a struggling student is noticed and helped; write an aim and driver diagram. Then test change ideas small.",
+   "source": "11-improvement-in-action"
+  },
+  {
+   "id": "c176",
+   "module": "m9",
+   "type": "explain",
+   "front": "Why do networked improvement communities learn faster than a single school?",
+   "back": "One school has few cases and little variation, so it can't tell luck from real effects. A network with a shared aim, theory, measures and hub runs many tests in parallel across contexts and sees what holds up where.",
+   "source": "11-improvement-in-action"
+  },
+  {
+   "id": "c177",
+   "module": "m9",
+   "type": "discriminate",
+   "front": "Common-cause vs. special-cause variation: why does the distinction matter to a school leader?",
+   "back": "**Common-cause**: the system's normal noise. **Special-cause**: a real, assignable signal. Distinguishing them stops you reacting to every weekly wobble and makes you notice real shifts.",
+   "source": "11-improvement-in-action"
+  },
+  {
+   "id": "c178",
+   "module": "m9",
+   "type": "recall",
+   "front": "What is *positive deviance*, and why is it useful?",
+   "back": "People or units that do unusually well under the same constraints. They are usually your best source of change ideas, often inside your own building.",
+   "source": "11-improvement-in-action"
+  },
+  {
+   "id": "c179",
+   "module": "m9",
+   "type": "recall",
+   "front": "What did New Visions' *analytic hub* do?",
+   "back": "It built data tools and routines that let counsellors and teachers track each student's credits, exam progress and attendance in real time, treating practitioners as the users, to tackle graduation and chronic absence.",
+   "source": "11-improvement-in-action"
+  },
+  {
+   "id": "c180",
+   "module": "m9",
+   "type": "discriminate",
+   "front": "\"PDSA is a form to fill in.\" What turns it into genuine improvement work?",
+   "back": "The discipline: prediction written **first**, small scale, honest study against the prediction, and a documented adopt/adapt/abandon decision. Templates filled in after the fact are the common compliance failure.",
+   "source": "11-improvement-in-action"
+  },
+  {
+   "id": "c181",
+   "module": "m9",
+   "type": "explain",
+   "front": "Why does leadership decide whether an improvement system works?",
+   "back": "Leaders make it safe to surface failure, give the work time and roles, and model inquiry. Run as compliance, improvement turns into paperwork.",
+   "source": "11-improvement-in-action"
+  },
+  {
+   "id": "c182",
+   "module": "m9",
+   "type": "explain",
+   "front": "Evidence check: does *Improvement in Action* show improvement science raises outcomes like graduation rates?",
+   "back": "No, it shows **feasibility**. The cases were selected because they went well, have no comparison groups and rely on partners' own accounts. The one strong external check (NWP writing RCT) supports a whole package, not the improvement component alone.",
+   "source": "11-improvement-in-action"
+  },
+  {
+   "id": "c183",
+   "module": "m9",
+   "type": "recall",
+   "front": "Describe a standard teacher learning community: size, frequency, duration, and the longest agenda item.",
+   "back": "About 8-12 teachers, meeting monthly for roughly 75-120 minutes, for about two years. The longest item is \"How's it going?\": each teacher reports what they tried from their personal action plan. Peer observation happens between meetings.",
+   "source": "07-embedding-formative-assessment"
+  },
+  {
+   "id": "c184",
+   "module": "m9",
+   "type": "recall",
+   "front": "Name the five design principles for teacher change that TLCs embody.",
+   "back": "**Choice**, **flexibility**, **small steps**, **accountability**, **support**.",
+   "source": "07-embedding-formative-assessment"
+  },
+  {
+   "id": "c185",
+   "module": "m9",
+   "type": "explain",
+   "front": "Why do one-off PD workshops fail to change teaching, according to Wiliam & Leahy?",
+   "back": "Teaching is habitual, real-time performance. Knowing about a technique doesn't change automatized practice; that needs repeated trial in one's own classroom with follow-up over a long period.",
+   "source": "07-embedding-formative-assessment"
+  },
+  {
+   "id": "c186",
+   "module": "m9",
+   "type": "apply",
+   "front": "A new principal requires every teacher to use \"traffic lights\" daily and checks during walkthroughs. Critique it with \"tight but loose.\"",
+   "back": "It is tight on the **technique** instead of the idea, so teachers comply rather than adapt. Likely lethal mutation: students flash green for inspectors and nobody acts on the signal. Be tight on the big idea and TLC process; let teachers choose techniques.",
+   "source": "07-embedding-formative-assessment"
+  },
+  {
+   "id": "c187",
+   "module": "m9",
+   "type": "explain",
+   "front": "Evidence check: what did the EEF trial of Embedding Formative Assessment show?",
+   "back": "About 140 schools, independent, high security rating: roughly two months' extra progress (about 0.09-0.11 SD). The strongest direct evidence for the TLC model at scale, though which ingredients are necessary hasn't been isolated.",
+   "source": "07-embedding-formative-assessment"
+  },
+  {
+   "id": "c188",
+   "module": "m9",
+   "type": "recall",
+   "front": "What are the \"community conditions\" Transcend says to diagnose before major change?",
+   "back": "The \"soil\": **trust**, **urgency**, **shared vision**, **leadership commitment** and **capacity**. They decide whether a good design takes root.",
+   "source": "08-extraordinary-learning-for-all"
+  },
+  {
+   "id": "c189",
+   "module": "m10",
+   "type": "recall",
+   "front": "Tension: explicit instruction vs. productive failure. State the decision rule.",
+   "back": "Default explicit. Use generate-then-consolidate only when all hold: a **conceptual** (not procedural) goal; learners have **relevant prior knowledge**; the problem admits **multiple approaches**; a scripted **consolidation** contrasts student methods with the canonical one. Never unguided discovery.",
+   "source": "04-productive-failure"
+  },
+  {
+   "id": "c190",
+   "module": "m10",
+   "type": "apply",
+   "front": "You are running productive-failure units. What signal tells you to revert to explicit-first for a unit?",
+   "back": "Observers see **weak consolidation**, or procedural fluency drops on practical measures. Either means the generation phase is turning into unproductive failure.",
+   "source": "04-productive-failure"
+  },
+  {
+   "id": "c191",
+   "module": "m10",
+   "type": "explain",
+   "front": "Tension: knowledge-rich curriculum vs. curiosity and inquiry. Why is it largely a false tension?",
+   "back": "Curiosity needs knowledge to notice a gap (Gruber). So a knowledge-rich curriculum is the substrate, and curiosity is protected by **classroom norms** (questions answered, uncertainty modelled, time for detours), not by content-free exploration time.",
+   "source": "03-intellectual-lives-of-children"
+  },
+  {
+   "id": "c192",
+   "module": "m10",
+   "type": "apply",
+   "front": "Student question rates per hour have been falling for years in your classrooms. What do you fix: the curriculum or the norms?",
+   "back": "The **norms**. Falling question rates mean the classroom conditions for curiosity are failing; the knowledge curriculum stays as the substrate.",
+   "source": "03-intellectual-lives-of-children"
+  },
+  {
+   "id": "c193",
+   "module": "m10",
+   "type": "discriminate",
+   "front": "Tension: standardization vs. community codesign. Which layers do you standardize, and which do you codesign?",
+   "back": "**Standardize** the mechanisms (retrieval, feedback, TLCs, the default lesson) and the knowledge sequence within a discipline. **Codesign** purpose, culture, the periphery, and knowledge priorities where the evidence is silent [V].",
+   "source": "08-extraordinary-learning-for-all"
+  },
+  {
+   "id": "c194",
+   "module": "m10",
+   "type": "apply",
+   "front": "Your community design team proposes to \"drop phonics.\" How do you read this?",
+   "back": "As a **governance failure**: codesign has reached into an evidence-based mechanism. The school's compact should say which layers are open to codesign and which are not.",
+   "source": "08-extraordinary-learning-for-all"
+  },
+  {
+   "id": "c195",
+   "module": "m10",
+   "type": "apply",
+   "front": "Practical measures have improved for two years but accountability measures haven't moved. What does that tell you? And the reverse?",
+   "back": "Practical up, accountability flat: your **drivers are wrong**; the theory of improvement needs revising. Accountability up, practical flat: suspect **gaming**.",
+   "source": "11-improvement-in-action"
+  },
+  {
+   "id": "c196",
+   "module": "m10",
+   "type": "recall",
+   "front": "Tension: mastery vs. identity and creativity. State the decision rule.",
+   "back": "Mastery first in the core, with authentic products built into courses; identity and creativity concentrated in a **protected periphery** every student takes part in.",
+   "source": "09-in-search-of-deeper-learning"
+  },
+  {
+   "id": "c197",
+   "module": "m10",
+   "type": "apply",
+   "front": "What signals that the mastery/periphery balance has tipped too far either way?",
+   "back": "If the periphery becomes the only place students say they learn, the **core has failed**. If core scores rise while student voice collapses, the **periphery is being starved**.",
+   "source": "09-in-search-of-deeper-learning"
+  },
+  {
+   "id": "c198",
+   "module": "m10",
+   "type": "recall",
+   "front": "Tension: selecting teachers vs. developing them. State the rule.",
+   "back": "**Develop**. Hire for disciplinary depth and coachability, and make the early years a structured development programme through TLCs.",
+   "source": "10-creating-the-schools-our-children-need"
+  },
+  {
+   "id": "c199",
+   "module": "m10",
+   "type": "apply",
+   "front": "After several years of TLCs, within-school variation in teacher effectiveness hasn't narrowed. What's the likely diagnosis?",
+   "back": "The TLC design is broken, usually through **no accountability** for actually trying techniques, or through **turnover**.",
+   "source": "10-creating-the-schools-our-children-need"
+  },
+  {
+   "id": "c200",
+   "module": "m10",
+   "type": "recall",
+   "front": "Tension: testing as measurement vs. testing as learning. State the rule.",
+   "back": "Most testing is **for learning**: frequent, low-stakes, comment-only, spaced. A small number of summative points exist for reporting.",
+   "source": "12-why-we-remember"
+  },
+  {
+   "id": "c201",
+   "module": "m10",
+   "type": "apply",
+   "front": "Parents and students treat every quiz as a judgement. What has failed, and what's the fix?",
+   "back": "The **communication** has failed, not the practice. Rename and reframe the checks as learning tools, and keep them ungraded.",
+   "source": "12-why-we-remember"
+  },
+  {
+   "id": "c202",
+   "module": "m10",
+   "type": "recall",
+   "front": "Tension: confront misconceptions vs. avoid them. State the rule.",
+   "back": "Confront, but only **after** the correct model is intelligible, and always with immediate correction. Never leave a wrong model as the last thing students see.",
+   "source": "02-scienceblind"
+  },
+  {
+   "id": "c203",
+   "module": "m10",
+   "type": "apply",
+   "front": "After a lesson that confronts a misconception, hinge-question distractor rates for that misconception *rise*. What happened?",
+   "back": "The confrontation is being remembered as the content. Restructure: make the correct model intelligible first, correct immediately, end on the right model, and re-retrieve it later.",
+   "source": "02-scienceblind"
+  },
+  {
+   "id": "c204",
+   "module": "m10",
+   "type": "recall",
+   "front": "Tension: structural reform vs. instructional reform. State the rule and when to change structure.",
+   "back": "Spend change capacity on instruction, assessment and adult learning first; keep structure conventional. Change structure, minimally, only when it **blocks** an instructional need (e.g. no common planning time for TLCs).",
+   "source": "10-creating-the-schools-our-children-need"
+  },
+  {
+   "id": "c205",
+   "module": "m10",
+   "type": "recall",
+   "front": "Tension: adolescent autonomy vs. adult direction. State the rule.",
+   "back": "High standards, high support, transparency about intent, and **choice within structure**: the mentor mindset.",
+   "source": "05-10-to-25"
+  },
+  {
+   "id": "c206",
+   "module": "m10",
+   "type": "discriminate",
+   "front": "Compliance is rising but effort quality is falling. Or: satisfaction is rising but effort quality is falling. Which mindset has each school drifted to?",
+   "back": "Compliance up, effort down: drifted to **enforcer**. Satisfaction up, effort down: drifted to **protector**.",
+   "source": "05-10-to-25"
+  },
+  {
+   "id": "c207",
+   "module": "m10",
+   "type": "discriminate",
+   "front": "Which is the hidden failure of conventional teaching, and which of progressive teaching, in Kapur's quadrants?",
+   "back": "Conventional: **unproductive success** (looks good, doesn't last). Progressive: **unproductive failure** (struggle with no consolidation). Only delayed and transfer measures expose either.",
+   "source": "04-productive-failure"
+  },
+  {
+   "id": "c208",
+   "module": "m10",
+   "type": "discriminate",
+   "front": "Every school model has a signature failure. Why should a founder name theirs before opening?",
+   "back": "Each model tends to maximize one value at the expense of another: progressive toward engagement without rigor, no-excuses toward compliance without agency. Naming it lets you build countermeasures and measures from day one.",
+   "source": "09-in-search-of-deeper-learning"
+  },
+  {
+   "id": "c209",
+   "module": "m10",
+   "type": "discriminate",
+   "front": "Tag the claim: \"Daily low-stakes retrieval practice improves retention.\" Evidence [E], hypothesis [H], or value [V]?",
+   "back": "**[E]**: the testing effect and spacing are among the most replicated findings. (The specific timetable you choose is [H].)",
+   "source": "01-how-learning-happens"
+  },
+  {
+   "id": "c210",
+   "module": "m10",
+   "type": "discriminate",
+   "front": "Tag the claim: \"An Idea Workshop block will improve students' long-term outcomes.\" [E], [H] or [V]?",
+   "back": "**[H]**: argued, not shown. There is no RCT or quasi-experimental evaluation; pilot it and measure.",
+   "source": "03-intellectual-lives-of-children"
+  },
+  {
+   "id": "c211",
+   "module": "m10",
+   "type": "discriminate",
+   "front": "Tag the claim: \"Children's intellectual lives are worth protecting for their own sake.\" [E], [H] or [V]?",
+   "back": "**[V]**: a value commitment. Evidence can inform how to do it, but can't decide whether you should.",
+   "source": "03-intellectual-lives-of-children"
+  },
+  {
+   "id": "c212",
+   "module": "m10",
+   "type": "explain",
+   "front": "Why is \"preserving the active ingredient\" the central implementation problem across these books?",
+   "back": "Good practices die by **lethal mutation**: retrieval becomes graded cramming, formative becomes dashboards, PF loses consolidation, wise feedback becomes boilerplate. Be tight on mechanism, loose on surface, and check fidelity to the mechanism, not the name.",
+   "source": "07-embedding-formative-assessment"
+  }
+ ]
+}
