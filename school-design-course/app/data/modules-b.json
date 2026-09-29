@@ -1,0 +1,792 @@
+{
+ "modules": [
+  {
+   "id": "m6",
+   "num": 6,
+   "title": "Formative assessment as the engine of the classroom",
+   "level": "Design",
+   "minutes": 90,
+   "sources": [
+    "07-embedding-formative-assessment",
+    "10-creating-the-schools-our-children-need",
+    "01-how-learning-happens",
+    "02-scienceblind",
+    "05-10-to-25"
+   ],
+   "hook": "Ruth Butler handed back students' work in three ways: comments only, grades only, or grades plus comments. Only one group improved on the next task. Which one, and what does that do to the gradebook you were planning to build?",
+   "attempt": {
+    "prompt": "Write a single multiple-choice question (four options) for the end of a Year 8 lesson on photosynthesis. Its job: tell the teacher, in under a minute, whether to move on tomorrow or reteach. Then, for each wrong option, write one sentence on what a student who picks it must be thinking and what the teacher should do about it. Finally, write one sentence on how the school would make sure every teacher actually uses questions like this, not just on the day of the training. Do it cold; you will compare it to the design rules below.",
+    "minutes": 12
+   },
+   "objectives": [
+    "Explain what makes an assessment formative (the decision it changes, not the instrument), and why the short cycle carries most of the value.",
+    "Write a hinge question whose every distractor diagnoses a named misconception, with a pre-set decision threshold.",
+    "Design a grading and feedback policy grounded in Kluger & DeNisi and Butler, and say which parts are evidence and which are cadence guesses.",
+    "Design a teacher learning community (TLC) that changes habits rather than shares ideas, using choice, flexibility, small steps, accountability and support.",
+    "State a realistic whole-school effect size for formative assessment (about 0.1 SD at scale) and explain why the famous 1998 numbers were larger."
+   ],
+   "ideas": [
+    {
+     "title": "Formative is a use of evidence, not a kind of test",
+     "tag": "E",
+     "body": "Most people hear *assessment* and think *test*. Wiliam and Leahy move the word from the instrument to the decision: an assessment is formative **to the extent that** evidence of learning is elicited, interpreted and used, by the teacher, the student or a peer, to make a better next step than would have been made without it. The same ten-question quiz is formative on Monday if the teacher regroups students on Tuesday because of it, and merely summative if the scores go into a tracker nobody opens until report cards.\n\n**Three cycle lengths.** Long cycle (terms, across units); medium cycle (within and between units, days to weeks); short cycle (minute by minute, day by day). Most school data systems, such as benchmark tests and termly dashboards, run on the long cycle and rarely change Thursday's lesson. The payoff concentrates in the short cycle, because that is where decisions about the students in front of you actually change. Product analogy: the quarterly revenue report versus an alert that fires while the incident is still live. Both are data; only one changes what you do in time.\n\n**Decision-driven data collection.** Reverse the usual order. Do not collect data and then ask what it means. Name the decision first (move on or reteach? which four students need me at the back table?) and design the smallest piece of evidence that informs it. This one habit prevents most dashboards nobody acts on.\n\n**Where the idea came from, and how big the effect really is.** Scriven (1967) distinguished formative from summative evaluation of curricula; Bloom carried the word into mastery learning. Black & Wiliam's 1998 review of roughly 250 studies (popularized as *Inside the Black Box*) reported gains typically around 0.4 to 0.7 SD, largest for lower achievers. That number built a movement, and it is too high to plan with. It came from a narrative synthesis, not a formal meta-analysis. Bennett (2011) called the concept ill-defined; Kingston & Nash (2011) found a weighted mean nearer 0.2 and few high-quality studies. Wiliam has conceded the 1998 figures were not precise estimates. The KMOFAP project (1999-2001, about 24 maths and science teachers) found roughly 0.3 SD on external measures, and its main lesson was that teachers could not simply be told the research; they had to rebuild practice in their own rooms over time.\n\nThe strongest test is the **EEF randomized trial of the Embedding Formative Assessment programme**: 140 English secondary schools, about 25,000 pupils, monthly TLC workshops run from resource packs, plus peer observation. Result: about **two months' additional progress** on GCSE Attainment 8 (effect about 0.09; 0.11 excluding schools already running something similar), with a very high security rating.\n\n**How to hold this.** Plan for roughly 0.1 SD across a whole school over two years from a cheap, scalable programme. That is not magic, but at its cost it is among the best bets available (Module 8 does the comparison). Treat anyone promising 0.5 at scale as a vendor, not a researcher; the fall from 0.4-0.7 in small studies to about 0.1 at scale is ordinary scale-up decay, not failure.\n\n**Folk theory to retire:** formative means low-stakes quizzes plus a data platform. Stakes and frequency do not define it; use does. Frequent *grading* can even do harm (see the feedback idea below)."
+    },
+    {
+     "title": "Make every student's thinking visible: hinge questions and the elicitation toolkit",
+     "tag": "E",
+     "body": "Teaching is contingent: you cannot choose the next move without knowing what students currently think. The default classroom gets that evidence from raised hands, meaning the three confident volunteers. That is a biased sample, like a satisfaction survey only happy customers answer. A teacher who hears three right answers and moves on has learned almost nothing about the other 27.\n\n**The core techniques**\n- **No hands up.** Hands are for asking, not answering. The teacher chooses, often at random (named sticks, a randomizer). Everyone has to think because anyone may be called, and the teacher gets a representative sample. Pair it with norms like *I don't know yet, come back to me* or it becomes a status threat, which Yeager (Module 3) predicts adolescents will resist.\n- **Wait time.** Mary Budd Rowe found teachers typically wait about one second after asking; three seconds or more produces longer, better answers and wider participation. Probably the cheapest intervention in this course.\n- **All-student response.** Mini-whiteboards, ABCD cards, finger votes, polls. Everyone answers at once, so you see a distribution, not an anecdote.\n- **Exit tickets.** One question at the door; sort answers into piles; tomorrow's opening changes. If tomorrow does not change, it was a ritual.\n- **Interpretive listening** (Brent Davis): listen to understand what the student is thinking, not only to check whether they said the answer you were waiting for.\n\n**The hinge question: the smallest complete unit of formative assessment.** It sits at the point where the lesson forks. Design rules: every student answers; students need about a minute; you can read the room in about 30 seconds; it is hard to get right for the wrong reason; and, the rule most people miss, **every wrong option maps to a specific, known misconception**, so a wrong answer tells you *what* to fix, not only *that* something is wrong. Set the threshold before you ask (for example: if nearly all are right, move on and pull the few aside; otherwise reteach a different way).\n\nThis is where Module 2 pays off. Shtulman, Vosniadou and Posner showed that wrong answers are systematic; they come from coherent intuitive theories. **A good distractor is a named intuitive theory.** For photosynthesis, the option *most of a tree's mass comes from the soil* is the soil-as-food theory that van Helmont's willow experiment overturned. A recall question (*which gas do plants take in?*) cannot catch it: a student can recite *carbon dioxide* and still believe the mass comes from the ground, which is Vosniadou's synthetic model in action.\n\n**Institutional move.** Diagnostic questions are hard to invent live, so treat them as **curriculum assets**: a school-owned bank of hinge questions per unit, each with its distractor rationales, maintained like a shared test suite and improved when data shows a distractor nobody picks. Put whiteboards in every room. Make no-hands-up and all-student response school-wide defaults so students meet the same routine in every class.\n\n**Evidence honesty.** Wait time and the general value of eliciting and using evidence have research behind them. Most named techniques (hinge questions, exit tickets, lolly sticks) are practitioner-derived and have not been isolated in randomized trials. They are bets grounded in mechanism and in the tested package, not individually proven components. Tag the bank [H], the principle [E]."
+    },
+    {
+     "title": "Feedback can hurt: grades, comments, and what the student does next",
+     "tag": "E",
+     "body": "Feedback feels obviously good. The evidence says it is a powerful drug with a real rate of harmful side effects.\n\n**Kluger & DeNisi (1996).** A meta-analysis of about 600 effect sizes. Feedback improved performance on average, but in roughly **38% of cases it made performance worse**. The pattern: feedback that directs attention to the self (praise, ranking, ego, *you're so clever*) tends to hurt; feedback directed at the task and how to improve it tends to help. Hattie & Timperley (2007) give the complementary levels: task, process, self-regulation, self. The self level is the weakest.\n\n**Butler (1987/1988).** Students got comments only, grades only, or grades plus comments. Only the comments-only group improved. Adding a grade wiped out the comment: students look at the number, compare it with a neighbor's, and stop reading. Hence **comment-only marking** on formative work, or grades delayed until the student has acted on the comments. Caveat: Butler's samples were small and specific; the pattern has been conceptually replicated rather than tested at scale.\n\n**Feedback is defined by use.** Ramaprasad (1983): feedback is information about the gap between where the learner is and where they need to be, *used to close that gap*. Information nobody uses is not feedback; it is data. Two practical rules follow. Feedback should be **more work for the recipient than the donor**, and it should look forward (what to do next) rather than narrate what went wrong. Think of a coach's correction, not a verdict.\n\n**Techniques that make students do the work**\n- **Find it and fix it**: tell the student there are five errors in this section, not where they are.\n- **Focused marking**: comment on one or two criteria, not everything.\n- **Whole-class feedback**: read the whole set, write the four or five most common issues on the board, each student decides which apply and redrafts.\n- **Protected redraft time** in lessons, so acting on feedback is part of the timetable, not homework that never happens.\n\n**Relationship is part of the mechanism.** The same comment can motivate or deflate depending on whether the student believes the teacher thinks they can improve. Yeager's wise-feedback study (Module 3) is the sharpest demonstration: a short note stating high standards and belief in the student raised essay revision among Black seventh graders from about 17% to about 71%. Boekaerts' model explains why: at every moment a student is choosing between a growth pathway (engage with the task) and a well-being pathway (protect myself). Rankings, public leaderboards and frequent grades push students toward self-protection, which looks like laziness from the front of the room.\n\n**Policy consequences for your school.** Judge marking by what students do with it, not by how much red ink teachers produce. Ban or delay grades on formative work; require a student response to feedback; build redraft time into lessons. A bonus a product person will appreciate: this *reduces* teacher workload, because detailed written marking that nobody acts on is the most expensive low-value activity in most schools.\n\n**Folk theory to retire:** more feedback, and more detailed feedback, is always better. Volume is not the variable. Focus, task orientation, trust, and a required student action are."
+    },
+    {
+     "title": "Clear targets, and students as resources for each other and owners of their learning",
+     "tag": "E",
+     "body": "The five strategies come from a simple grid (Leahy, Lyon, Thompson & Wiliam 2005; Thompson & Wiliam 2008): three processes (where the learner is going, where the learner is now, how to get there) crossed with three agents (teacher, peer, learner). The teacher-side strategies are **clarify intentions and success criteria**, **elicit evidence**, and **give feedback that moves learning forward**. The other two put students to work: **peers as learning resources** and **learners as owners of their learning**. One big idea sits over all five: use evidence of learning to adapt teaching to meet learning needs. The grid is useful as a shared observation and planning language across every subject.\n\n**Strategy 1: students cannot hit a target they cannot see.** Many students, disproportionately disadvantaged ones, fail not from lack of ability but from not knowing what quality looks like in a domain. But copying an objective off the board is an empty ritual; the aim is understanding, not announcement. Four distinctions do the work:\n- **Learning intention vs. task.** *Make a poster about volcanoes* is an activity. What is to be learned?\n- **Context-specific vs. context-free.** *Write to the council about the skate park* vs. *use evidence to support a claim*. Make the transferable intention visible so learning generalizes.\n- **Product vs. process criteria**: what finished work looks like vs. what you do to get there. Rubrics that say *some detail* vs. *a lot of detail* are close to useless.\n- **Exemplars beat descriptors.** Quality in complex work is often tacit (Sadler's guild knowledge). Students learn it by comparing and ranking real samples of work.\nYou may delay announcing the intention when announcing it would spoil an inquiry (this is where Kapur's generate-first lessons fit); the requirement is that by the end students know what they learned.\n\n**Strategy 4: peers as resources.** One teacher cannot give 28 students enough feedback. Slavin's synthesis sets the conditions for group work to beat individual work: **group goals** (the group succeeds together) *and* **individual accountability** (each member's learning counts, so nobody free-rides). Without both, group work is often worse than working alone. Peer assessment helps the *assessor* at least as much as the assessed, because judging work against criteria builds the sense of quality that self-assessment needs. Tools: two stars and a wish, pre-flight checklists before submission, reporter chosen at random from the group.\n\n**Strategy 5: learners as owners.** The long-run target is self-regulated learners who monitor their own understanding and pick strategies. Self-assessment is a skill that must be taught with criteria and exemplars; until then students' self-reports are poorly calibrated. Motivation is as much an outcome of successful learning as a cause of it (this echoes Module 3). Watch **traffic lights**, the classic lethal mutation: students show red, amber or green cards, the teacher never acts on the signal, and students learn to show green to avoid attention.\n\n**Design implications.** Curriculum documents should separate intentions from tasks and ship annotated exemplars at several quality levels [H]. All group work is designed with group goals plus individual accountability [E, Slavin]. Peer and self assessment are taught as explicit skills with common school-wide protocols from the early grades [H]. Minimize ego-involving displays such as public rankings and ability-labelled tables [E for the mechanism, V for the choice]."
+    },
+    {
+     "title": "Teachers change habits, not knowledge: the teacher learning community",
+     "tag": "E",
+     "body": "This is the institutional half of the argument, and the reason Module 6 bridges into Institutions. The claim: teachers do not lack knowledge; they lack a way to change **habits**. Teaching is a real-time performance with hundreds of decisions an hour, most of them automatic. Knowing about hinge questions does not make you use one at minute 23 of a messy lesson, any more than reading about a golf swing changes yours. One-off workshops, conferences and inspirational speakers transmit knowledge and change little. Habit change needs practice in your own classroom, repeated over months, with follow-up, for about two years.\n\n**Five design principles for teacher change**: **choice** (teachers pick the techniques that fit their room), **flexibility** (adapt within limits), **small steps** (one or two changes at a time), **accountability** (commit to colleagues and report back; accountability for trying and reflecting, not for outcomes), and **support** (time, peers, materials, leadership backing).\n\n**The standard TLC spec**\n- **Size**: about 8-12 teachers. Smaller gets fragile when people are absent; larger leaves no time for everyone to report. Mixed subjects are fine, because the shared content is pedagogy. Led by a trained teacher leader who facilitates rather than lectures.\n- **Cadence**: monthly, roughly 75-120 minutes, for about two years. Monthly because teachers need three or four weeks to try a technique repeatedly; more often means nothing to report, less often means momentum dies.\n- **Agenda**: introduction; a short starter; **How's it going?** (the heart, often half the meeting: each teacher reports what they committed to try, what happened, what they would change); new learning; **personal action planning** (write down the technique for next month, and sometimes what you will stop doing to make room); review.\n- **Between meetings**: peer observation focused on what the *observed* teacher asked to be watched for. Developmental, never evaluative.\n\n**Tight but loose** (Thompson & Wiliam 2008). Be tight on the core theory (the big idea and five strategies) and on process (meetings, plans, observation). Be loose on which techniques each teacher adopts. Too tight kills ownership; too loose breeds **lethal mutations**, where a technique keeps its name and loses its active ingredient: no hands up where the same three students are always picked; traffic lights nobody acts on. Product analogy: tight on the API contract, loose on the implementation, with tests that check the contract.\n\n**Why it works (the causal story).** Repeated trial in real classrooms at spaced intervals targets habit directly; saying in front of colleagues that you will try something creates supportive accountability; improvement becomes normal rather than remedial; and packaged materials make it cheap to run without scarce experts. Evidence: the TLC model came out of ETS's Keeping Learning on Track work and was tested in the EEF trial described above (140 schools, about two months' extra progress). Which ingredients are necessary has not been isolated, so the parameters (size, cadence) are sensible defaults to tune [H], not optimized constants.\n\n**Leadership requirements.** Protect the time, usually by stopping lower-value things such as routine meetings or volume marking. Never use TLC content in performance evaluation [H: psychological-safety reasoning, not directly tested]. Keep the agenda on formative practice and do not let it drift into logistics. Wiliam's refrain: every teacher needs to improve, not because they are not good enough, but because they can always be better."
+    }
+   ],
+   "worked_example": {
+    "title": "Decision: the school's assessment, feedback and teacher-learning policy",
+    "steps": [
+     "Start from the mechanism, not the tool. Kluger & DeNisi show feedback can lower performance when it points at the self; Butler shows grades cancel comments. So the policy question is not how much feedback but what kind, and what the student must do with it. [E]",
+     "Formative work gets comments only; grades appear at a small number of summative points per term, and only after students have acted on the comments for that unit. [E for the mechanism; H for how many summative points, which you will tune]",
+     "Every comment requires a student action in lesson time: redraft, find-and-fix, or answer three targeted questions. Marking is judged by the student response it produces, not by volume. Written marking load drops, which is itself a reason teachers will accept the policy. [E for task-focused feedback; H for the specific routines]",
+     "Every lesson contains at least one planned, all-student evidence point, a hinge question or whiteboard check, with a threshold set before it is asked; exit tickets are sorted and change the next lesson's opening. [E for eliciting and using evidence; H for this cadence]",
+     "The school owns a hinge-question bank per unit with distractor rationales keyed to named misconceptions from the conceptual-change literature, reviewed each term using response data. [H]",
+     "Success criteria are shared through annotated exemplars at several quality levels, co-constructed with students where possible; planning templates separate the learning intention from the task. [E for exemplars and criteria clarity; H for the template]",
+     "Every teacher joins a TLC: 8-12 people, monthly, 90 minutes, a two-year arc, the standard agenda, a personal action plan, and one peer observation per month on the observed teacher's chosen focus. Time comes from cancelling one routine meeting a month. TLC content never enters appraisal. [E for the package (EEF trial); H for the parameters; V for keeping it separate from evaluation]",
+     "Set expectations in writing: the target is about 0.1 SD of whole-school gain over two years, measured on the external measure, with hinge-question distractor rates and redraft rates as leading indicators. [E for the realistic effect size; H for the leading indicators]",
+     "Policy line for the brief: Formative work is for learning, so it gets comments that students must act on; teachers get better together, monthly, for years."
+    ]
+   },
+   "hinge": [
+    {
+     "q": "Which of these is a formative use of a test?",
+     "options": [
+      "A quiz returned with scores so students know where they stand",
+      "A quiz whose results the teacher uses to regroup students for the next two lessons",
+      "Any quiz that is low-stakes and not recorded",
+      "A quiz the teacher wrote herself rather than one from an external body"
+     ],
+     "answer": 1,
+     "diagnoses": [
+      "Information-to-student equals formative. Knowing where you stand changes nothing unless someone makes a different next-step decision; a bare score can even push students into ego-involvement.",
+      "Correct. Formative is defined by use: evidence was elicited, interpreted, and it changed what happens next for specific students.",
+      "Stakes define formativeness. Low stakes help, but a low-stakes quiz whose results change nothing is not formative, and a high-stakes test can be used formatively.",
+      "Authorship defines formativeness. Who wrote the instrument is irrelevant; what matters is whether the evidence changes the next decision."
+     ]
+    },
+    {
+     "q": "A hinge question is well designed if:",
+     "options": [
+      "About half the class gets it right",
+      "Each wrong option corresponds to a specific misconception and the teacher can act on the result in the same lesson",
+      "It requires an extended written answer so students show their full reasoning",
+      "It is asked at the very end of the lesson so it covers everything"
+     ],
+     "answer": 1,
+     "diagnoses": [
+      "Difficulty-calibration theory, borrowed from test design. A hinge exists to support a decision, not to spread scores; if nearly everyone is right, that is useful information too.",
+      "Correct. Diagnostic distractors tell you what to fix, and a response that can be read in about 30 seconds lets the lesson change while it is still happening.",
+      "Rigor equals length. Extended answers cannot be read for 30 students in real time, so they cannot drive a decision at the hinge point.",
+      "Timing error. A hinge sits at the fork in the lesson, mid-lesson, so the lesson can still change; an end-of-lesson check is an exit ticket, which informs tomorrow instead."
+     ]
+    },
+    {
+     "q": "A school runs a two-day formative assessment workshop with a famous speaker. Nine months later, practice is unchanged. What is Wiliam and Leahy's most likely explanation?",
+     "options": [
+      "The teachers are resistant to change",
+      "The techniques do not work in this school's context",
+      "Practice changes only through sustained, small, accountable steps with peer support; workshops transmit knowledge, not habits",
+      "The school needed a follow-up workshop to reinforce the message"
+     ],
+     "answer": 2,
+     "diagnoses": [
+      "Attribution to disposition. This is the fundamental attribution error applied to staff; Bryk would say the system that delivered the workshop produced the result.",
+      "Evidence-does-not-transfer. The techniques were never actually tried, so the context was never tested; nothing can be concluded about fit.",
+      "Correct. Teaching is habitual real-time performance, and habit change needs repeated practice in one's own room with spaced follow-up, which is what the TLC structure provides.",
+      "More of the same. A second workshop repeats the delivery mechanism that failed; the missing ingredient is practice plus accountability over months."
+     ]
+    },
+    {
+     "q": "A new principal requires every teacher to use traffic-light cards daily and checks for them on walkthroughs. What is the most likely result?",
+     "options": [
+      "Strong gains, because consistency across classrooms is what formative assessment needs",
+      "The cards appear in every room but teachers stop acting on the signals and students show green to avoid attention: a lethal mutation",
+      "Teachers will refuse outright, so nothing changes",
+      "Gains for younger students only, since traffic lights are a primary-school technique"
+     ],
+     "answer": 1,
+     "diagnoses": [
+      "Consistency of surface equals consistency of mechanism. The active ingredient is the teacher acting on the signal; a walkthrough can see the cards but not the adaptation.",
+      "Correct. This plan is tight on the technique and loose on the idea, the reverse of tight-but-loose. It produces compliance displays whose active ingredient is gone. Better: tight on the big idea and TLC process, with teacher choice of technique.",
+      "Adoption-is-the-risk. Open refusal is rare; the realistic failure is quiet surface compliance, which is harder to detect.",
+      "Age-appropriateness theory. The problem is mutation under an evaluative mandate, not the age of the students."
+     ]
+    }
+   ],
+   "brief_prompt": "Add Section 6 (Assessment and feedback) and the TLC part of Section 7 (Adults) to your brief. Include: your grading policy (what gets comments, what gets grades, when), the required student response to feedback, the all-student evidence standard for every lesson, and the TLC spec (size, cadence, agenda, where the time comes from, separation from appraisal). Tag every sentence E/H/V. Append two hinge questions for a lesson in your core curriculum, each with a rationale for every distractor naming the misconception it detects and the pre-set move-on threshold. Write one prediction: what redraft rate or distractor rate would you expect to see by the end of term one if the policy is working?",
+   "deeper": [
+    "books/07-embedding-formative-assessment.md#Background you need first: Black & Wiliam (1998) and where \"formative assessment\" comes from",
+    "books/07-embedding-formative-assessment.md#Ch 2 — Your Professional Learning (the institutional mechanism: Teacher Learning Communities)",
+    "books/07-embedding-formative-assessment.md#Ch 4 — Strategy 2: Engineering Effective Discussions, Tasks, and Activities That Elicit Evidence of Learning",
+    "books/07-embedding-formative-assessment.md#Ch 5 — Strategy 3: Providing Feedback That Moves Learning Forward",
+    "books/07-embedding-formative-assessment.md#Evidence strength & limits",
+    "books/10-creating-the-schools-our-children-need.md#Section 3 · Ch 12 — Creating a Learning Environment for Educators",
+    "books/01-how-learning-happens.md#Ch 35 — Lethal mutations: the dirty dozen (new in the 2nd edition)"
+   ]
+  },
+  {
+   "id": "m7",
+   "num": 7,
+   "title": "The grammar of school and where deeper learning lives",
+   "level": "Institutions",
+   "minutes": 90,
+   "sources": [
+    "09-in-search-of-deeper-learning",
+    "08-extraordinary-learning-for-all",
+    "10-creating-the-schools-our-children-need",
+    "01-how-learning-happens"
+   ],
+   "hook": "Two researchers spent about six years and roughly 750 hours watching classes in 30 of America's most admired high schools, looking for deep learning. They found most of it in the same place in almost every school, and it was not the place the schools were built around. Where was it?",
+   "attempt": {
+    "prompt": "You must pick a 9th-grade schedule. Option A: eight 45-minute periods of conventional subjects. Option B: four 90-minute blocks, one of which is a daily interdisciplinary studio where students build projects for a public exhibition. Choose one and defend it in about 200 words. Then predict, concretely, the most likely way your choice goes wrong by February of year one, and who notices first.",
+    "minutes": 12
+   },
+   "objectives": [
+    "Describe what Mehta & Fine actually observed (method, rarity of depth in the core, the periphery pattern) and the limits of that evidence.",
+    "Explain the four case schools' signature strengths and failures, and why the authors' ideal combines the progressive vision with the no-excuses operating system.",
+    "Apply the mastery, identity and creativity lens, and the six periphery features, to redesign a core course.",
+    "Use Transcend's blueprint (aims, then student experience, then elements) and say which layers are open to community codesign and which are bounded by evidence."
+   ],
+   "ideas": [
+    {
+     "title": "Deep learning is rare, and the grammar of school is part of why",
+     "tag": "E",
+     "body": "Jal Mehta (a Harvard sociologist) and Sarah Fine (a former English teacher) went looking for schools that had cracked **deeper learning**. They visited 30 high schools chosen for reputations for innovation or excellence, over about six years and roughly 750 hours of observation, shadowed students for whole days, interviewed students, teachers and leaders, and studied four schools in depth.\n\n**Their definition is the most useful tool in the book.** Deeper learning is where three things happen together:\n- **Mastery**: real understanding of a domain's knowledge and ways of reasoning.\n- **Identity**: the learner starts to see the domain as part of who they are (*I am a writer*, *I do science*).\n- **Creativity**: the learner moves from receiving the field to producing something within it.\nEach alone is common. Mastery without identity gives students who can pass the exam and never open the subject again. Identity without mastery gives enthusiastic students who cannot do the work. Creativity without mastery gives products that look impressive and contain little.\n\n**What they saw.** Even in schools selected *because* they were admired, most core classes were teacher talk, coverage, worksheets, recall questions, and students waiting for time to pass. Deep learning existed in pockets (a class here, a teacher there) in nearly every school and was almost never a property of the whole school. Shadowing whole days showed the student's experience to be fragmented: six or seven unrelated blocks, each with a different adult and different expectations, none requiring the student to own anything. Many students were compliant, bored, or strategically **doing school** (Denise Pope's term for performing grades without learning). Adults mostly did not know how the whole day felt. This matches decades of earlier observation research, such as Goodlad's *A Place Called School* (1984).\n\n**The diagnosis: the grammar of schooling.** Tyack & Cuban (1995) named the durable, taken-for-granted structures of school: age-graded classes, subject silos, fixed periods, Carnegie units (credit for seat time), one teacher per room, grades as currency. On top sits a transmission model: students receive a field's conclusions but never practice the field, and teachers work alone with little shared picture of good work. Reforms that ignore the grammar get absorbed by it. Product analogy: the grammar is the platform. Ship a feature that fights the platform's defaults and it slowly gets reshaped into what the platform wanted all along.\n\n**Two design consequences.** First, your structure (schedule, course grain size, how time and credit are counted) is itself a curriculum; it teaches students what school is for whether you intend it or not. Second, judge your school from the student's seat. Leaders shadowing a full student day, regularly, will see what showcase lessons and dashboards hide [H: well grounded descriptively; its effect on improvement is untested].\n\n**Evidence limits you must carry.** This is qualitative, comparative case research: careful and theory-building, not causal. Schools were chosen for reputation, not sampled. Depth was judged by trained observers, not measured through learning outcomes or transfer, so we never learn whether one school's graduates understood more mathematics than another's. The mastery-identity-creativity lens is the authors' own; a researcher from the explicit-instruction tradition might score the same lessons differently. Tag the *description* (depth is rare in the core) as [E, observational]; tag the prescriptions as [H]."
+    },
+    {
+     "title": "Every school model has a signature failure",
+     "tag": "H",
+     "body": "Mehta & Fine profile four schools under pseudonyms. Read them as four architectures, each with a known failure mode you should put in your risk register on day one.\n\n**Dewey High (progressive, project-based; resembles High Tech High).** Strengths: interdisciplinary projects, public exhibitions, strong relationships, student voice, teachers designing their own curriculum; students felt known and liked school. Failure: quality varied enormously by teacher and project. Some projects were activity without learning; the widely cited example is students folding origami in maths who could not say what mathematics they were learning. Without explicit disciplinary goals and a shared, specific picture of excellent work, *project* became a container that could be full or empty. Radical teacher autonomy produced both the best and the weakest teaching, and there was no mechanism for spreading what the best teachers knew. Signature failure: **engagement without mastery**.\n\n**No Excuses High (a high-performing charter).** Strengths: the most organizationally impressive school in the study. A coherent instructional model, frequent observation and feedback, data use, a shared adult culture, and staff who kept studying and refining practice; strong test results for low-income students of color. It was a powerful **learning organization for adults**. Failure: for students it was largely joyless and controlled; they were rarely treated as thinkers. It raised floors, not ceilings, and burnout and turnover were real costs. Signature failure: **compliance without agency**.\n\n**IB High (International Baccalaureate).** The closest thing to a *system* for depth: an external curriculum, externally assessed tasks that demand analysis and sustained inquiry (Extended Essay, Theory of Knowledge), shared vocabulary, and a global professional community. Because the assessments demand depth, teaching to them pulls toward depth, the opposite of most state tests. Failures: IB and non-IB students effectively attended different schools, and depth depended on teachers who understood the philosophy rather than treating IB as a heavier syllabus. Signature failure: **a two-tier school**.\n\n**Attainment High (respected comprehensive).** Good conventional results, running on GPA, AP counts and admissions. Top-track students optimized for grades at the cost of curiosity and well-being; lower tracks got a thinner curriculum and lower expectations. Signature failure: **performance instead of learning**.\n\n**The synthesis that matters.** What No Excuses High did well (shared instructional language, coaching, tight feedback loops, adult learning) is exactly what Dewey High lacked, and vice versa. The authors' implied ideal: **a rich vision of learning run on a disciplined adult operating system**. From IB, add the strongest lever they found: **alignment**. When curriculum, assessment and professional learning all reward depth, teaching bends toward depth; when assessment rewards recall, it bends toward recall. Their conditions for moving from pockets to systems: a clear shared vision of deep work, specific enough to guide practice; organizational capacity for adult learning; alignment; restructuring parts of the grammar; making the core more like the periphery; equity by design (no enclave); and leadership that protects depth from accountability pressure.\n\n**Why this is tagged [H].** Each model is represented by one pseudonymous school. Reviewers (for instance in *Education Next*) argued the book gives no-excuses schools too little credit for measured gains among disadvantaged students. The four-way comparison is a vivid, plausible design vocabulary, not a verdict on the models. Use it to ask: whichever model you lean toward, what is its known failure, and what will you build on day one to prevent it?"
+    },
+    {
+     "title": "The periphery out-teaches the core, so use it as the prototype",
+     "tag": "H",
+     "body": "The book's most cited finding: across the 30 schools, the most consistent sites of deep learning were **electives and extracurriculars**: theatre, debate, robotics, Model UN, the newspaper, music, athletics, some arts and technical courses. There students showed mastery, identity and creativity together, often in the same building where the core felt flat.\n\n**Why the periphery works (six features)**\n1. **Choice**: students opt in, which brings motivation and belonging.\n2. **Purpose and real performance**: a game, a show, a competition, a publication, with a real audience and real stakes.\n3. **Apprenticeship**: students do the actual activity of the field, not a school version of it, alongside adults who practice it.\n4. **Community across ages**: older students coach younger ones; novices see what expertise looks like; there is a path from newcomer to leader (Lave & Wenger's legitimate peripheral participation).\n5. **Time and iteration**: rehearsals and drafts, where failure is expected and useful.\n6. **Identity**: students become *a debater* or *an actor*, not a student taking a course.\nThe core is required, coverage-driven, individually graded, age-segregated and detached from real practice; it reverses every one of these features. Schools treat the periphery as optional and cut it first, yet it is where the learning they claim to want most often happens.\n\n**The caveats are large.** Students who choose debate were already motivated (selection). The periphery faces no state test and has smaller, self-selected groups, so the comparison is not like for like. Voluntariness is hard to transplant into a required course. And, crucially for this curriculum, **the periphery is full of explicit instruction**. Coaches drill, directors model, editors mark up drafts line by line. Kirschner, Sweller & Clark's warning against minimal guidance for novices is not contradicted here; the periphery works partly because it is highly guided. *Authentic* means authentic purpose and audience, not absence of teaching. Brown, Collins & Duguid's situated-cognition claims were likewise criticized by Anderson, Reder & Simon (1996) as overstated; the reconciliation is cognitive apprenticeship: explicit modelling and scaffolding toward authentic practice.\n\n**Deeper teaching in the core.** A minority of core teachers, in every type of school, produced depth. They shared a **disciplinary stance** (the subject as a living field of inquiry, not a topic list), treated students as apprentice practitioners, combined **rigor with joy**, used apprenticeship moves (model, scaffold, hand over), and covered fewer topics more deeply. Most had built that capacity outside or despite their school: graduate study, writing projects, earlier careers. Hence the **symmetry principle**: teachers need the conditions the school wants for students (mastery, identity, creativity, community). Teachers who never learned deeply in a field struggle to create depth for others.\n\n**The design move.** Treat the periphery as the prototype for the core, not a reward for finishing it. Ask of every core course: What is the performance? Who is the audience? Who is the more expert practitioner? How does a novice become a leader? Where does student choice enter? Then keep what makes the core the core: a knowledge sequence, explicit teaching for novices, and mastery checks. Do not solve this by adding a studio block and leaving the core alone; that recreates the finding inside your own timetable, with the depth in the new block and the core still shallow.\n\n**Tag honestly.** The periphery pattern is a strong, recurring description [E, observational, selection-confounded]; importing its features into required courses is a hypothesis [H] you will test."
+    },
+    {
+     "title": "Designing with a community: aims, experience, elements, and where voice is bounded",
+     "tag": "V",
+     "body": "Mehta & Fine show what is wrong with the student experience. Samouha, Wetzler & Henry Wood (Transcend) offer a process for designing a better one *with* the people who will live in it. Read it as product development for schools, including the parts of product development that go wrong.\n\n**The target.** **Graduate Aims** in three areas, synthesized from more than 30 outcome frameworks: **intellectual prowess** (deep knowledge and the ability to use it), **wayfinding** (purpose, identity, self-direction, career and life navigation), and **well-being**. Then ten **Leaps**, shifts in the *student experience* from industrial-era patterns: for example rote activity to rigorous learning, irrelevance to relevance, isolation to connection, passive compliance to active self-direction, unequal expectations to high expectations with unlimited opportunities. The Leaps are a design language, not a model; a community prioritizes a few rather than claiming all ten (nobody makes every leap at once; two to four is a sensible start). Transcend's Leaps Student Voice Survey, with published psychometric reports, turns them into a leading indicator you can track each term.\n\n**The blueprint has three layers, designed top-down**: (1) aims and guiding concepts; (2) the **student experience**, meaning what a day, week and year actually feel like; (3) the **elements**: schedule, staffing, curriculum, assessment, culture, space, technology, partnerships, budget, policy. The classic failure is designing elements first (a device rollout, a new bell schedule) with no stated experience they are meant to produce. That is shipping infrastructure without a user story.\n\n**The process.** A diverse **design team** including students and families, deliberately recruiting the least-served voices. A repeating design cycle, used as **Map It** (whole-school vision), **Zoom In** (design one part of the experience in detail), **Test-Drive** (pilot with success measures set in advance), **Look Ahead** (keep, change or drop), then scale, re-map and routine maintenance. Tend **community conditions** (trust, urgency, shared vision, capacity) as deliberately as the design, because a technically good design the community does not own gets quietly reverted. **Codify** what works: Van Ness Elementary's whole-child routines spread to other schools because they were written down as teachable practice. Northern Cass shows the deepest structural change (competency-based progression, no letter grades) and how much work it pushes into transcripts, reporting and teacher workload. Map your **policy envelope** (seat-time rules, testing, credits, accreditation) early.\n\n**Evidence limits.** A practitioner framework by the organization that sells the process. There is no causal evaluation of community-based design. The four cases are selected success stories with uncontrolled outcomes. Transcend's large *Beyond Fine* analysis links better-reported experience to grades, test scores and attendance, but it is correlational and self-published. Competency-based education has a thin, mixed causal record. Several Leaps are value commitments, and *active self-direction* and *anytime, anywhere learning* are in real tension with the novice-guidance evidence.\n\n**The rule that makes it safe.** Community voice is excellent at defining **needs and priorities** and poor at validating **mechanisms**. If a focus group asks for teaching matched to learning styles, take the underlying need seriously (*instruction doesn't fit my child*) and answer it with evidence-based customization such as pace, formative feedback and choice of context, not with a debunked mechanism. Standardize the mechanisms (retrieval, feedback, TLCs, the default lesson, the knowledge sequence within a discipline). Codesign purpose, culture, the periphery, and knowledge priorities where the evidence is silent. Write down which layer is open, in the founding compact, before the first session."
+    }
+   ],
+   "worked_example": {
+    "title": "Decision: how does the school bring apprenticeship into the core, not just the periphery?",
+    "steps": [
+     "Name the features that make the periphery work: choice, real purpose and audience, apprenticeship to a practitioner, mixed-age community, iteration, identity. [E, observational and selection-confounded]",
+     "Reject the tempting design: adding a studio block and leaving the core untouched. That reproduces Mehta & Fine's finding inside your own timetable: depth in the new block, shallow core. [H]",
+     "Redesign each core disciplinary course so every unit or term ends in a product with a real audience (a published piece, a public problem-solving defense, a data report for a local body), drafts are expected and critiqued, and the teacher's own disciplinary practice is visible. [H]",
+     "Keep the knowledge sequence and explicit teaching. The product is the destination of a knowledge-building unit, not a replacement for it; the periphery itself is heavily coached, and novices still need guidance (Kirschner, Sweller & Clark). [E for novice guidance; H for the combination]",
+     "Guard against Dewey High's failure: each product has explicit disciplinary learning goals, annotated exemplars and a critique protocol, and the maths or science in it is checked by a hinge question or short assessment, not inferred from how good the poster looks. [H, informed by E from Module 6]",
+     "Borrow No Excuses High's operating system without its theory of learning: shared instructional language, frequent developmental observation, common planning, and TLCs, pointed at the richer vision. Track joy and agency as outcomes, or control-heavy routines will quietly optimize them away. [H; V for tracking joy]",
+     "On structure there is a real tension. Mehta & Fine recommend restructuring parts of the grammar (longer blocks, fewer topics); Wiliam's evidence says structural change alone buys little and eats change capacity. Resolution: keep the schedule mostly conventional in year one, lengthen blocks only where a specific instructional need requires it (for example, lab or studio work), and test that change as an explicit hypothesis. [H]",
+     "Hire and develop teachers who have done the discipline, not only taught it, and give them adult learning with its own depth (symmetry). [H]",
+     "Protect and fund the periphery anyway, with mixed-age leadership ladders and access for every student. It is where identity lives. [V]",
+     "Policy line for the brief: Every core course, every term, one authentic product, built on a knowledge sequence, and assessed for mastery."
+    ]
+   },
+   "hinge": [
+    {
+     "q": "According to Mehta & Fine, the main reason electives and clubs often show deeper learning than core classes is:",
+     "options": [
+      "Students choose them, so they are more motivated",
+      "They combine real purpose and audience, apprenticeship to practitioners, mixed-age community and iteration, as well as choice",
+      "They are not tested",
+      "They have smaller classes"
+     ],
+     "answer": 1,
+     "diagnoses": [
+      "Choice-only theory. Choice is one of the features, and selection is a real confound, but it cannot explain why the same students go flat in required courses that lack the other features.",
+      "Correct. The periphery bundles several structural features the core reverses; choice is one of six, alongside purpose, apprenticeship, community, iteration and identity.",
+      "Testing-kills-learning theory. The lack of test pressure is an acknowledged confound, but IB High shows that assessment demanding depth can pull teaching toward depth.",
+      "Resource explanation. Group size differs, but Module 8 shows class size alone has modest effects; the features that matter are about the nature of the work."
+     ]
+    },
+    {
+     "q": "A founder plans a project-based school with no traditional courses. Mehta & Fine's evidence suggests the most likely failure mode is:",
+     "options": [
+      "Students will be bored",
+      "Disciplinary mastery will be uneven, and some projects will be activity without learning",
+      "Teachers will refuse to teach that way",
+      "Parents will withdraw their children"
+     ],
+     "answer": 1,
+     "diagnoses": [
+      "Engagement-is-the-risk. Dewey High's students were engaged and liked school; engagement was not the problem.",
+      "Correct. This is Dewey High's signature failure (the origami-in-maths problem): without explicit disciplinary goals, exemplars and a system to spread good designs, quality depends on which teacher you get.",
+      "Adoption-is-the-risk. Teachers at Dewey High chose it and embraced the model; autonomy produced variance, not refusal.",
+      "Market-is-the-risk. Possible, but not what the observational evidence speaks to; the evidence is about uneven rigor."
+     ]
+    },
+    {
+     "q": "Deeper learning in Mehta & Fine's sense requires:",
+     "options": [
+      "Student choice of topic",
+      "Mastery, identity and creativity together",
+      "Interdisciplinary content",
+      "A technology-rich environment"
+     ],
+     "answer": 1,
+     "diagnoses": [
+      "Choice equals depth. Choice can support identity, but a freely chosen shallow project is still shallow.",
+      "Correct. Each alone is common; their combination is what the authors observed in the richest learning, and it gives you a test to apply to any course.",
+      "Integration equals depth. Interdisciplinary units can be as shallow as any other; depth is about the learner's relationship to a field.",
+      "Tools equal depth. Nothing in the definition concerns technology; Module 1's point that medium is not mechanism applies here too."
+     ]
+    },
+    {
+     "q": "Which conclusion does Mehta & Fine's evidence actually support?",
+     "options": [
+      "Extracurriculars cause deeper learning, so required academics should be replaced with clubs",
+      "Project-based schools produce better learning outcomes than no-excuses schools",
+      "Deep learning was rare in the core classes even of admired schools, and recurred in the periphery; this is a robust pattern, not causal proof",
+      "Longer blocks produce deeper learning"
+     ],
+     "answer": 2,
+     "diagnoses": [
+      "Correlation-as-causation plus misreading the prescription. The evidence is selection-confounded, and the authors want the core made more like the periphery, keeping mastery, not academics abolished.",
+      "Outcome claim the study cannot make. There were no learning-outcome measures and one school per model; the authors praise No Excuses High's adult systems.",
+      "Correct. The strength of the book is descriptive: a recurring pattern across 30 reputationally selected schools. The prescriptions are well-grounded hypotheses.",
+      "Structure-as-solution. Longer blocks are one of the authors' proposals, not a finding; Wiliam's evidence cautions that structure alone changes little."
+     ]
+    },
+    {
+     "q": "Your founding design team's family focus groups strongly favor teaching students in their preferred learning style. Using Transcend's process as this module bounds it, you should:",
+     "options": [
+      "Adopt it: community ownership is a design requirement",
+      "Ignore it: community input should not touch pedagogy",
+      "Treat it as evidence of a real need (instruction does not fit some children) and meet that need with evidence-based customization such as pace, feedback and choice of context",
+      "Put it to a vote of the whole community"
+     ],
+     "answer": 2,
+     "diagnoses": [
+      "Voice-validates-mechanism. Ownership matters, but communities can converge on popular, ineffective ideas; learning-styles matching is not supported by evidence.",
+      "Voice-is-noise. This discards a real signal and damages the community conditions the design depends on; the need is legitimate even though the proposed mechanism is wrong.",
+      "Correct. Voice defines needs and priorities; evidence constrains mechanisms. The founding compact should say which layer is open to codesign.",
+      "Majority-rule-on-mechanism. Voting settles values questions, not empirical ones."
+     ]
+    }
+   ],
+   "brief_prompt": "Rewrite the 16-year-old's Tuesday in Section 2 of your brief so that at least one core course shows apprenticeship features (a real product, an audience, drafts, a practitioner-teacher), and note what you deliberately kept conventional and why. In Section 1, draft Graduate Aims across intellectual prowess, wayfinding and well-being, and pick two to four priority experience shifts. Add a paragraph on community codesign that names which layers are open (purpose, culture, periphery, knowledge priorities where evidence is silent) and which are fixed by evidence (core mechanisms), tagged V and H. Add to your risk register the signature failure of whichever model your school most resembles, and the day-one countermeasure.",
+   "deeper": [
+    "books/09-in-search-of-deeper-learning.md#Ch 1 — The State of Deeper Learning in American High Schools",
+    "books/09-in-search-of-deeper-learning.md#Ch 3 — No Excuses Schools: Benefits and Tradeoffs (No Excuses High)",
+    "books/09-in-search-of-deeper-learning.md#Ch 6 — Deeper Learning at the Margins: Why the Periphery Is More Vital than the Core",
+    "books/09-in-search-of-deeper-learning.md#Ch 7 — Deeper Teaching: Rigor, Joy, and Apprenticeship",
+    "books/09-in-search-of-deeper-learning.md#Evidence strength & limits",
+    "books/08-extraordinary-learning-for-all.md#Ch 2 — Community-Based Design",
+    "books/08-extraordinary-learning-for-all.md#Evidence strength & limits",
+    "books/01-how-learning-happens.md#The 5-10 ideas you must carry out of this book"
+   ]
+  },
+  {
+   "id": "m8",
+   "num": 8,
+   "title": "What actually moves outcomes: teachers, policy, and the evidence",
+   "level": "Institutions",
+   "minutes": 90,
+   "sources": [
+    "10-creating-the-schools-our-children-need",
+    "01-how-learning-happens",
+    "11-improvement-in-action",
+    "07-embedding-formative-assessment",
+    "06-beyond-the-science-of-reading"
+   ],
+   "hook": "Wiliam's rough summary of the research: with the most effective teachers, students learn in about half the usual time; with the least effective, it takes about twice as long. If teachers matter that much, why does he argue that trying to hire your way to a great faculty barely moves the average?",
+   "attempt": {
+    "prompt": "You have $600k a year of discretionary budget for a 400-student school. Options: (1) cut class sizes from 26 to 22; (2) hire an instructional coach for each department; (3) buy 1:1 devices plus adaptive maths and reading software; (4) raise salaries 8% to attract stronger applicants; (5) anything else you can name. Allocate the money and justify each line in one or two sentences. Then write down the one number you would most want to know before committing, and why.",
+    "minutes": 12
+   },
+   "objectives": [
+    "Evaluate any initiative on five criteria: effect on learning, cost in money and teacher time, scalability, opportunity cost, and time to impact.",
+    "Explain why teacher quality is the biggest in-school lever, yet selection, deselection and incentive pay are weak ways to raise it.",
+    "Rank the common structural reforms (class size, choice, copying other countries) by evidence and cost, and explain the ranking.",
+    "Read an effect size and name its main traps: student age, test proximity, sample restriction, and scale-up decay.",
+    "State Wiliam's two priorities (knowledge-rich curriculum; developing existing teachers through formative assessment in TLCs) and defend them on cost-effectiveness."
+   ],
+   "ideas": [
+    {
+     "title": "Think like a portfolio manager: benefit per unit of scarce resource",
+     "tag": "H",
+     "body": "*Creating the Schools Our Children Need* is the curriculum's resource-allocation book. Wiliam's starting point: education does not lack good ideas; it has too many good-sounding ideas competing for the same limited money, teacher hours and leadership attention. So the question is never *does it work?* (almost everything works a little, somewhere) but **is this the best use of what it consumes?**\n\n**Five criteria for every initiative**\n1. **Effect** on student learning, ideally expressed in months of learning for your students' age, not a raw effect size.\n2. **Cost**, in dollars *and* teacher hours. A free app that consumes three hours of teacher training and a weekly data meeting is not free.\n3. **Scalability**: does it work in ordinary schools with ordinary teachers, without the enthusiasts who designed it?\n4. **Opportunity cost**: what it pushes out of a full week. Every hour of meetings is an hour not planning, marking or resting.\n5. **Time to impact**: a decade-long lever is a different bet from a one-year one.\n\n**\"Everything works somewhere, nothing works everywhere.\"** Context changes the effect. Research cannot tell you exactly what to do; it can tell you which bets have the best odds. This is the same point Bryk makes as *what works, for whom, under what conditions* (Module 9). Borrow **mechanisms** that have causal evidence and test them locally; do not copy **policies** because they are attached to a famous school or country.\n\n**The binding constraint is usually teacher time, not money.** Wiliam's hardest leadership lesson: the job is **stopping things**, de-implementing good-but-not-best initiatives so the best ones get done properly. Initiative overload is the default failure mode of schools, and it maps precisely onto Module 1: a staff with too many simultaneous initiatives is a working memory with too many interacting elements. Nothing gets encoded.\n\n**Product translation.** You already know this pattern as prioritization by expected value per unit cost, with a roadmap that has a *not doing* list. Two differences matter. First, the variance is larger than in most product work, and your sample is tiny (one school), so humility about local effects is warranted. Second, the cost of a failed bet is paid in children's learning time, which you cannot refund, so the bar for untested structural bets should be higher, not lower.\n\n**Design rules for your founding document** [H for all; the logic is strong, but evidence on de-implementation itself is thinner than the argument for it]:\n- Name **two or three priorities** and publish a **not doing** list.\n- Every new proposal must name what it replaces, its expected effect in months, and its cost in teacher hours.\n- Budget teacher time explicitly, like money: hours per teacher per month for professional learning, planning and meetings.\n- Commit to a three-to-five-year horizon on the core priorities. Changing initiatives every year guarantees none of them embed.\n\n**Folk theory to retire:** a new school, free of legacy, should try many innovations at once because it can. Autonomy lets you choose well; it does not repeal the time budget."
+    },
+    {
+     "title": "Teachers matter most, and you cannot select your way there",
+     "tag": "E",
+     "body": "The premise is not in dispute. Teacher quality is the largest in-school variable, and differences between classrooms in the same school dwarf differences between schools. Wiliam's summary (a rhetorical rounding of value-added research; exact multipliers vary by study): with the best teachers students learn in roughly half the time; with the weakest, about twice as long.\n\nThe surprise is what follows. Three popular ways to raise teacher quality are weak.\n\n**1. Hiring smarter people.** What you can see at hiring (degrees, certification, college selectivity, licensure scores, even subject-knowledge tests) predicts later effectiveness only weakly. Kane, Rockoff & Staiger (2008), in New York City, found certified, uncertified and alternatively certified teachers differed little on average, while variation *within* each group was huge. Teach For America evaluations show small positive effects in some subjects, not transformation. Raising entry bars also reduces supply, and in shortage subjects a higher bar can mean more vacancies filled by substitutes.\n\n**2. Firing weak teachers (deselection).** Hanushek estimated that replacing the bottom 5-10% of US teachers with average ones would bring national achievement near the top countries. The arithmetic works; the practice does not. **Measurement**: value-added estimates are noisy, with year-to-year correlations for the same teacher of roughly 0.2-0.5, so many teachers in the bottom group one year are not the next. The Gates MET project (2010-2013) showed classroom observation is unreliable unless you use multiple trained observers across multiple lessons. **Time**: deselection improves the workforce only as cohorts turn over, over a decade or more. **Supply**: replacements are often novices, who are on average less effective in their first years. **Climate**: a threat culture discourages risk-taking and collaboration and drives good people away. Removing a truly ineffective teacher is sometimes necessary: HR hygiene, not an improvement strategy.\n\n**3. Paying good teachers more.** Individual merit pay relies on that same unreliable measurement and can damage collaboration. The Nashville POINT trial (Springer et al. 2010; bonuses up to $15,000) found no significant effect; Fryer's NYC school-wide bonus study (2013) found none either. A loss-framed design in Chicago Heights (Fryer, Levitt, List & Sadoff 2012) did show effects, but that is thin evidence and hard to scale. The underlying point: most teachers already work hard. The bottleneck is knowing *how* to improve, not motivation. Pay competitively and fairly for recruitment and retention [V/H], but do not expect incentive pay to raise teaching quality [E].\n\n**What this means for a founder.** You cannot select your way to a great faculty, so design to **develop** whoever you hire. Teachers improve a great deal in their first few years (Rockoff 2004), and growth continues longer in supportive professional environments (Kraft & Papay 2014). A school where teachers visibly get better is also a retention strategy. Hire for disciplinary knowledge and **coachability**, and test both with job-relevant work samples (teach a short lesson, take feedback, reteach; respond to real student work) rather than trusting credentials or a single polished demo [H: plausible, test it in your own hiring]. Never base high-stakes decisions on single-year value-added or single observations [E]."
+    },
+    {
+     "title": "Structural reforms change the container, not the contents",
+     "tag": "E",
+     "body": "The second half of Wiliam's list of reforms that will not help much is structural. Each has real evidence behind it. The point is not that it does nothing; it is that it does too little for what it costs, or does not survive scale.\n\n**Class size.** Tennessee STAR (1985-89) is one of the best randomized trials in education: K-3 classes of about 13-17 versus 22-25 produced gains of roughly 0.15-0.2 SD, larger for Black and low-income students. So small classes help, especially early. Then California reduced class sizes statewide in 1996 and got much smaller gains (Jepsen & Rivkin 2009). Scaling required hiring huge numbers of new, often uncertified teachers; stronger teachers moved to more advantaged schools; space ran out. The loss in teacher quality ate much of the benefit. Class-size reduction is also the most expensive recurring cost you can choose, because salaries are the biggest budget line, and it is hard to reverse. Founder rules: do not make small classes your main value proposition or spend on them before teacher learning [E]; targeted small groups for early reading or catch-up may capture much of the benefit at a fraction of the cost [H]; and if parents value small classes for being known and cared for, that is a legitimate value, so name it honestly as [V].\n\n**Copying other countries.** PISA and TIMSS show what is possible, but features of Finland, Singapore or Shanghai are tangled with culture, teacher status, demographics, private tutoring and social policy. A system can succeed despite a policy, not because of it, and many policy mixes produce high scores. Borrow mechanisms with causal evidence (for example, collaborative teacher inquiry of the lesson-study kind, adapted as a principle), not policies.\n\n**School choice and charters.** CREDO's national studies found average charter effects near zero with **very wide variation**; lottery studies of Boston charters and KIPP found large positive effects; some voucher programs (Louisiana, around 2013-15) showed negative first-year maths effects. Because variation *between* schools is small compared with variation *within* them, reshuffling students among schools has a limited ceiling. The charters that succeed do so because of what happens inside classrooms: curriculum, instruction, culture, teacher development.\n\n**The sentence to write on your wall: being a new or independent school confers no advantage by itself.** Autonomy is only an asset if you spend it on the classroom-level levers. Every founder is tempted to believe the new container is the innovation. It is not. The contents are.\n\n**How this connects.** Mehta & Fine (Module 7) reached a compatible conclusion from observation: models, governance and structure did not reliably produce depth; adult learning and alignment did. Bryk (Module 9) explains the mechanism: structural reforms change one part of a complex system and assume the rest adjusts, which is why the same reform works in some places, fails in others, and averages out small.\n\n**Evidence strength.** STAR, CREDO and the lottery studies are strong. The comparative claim that teacher development beats class size per dollar is Wiliam's reasoned estimate from separate literatures, not a head-to-head trial [H for the ranking; E for the components]. Critics also note a possible double standard: the author's own field, formative assessment, gets a gentler reading. His case survives the smaller at-scale estimates (about 0.1 SD) on cost, but not his early doubling-the-speed rhetoric."
+    },
+    {
+     "title": "Reading effect sizes without getting fooled",
+     "tag": "E",
+     "body": "An effect size (standardized mean difference) is the gap between two groups measured in standard deviations. It looks like a universal currency, which is exactly why it misleads. Vendors, consultants and league tables (Hattie's ranking is the famous one) compare numbers that cannot be compared. Four traps catch almost everyone.\n\n**1. Age.** Young children learn fast relative to the spread of scores; teenagers learn slowly relative to it. A year of normal growth is a large effect in the early grades and roughly 0.25-0.4 SD at secondary (Bloom, Hill, Black & Lipsey 2008). So an effect of 0.2 can mean a few weeks of extra learning for a 7-year-old and most of a year for a 15-year-old. **Translate effect sizes into months of learning for the age in question** before comparing anything.\n\n**2. The test.** A researcher-designed test closely aligned to what the intervention taught produces much bigger effects than a broad standardized test of the same subject. A narrow test measures whether students learned the taught content; a broad one measures whether it moved the general achievement you care about. Both are legitimate, but they are not the same number.\n\n**3. The sample.** Studying a restricted group (only struggling readers, only one ability band) shrinks the standard deviation and inflates the effect size. Timing matters too: a measure taken a week after the intervention flatters; one taken a year later tells you what lasted (Module 4's point that short-term performance lies).\n\n**4. Scale-up decay.** Small studies run by enthusiastic designers produce larger effects than the same idea run by ordinary teachers across many schools. Formative assessment is this module's own case study: roughly 0.4-0.7 in the 1998 review, about 0.3 in KMOFAP, about 0.1 in the 140-school EEF trial. Nothing failed. That is what scale does.\n\n**A practical reading protocol** for any claim that crosses your desk (a vendor deck, a board member's article, an AI tutoring pilot):\n- Who were the students (age, prior attainment), and how does that compare with yours?\n- What test, and who designed it? How long after the intervention?\n- Randomized, or a before-after comparison with no control?\n- Who delivered it: the designers, or ordinary staff?\n- What did it cost, including teacher time, and what would it displace?\n- Has it been replicated at scale, and what happened to the effect?\n\n**Worked contrast.** Two interventions each report 0.4. One was measured on 7-year-olds, with a researcher-built test, a week later. The other on 15-year-olds, with a standardized test, a year later. The second is far more impressive: older students, a broad test and a delayed measure all *deflate* effect sizes, so the same number represents a much larger real change.\n\n**Why a founder must own this skill.** Every week someone will offer you a number. Kraft (2020) and Simpson (2017) extended the critique of comparing effect sizes. The discipline is not cynicism; Wiliam's own recommendations are built on effect sizes, read carefully. It is the education version of refusing to compare conversion rates across different funnels, segments and time windows."
+    },
+    {
+     "title": "The two bets: a knowledge-rich curriculum and developing the teachers you have",
+     "tag": "E",
+     "body": "Having ruled out the popular levers, Wiliam names two priorities. Almost everything else is lower.\n\n**Bet 1: curriculum.** Content and its sequence, and the materials teachers use, are a major and under-used lever, and cheap, because schools buy materials anyway. Randomized comparisons of elementary maths curricula (Agodini et al. 2010) and the Brookings analysis *Choosing Blindly* (Chingos & Whitehurst 2012) suggest that choosing between textbooks can produce differences comparable to expensive reforms at near-zero marginal cost. Distinguish the **intended** curriculum (specified), the **enacted** curriculum (taught) and the **achieved** curriculum (learned); improvement lives in the gaps between them. Adopting a curriculum does not mean it is being taught, which is Wexler's warning in Module 5.\n\nWhy *knowledge-rich*? Module 1's architecture: working memory is tiny, long-term memory is vast, and expertise is organized knowledge that frees working memory for thinking. Critical thinking, problem solving and creativity are not generic skills that transfer without content. Reading comprehension, once decoding is fluent, depends heavily on topic knowledge (Recht & Leslie 1988: weak readers who knew baseball out-comprehended strong readers who did not, on a baseball passage). And it is an **equity** lever: advantaged children pick up background knowledge at home, so a school that does not teach it systematically widens gaps. Protect elementary time for science, history, geography and the arts as knowledge-building, not only literacy and numeracy skills blocks. *Which* knowledge is a value choice [V], so make it explicitly with your community. Causal evidence for whole curricula is growing (a Core Knowledge charter lottery study, Grissmer et al. 2023, postdates the book); in 2018 Wiliam argued mainly from mechanism.\n\n**Bet 2: improve the teachers you already have.** Wiliam calls it *love the one you're with*. Most professional development as delivered (one-off workshops, generic inspiration) shows little measurable effect; TNTP's *The Mirage* (2015) found high spending and hard-to-detect results. The **content** of development should be classroom formative assessment, because it applies across subjects and ages, works on the short cycle, and has meaningful effects at low cost. The **process** should be TLCs: monthly, multi-year, teacher-chosen techniques, small steps, peer accountability (Module 6). Evidence published around or after the book strengthens the case: the EEF trial (about two months' extra progress across 140 schools) and syntheses of PD mechanisms such as Sims et al. (2021), which favor sustained, practice-focused designs. The exact TLC parameters remain sensible defaults, not proven optima.\n\n**Why these two together.** Shared, school-wide materials make teacher collaboration far more productive, because everyone is improving the same lessons. Formative assessment without a good curriculum adapts toward nothing; a good curriculum without formative assessment is taught to the imagined median student.\n\n**What the two bets leave out.** Wiliam has little on motivation, well-being, culture or curiosity, so use Yeager, Engel and Mehta & Fine as counterweights. He is also readier than Bryk to name the answer in advance: his is the *what*, Bryk's the *how*. The founder's synthesis: **pick the best-odds bets from the evidence, then use improvement science to make them work in your building.**\n\n**Staffing consequence.** Select for learnability; build for effectiveness. Invest heavily in years one to three of every teacher's time with you; make TLC participation part of the employment compact [V]; and apply the mentor mindset to adults too: high standards, high support, transparency about why."
+    }
+   ],
+   "worked_example": {
+    "title": "Decision: hiring versus development, and the $600k allocation",
+    "steps": [
+     "Restate the problem in Wiliam's terms: not which options work (all of them do a little) but which yields the most learning per dollar and per teacher-hour for our students, what each displaces, and how fast it pays off. [H for the rubric; it is a decision framework]",
+     "Pre-hire signals (credentials, interviews, even a single demo lesson) predict effectiveness weakly, and value-added and single observations are noisy. So hiring cannot carry the strategy. [E]",
+     "Variation among teachers already in the building is large, and teachers improve substantially in their early years, longer in supportive environments. The reachable lever is development. [E]",
+     "Salary +8%: helps recruitment and retention over years, but spreads thin, recurs forever, and merit-style pay has null trial results. Keep pay competitive and fair; do not buy quality with it. Allocate a modest amount to fair pay, framed as a retention and values decision. [E on merit pay; V on fairness]",
+     "Class size 26 to 22: real but modest effects, strongest in early grades, the largest recurring cost, and it forces extra hires. Reject school-wide; fund targeted small-group early-reading intervention instead. [E for the pattern; H for the targeted alternative]",
+     "Devices plus adaptive software: medium is not mechanism (Module 1). Fund only a specific mechanism with a plausible effect for our age group, such as spaced retrieval practice, piloted as a PDSA with a practical measure, not a 1:1 rollout. [E that technology does not teach by itself; H for the pilot]",
+     "Coaches: fund, but pointed at formative assessment and the curriculum, working through TLCs rather than as freelance experts. Add protected TLC time (the real cost is teacher hours, so cancel a meeting to pay for it) and high-quality shared curriculum materials. [E for sustained, practice-focused PD and curriculum; H for the exact split]",
+     "Hire for disciplinary depth and coachability, tested with a teach-take-feedback-reteach work sample; make TLC participation a condition of employment; make years one to three a structured development program. [H for the criteria; V for the compact]",
+     "Write the prediction: about 0.1 SD whole-school over two years from the TLC and formative work, measured externally, with leading indicators reviewed termly. [E for the magnitude]",
+     "Policy line for the brief: We select for learnability and build for effectiveness; every new initiative names what it replaces."
+    ]
+   },
+   "hinge": [
+    {
+     "q": "Wiliam's main argument against building a strategy on firing weak teachers and hiring stronger ones is:",
+     "options": [
+      "It is unkind to teachers",
+      "Our measures of teacher quality are too noisy before and after hiring, replacements are often novices, and change comes too slowly to move the average",
+      "Unions make it impossible",
+      "Teachers are all roughly equally effective"
+     ],
+     "answer": 1,
+     "diagnoses": [
+      "Values reading of an evidence argument. Wiliam may also hold that value, but his case rests on measurement reliability, supply and time.",
+      "Correct. Credentials predict weakly, value-added correlates only about 0.2-0.5 year to year, deselection improves the workforce only as cohorts turn over, and replacements start less effective.",
+      "Political-constraint reading. Even with no political barriers, the measurement and supply problems remain.",
+      "Reverses the premise. Variation among teachers is large; that is the whole reason teacher quality is the key lever."
+     ]
+    },
+    {
+     "q": "Two interventions both report an effect size of 0.4. One was measured on 7-year-olds with a researcher-designed test one week later; the other on 15-year-olds with a standardized test one year later. Which is more impressive?",
+     "options": [
+      "The first, because 0.4 is large for young children",
+      "The second",
+      "Neither; 0.4 is 0.4",
+      "The first, because a shorter delay gives a cleaner measurement"
+     ],
+     "answer": 1,
+     "diagnoses": [
+      "Reverses the age effect. Young children grow fast relative to the score spread, so effect sizes are naturally larger for them; 0.4 means less for a 7-year-old.",
+      "Correct. Older students, a broad standardized test and a delayed measure all deflate effect sizes, so 0.4 under those conditions represents a much larger real change.",
+      "Effect sizes as universal currency. They depend on age, test and sample; comparing them raw is the league-table error.",
+      "Proximity equals validity. A test right after the intervention on its own content measures short-term performance, which flatters; a delayed broad test shows what lasted."
+     ]
+    },
+    {
+     "q": "According to Wiliam, the best-evidenced use of a marginal dollar of school improvement money is:",
+     "options": [
+      "Reducing class size",
+      "Technology",
+      "Sustained, school-based teacher development in classroom formative assessment, alongside a strong curriculum",
+      "Performance pay"
+     ],
+     "answer": 2,
+     "diagnoses": [
+      "Intuitive and popular. Real but modest effects at very high recurring cost, diluted at scale (STAR versus California).",
+      "Modernity theory. Technology does not teach by itself; it helps only when it delivers a specific mechanism.",
+      "Correct. It reaches every classroom, is cheap relative to structural change, and has trial evidence at scale (about two months' progress), with curriculum as the cheap complementary lever.",
+      "Incentive theory. Randomized US merit-pay trials mostly found no effect; teachers' bottleneck is know-how, not effort."
+     ]
+    },
+    {
+     "q": "Tennessee STAR found meaningful gains from small classes. California's statewide class-size reduction produced much smaller gains. The best explanation is:",
+     "options": [
+      "STAR was a flawed study",
+      "California's students were harder to teach",
+      "Scaling required mass hiring of less experienced and often uncertified teachers, which offset much of the benefit",
+      "Small classes only work in Tennessee"
+     ],
+     "answer": 2,
+     "diagnoses": [
+      "Dismissing strong evidence. STAR was a large randomized trial and is among the most credible studies in education.",
+      "Population-difference guess. Student mix may matter at the margin, but the documented mechanism is the change in teacher quality.",
+      "Correct. This is scale-up decay with a named mechanism: the reform consumed the very resource (good teachers) that makes classes effective, and moved strong teachers toward advantaged schools.",
+      "Context-mysticism. Everything works somewhere does not mean effects are arbitrary; here the mechanism of the failure is known."
+     ]
+    },
+    {
+     "q": "A co-founder says: our charter status and freedom from district rules will make us better than local schools. The best response from this module is:",
+     "options": [
+      "Agreed: lottery studies show charters produce large gains",
+      "Structure confers no advantage by itself; choice schools show small average effects with very wide variation, and the good ones win on what they do in classrooms",
+      "Wrong: charters perform worse on average",
+      "It depends entirely on funding levels"
+     ],
+     "answer": 1,
+     "diagnoses": [
+      "Cherry-picking the tail. Some urban networks show large lottery-based gains; national averages are near zero. Your school is not automatically in the good tail.",
+      "Correct. Autonomy is an option, not an asset; it pays only if spent on curriculum, instruction, culture and teacher development.",
+      "Overcorrection. Averages are near zero with wide spread, not reliably negative.",
+      "Resource reductionism. Funding matters at the margin, but the evidence points to what happens inside classrooms as the differentiator."
+     ]
+    }
+   ],
+   "brief_prompt": "Add or rewrite Section 7 (Adults) of your brief: hiring criteria and the work-sample you will use, the first-three-years development plan, and the TLC compact. Add a budget table allocating the $600k (or your own discretionary figure) with, for each line, the expected effect in months of learning, the cost in dollars and teacher hours, and what it displaces. Add a one-paragraph initiative-evaluation rubric and a first not-doing list of at least three things. Tag every line E/H/V, and flag any claim that rests on a raw effect size you have not translated for age and test type.",
+   "deeper": [
+    "books/10-creating-the-schools-our-children-need.md#Section 2 · Ch 3 — Firing Bad Teachers",
+    "books/10-creating-the-schools-our-children-need.md#Section 2 · Ch 5 — Reducing Class Size",
+    "books/10-creating-the-schools-our-children-need.md#Section 2 · Ch 7 — Expanding School Choice",
+    "books/10-creating-the-schools-our-children-need.md#Section 3 · Ch 8 — Moving Forward",
+    "books/10-creating-the-schools-our-children-need.md#Section 3 · Ch 10 — A Knowledge-Rich Curriculum",
+    "books/10-creating-the-schools-our-children-need.md#Section 3 · Ch 13 — Pulling It All Together",
+    "books/10-creating-the-schools-our-children-need.md#Evidence strength & limits",
+    "books/07-embedding-formative-assessment.md#Evidence strength & limits"
+   ]
+  },
+  {
+   "id": "m9",
+   "num": 9,
+   "title": "Running the school as an improvement system",
+   "level": "Institutions",
+   "minutes": 100,
+   "sources": [
+    "11-improvement-in-action",
+    "08-extraordinary-learning-for-all",
+    "07-embedding-formative-assessment",
+    "10-creating-the-schools-our-children-need",
+    "05-10-to-25"
+   ],
+   "hook": "Suppose your new advisory program lifts average attendance. Then someone breaks the data out and finds it helps most students, does nothing for many, and makes things worse for a small group who were already the most at risk. Your board wants to roll it out to every grade. What is the first question improvement science asks, and why is 'did it work on average?' the wrong one?",
+   "attempt": {
+    "prompt": "Your school's Year 7 maths attainment has been flat for two years. In 15 minutes: (1) sketch the system that produces this result: the people, processes, handoffs and routines, not just the causes you suspect; (2) name three things (drivers) you believe must change; (3) write the first two-week test of one change, including exactly what you will do, with whom, what you predict will happen, and how you will measure it by Friday of week two. Do it before reading on.",
+    "minutes": 15
+   },
+   "objectives": [
+    "Explain why variation in performance, not the average effect, is the central object of improvement, and apply 'see the system' to a school outcome.",
+    "Draw a driver diagram (aim, primary drivers, secondary drivers, change ideas) with a measure at each level.",
+    "Design a PDSA cycle with a written prediction, a practical measure and a balancing measure, and explain why it is not an A/B test.",
+    "Distinguish measurement for accountability, research and improvement, and say what each does to behavior.",
+    "Judge where the software analogies (incident review, observability, canary releases) hold and where they break, and state the evidence limits of Bryk's cases."
+   ],
+   "ideas": [
+    {
+     "title": "The system produces the result: study variation, not averages",
+     "tag": "E",
+     "body": "Anthony Bryk ran the Carnegie Foundation for the Advancement of Teaching from 2008 to 2020. *Improvement in Action* (2020) is a casebook; the method comes from its predecessor, *Learning to Improve* (Bryk, Gomez, Grunow & LeMahieu 2015). The diagnosis first, because it is the best-evidenced part.\n\n**Why reform keeps failing.** American reform runs a loop: adopt a big solution, roll it out everywhere, get widely varying results that are mediocre on average, give up, adopt the next big solution. Schools are complex systems: schedules, roles, curricula, data, norms and relationships jointly produce outcomes. Reforms change one part and assume the rest will adjust. It does not, so the same intervention works here, fails there, and averages out to *small effect*. Most reforms fail in **implementation**, not in their ideas. Decades of implementation research (the RAND Change Agent studies onward) support this. Hence Bryk's reframe: not *what works?* but **what works, for whom, under what conditions?** A randomized trial gives you an average; a leader needs to know whether it will work *here* and what to adjust.\n\n**Principle: focus on variation in performance.** Variation is where the information is. Look at the tails: classrooms, teachers or students where things go unusually well (**positive deviants**, often your best source of change ideas) or badly. The goal is **quality reliably at scale**: shrinking the bad tail, not just raising the mean.\n\n*Where the software analogy fits:* reliability engineering. You care about p99 latency, not mean latency. An intervention with a good mean and a fat left tail is a service that is fast on average and times out for 5% of users, and in schools that 5% is disproportionately the students already most disadvantaged. *Where it breaks:* teacher variation is not configuration drift you fix by reverting to a known-good build. It comes from skill, context, relationships and student mix; you reduce it by building capability and support, not by enforcing a spec. And the goal is less variation in **outcomes**, not uniform practice; positive deviants are to be learned from, not flattened.\n\n**Principle: see the system that produces the current outcomes.** A saying from healthcare improvement, usually credited to Paul Batalden: every system is perfectly designed to get the results it gets. Before changing anything, map how the result is produced.\n- **Process map**: the actual steps (how a failing grade becomes an intervention, or does not). Leaks cluster at handoffs and unowned steps. Fresno Unified mapped the path from high school to college as a leaky pipeline and found many losses were **procedural** (forms, deadlines, missing information, course placement), not a lack of ability or ambition. That is funnel analytics, broken out by subgroup, and the analogy holds well.\n- **Fishbone (cause-and-effect) diagram**, built with the people who do the work, then checked against data. Steer toward causes inside the school's control without pretending outside causes do not matter.\n- **Pareto chart**: rank causes by frequency. Often most course failures come from missing assignments rather than failed tests, which tells you where to act first.\n\n*Analogy:* the **blameless post-incident review**. Not *who broke production?* but *what about our system made this failure likely, and why did no safeguard catch it?* A student failing a course is an incident; look for contributing factors. *Where it breaks:* software leaves logs. In schools, causes are spread out, often invisible (a home situation, a friendship ending) and slow to appear, so every root-cause analysis is a **hypothesis**, not a finding.\n\n**The folk theory to retire** is the one behind most staffroom conversations: bad outcomes come from bad people. Mostly they come from processes nobody designed."
+    },
+    {
+     "title": "Aim and driver diagram: your theory of improvement, written down and revisable",
+     "tag": "H",
+     "body": "Bryk's first principle: **make the work problem-specific and user-centered.** Start from a precisely stated problem, not a solution. *38% of our ninth graders fail at least one core course in fall semester* is a problem. *Let's adopt a tutoring platform* is a solution looking for one; Carnegie calls the habit **solutionitis**, and it is the default failure of leadership teams. Understand the problem as the people who live it do: interview students and teachers, shadow a student's day, map their journey.\n\n*Analogy (a good fit):* product discovery, jobs-to-be-done, falling in love with the problem. *Where it breaks:* your users are required to attend, teachers are both users of the system and the people delivering it, and what a 14-year-old wants (less homework) is not always their long-term interest. User-centered here means serving their long-run interests with judgment, which a satisfaction survey cannot supply.\n\n**The aim statement**: how much, by when, for whom. Example: by June of year two, 90% of ninth graders pass all core courses, with no gap across income or racial subgroups. It works like an OKR except it names the population and the distribution, not only the average.\n\n**The driver diagram** is the single most important tool to learn. Read left to right:\n- **Aim**: the measurable outcome.\n- **Primary drivers**: the few (typically 3-5) areas you believe must change. For ninth-grade course passing: students' academic mindsets, quality of core instruction, an early-warning and response system, transition supports.\n- **Secondary drivers**: the specific structures, processes and norms acting on each primary driver. Under early warning: timely grade data visible to teachers; a weekly team meeting on at-risk students; a clear menu of responses.\n- **Change ideas**: specific, testable changes. Example: advisors text families the same day a student misses a major assignment.\n\nTwo properties make it more than a slide. First, it is a **hypothesis meant to be revised**: PDSA cycles show which drivers actually move the aim, and you update the diagram, like a living architecture decision record. Second, **every node carries a measure**: outcome measures at the aim, driver measures in the middle, process measures at the change ideas. The diagram *is* your measurement plan. Software analogy: a metrics tree bound to a causal hypothesis.\n\n**How it disciplines a school.** Maintain one driver diagram per annual aim, owned by a small improvement team and reviewed each term. Every proposed initiative must attach to a driver or be declined, which is Wiliam's not-doing list (Module 8) given a mechanism. Keep aims to two or three a year [E for focus as an improvement principle; H for the number].\n\n**Where the other books plug in.** A driver diagram is only as good as the theory in it. Module 1-6 content supplies high-quality drivers: retrieval and spacing, formative assessment, knowledge-rich curriculum, belonging and mentor-mindset feedback. Yeager's belonging and productive-persistence work literally supplied drivers for the Carnegie Math Pathways, the community-college network that redesigned remedial maths into credit-bearing statistics and quantitative reasoning courses (Statway and Quantway). Transcend's Graduate Aims and Leaps (Module 7) belong at the *aim* level (what the community wants), not in the drivers, which should be constrained by evidence.\n\n**Tag it [H].** The driver diagram is a disciplined way to hold a theory; the theory in any particular diagram is a hypothesis until your cycles and measures say otherwise."
+    },
+    {
+     "title": "Measure for improvement: practical measures, and the four kinds you need",
+     "tag": "E",
+     "body": "Bryk's fourth principle: **we cannot improve at scale what we cannot measure.** Schools are usually drowning in measurement and starved of the right kind.\n\n**Three purposes, three kinds of measure**\n- **Accountability measures** (annual state tests, inspection grades) exist to judge. They are lagging, coarse, and arrive long after the year you could have acted. Using them to drive weekly improvement produces gaming and despair.\n- **Research measures** (long validated scales) exist to publish. They are rigorous, slow and burdensome; using them for improvement produces paralysis.\n- **Practical measures** exist to guide the next change. Most schools have plenty of the first two and none of the third.\n\n**Practical measures** (Yeager, Bryk, Muhich, Hausman & Morales 2013, *Practical Measurement*; note Yeager is the author of Module 3's book) are:\n- **specific to the change** being tested, not a general construct;\n- **fast and cheap**: a few items, seconds to minutes, repeated often;\n- **predictive**: shown to relate to the outcome you care about;\n- **actionable**: back in the practitioner's hands this week, in a usable form;\n- **low stakes**: never used to evaluate people, or they get gamed.\nThe Carnegie Math Pathways used a handful of short productive-persistence survey items, answered in seconds at key moments, to flag students at risk early. In your school: weekly count of drafts submitted per student, pulled from the platform you already use; the share of students choosing a misconception distractor on this unit's hinge question; minutes from bell to first student task.\n\n*Analogy (a strong fit):* **observability**. The annual test is quarterly revenue, a lagging indicator. You need the equivalent of request-level metrics and traces: leading indicators close enough to the work to show whether this week's change did anything. *Where it breaks, three ways:* (1) measuring people changes their behavior (Campbell's law, Goodhart's law); servers do not game dashboards, teachers and students do. (2) Every measure costs instructional time and goodwill. (3) Much of what you care about (understanding, belonging, curiosity) can only be measured noisily. This is Mehta & Fine's warning: a narrow measurement culture can quietly push out depth.\n\n**Four kinds of measure for every change** (from the healthcare improvement tradition):\n- **Outcome**: did the aim move? Lagging.\n- **Driver**: did the hypothesized lever move (sense of belonging, share of teachers using early-warning data)?\n- **Process**: was the change actually done as planned (share of families contacted within 24 hours)? Without it you cannot tell a bad idea from a badly executed one.\n- **Balancing**: did we break something else (teacher workload, time lost from core classes, student stress)? These are guardrail metrics, and they are the ones most often forgotten.\n\n**Separating the systems.** Keep improvement data physically and culturally separate from evaluation. Never feed practical measures into teacher appraisal [E that high-stakes use corrupts indicators; V for choosing trust over surveillance]. Accountability measures are reported, not managed to. A diagnostic across two years: if practical measures improve and accountability measures do not, your drivers are probably wrong; if the reverse, suspect gaming or teaching to the test.\n\n**Read charts properly.** Plot measures over time with changes marked. Deming's distinction between **common-cause** variation (the system's normal noise) and **special-cause** variation (a real signal) stops you reacting to every weekly wobble. Simple run-chart rules (for example, six or more consecutive points above the median) help, but with small, noisy classroom samples false signals are easy to see. Treat a single good week as a rumor."
+    },
+    {
+     "title": "PDSA: small, predicted tests, and why they are not A/B tests",
+     "tag": "H",
+     "body": "Bryk's fifth principle: anchor practice improvement in **disciplined inquiry**. The unit is the **Plan-Do-Study-Act** cycle, organized by the Model for Improvement (Langley and colleagues, *The Improvement Guide*) and its three questions: What are we trying to accomplish? How will we know a change is an improvement? What change can we make that will result in improvement?\n\n**The cycle**\n- **Plan**: state the change, **a written prediction**, and how you will measure it. Who, where, when.\n- **Do**: run it small: one teacher, one class, one or two weeks.\n- **Study**: compare what happened with what you predicted. The gap is the learning.\n- **Act**: adopt, adapt or abandon, and plan the next cycle.\nThen build **ramps**: a series of cycles growing in scale and in the variety of conditions (one teacher, three, a department, the school). Scale only when the change holds across contexts. Bryk's slogan: **learning fast to implement well**. Fail small and fast so you do not fail large and slow.\n\n**Why the prediction is the whole point.** Without one, no result can surprise you, so your theory of the system is never tested or revised; you simply narrate whatever happened as success. The prediction is also the main protection against fooling yourself. Healthcare reviews of PDSA use find it is often done without rigor: no prediction, poor documentation, cycles that do not build on each other. In many districts *continuous improvement* has decayed into templates filled in after the fact, a lethal mutation of the method itself.\n\n*Analogy (partial):* feature flags and canary releases. Ship to 1%, watch the metrics, widen the rollout; the ramp logic transfers well. *Where it breaks, and this matters:* **a PDSA cycle is not an A/B test.** An A/B test uses randomization and large samples to estimate a causal effect with known confidence. A PDSA cycle is usually n = 1 classroom with no control group. It builds practical knowledge by accumulating many small, predicted, observed tests, read on run charts with judgment, and replicated across contexts. It is closer to a developer iterating on a local build against a clear spec. Its failure modes are regression to the mean, novelty effects, and a good week that had nothing to do with the change. And **students cannot be rolled back**: a failed test used real children's learning time, which is why tests start so small and why settled science should constrain what you test.\n\n**What PDSA is for, and not for.** Use it to make proven practices work reliably *here*: how to run hinge questions in Year 7 maths with 30 students and a 50-minute period, how to get redraft time to actually happen, how to make the early-warning meeting produce action. Do not use it to rediscover pedagogy from scratch. Local PDSA results are not evidence on a par with decades of cognitive science; the science should decide which change ideas are worth testing.\n\n**The same loop at three scales.** Formative assessment (Module 6) is PDSA inside a lesson: elicit evidence, interpret, adjust. A TLC is PDSA for a teacher's practice: commit to a technique, try it, report back, revise. Improvement science is formative assessment applied to the institution. Transcend's Test-Drive (Module 7) is a PDSA ramp for a newly designed experience; run it with Bryk's discipline of prediction, practical measures and balancing measures.\n\n**Tag it [H].** The method has a strong record in manufacturing and a substantial but mixed one in healthcare; in schools the evidence is mostly case-based. Its value depends entirely on keeping the discipline."
+    },
+    {
+     "title": "Networks, hubs, leadership, and what the cases can and cannot prove",
+     "tag": "H",
+     "body": "Bryk's sixth principle: **accelerate learning through networked improvement communities (NICs).** A single school learns slowly: few cases, little variation, no way to tell local luck from a real effect. A network of schools working on the *same* problem, with a shared aim, a shared driver diagram, shared measures and a coordinating hub, runs tests in many contexts at once and sees what holds up. *Analogy (reasonable):* an open-source project with a common roadmap, shared test suite and maintainers who merge contributions. *Where it breaks:* NICs depend on trust and voluntary participation across organizations with different bosses, calendars and incentives, and hubs need long-term funding. None of it is as cheap as a pull request.\n\n**The six cases** (read them as organizational capability, not programs):\n- **Fresno Unified**: mapped the leaky pipeline to college; many losses were procedural and fixable.\n- **New Visions for Public Schools** (NYC): an **analytic hub** building tools that give counselors and teachers a live, student-by-student view of credits, exam requirements and attendance, treating practitioners as users. Data helps only inside routines that say who looks, when, and what they do next. Staff this role at your school like an internal-tools product owner; the classic failure is dashboards nobody opens.\n- **Summit Public Schools**: a radical redesign treated as continuous learning, not a launch. You are Summit: v1 will fail in ways you cannot predict, so budget roles, time and data for learning from the first term. (Its personalized-learning platform later drew controversy in some adopting districts; the book does not settle whether the model works elsewhere.)\n- **High Tech High**: even a strong, admired pedagogy hid inequitable outcomes until data were broken out by subgroup. Improvement had to be framed as professional inquiry, not compliance.\n- **National Writing Project, College-Ready Writers Program**: a NIC on a classroom problem (argument writing). An independent SRI randomized trial found positive effects on teacher practice and student writing, one of the rare places improvement work has RCT support, though for the whole package of content, professional learning and routines.\n- **Menomonee Falls** (Wisconsin): under superintendent Pat Greco, everyone was trained in improvement methods, from teachers and operations staff to the board and students; culture moved from blame to learning. The DevOps-transformation analogy fits, including the lesson that it is mostly culture. Risk: dependence on one leader.\n\n**Leadership decides whether any of this works.** Leaders set aims, give time and roles, make it safe to surface failure, and model inquiry. Improvement run as compliance becomes paperwork. Transcend's learner-centered leadership and routine maintenance point the same way.\n\n**What the book can and cannot prove.** These are case narratives, chosen because they went well, about Carnegie partners, largely from leaders' own accounts, with no comparison groups. They show that improvement practices can be adopted and are associated with improving trends; they cannot show the methods caused those trends, or how often such efforts fail. The cases also concentrate on **measurable secondary-school outcomes** (graduation, credits, attendance, college access). Do not assume transfer is equally easy to hard-to-measure goals like understanding or curiosity. Improvement routines consume adult time, so count that as a balancing measure.\n\n**Institutional design for a founder** [mostly H]: two or three annual aims with subgroup breakdowns; a student-level funnel and early-warning system from day one (early-warning indicators such as attendance and course failure predict later outcomes well [E, Chicago on-track research]); an improvement lead; protected weekly inquiry time; blameless reviews of student failures; all staff trained in basic methods; join or found a NIC; and succession planning, so the system lives in roles and routines, not one person."
+    }
+   ],
+   "worked_example": {
+    "title": "Decision: the school's improvement operating system",
+    "steps": [
+     "Choose one primary aim for year one, stated for a population and a distribution: for example, by June, 85% of Year 7 students reach the unit mastery threshold in maths on the delayed end-of-unit check, with no gap by prior attainment or income. [E for the method of precise aims; V for choosing this aim]",
+     "Before choosing solutions, see the system: break current results out by class, teacher and subgroup; Pareto the reasons (missing practice? misconceptions surviving the unit? absences?); shadow two students for a day; map what happens when a student falls behind. Look for positive deviants among your own teachers. [E for the diagnostic stance; H for what you will find]",
+     "Draw the driver diagram with an improvement team of three to five people: for example, primary drivers of retrieval and spaced practice built into lessons, in-lesson formative checks acted on, time on task in the first ten minutes, and belonging in maths. Every initiative must attach to a driver or be declined. [H]",
+     "Attach a measure to each level: outcome (delayed unit check), driver (hinge-question distractor rates; a two-item belonging pulse each fortnight), process (share of lessons with a planned all-student check), balancing (teacher planning hours; student stress item). [E for the four-measure structure; H for the specific measures]",
+     "Run PDSA cycles of two to four weeks, each with a written prediction before it starts and a 30-minute study meeting at the end: roughly three cycles per team per term, ramping from one class to the department only when a change holds. [E for disciplined small tests as method; H for the cadence]",
+     "Keep practical measures in a lightweight dashboard separate from the gradebook, and never use them in appraisal. Report accountability measures; do not manage to them. [V; E that high-stakes use corrupts indicators]",
+     "Wire the TLCs from Module 6 in as the classroom-level instance of the same loop, and use community codesign sessions from Module 7 to shape the aim, not the drivers. [H; V]",
+     "Hold a blameless review whenever a student fails a course: contributing factors, not culprits, feeding the fishbone. [H]",
+     "Look outward: find two or three peer schools working on the same problem and share the driver diagram and measures; a network sees variation a single school cannot. [H]",
+     "Policy line for the brief: Every change is a test with a prediction; improvement data is for learning, never for judging."
+    ]
+   },
+   "hinge": [
+    {
+     "q": "Bryk's principle 'see the system that produces the current outcomes' means:",
+     "options": [
+      "Build data dashboards so leaders can see results",
+      "Map the actual processes, handoffs and conditions that produce the outcome, including the ones nobody designed",
+      "Hold everyone accountable for the outcome",
+      "Adopt a coherent whole-school program"
+     ],
+     "answer": 1,
+     "diagnoses": [
+      "Tools equal seeing. Dashboards show outcomes, not the process producing them; New Visions' lesson is that data helps only inside routines.",
+      "Correct. Process maps, fishbones and conversations with the people doing the work reveal where results are actually produced, like a blameless incident review.",
+      "Accountability equals system. Assigning blame to people is exactly what 'every system is perfectly designed to get the results it gets' warns against.",
+      "Program equals system. Programs are solutions; seeing the system is diagnosis, and it comes first."
+     ]
+    },
+    {
+     "q": "A PDSA cycle run without a written prediction is deficient mainly because:",
+     "options": [
+      "Nobody will remember what was planned",
+      "Without a prediction the result cannot surprise you, so the theory of the system is never tested or revised",
+      "Predictions are required for research ethics",
+      "Predictions motivate the team"
+     ],
+     "answer": 1,
+     "diagnoses": [
+      "Documentation reading. Record-keeping matters, but you could document a plan perfectly and still learn nothing.",
+      "Correct. The gap between prediction and result is the learning, and writing it down first is the main defense against narrating any outcome as success.",
+      "Compliance reading. PDSA is not a research protocol; this confuses improvement with research measurement.",
+      "Motivational reading. Any motivational effect is incidental; the function is epistemic."
+     ]
+    },
+    {
+     "q": "Which of these is a practical measure, in Bryk's sense, for the change 'students revise their writing'?",
+     "options": [
+      "End-of-year state writing score",
+      "A validated 40-item writing self-efficacy scale given each term",
+      "A weekly count of drafts submitted per student, pulled from the platform already in use",
+      "The teacher's overall impression at the end of the unit"
+     ],
+     "answer": 2,
+     "diagnoses": [
+      "Accountability measure used for improvement. It is lagging and coarse, and arrives too late to guide any change this term.",
+      "Research measure. Rigorous but slow, burdensome and not specific to the change; it produces paralysis, not iteration.",
+      "Correct. It is specific to the change, cheap, frequent, embedded in the work and back in teachers' hands within days, and it stays low stakes.",
+      "Too vague to detect change. An impression is not comparable week to week and is open to confirmation bias."
+     ]
+    },
+    {
+     "q": "A teammate says: 'A PDSA cycle is basically an A/B test for teachers.' What is the best correction?",
+     "options": [
+      "Right; that is why each cycle needs a control group",
+      "Wrong: a PDSA is usually n = 1 with no control; it builds practical knowledge through many small predicted tests, run charts and replication across contexts, not statistical inference from one test",
+      "Wrong: PDSA cycles are purely qualitative and use no data",
+      "Right, except PDSA uses larger samples"
+     ],
+     "answer": 1,
+     "diagnoses": [
+      "Imports the A/B frame. Adding a control to every two-week classroom test is usually impractical and misses how PDSA builds knowledge.",
+      "Correct. The ramp logic resembles a canary release, but the inference is different; its protections are the prior prediction, run charts and replication, and students cannot be rolled back.",
+      "Overcorrection. PDSA relies on practical measures and run charts; it is disciplined and quantitative where possible.",
+      "Reverses the facts. PDSA samples are smaller, which is exactly why self-deception is the main risk."
+     ]
+    },
+    {
+     "q": "Your new advisory program raises attendance. Which is a balancing measure you should also be tracking?",
+     "options": [
+      "Attendance rate",
+      "The share of advisors who ran the advisory session as planned",
+      "Advisor workload and instructional time lost from core classes",
+      "Students' sense of belonging"
+     ],
+     "answer": 2,
+     "diagnoses": [
+      "That is the outcome measure: it tells you whether the aim moved, not what else changed.",
+      "That is a process measure: it tells you whether the change was carried out as designed.",
+      "Correct. Balancing measures are guardrail metrics that catch improvement in one place quietly breaking something else, and teacher workload is the most often forgotten.",
+      "That is a driver measure if belonging is a hypothesized lever for attendance."
+     ]
+    }
+   ],
+   "brief_prompt": "Write Section 9 (Improvement system) of your brief: your year-one aim (how much, by when, for whom), a driver diagram with three to five primary drivers and a measure at each level, and one fully specified PDSA cycle (change, prediction, practical measure, process measure, balancing measure, study date). State how improvement data is kept separate from appraisal. Then open your brief's Open Hypotheses register and convert three [H] items from earlier modules into PDSA cycles with predictions. Note which software analogy you relied on and one place it could mislead you.",
+   "deeper": [
+    "books/11-improvement-in-action.md#The six principles",
+    "books/11-improvement-in-action.md#The core toolkit (background knowledge, standard Carnegie/IHI practice)",
+    "books/11-improvement-in-action.md#Ch 2 — Supporting Improvement Through an Analytic Hub (New Visions for Public Schools)",
+    "books/11-improvement-in-action.md#Ch 6 — Transforming a School District (Menomonee Falls, Wisconsin)",
+    "books/11-improvement-in-action.md#Evidence strength & limits",
+    "books/08-extraordinary-learning-for-all.md#Ch 8 — Deepening Your Design Journey",
+    "books/07-embedding-formative-assessment.md#Connections"
+   ]
+  },
+  {
+   "id": "m10",
+   "num": 10,
+   "title": "Integration: tensions, decision rules, and the unified model",
+   "level": "Integration",
+   "minutes": 90,
+   "sources": [
+    "00-foundational-papers",
+    "01-how-learning-happens",
+    "02-scienceblind",
+    "03-intellectual-lives-of-children",
+    "04-productive-failure",
+    "05-10-to-25",
+    "06-beyond-the-science-of-reading",
+    "07-embedding-formative-assessment",
+    "08-extraordinary-learning-for-all",
+    "09-in-search-of-deeper-learning",
+    "10-creating-the-schools-our-children-need",
+    "11-improvement-in-action",
+    "12-why-we-remember",
+    "13-learning-scientific-concepts"
+   ],
+   "hook": "You have now met a dozen authors who seem to disagree about almost everything: explicit teaching versus struggle first, knowledge versus curiosity, standard mechanisms versus community design, measurement versus depth. What if most of those fights disappear once you ask four questions: for whom, for what goal, at what point in expertise, and with what consolidation?",
+   "attempt": {
+    "prompt": "Before reading on, and without looking back at earlier modules: write down the five biggest disagreements among the authors you have met. For each, write (a) who you side with, (b) under what specific conditions you would switch sides, and (c) what you would observe in your own school that would tell you it is time to switch. Then take your Brief v0 from Module 0 and, in the margin, re-tag three claims as E, H or V. You will compare both against the model and rules below.",
+    "minutes": 15
+   },
+   "objectives": [
+    "Reproduce the unified three-band model (minds, design, institution) and the improvement loop from memory, and explain each arrow.",
+    "For each major tension, state the conditional decision rule, the evidence behind each branch, and the switch signal.",
+    "Trace any institutional policy down to the mind-level mechanism it relies on and back up through a practical measure.",
+    "Explain why institutions improve through the same mechanisms that make children learn (the symmetry principle), and design for it.",
+    "Re-tag Brief v0 correctly, explaining each original tagging error and which module corrected it."
+   ],
+   "ideas": [
+    {
+     "title": "The unified model: three bands, constraints up, enablement down, and a loop",
+     "tag": "H",
+     "body": "Everything in this course fits one picture. Draw it from memory until you can.\n\n**Band 1, Minds (bottom; mostly [E]).**\n- **Working memory**: tiny and fragile, the bottleneck for new material (Sweller).\n- **Long-term memory**: schemas, the seat of expertise; strengthened by effortful retrieval, spacing, and errors followed by correction (Roediger & Karpicke, Cepeda, Bjork, Ranganath).\n- **Prior knowledge**: coherent intuitive theories that assimilate new input and are suppressed, never deleted (Shtulman, Posner, Chi, Vosniadou, Amin).\n- **Motivational state**: curiosity as an information gap that needs knowledge to exist (Gruber, Gelman & Ranganath 2014; Engel), and adolescent sensitivity to status and respect (Yeager).\n\n**Band 2, Design (middle; [E] for mechanisms, [H] for parameters).**\n- **Instruction**: explicit by default, generate-then-consolidate when its conditions hold, guidance fading with expertise (Kirschner, Rosenshine, Kapur).\n- **Curriculum**: coherent, cumulative, knowledge-rich; concepts sequenced by prerequisite (Wexler, Wiliam, Shtulman).\n- **Assessment**: formative, hinge questions, comment-only feedback, success criteria (Wiliam & Leahy).\n- **Relationship**: mentor mindset, wise feedback, question-welcoming norms (Yeager, Engel).\n\n**Band 3, Institution (top; [H] and [V] heavy).**\n- **Adult learning**: TLCs, hiring for learnability, development over selection (Wiliam).\n- **Structure**: schedule, grouping, the grammar of school, apprenticeship features in the core (Mehta & Fine).\n- **Community and purpose**: codesign, which knowledge counts, identity (Samouha et al., Mehta & Fine).\n- **Improvement system**: aim, driver diagram, PDSA, practical measures (Bryk).\n\n**Upward arrows mean *constrains*.** Load limits pacing and guidance. Schemas determine readiness. Intuitive theories determine what must be confronted. Status determines how feedback lands. No institutional or design choice can repeal a band below it; a schedule that ignores spacing, or a feedback policy that ignores status, fails no matter how good it looks on the org chart.\n\n**Downward arrows mean *enables*.** Adult learning makes the right instructional default easy. Structure gives it time and audience. Community decides what is worth knowing. The institution does not teach anyone directly; it makes good design the path of least resistance for every adult, every day.\n\n**The loop is the point.** From the improvement system, practical measures reach down to what is happening in minds (retrieval accuracy, misconception rates on hinge questions, redraft rates, question rates, belonging pulses), and predictions tested there revise the defaults above. **The institution is the thing that learns.**\n\n**Read the badges.** Certainty declines as you go up. Band 1 rests on laboratory and classroom experiments replicated for decades. Band 2 mechanisms are well supported, but parameters (how long, how often, which technique) are local bets. Band 3 rests on a few trials at scale (the EEF formative assessment trial, Tennessee STAR, the Writing Project's RCT), observational case studies (Mehta & Fine, Bryk, Transcend), and values. If your brief's institutional section is mostly [E], you are over-claiming.\n\n**How to use the model.** For any proposal, trace a path. Down: which design mechanism does it enable, and which mind-level constraint does that mechanism respect? Back up: what practical measure would show it working in minds, and which default would you revise if it did not? A proposal with no traceable path (a device rollout justified as engagement, a new schedule justified as innovation) is decoration. A proposal whose path breaks a lower-band constraint is a mistake, however popular. [H: the model is this course's synthesis, not a finding of any single book.]"
+    },
+    {
+     "title": "Design-level tensions are resolved by conditions, not winners",
+     "tag": "E",
+     "body": "The instructional debates in this curriculum mostly dissolve once you specify for whom, for what goal, at what point in expertise, and with what consolidation. Each rule below has an evidence base on both branches and a **switch signal**: what you would observe in your own school that says change course.\n\n**1. Explicit instruction vs. productive failure** (Kirschner, Sweller & Clark vs. Kapur). **Rule:** default to explicit instruction with worked examples, fading guidance as expertise grows (the expertise-reversal effect). Use generate-then-consolidate only when all four hold: the goal is conceptual understanding or transfer, not procedure; learners have relevant prior knowledge to activate; the problem admits several plausible approaches; and a scripted consolidation compares student methods with the canonical one. Evidence: Kapur's meta-analysis finds benefits for conceptual knowledge and transfer (about g = 0.36, higher with faithful design) and none for procedural knowledge (about -0.03), with larger effects from grade 6 upward. PF is not discovery learning; it satisfies Kirschner's core mechanism because full instruction follows. Never use unguided discovery with novices. **Switch:** if observations show rushed, muddled consolidation, or procedural fluency drops on practical measures, revert to explicit teaching for that unit.\n\n**2. Knowledge vs. curiosity** (Wexler and Wiliam vs. Engel). Largely a false tension. Gruber, Gelman & Ranganath showed curiosity enhances memory for its target, and curiosity requires enough knowledge to notice a gap. Engel's evidence is real, though: children ask far more questions at home than at school (Tizard & Hughes 1984), and demonstration narrows exploration (Bonawitz et al. 2011). **Rule:** a knowledge-rich curriculum is the substrate; curiosity is protected by classroom norms (questions answered and followed up, uncertainty modeled, pacing that allows detours, open the question before giving the answer), not by content-free exploration time. Put the learning objective inside the question, since curiosity's spillover to unrelated material is small and can reverse. **Switch:** if question rates per hour fall year on year, fix the norms, not the curriculum.\n\n**3. Confront misconceptions vs. avoid showing them.** Posner's conditions require dissatisfaction plus an intelligible, plausible, fruitful alternative; Shtulman & Valcarcel (2012) show intuitive theories are suppressed rather than deleted. **Rule:** confront, but only once the correct model is intelligible, with immediate correction, and never leave the wrong model as the last thing students see. Teach mechanism, not just conclusions. **Switch:** if hinge-question distractor rates for a misconception *rise* after a confrontation lesson, students are remembering the confrontation as the content; restructure.\n\n**4. Testing as measurement vs. testing as learning.** Retrieval changes memory (Roediger & Karpicke; Ranganath), and errors followed promptly by correction are learning events. **Rule:** most testing exists for learning: frequent, low stakes, cumulative, comment-only, spaced. A small number of summative points exist for reporting. **Switch:** if students or families treat every check as a judgment, the framing has failed; rename and reframe before changing the practice.\n\n**5. How feedback lands.** High standards and high support are a combination, not a midpoint (Yeager). **Rule:** critique paired with an explicit statement of the high bar and belief the student can meet it; task-focused, never ego-focused (Kluger & DeNisi). **Switch:** if compliance rises while effort quality falls, you have drifted to enforcer; if satisfaction rises while effort quality falls, to protector.\n\nNotice the shape of every rule: a **default**, **named conditions for the exception**, and an **observable trigger** for switching. That is a decision rule a new teacher can use on a Tuesday, which is what makes it institutional rather than philosophical."
+    },
+    {
+     "title": "Institution-level tensions: six rules with switch signals",
+     "tag": "H",
+     "body": "The institutional tensions have thinner evidence, so the rules are hypotheses to run, not settled answers. Hold each with its switch signal.\n\n**1. Standardization vs. community design** (Wiliam and Wexler's coherence vs. Samouha et al.'s codesign). **Rule:** standardize the mechanisms (retrieval, feedback, TLCs, the default lesson) and the knowledge sequence within each discipline; codesign purpose, culture, the periphery, and knowledge priorities where evidence is silent [V]. Write down in the founding compact which layer is open. **Switch:** if codesign sessions start proposing to change mechanisms (drop phonics, match learning styles), that is a governance failure. Honor the underlying need and answer it in the open layer.\n\n**2. Accountability vs. improvement** (external regimes vs. Bryk). **Rule:** keep the two measurement systems physically and culturally separate. Improvement measures never enter evaluation; accountability measures are reported, not managed to. **Switch:** if practical measures improve for two years while accountability measures do not, your drivers are wrong; if the reverse, someone is gaming or teaching to the test.\n\n**3. Mastery vs. identity and creativity** (No Excuses High vs. Dewey High). **Rule:** mastery first in the core, built on a knowledge sequence and explicit teaching, with one authentic product per course per term; identity and creativity also concentrated in a protected periphery every student joins, with mixed-age leadership ladders. **Switch:** if the periphery becomes the only place students say they learn, the core has failed. If core scores rise and student voice collapses, the periphery is being starved, or the core has drifted to enforcer.\n\n**4. Selecting vs. developing teachers** (folk hire-the-best vs. Wiliam). **Rule:** develop. Hire for disciplinary depth and coachability using work samples; make years one to three a structured development program; TLCs for everyone, indefinitely. **Switch:** if after three years of TLCs the within-school spread in teacher effectiveness has not narrowed, the TLC design is broken. The usual causes are no real accountability for trying techniques, TLC time cannibalized, or turnover.\n\n**5. Structural vs. instructional reform** (schedule and model enthusiasts, and Mehta & Fine's restructuring agenda, vs. Wiliam's cost evidence). **Rule:** spend change capacity on instruction, assessment, curriculum and adult learning first. Keep structure conventional unless a specific instructional need requires a change (for example, longer blocks for lab or studio work), and run that change as a named hypothesis. Remember that a new, independent school gains nothing from its container alone. **Switch:** if instructional work is blocked by structure (no common time for TLCs; no slot for redrafting), change structure minimally and deliberately.\n\n**6. Adolescent autonomy vs. adult direction** (enforcer and protector vs. Yeager's mentor). **Rule:** high standards with high support, transparency about why, sincere questions, and choice within structure. Discipline systems and advisory are audited against this, not only lessons. **Switch:** compliance up while effort quality falls means enforcer drift; satisfaction up while effort quality falls means protector drift.\n\n**Three patterns across all six.**\n- The resolution is almost always **layering**: fix one layer by evidence, open another to values or local choice, and write down which is which. Wiliam's *tight but loose* is the same move applied to teacher practice.\n- Every rule needs an **observable switch signal**, which means a practical measure (Module 9) must exist before the tension becomes live. If you cannot name the signal, you cannot run the rule.\n- The failure modes are **drift**, not dramatic reversal: enforcer drift, periphery starvation, measures quietly entering appraisal, codesign quietly touching mechanisms. Drift is detected by routine maintenance (Transcend) and run charts (Bryk), not by annual strategy retreats."
+    },
+    {
+     "title": "Symmetry: the institution learns through the same mechanisms as the child",
+     "tag": "H",
+     "body": "The deepest integration in this curriculum is that the Band 1 mechanisms apply to adults and to the organization itself. Several authors state versions of this independently. Mehta & Fine's **symmetry principle**: teachers need the conditions the school wants for students. Kirschner & Hendrick's closing warning: the central problem for a school is not choosing practices but preserving their active ingredient at scale. Bryk: improvement is an organizational capability. Put together, they give you a design method: **design adult and organizational learning with the same science you use for children.**\n\n**Working memory → initiative overload.** A staff juggling eight initiatives is a working memory with too many interacting elements; nothing gets encoded into routine. Wiliam's two or three priorities and a not-doing list is cognitive load theory applied to a faculty.\n\n**Novices need worked examples → new staff need worked examples too.** Expertise reversal applies to teachers. A first-year teacher asked to run an open-ended inquiry cycle on their own practice is a novice given minimal guidance. Give them scripted routines, model lessons, and worked examples of good improvement work first, then fade. Improvement inquiry, like student inquiry, works best for people with enough knowledge to use it.\n\n**Spacing and retrieval → the TLC cadence.** Monthly meetings over two years are spaced practice for adults: try the technique, return a month later to retrieve and report on it, revise. A two-day workshop is massed practice, which Module 1 predicts will feel productive and fade.\n\n**Feedback that can hurt → appraisal design.** Kluger & DeNisi's finding applies to teachers: feedback aimed at the self (ratings, rankings, *needs improvement*) tends to lower performance; task-focused, forward-looking feedback helps. Hence non-evaluative peer observation focused on the teacher's own chosen technique, and a hard wall between improvement data and appraisal.\n\n**Status and respect → the mentor mindset for adults.** Teachers, like adolescents, resist being treated as incompetent or controlled. Mandating a technique and inspecting for it (the traffic-light principal of Module 6) is the enforcer mindset; letting everyone do as they please is the protector. TLCs (choice plus accountability) and learner-centered leadership are the mentor version.\n\n**Formative assessment at three scales.** Elicit evidence, interpret, adjust. In a lesson it is the hinge question. For a teacher it is the TLC's report-back-and-commit cycle. For the institution it is the PDSA cycle with a prediction, a practical measure and a balancing measure. It is one loop at three zoom levels. If your school does it well at one level and not the others, expect the others to erode it.\n\n**Misconceptions → lethal mutations.** Children's intuitive theories assimilate new instruction into old models, producing synthetic models. Organizations do the same to new practices: the grammar of school absorbs reforms (Tyack & Cuban), and techniques keep their names while losing their active ingredients. The countermeasures rhyme too: name the active ingredient explicitly (like teaching the mechanism), watch for the characteristic mutation (like a diagnostic distractor), and **codify** routines in writing so they survive turnover (Van Ness).\n\n**Curiosity and identity → retention.** Mehta & Fine's deepest teachers had learned deeply in a field; teachers whose own practice is a field of inquiry stay and grow (Kraft & Papay: growth continues longer in supportive environments).\n\n**Design test for your brief.** For each adult-facing structure (hiring, onboarding, TLCs, observation, meetings, appraisal), ask: would I design a child's learning this way? If you would never teach a novice with a single lecture, massed and followed by a graded verdict, do not onboard teachers that way either. [H: the symmetry is a strong, cross-book synthesis; its specific applications are hypotheses to test.]"
+    },
+    {
+     "title": "Tagging discipline: evidence, hypothesis, value, and re-tagging your v0",
+     "tag": "V",
+     "body": "The E/H/V tags are not bureaucracy. They are how a founder avoids the most common failure in education: **laundering values and hunches as evidence**, then being unable to learn because nothing was ever framed as testable.\n\n**What each tag means**\n- **[E] Evidence**: a mechanism or effect with convergent, replicated support, ideally including causal designs. Even within [E], strength varies: a large randomized trial at scale (EEF formative assessment, Tennessee STAR, the Writing Project RCT) beats a meta-analysis of small studies, which beats a single lab finding, which beats an observational case study. Name the strength when it matters.\n- **[H] Hypothesis**: plausible, mechanism-grounded, but untested in your form or context. An [H] is a promise to test: it belongs in your Open Hypotheses register with the PDSA cycle or evidence that would resolve it.\n- **[V] Value**: a commitment about what matters that evidence cannot settle (which knowledge counts, equity of access, joy, community voice). A [V] is not weaker than an [E]; it is a different kind of claim. Register it with one sentence on who might reasonably disagree.\n\n**Split mixed sentences.** Most real design claims mix types. *Every teacher joins a monthly 90-minute TLC for two years, separate from appraisal* is [E] for the package (a trial at scale), [H] for the parameters (size, cadence are defaults), and [V] for the separation (a trust commitment with plausible but untested psychology). Tag each part.\n\n**The typical v0 errors, and which module fixes them**\n- *Students learn best by discovering things for themselves* tagged [E]: contradicted by the novice-guidance evidence. Rewrite with conditions (Modules 1, 4).\n- *Teaching to learning styles* in any form: delete (Module 1).\n- *Small classes will drive our results* tagged [E] with no caveat: [E] that effects are real, modest and expensive; the strategic claim fails on cost (Module 8).\n- *We will be excellent because we are independent and innovative*: contradicted by choice-sector evidence; autonomy is an option, not an asset (Module 8).\n- *Project-based learning produces deeper learning* tagged [E]: [H]. Mehta & Fine's periphery pattern is observational and selection-confounded, and Dewey High shows the failure mode (Module 7).\n- *We'll use data to track progress*: untaggable until it names the decision the data changes and the cycle length (Modules 6, 9).\n- *Every child deserves to be known by an adult* tagged [E]: it is [V] (with some [E] behind belonging). Tagging it [V] makes it stronger, not weaker, because nobody can refute it with a study.\n- *Hire the best teachers* as the strategy: [E] contradicts it as a primary lever; replace it with develop-over-select (Module 8).\n- *Formative assessment will add half a year of learning*: effect-size naivety; plan for about 0.1 SD at scale (Modules 6, 8).\n\n**Heuristics for honest tagging**\n- Obviousness is not evidence: an unstudied obvious claim is [V] or [H].\n- If a claim cites one admired school, it is [H] at best.\n- If a claim quotes an effect size, it must also say age, test type and cost, or it is not yet [E] for your decision.\n- If your Band 3 sections are mostly [E], you are over-claiming; if they are mostly [V], you are hiding from scrutiny.\n- Every [H] should name its switch signal and its first test.\n\n**The point for a founder.** A brief tagged this way is an operating document. The [E] claims become defaults you defend. The [H] claims become your first year of PDSA cycles. The [V] claims become the charter you recruit families and staff around."
+    }
+   ],
+   "worked_example": {
+    "title": "One path through the whole model: comment-only marking, traced down to minds and back up through the loop",
+    "steps": [
+     "Institution band, the policy: formative work receives comments only; every comment requires a student response in protected lesson time; grades appear at a few summative points per term. [E for the mechanism; H for the cadence]",
+     "Institution band, adult learning: the policy is built as a habit through TLCs, where teachers choose a feedback technique (find it and fix it, whole-class feedback) and report back monthly. Tight on the active ingredient (students act on comments), loose on the technique. Anticipated lethal mutation: comments written, no response time given. [E for the TLC package; H for the specifics]",
+     "Design band, assessment: feedback that moves learning forward. Butler: grades cancel comments. Kluger & DeNisi: self-focused feedback often lowers performance, task-focused feedback helps. Ramaprasad: feedback exists only if used to close the gap. Exemplars and success criteria make the gap visible. [E]",
+     "Design band, relationship: how the comment lands depends on trust and status. A wise-feedback frame (high standard, stated belief the student can meet it) raised revision dramatically in Yeager's study, most among students with least reason to trust school. [E]",
+     "Minds band, why it works: without a grade, attention stays on the task rather than on ranking (task- vs. ego-involvement; Boekaerts' growth vs. well-being pathways). The required response is generation and retrieval, which strengthen memory. Correcting a flagged error is a prediction-error learning event (Ranganath). A comment focused on one or two criteria respects working-memory limits, and a comment that names the specific misconception targets the prior-knowledge structure that needs to change. [E]",
+     "Back up the loop, practical measures: weekly redraft rate per class (process), quality gain between draft and redraft on a small rubric sample (driver), share of students making the same error on the next task (driver). Balancing measures: teacher marking hours, and family complaints about missing grades. [H for these specific measures]",
+     "Prediction, written before term one: redraft rate above 80% by week six; marking hours flat or down; the repeat-error rate on the targeted misconception halves by the end of the unit. [H]",
+     "Switch signals: if redraft rates rise but quality gains do not, comments are too vague, so fix comment quality in TLCs. If families read every check as a judgment, the framing has failed, so rename and reframe before changing the practice. If marking hours rise, the policy has mutated into more writing, so cut volume. [H]",
+     "The lesson: every institutional policy should have a traceable path down to a mind-level mechanism and a measure on the way back up. If you cannot draw both, you have a slogan, not a design."
+    ]
+   },
+   "hinge": [
+    {
+     "q": "'Productive failure contradicts Kirschner, Sweller & Clark.' Which is the best assessment?",
+     "options": [
+      "True; you must pick a side",
+      "False; they agree entirely",
+      "Mostly false: PF includes full explicit consolidation and targets learners with relevant prior knowledge, so it respects the core mechanism while disagreeing about sequencing for conceptual goals",
+      "True for mathematics, false for science"
+     ],
+     "answer": 2,
+     "diagnoses": [
+      "Winner-take-all reading. The debate resolves by conditions (goal, prior knowledge, consolidation), not by a winner.",
+      "False harmony. They genuinely differ on how much struggle before instruction helps, and on where the prior-knowledge threshold sits.",
+      "Correct. Kirschner, Sweller & Clark attack minimal guidance; PF is generate-then-instruct with scripted consolidation, beneficial for conceptual understanding and transfer and not for procedures.",
+      "Domain reading. The boundary is goal type and prior knowledge, not the subject."
+     ]
+    },
+    {
+     "q": "Which is the correct chain from institution to mind for the policy 'all teachers use hinge questions'?",
+     "options": [
+      "The institution mandates it, teachers comply, students learn more",
+      "TLCs build the habit; the hinge question makes every student's thinking visible; the teacher's next move adapts; students get instruction matched to their current schema, with misconceptions caught while they can still be corrected",
+      "Hinge questions test students, and testing improves memory",
+      "Students see that teachers care, so motivation rises"
+     ],
+     "answer": 1,
+     "diagnoses": [
+      "Mandate theory. Mandates produce surface compliance and lethal mutations; habit change needs the TLC structure.",
+      "Correct. Each link names the band and mechanism: adult learning, elicitation, contingent teaching, and the prior-knowledge and working-memory constraints in minds.",
+      "Retrieval-only reading. True as far as it goes, but it misses the main mechanism, which is the adaptive decision the evidence enables.",
+      "Affective-only reading. Relationship matters, but it is not the mechanism by which a hinge question improves learning."
+     ]
+    },
+    {
+     "q": "Your brief says: 'Small classes improve learning.' What is the correct tag, and why?",
+     "options": [
+      "[E], because it is obvious",
+      "[E] with a caveat: the effects are real (strongest in early grades) but modest and expensive relative to alternatives, and they shrink at scale",
+      "[V], because class size is a values choice",
+      "[H], because nobody has studied it"
+     ],
+     "answer": 1,
+     "diagnoses": [
+      "Obviousness as evidence. The tag is right only by luck; the reasoning would let any intuition pass as evidence.",
+      "Correct. Tennessee STAR supports a real effect; California shows dilution at scale; the strategic question is cost per unit of learning. If parents value being known, that part is a separate [V].",
+      "Over-tagging V to avoid scrutiny. There is strong evidence about class size; a value may also be involved, but it does not replace the evidence.",
+      "Ignorance of the literature. Class size is among the most studied questions in education."
+     ]
+    },
+    {
+     "q": "At a community design session, families propose replacing systematic phonics in K-2 with a 'balanced literacy' approach they saw at a neighboring school. Under your standardization-vs-codesign rule, you:",
+     "options": [
+      "Adopt it; community ownership is essential to survival",
+      "End community codesign; families should not shape the school",
+      "Recognize a proposal to change a mechanism, which the compact fixes by evidence, then surface the underlying need (for example, joy in reading, rich books) and meet it in the open layer, such as read-alouds, knowledge-rich texts and the library",
+      "Run a PDSA cycle comparing phonics with balanced literacy in two classes"
+     ],
+     "answer": 2,
+     "diagnoses": [
+      "Voice-validates-mechanism. Early reading mechanics are one of the most settled areas in the curriculum; adopting this would harm children.",
+      "Throwing out the signal. Codesign is how you learn needs and build the coalition that sustains the school; the fix is governance of layers, not abolition.",
+      "Correct. The compact says which layer is open. The need behind the proposal is real and answerable without abandoning the mechanism.",
+      "Misuse of PDSA. Improvement cycles implement settled science locally; they are not for re-testing it on children who cannot be rolled back."
+     ]
+    },
+    {
+     "q": "Your brief says: 'Every core course ends each term in an authentic product for a real audience, which will deepen learning.' What is the best tag?",
+     "options": [
+      "[E], because Mehta & Fine showed it",
+      "[H], because it is grounded in a strong but observational, selection-confounded pattern, and needs testing in your core courses with practical measures",
+      "[V], because authenticity is a preference",
+      "Delete it; there is no evidence at all"
+     ],
+     "answer": 1,
+     "diagnoses": [
+      "Promoting a case study to evidence. Mehta & Fine describe where depth appeared; they did not measure learning outcomes or test the transplant.",
+      "Correct. It is a well-grounded hypothesis. Register it with a first test and a switch signal, such as mastery checks on the disciplinary content inside the product.",
+      "Under-tagging. There may be a value component, but the causal claim ('will deepen learning') is empirical and testable.",
+      "Overcorrection. The periphery pattern, apprenticeship research and motivation research make it a reasonable bet; weak evidence is not no evidence."
+     ]
+    }
+   ],
+   "brief_prompt": "Re-tag every declarative sentence in Brief v0, splitting sentences that mix evidence, hypothesis and value. Write a one-page changelog: for each tagging error in v0, the original claim, the corrected tag, and the module that fixed it. Add the unified model as a one-paragraph Section 3 preamble showing how your school's structures trace down to mind-level mechanisms. For each of the ten tensions, write your rule and switch signal in one or two lines each, and move every [H] into the Open Hypotheses register with its first test. This is Brief v4; the capstone produces v5.",
+   "deeper": [
+    "synthesis/learning-design.md#4a. Unified model: learning → design → institution (diagram spec)",
+    "synthesis/learning-design.md#4b. Major tensions with conditional decision rules",
+    "books/04-productive-failure.md#Evidence strength & limits",
+    "books/00-foundational-papers.md#How these six fit together",
+    "books/03-intellectual-lives-of-children.md#Connections",
+    "books/09-in-search-of-deeper-learning.md#Connections",
+    "books/10-creating-the-schools-our-children-need.md#Connections",
+    "books/11-improvement-in-action.md#Connections",
+    "books/08-extraordinary-learning-for-all.md#Evidence strength & limits"
+   ]
+  }
+ ]
+}
