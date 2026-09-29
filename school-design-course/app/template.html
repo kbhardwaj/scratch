@@ -548,15 +548,18 @@ function viewModel() {
   const act = activeNode && all[activeNode];
   const linked = new Set(act ? (act.links || []) : []);
   if (act) Object.values(all).forEach(n => { if ((n.links || []).includes(act.id)) linked.add(n.id); });
-  const bands = MODEL.bands.slice().map(b => `<div class="band"><header><h3>${esc(b.title)}</h3><span class="label">${(b.nodes || []).length} ideas</span></header>
+  const bands = MODEL.bands.slice().reverse().map(b => `<div class="band"><header><h3>${esc(b.title)}</h3><span class="label">${(b.nodes || []).length} ideas</span></header>
+    ${b.certainty ? `<p class="muted" style="font-size:.9rem">${inline(esc(b.certainty))}</p>` : ""}
     <div class="nodes">${(b.nodes || []).map(n => `<button class="node ${activeNode === n.id ? "on" : ""} ${linked.has(n.id) ? "linked" : ""}" data-node="${esc(n.id)}">${esc(n.label)} ${tagChip(n.tag)}</button>`).join("")}</div>
     ${act && (b.nodes || []).some(n => n.id === act.id) ? `<div class="panel reveal"><div class="row" style="justify-content:space-between"><h3>${esc(act.label)}</h3>${tagChip(act.tag)}</div><div class="prose">${md(act.summary)}</div>
       ${linked.size ? `<p class="label">Connected: ${[...linked].map(id => all[id] ? esc(all[id].label) : "").filter(Boolean).join(" &middot; ")}</p>` : ""}</div>` : ""}
   </div>`).join("");
   return `<div class="sheet wide"><header class="head"><span class="label">Minds &rarr; design &rarr; institution</span><h1>The unified model</h1>
-    <p class="lede">Each band constrains the one above it. Certainty drops as you go up: memory research is mostly ${tagChip("E")}; school structures are mostly ${tagChip("H")} and ${tagChip("V")}. Select an idea to see what it connects to.</p></header>
+    <p class="lede">Read it like a building: minds are the foundation at the bottom, and each band constrains the one above it. Certainty drops as you go up: memory research is mostly ${tagChip("E")}; school structures are mostly ${tagChip("H")} and ${tagChip("V")}. Select an idea to see what it connects to.</p></header>
     <div class="bands">${bands}</div>
-    ${MODEL.loop ? `<div class="loop"><span class="label">The improvement loop</span><div class="prose">${md(MODEL.loop)}</div></div>` : ""}</div>`;
+    ${MODEL.loop ? `<div class="loop"><span class="label">The improvement loop</span><div class="prose">${md(MODEL.loop)}</div></div>` : ""}
+    ${(MODEL.chain || []).length ? `<section class="step"><span class="label">The causal chain, in plain words</span><div class="prose"><ol>${MODEL.chain.map(c => `<li>${inline(esc(c))}</li>`).join("")}</ol></div></section>` : ""}
+    ${(MODEL.laws || []).length ? `<section class="step"><span class="label">The ${MODEL.laws.length} laws of this school</span><div class="prose"><ol>${MODEL.laws.map(c => `<li>${inline(esc(c))}</li>`).join("")}</ol></div></section>` : ""}</div>`;
 }
 function bindModel() { document.querySelectorAll("[data-node]").forEach(b => b.addEventListener("click", () => { activeNode = activeNode === b.dataset.node ? null : b.dataset.node; route(); })); }
 
