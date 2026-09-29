@@ -1,0 +1,132 @@
+{
+ "items": [
+  {
+   "id": "d1",
+   "statement": "Students learn better when they are taught in their preferred learning style (visual, auditory or kinesthetic).",
+   "correct": false,
+   "folk_theory": "Learning styles: matching teaching to a student's preferred mode improves learning.",
+   "explanation": "People have preferences, but Pashler, McDaniel, Rohrer and Bjork (2008) found almost no studies with the design needed to test matching, and those that used it contradicted it. What helps everyone is combining well-designed words and visuals (dual coding), with the mode chosen by the content.",
+   "module": "m1"
+  },
+  {
+   "id": "d2",
+   "statement": "Testing students is mainly a way of measuring learning; the learning itself happens during teaching.",
+   "correct": false,
+   "folk_theory": "Testing is measurement only.",
+   "explanation": "Retrieval is itself a learning event. Recalling information strengthens it more than restudying (the testing effect; Roediger and Karpicke 2006), especially when feedback follows promptly. Low-stakes quizzing is one of the two high-utility techniques in Dunlosky and colleagues' 2013 review.",
+   "module": "m1"
+  },
+  {
+   "id": "d3",
+   "statement": "Students who reread their notes several times usually feel more confident than students who quiz themselves, yet remember less a week later.",
+   "correct": true,
+   "folk_theory": "Fluency means learning: if it feels easy and familiar, it has been learned.",
+   "explanation": "Rereading builds familiarity, a feeling of knowing, without building the ability to recall. Retrieval practice feels harder and produces better delayed retention. Learners and teachers systematically mistake performance during learning for learning itself.",
+   "module": "m1"
+  },
+  {
+   "id": "d4",
+   "statement": "If a child confidently says 'the earth is round', they have no misconception about the earth's shape.",
+   "correct": false,
+   "folk_theory": "A correct statement means a correct mental model.",
+   "explanation": "Vosniadou and Brewer (1992) found many children who said the earth is round held synthetic models: a flat earth plus a round one in the sky, or people living on a flat floor inside a hollow sphere. Generative questions and drawings reveal the model; the memorized sentence does not.",
+   "module": "m2"
+  },
+  {
+   "id": "d5",
+   "statement": "A student can correctly explain on a test that seasons are caused by the earth's tilt and still reason, in a new question, that it is summer because the earth is closer to the sun.",
+   "correct": true,
+   "folk_theory": "Once taught, a misconception is replaced.",
+   "explanation": "Intuitive theories are suppressed, not deleted. Students can repeat the taught explanation while the old theory still drives predictions in new contexts; even experts are slower and less accurate when intuition and science conflict (Shtulman and Valcarcel 2012).",
+   "module": "m2"
+  },
+  {
+   "id": "d6",
+   "statement": "A 14-year-old who does not care about school mainly lacks motivation, which must be built before you can teach them.",
+   "correct": false,
+   "folk_theory": "Motivation precedes competence.",
+   "explanation": "Motivation is largely downstream of competence and of how students read adult intentions. Self-efficacy grows mainly from mastery experiences, and adolescents respond to high standards paired with real support and respect (Yeager's mentor mindset). Teaching well, with success built in, is usually how motivation is built.",
+   "module": "m3"
+  },
+  {
+   "id": "d7",
+   "statement": "For teenagers, adding a short, sincere statement of high standards and belief in them to critical feedback can substantially increase how many choose to revise their work.",
+   "correct": true,
+   "folk_theory": "Feedback works through its content alone; tone and framing are soft extras.",
+   "explanation": "In the wise-feedback experiment (Yeager and colleagues 2014), about 71% of African American seventh graders revised with such a note versus about 17% in control, with the largest effects for students who distrusted school. The samples were small, and it works only when the standards and support are real.",
+   "module": "m3"
+  },
+  {
+   "id": "d8",
+   "statement": "Letting students discover principles for themselves generally produces deeper learning than explaining the principles to them.",
+   "correct": false,
+   "folk_theory": "Discovery is the natural and deepest way to learn.",
+   "explanation": "For novices, unguided discovery repeatedly loses to guided and explicit instruction (Mayer 2004; Kirschner, Sweller and Clark 2006; Alfieri and colleagues 2011). Searching a problem space uses up working memory that would otherwise build knowledge. Guidance should fade as expertise grows.",
+   "module": "m4"
+  },
+  {
+   "id": "d9",
+   "statement": "Letting students struggle with a problem before explaining the idea is usually a waste of instructional time.",
+   "correct": false,
+   "folk_theory": "Explanation must always come first.",
+   "explanation": "It depends on the goal. For load-bearing concepts where students have relevant prior knowledge, a designed generation phase followed by consolidation that builds on students' attempts improved conceptual understanding and transfer (Sinha and Kapur 2021, g about 0.36), with no advantage for procedural skills. Without the consolidation, the struggle is wasted.",
+   "module": "m4"
+  },
+  {
+   "id": "d10",
+   "statement": "Because facts can be searched instantly, schools should focus on skills such as critical thinking rather than on knowledge.",
+   "correct": false,
+   "folk_theory": "Knowledge is obsolete; skills are generic and transferable.",
+   "explanation": "Critical thinking, problem solving and reading comprehension are domain-specific and built from knowledge in long-term memory. Weak readers who knew baseball understood a baseball passage better than strong readers who did not (Recht and Leslie 1988). You need knowledge to search well and to judge what you find.",
+   "module": "m5"
+  },
+  {
+   "id": "d11",
+   "statement": "Once children can decode fluently, their understanding of a particular text depends more on what they already know about its topic than on general reading skill.",
+   "correct": true,
+   "folk_theory": "Reading comprehension is a general skill that transfers to any text.",
+   "explanation": "Comprehension is decoding times language comprehension (the Simple View of Reading), and language comprehension depends heavily on background knowledge and vocabulary. Comprehension strategies give a small, quick boost that does not keep growing.",
+   "module": "m5"
+  },
+  {
+   "id": "d12",
+   "statement": "Giving students a grade plus a comment on their work helps them more than giving the comment alone.",
+   "correct": false,
+   "folk_theory": "More feedback information is always better.",
+   "explanation": "Butler (1987/88) found students given comments only improved, while those given grades, or grades plus comments, did not: the grade swamped the comment. Hence comment-only marking on formative work, or grades delayed until students have acted on the comments.",
+   "module": "m6"
+  },
+  {
+   "id": "d13",
+   "statement": "A school with great teachers and a rigorous curriculum will produce deep learning in most of its classrooms.",
+   "correct": false,
+   "folk_theory": "Good inputs automatically yield deep learning; structure is neutral.",
+   "explanation": "Mehta and Fine spent about 750 hours in 30 admired high schools and found deep learning was the exception, living mostly at the periphery (electives, clubs, teams) rather than in core classes. The 'grammar of schooling' (periods, subject silos, coverage, grades) works against depth unless it is deliberately redesigned.",
+   "module": "m7"
+  },
+  {
+   "id": "d14",
+   "statement": "The most reliable way to raise a school's results is to hire better teachers.",
+   "correct": false,
+   "folk_theory": "Selection beats development.",
+   "explanation": "Teacher quality matters enormously, but credentials and other signals visible at hiring predict effectiveness only weakly (Kane, Rockoff and Staiger 2008), and removing weak teachers is slow and unreliable. Wiliam's case is to improve the teachers you have through sustained, school-based development.",
+   "module": "m8"
+  },
+  {
+   "id": "d15",
+   "statement": "Reducing class sizes is one of the most cost-effective ways to raise achievement.",
+   "correct": false,
+   "folk_theory": "Smaller classes are the obvious quality lever.",
+   "explanation": "Smaller classes help somewhat, especially in the early grades (Tennessee STAR, roughly 0.15-0.2 SD), but they are very expensive, and at scale force mass hiring of less experienced teachers, which diluted California's gains. Per dollar, curriculum and teacher development look much better.",
+   "module": "m8"
+  },
+  {
+   "id": "d16",
+   "statement": "When an intervention works well in a pilot, the next step is to roll it out school-wide.",
+   "correct": false,
+   "folk_theory": "Scale what works on average.",
+   "explanation": "Bryk's improvement science says results vary by classroom and context, and the question is why something works here and fails there. Move through widening cycles of testing (one teacher, then several, then a department), with predictions and practical measures, and scale only once it holds across conditions.",
+   "module": "m9"
+  }
+ ]
+}
