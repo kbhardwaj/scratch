@@ -179,8 +179,8 @@ Social psychology is the field where the replication crisis broke (Bem 2011; Ope
 - Expect homogeneous groups to polarize; inject outside views before decisions, not after. [E]
 - Keep effort identifiable and working units small (2–5) to prevent loafing; make the task's meaning explicit. [E]
 - Use small, voluntary, public commitments and modest rewards to produce internalized norms; avoid paying heavily for behavior you want members to own. [E]
-- Do not introduce scorekeeping into a communal team without expecting relationship damage; if metrics are needed, make them collective. [E for the mechanism; H for your specific group]
-- Engineer cross-cutting collaboration and a superordinate identity whenever subgroups exist; structured contact around shared goals, not diversity training or implicit-bias training, is what has evidence. [E]
+- Do not introduce scorekeeping into a communal team without expecting damage; if metrics are needed, make them collective. [E for the mechanism; H for your group]
+- Engineer cross-cutting collaboration and a superordinate identity wherever subgroups exist; structured contact around shared goals, not implicit-bias training, has the evidence. [E]
 - Fix bystander steps: make problems unambiguous, assign named ownership, give scripts for intervening, make the first move cheap. [E]
 - Inoculate norms: pre-expose members to the arguments they will hear against the norm, with rebuttals. [E]
 - Provide swift, certain, mild third-party enforcement so that honor-style self-help does not fill the vacuum. [H]
@@ -189,16 +189,16 @@ Social psychology is the field where the replication crisis broke (Bem 2011; Ope
 - Treat fairness, transparency of criteria and belonging as values worth honoring even where the performance evidence is mixed. [V]
 
 ## Connections
-- **01-secret-of-our-success**: agrees on prestige-biased and conformist social learning as the engine of culture; Henrich supplies the origin story for the conformity and norm psychology this book documents. The cross-cultural ultimatum game work (Henrich et al. 2001) is cited in both.
-- **02-darwins-unfinished-symphony**: Laland's social learning strategies (copy when uncertain, copy the majority) are the evolutionary version of informational conformity.
-- **04-games-of-strategy**: this book is the empirical foil — the FAE, construal effects and norm following explain why real players depart from the equilibria Dixit et al. derive.
-- **05-micromotives-and-macrobehavior**: Schelling's tipping and critical-mass models are the aggregate consequence of the conformity thresholds and pluralistic ignorance described here.
-- **06-behavioral-game-theory**: Camerer's social-preference and coordination findings are the incentivized, more replicable cousins of the cooperation chapter; the construal ("Community Game") result is common ground.
-- **07-stag-hunt**: Skyrms's signaling and trust dynamics assume the reciprocity and reputation psychology this book measures.
-- **08-grammar-of-society**: Bicchieri's empirical and normative expectations map directly onto descriptive and injunctive norms and pluralistic ignorance; she draws heavily on Cialdini and Asch. Tension: Bicchieri is more optimistic about changing norms by correcting beliefs alone; this book emphasizes that identity and dissonance also matter.
-- **09-governing-the-commons**: Ostrom's design principles (monitoring, graduated sanctions, collective choice) are institutional answers to loafing, diffusion of responsibility and reputation; her finding that external rules crowd out local norms parallels overjustification.
+- **01-secret-of-our-success**: Henrich supplies the origin story for the conformist and prestige-biased learning this book documents; both cite the cross-cultural ultimatum work.
+- **02-darwins-unfinished-symphony**: Laland's social learning strategies (copy when uncertain, copy the majority) are informational conformity in evolutionary dress.
+- **04-games-of-strategy**: this book is the empirical foil — FAE, construal and norm following explain departures from Dixit et al.'s equilibria.
+- **05-micromotives-and-macrobehavior**: Schelling's tipping models are the aggregate consequence of conformity thresholds and pluralistic ignorance.
+- **06-behavioral-game-theory**: Camerer's social-preference and coordination results are the incentivized, more replicable cousins of the cooperation chapter; the Community Game result is common ground.
+- **07-stag-hunt**: Skyrms's trust dynamics assume the reciprocity and reputation psychology measured here.
+- **08-grammar-of-society**: Bicchieri's empirical and normative expectations map onto descriptive and injunctive norms and pluralistic ignorance. Tension: she is more optimistic about changing norms by correcting beliefs alone; this book adds identity and dissonance.
+- **09-governing-the-commons**: Ostrom's monitoring and graduated sanctions are institutional answers to loafing and diffusion of responsibility; external rules crowding out local norms parallels overjustification.
 - **10-networks-crowds-markets**: information cascades formalize informational conformity; homophily is the network face of similarity-attraction and in-group bias.
-- **11-bounds-of-reason**: Gintis wants social norms and psychology inside a unified game-theoretic framework; this book's replication problems are a reason to be careful about which psychological inputs that framework takes as given.
+- **11-bounds-of-reason**: Gintis wants norms and psychology inside one game-theoretic frame; the replication record here is a reason to be careful about which psychological inputs that frame takes as given.
 
 ## Retrieval practice
 1. (Recall) What are the three organizing themes of the book, and which classic study illustrates the first one?
