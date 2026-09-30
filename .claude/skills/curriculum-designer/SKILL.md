@@ -52,6 +52,7 @@ whenever the inputs exist. **Commit and push after each hand-back.** Use the Fab
 
 ## Quality bar (what "done" means)
 - validate.py: 0 errors. smoke.js: ALL PASS. Every module has a cold attempt, ≥2 hinge questions with a diagnosis per option, ~15 atomic cards.
+- Hinge questions are not guessable without reading (options equal in length and register, correct positions shuffled) and diagnostic items carry no absolute-word tells; validate.py enforces both. Run the cold-learner QA before calling the course done: run 1 and run 2 both shipped guessable questions until it caught them.
 - Every book file states its TOC verification status. No fabricated studies or numbers; uncertain claims say so.
 - Tensions have an IF/THEN rule and a switch signal. Cases cite a tension and a module. Capstone rubric has numeric pass/world-class thresholds.
 - The course names where the sources disagree and where popular claims outrun the evidence.
