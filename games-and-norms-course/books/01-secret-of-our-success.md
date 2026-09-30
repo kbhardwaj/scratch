@@ -38,9 +38,8 @@ All chapters are covered below. The assignment of specific examples to chapters 
 ## Chapter-by-chapter: the salient knowledge
 
 ### Ch 1 — A Puzzling Primate
-- Core claims: Humans are ecologically dominant yet physically feeble, and the usual explanation ("we're smart") does not survive inspection. The book's thesis: our species' secret is cumulative cultural evolution plus the gene-culture coevolution it triggered. Culture is not decoration on top of a clever ape; it is the process that built the ape.
-- Key framing: two inheritance systems (genes and culture) that interact; culture became the driving force once it began accumulating faster than genes could track.
-- So-what: Start any diagnosis of a group with the question "what does this group know collectively that no member knows individually, and how does that knowledge move?" That is the unit of analysis Henrich is asking you to adopt.
+- Core claims: Humans are ecologically dominant yet physically feeble, and "we're smart" does not survive inspection. Thesis: the secret is cumulative cultural evolution plus the gene-culture coevolution it triggered. Culture is not decoration on a clever ape; it is the process that built the ape. Two inheritance systems interact, and culture became the driver once it accumulated faster than genes could track.
+- So-what: Start any group diagnosis with "what does this group know collectively that no member knows individually, and how does that knowledge move?" That is Henrich's unit of analysis.
 
 ### Ch 2 — It's Not Our Intelligence
 - Core claims: Compared like for like, individual humans are not dramatically smarter than other apes on general problem solving; the gap that matters is in social learning. Adult humans in "natural" tests (spatial memory, quantity, causal reasoning) often perform similarly to chimpanzees.
@@ -126,16 +125,16 @@ All chapters are covered below. The assignment of specific examples to chapters 
 - So-what: Designing cooperation means designing an evolutionary process: variation (people try things), selection (what gets copied and what gets sanctioned), transmission (who sees whom). The group's future norms will be whatever wins that process, with or without you.
 
 ## The 5-10 ideas you must carry out of this book
-1. **Cumulative cultural evolution, not individual intelligence, explains human competence.** Adaptive know-how accumulates across generations through selective copying; no individual could derive it, and lost explorers prove that individuals without it die.
-2. **The collective brain.** The rate of innovation and the maintenance of complex skills scale with the size and interconnectedness of the population that learns from each other; isolation causes skill loss (Tasmania, Polar Inuit).
-3. **Cultural learning biases are the levers.** Success/skill bias, prestige bias, conformity, self-similarity and credibility-enhancing displays determine what spreads. Persuasion is a weak channel by comparison.
-4. **Prestige is different from dominance.** Prestige is freely conferred deference that buys copying access and scales cooperation; dominance is coerced and suppresses information flow. Protect and route through prestige.
-5. **Over-imitation and faith in tradition are adaptive.** Practices whose payoffs are delayed or invisible (manioc, nixtamalization, taboos) survive only because people copy without understanding. Unexplained practices deserve scrutiny before removal, and explanations rarely produce adherence.
-6. **Gene-culture coevolution.** Culture changes the selection environment for genes (lactase, skin pigmentation, brain size, lifespan). Human bodies and minds are built for culture, which is why cultural learning is so fast and so automatic.
-7. **Norm psychology and self-domestication.** Norms plus reputation plus sanction selected for a species that internalises rules, feels shame and guilt, and pays to punish violators. That psychology is content-neutral: it will carry good norms or bad ones.
-8. **Cultural group selection.** Cooperative norms and institutions spread because groups that had them out-competed, out-grew and were imitated by groups that did not. Institutions are mostly copied and modified, not designed from scratch.
-9. **Culture reaches into physiology.** Literacy, honour, expectation and taste are trained into brains and hormones, so cultural change is more powerful than incentives once installed, and slow to reverse.
-10. **The Rubicon.** Cultural accumulation is a positive-feedback process with a threshold. Getting a group past the point where learning from others beats going alone is a distinct design problem.
+1. **Cumulative cultural evolution, not individual intelligence, explains human competence.** Know-how accumulates across generations through selective copying; no individual could derive it, and lost explorers without it died.
+2. **The collective brain.** Innovation rate and skill retention scale with the size and interconnectedness of the learning population; isolation causes skill loss (Tasmania, Polar Inuit).
+3. **Cultural learning biases are the levers.** Success, prestige, conformity, self-similarity and CREDs determine what spreads. Persuasion is a weak channel by comparison.
+4. **Prestige is different from dominance.** Freely conferred deference buys copying access and scales cooperation; coerced status suppresses information flow. Route through prestige.
+5. **Over-imitation and faith in tradition are adaptive.** Practices with delayed or invisible payoffs survive only because people copy without understanding. Scrutinise unexplained practices before removal; do not expect explanation to produce adherence.
+6. **Gene-culture coevolution.** Culture changes the selection environment for genes (lactase, pigmentation, brain size, lifespan); human minds are built for culture, which is why cultural learning is fast and automatic.
+7. **Norm psychology and self-domestication.** Norms plus reputation plus sanction selected for a species that internalises rules, feels shame, and pays to punish. The psychology is content-neutral.
+8. **Cultural group selection.** Cooperative norms spread because groups with them out-competed, out-grew and were imitated by groups without. Institutions are mostly copied and modified, not designed.
+9. **Culture reaches into physiology.** Literacy, honour and expectation are trained into brains and hormones; installed culture beats incentives and reverses slowly.
+10. **The Rubicon.** Cultural accumulation is a threshold process; getting a group past the point where learning from others beats going alone is a distinct design problem.
 
 ## Mental models & vocabulary
 - **Cumulative cultural evolution** — know-how ratchets up across generations because each learner starts from the best available model rather than from scratch. Bites when: a team assumes its competence is in its people rather than in its inherited practices and then loses it through turnover.
