@@ -19,15 +19,13 @@ E/C/O); the `tags` map in `course.json` supplies the labels.
 | `tagline` | string | `Learn what 13 books know about learning, then design a school with it.` | home `<h1>` |
 | `lede` | string | the levels-in-order paragraph | home lede |
 | `artifact_name` | string | `Design brief` | rail entry, tile, module step 6, artifact view heading |
-| `artifact_items` | string | `decisions` | "N decisions recorded" (alias: `artifact_label_plural`) |
+| `artifact_items` | string | `decisions` | "N decisions recorded" |
 | `artifact_lede` | string | `One document that grows with every module.` | artifact view lede |
-| `artifact_critique_prompt` | string | "Critique this school-design brief. Check: (1) tagging ... (4) the single most important missing decision." | mentor critique of the artifact (alias: `brief_critique_prompt`) |
+| `artifact_critique_prompt` | string | "Critique this school-design brief. Check: (1) tagging ... (4) the single most important missing decision." | mentor critique of the artifact |
 | `case_noun` | string | `founder dilemmas` | casebook heading count |
 | `case_singular` | string | `founder dilemma` | mentor case-evaluation prompt |
 | `case_lede` | string | `Realistic situations a founder hits in the first three years.` | casebook lede |
-| `case_eval_prompt` | string | optional; default: "Evaluate the learner's decision on this {case_singular} against the model answer ..." | mentor case feedback |
 | `levels` | string[] | `["Minds","Design","Institutions"]` | rail count, home level grouping, model header arrows; must match `modules[].level` values (plus `Start`/`Integration`) |
-| `level_lede` | string | optional one-liner per level, `"Minds: how minds learn · Design: ... · Institutions: ..."` | home level captions |
 | `laws_noun` | string | `laws of this school` | model view laws heading |
 | `model_lede` | string | "Read it like a building: ..." | model view lede |
 | `mentor_voice` | string | "You are a demanding but supportive mentor (high standards, high support) coaching a learner who is {{GOAL}}. They have a {{LEARNER}} background. Be specific and concise (under 250 words). Use markdown bullets. Tag claims as [E]/[H]/[V] where useful." | prefix on every mentor call |
@@ -38,8 +36,7 @@ E/C/O); the `tags` map in `course.json` supplies the labels.
 Rules: every string is domain-specific and written by the orchestrator from SPEC; no field may
 still read "school"/"founder" in a non-school run. The template falls back to generic strings
 for any missing field, so a missing field is a validation *warning*, an ungeneralized one an
-*error*. The aliases in parentheses are accepted by `build.py` and normalized to the canonical
-names the template reads.
+*error*. Use exactly these names: `build.py` does no aliasing.
 
 ---
 

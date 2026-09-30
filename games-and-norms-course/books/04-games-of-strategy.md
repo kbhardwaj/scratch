@@ -48,14 +48,13 @@ Core book: every chapter covered; most words on 3, 4, 7–12, which the rest of 
 - Core claims: a game is any situation where outcomes depend on choices by two or more decision-makers aware of each other. Strategic thinking means reasoning about what others will do given what they think you will do.
 - Six classification questions for any interaction: sequential or simultaneous? pure conflict or some common interest? one-shot or repeated, with the same or changing partners? full information or not? fixed rules or manipulable? enforceable agreements or only self-enforcing ones?
 - Vocabulary: players; strategies (complete contingent plans, not single actions); payoffs (numbers that rank outcomes; ordinal usually suffices); rationality (consistent pursuit of your own payoffs, whatever they contain — altruism allowed); common knowledge of the rules; equilibrium (each strategy a best response to the others).
-- Examples: route choice with congestion, penalty kicks, a study-group free-rider problem, the "guess two-thirds of the average" game that exposes depth of reasoning.
 - So-what: the six questions are the first diagnostic pass on any group. Many cooperation failures are misdiagnosed because a repeated, incomplete-information, mixed-motive game is treated as one-shot pure conflict. "Non-cooperative" in the technical sense means agreements must be self-enforcing — the situation of nearly every community and platform.
 
 ### Part Two / Ch 3 — Games with Sequential Moves
 - Setup: players move in turn and later movers see earlier moves. Draw a tree: decision nodes, branches, terminal payoffs. A strategy specifies a choice at every node the player might reach.
 - Result (rollback / backward induction): start at the last decisions, keep each player's best branch, prune the rest, work backward. The surviving path is the rollback equilibrium. Off-path plans — what a player *would* do at nodes never reached — are what make earlier choices rational.
 - Worked example: a potential entrant chooses Enter or Stay out; if Enter, the incumbent chooses Fight or Accommodate. Payoffs (entrant, incumbent): Stay out → (0, 10); Enter, Accommodate → (3, 5); Enter, Fight → (−2, 2). At the incumbent's node Accommodate (5) beats Fight (2); the entrant foresees this and enters. "We'll fight" is not credible — the seed of Chapter 8.
-- Further: first- vs. second-mover advantage depends on the game; finite perfect-information games always have a rollback solution (chess has one, we cannot compute it); the *centipede game* shows rollback predicting immediate defection where lab players cooperate for several rounds — the first flag that theory and behavior part ways.
+- Further: the *centipede game* shows rollback predicting immediate defection where lab players cooperate for several rounds — the first flag that theory and behavior part ways.
 - So-what: sequencing and visibility are levers. Rollback also disciplines wishful thinking: "if we do X, will they really respond as we hope, given *their* payoffs?"
 
 ### Part Two / Ch 4 — Simultaneous-Move Games: Discrete Strategies
@@ -75,7 +74,6 @@ Confess dominates Deny for both (10 < 25, 1 < 3). Unique equilibrium (Confess, C
 ### Part Two / Ch 5 — Simultaneous-Move Games: Continuous Strategies, Discussion, and Evidence
 - Setup: when strategies are quantities (price, effort, contribution), draw each player's **best-response function**; Nash equilibrium is where the curves cross. Models: price competition (Bertrand), quantity competition (Cournot), two candidates converging on the median voter.
 - Discussion and Evidence: the authors survey failures of the Nash assumptions — no common knowledge of rationality, errors, many equilibria. They cover level-k reasoning (Nash says guess 0 in the two-thirds game; people guess roughly 20–35), learning toward equilibrium over repeated play, and ultimatum-game rejections. Stance: Nash is a benchmark; deviations are systematic and modelable. Camerer's file has the detail.
-- Also **rationalizability** — strategies surviving iterated deletion of never-best-responses — a weaker but more defensible concept than Nash.
 - So-what: for effort or contribution decisions, ask what each member's best response is to others' levels. Upward-sloping best responses (strategic complements: my effort is worth more when yours is high) make the group tip to a high- or low-effort equilibrium; downward-sloping ones (substitutes: I slack when you work) produce free-riding.
 
 ### Part Two / Ch 6 — Combining Sequential and Simultaneous Moves
@@ -95,21 +93,21 @@ Confess dominates Deny for both (10 < 25, 1 < 3). Unique equilibrium (Confess, C
 | **Kick Right** | 0.8 | 0.6 |
 
 Kicker picks p = Pr(Left) to make the goalie indifferent: 0.5p + 0.8(1−p) = 0.9p + 0.6(1−p) → p = 1/3. Goalie picks q = Pr(Left) to make the kicker indifferent: 0.5q + 0.9(1−q) = 0.8q + 0.6(1−q) → q = 3/4. Equilibrium scoring rate 70%.
-- Evidence: professional penalty takers and tennis servers mix close to equilibrium proportions (Walker & Wooders 2001; Palacios-Huerta 2003 — background knowledge of the literature the book cites), though they alternate too often rather than truly randomizing. Novices do worse. Mixed equilibria in non-zero-sum games exist but are fragile and often make no one better off.
+- Evidence: professional penalty takers and tennis servers mix close to equilibrium proportions (Walker & Wooders 2001; Palacios-Huerta 2003 — background knowledge of the literature the book cites), though they alternate too often rather than truly randomizing. Mixed equilibria in non-zero-sum games are fragile.
 - So-what: unpredictability is a strategy — random audits, rotating inspection. To deter cheating you need probability × penalty ≥ gain, not full surveillance. And the indifference property warns that raising *your* payoff to enforcing does not change *their* cheating rate; it changes your enforcement rate.
 
 ### Part Three / Ch 8 — Strategic Moves
 - Setup: a strategic move is an action before the main game that changes others' expectations. Following Schelling, three kinds: **commitment** (unconditional), **threat** (conditional punishment), **promise** (conditional reward).
 - Core result: a strategic move works only if **credible** — the other side must believe you would carry it out when the moment comes. Since executing a threat usually hurts the threatener too, credibility is manufactured: contracts, reputation, cutting off your own options, delegating to an agent with different incentives, breaking a big move into small steps, brinkmanship (Ch 13), automatic mechanisms. Paradox: reducing your freedom of action can increase your power.
 - Worked example: in the entry game the incumbent's threat failed because after entry Accommodate (5) beats Fight (2). Suppose the incumbent signs a contract paying a 4-unit penalty to a third party if it ever accommodates. Now Fight (2) beats Accommodate (5 − 4 = 1); the entrant stays out; the incumbent earns 10 and never pays. The threat became credible by worsening its own alternative.
-- Further: threats should be no bigger than needed (oversized threats are less credible and invite escalation); promises must be small enough that keeping them costs less than lost reputation; deterrence and compellence call for different moves; counters include feigned irrationality, cutting communication, and undermining the other's credibility. Lab note: people carry out costly threats and keep costly promises more than self-interest predicts, which is why cheap talk sometimes works.
+- Further: threats should be no bigger than needed (oversized threats are less credible); promises must cost less to keep than the reputation lost by breaking them. Lab note: people carry out costly threats and keep costly promises more than self-interest predicts, which is why cheap talk sometimes works.
 - So-what: this is the theory of *credible rules*. A norm with a penalty nobody would actually impose is not a norm. Arrange the enforcer's payoff at the moment of enforcement to favor enforcing: rotating monitors, graduated and cheap sanctions (compare Ostrom).
 
 ### Part Three / Ch 9 — Uncertainty and Information
 - Setup: external risk (nature's moves) and, more importantly, **asymmetric information** — one side knows its type, quality or intentions and the other does not. Two workhorse mechanisms: **signaling** (the informed party takes a costly action that reveals type) and **screening** (the uninformed party designs choices that make types reveal themselves).
 - Core result: a signal is credible only if it is *too costly to fake* — its cost must differ across types so only the "good" type finds it worthwhile (Spence 1973 on education; warranties; sunk commitments). Cheap talk informs only when interests are aligned. Equilibria are **separating** (types act differently, are identified), **pooling** (all act alike, nothing revealed) or semi-separating.
 - Worked example: an employer will pay 100 for a high-ability worker, 50 for low, but cannot tell them apart. A certification costs the high type 20 in effort and the low type 60. Paying 100 only to certified workers: high type certifies (100 − 20 = 80 > 50); low type does not (100 − 60 = 40 < 50). Separating equilibrium — the certification works even if it teaches nothing. At a cost of 40 for both, both certify and it reveals nothing.
-- Also: adverse selection (Akerlof's 1970 lemons market — hidden quality drives out good types), moral hazard (hidden action), Bayesian updating after signals, and the extension to **Bayesian Nash** and **perfect Bayesian equilibrium** (beliefs consistent with strategies on the path and reasonable off it).
+- Also: adverse selection (Akerlof 1970: hidden quality drives out good types), moral hazard (hidden action), Bayesian updating, and **perfect Bayesian equilibrium** (beliefs consistent with strategies).
 - So-what: every heterogeneous group faces the question "who is a cooperator, who is competent, who is committed?" Costly signals (onboarding effort, visible sunk contributions, rituals) and screening menus (tiers, probation) are the formal version of Henrich's credibility-enhancing displays and Ostrom's boundary rules. Design the signal to be cheap for the types you want and expensive for the rest.
 
 ### Part Three / Ch 10 — The Prisoners' Dilemma and Repeated Games
@@ -138,13 +136,13 @@ Kicker picks p = Pr(Left) to make the goalie indifferent: 0.5p + 0.8(1−p) = 0.
 | **Dove** | 0 | 2 |
 
 All-Hawk is invadable by Dove (0 > −1); all-Dove by Hawk (4 > 2). Stable hawk fraction h makes both types earn the same: −h + 4(1−h) = 2(1−h) → h = 2/3. Raise C to 10 and h falls to 4/7.
-- Also: replicator dynamics drawn graphically; cooperation invading via assortment (cooperators who meet cooperators); the "bourgeois" strategy (fight if owner, yield if intruder) as an ESS that turns an arbitrary asymmetry into a property convention — a bridge to Skyrms.
+- Also: cooperation invading via assortment; the "bourgeois" strategy (fight if owner, yield if intruder) as an ESS that turns an arbitrary asymmetry into a property convention — a bridge to Skyrms.
 - So-what: the engine behind Henrich, Laland and Skyrms. Norms need not be chosen rationally to persist; they need to be uninvadable. Ask what happens if a few members behave differently — does it spread or die? A cooperative stag-hunt equilibrium is stable only inside its basin; a shock that pushes enough people to defect flips the group, and recovery needs coordinated, not individual, moves.
 
 ### Part Four / Ch 13 — Brinkmanship: The Cuban Missile Crisis
 - Setup: a *probabilistic* threat. Instead of a certain punishment too costly to be credible, the player deliberately creates a risk that events get out of hand (Schelling's threat that leaves something to chance), controlling the *level* of risk rather than the outcome.
 - Result: brinkmanship works when some risk level is high enough that the other side prefers to concede and low enough that the threatener prefers running it to conceding. Since resolve is unknown, raise the risk gradually and let the other side reveal its type. Actual disaster is a real possibility, not a mistake.
-- The 1962 crisis is worked in detail: the naval quarantine as a risk-raising step short of attack, multiple decision-makers creating genuine chance, mutual concession. The rational-actor reading is presented as one of several (Allison's organizational and bureaucratic models are alternatives).
+- The 1962 crisis: the naval quarantine as a risk-raising step short of attack, multiple decision-makers creating genuine chance, mutual concession. The rational-actor reading is presented as one of several (Allison's models are alternatives).
 - So-what: escalating disputes inside organizations follow this logic. Design off-ramps and graduated steps so parties can escalate a little without catastrophe; recognize that ambiguity about sanctions is sometimes what makes them credible.
 
 ### Part Four / Ch 14 — Incentive Design
@@ -157,7 +155,7 @@ All-Hawk is invadable by Dove (0 > −1); all-Dove by Hawk (4 > 2). Stable hawk 
 - Setup: formats — English (ascending), Dutch (descending), first-price sealed, second-price sealed (Vickrey), all-pay. Environments — **private values** (each knows their own value) vs. **common value** (same value for all, noisy estimates).
 - Results: second-price with private values → bidding your true value is dominant (Vickrey 1961), since your bid sets only whether you win, not what you pay. First-price → shade below value, more with fewer rivals. **Revenue equivalence**: with risk-neutral bidders and independent private values, all standard formats yield the same expected revenue. **Winner's curse**: in common-value settings the winner has the most optimistic estimate, so winning is bad news; rational bidders shade, real ones (oil leases, free agents) often do not.
 - Worked example: values 10 and 6 in a second-price auction; each bids their value; the 10-bidder wins and pays 6. Bidding 8 instead still wins at 6; bidding 5 loses a profitable object. Truthfulness is dominant.
-- Design (McAdams): reserve prices, entry fees, collusion-proofing (rings are easier in open ascending formats), FCC spectrum auctions, the school-milk collusion case. All-pay auctions model lobbying, patent races and status contests where losers still pay.
+- Design (McAdams): reserve prices, collusion-proofing (rings are easier in open ascending formats), spectrum auctions, the school-milk collusion case. All-pay auctions model lobbying and status contests.
 - So-what: allocating scarce slots, resources or tasks inside a group is an auction in disguise. Vickrey-style rules make honesty easy; open formats reveal information but invite collusion; all-pay structures (compete for status by visible effort) waste effort. When members estimate a common value (project cost), the most enthusiastic volunteer is the likeliest to have overestimated.
 
 ### Part Four / Ch 16 — Strategy and Voting
@@ -170,7 +168,7 @@ All-Hawk is invadable by Dove (0 > −1); all-Dove by Hawk (4 > 2). Stable hawk 
 - Setup: two parties split a surplus that exists only if they agree. **Cooperative/axiomatic** approach: the Nash bargaining solution (1950) maximizes the product of each side's gain over its outside option (BATNA), weighted by bargaining power. **Non-cooperative** approach: alternating offers (Rubinstein 1982), where impatience determines the split.
 - Core results: each party gets its outside option plus a share of the remaining surplus; improving your BATNA is the most reliable way to improve your deal. In alternating offers the more patient party gets more; with equal patience and rapid offers the split approaches 50/50. Complete-information models predict immediate agreement, so real delays (strikes, stalls) come from incomplete information (testing resolve) or strategic commitment (Ch 8).
 - Worked example: buyer values a bike at 300, seller's outside option is 100; surplus 200. Equal power → split the surplus → price 200. If the buyer can credibly show another bike available at 220, the buyer's outside option rises and the price falls toward the 160s.
-- Also: multi-issue bargaining (trading across issues with different valuations creates integrative deals), multi-party bargaining, and manipulating BATNAs and information as strategic moves. Behavioral note: ultimatum responders reject low offers and proposers offer 40–50%, far from the subgame-perfect prediction — see Camerer.
+- Also: multi-issue bargaining (trading across differently valued issues creates integrative deals). Behavioral note: ultimatum responders reject low offers and proposers offer 40–50%, far from the subgame-perfect prediction — see Camerer.
 - So-what: dividing credit, workload or budget is bargaining. Outside options move deals more than tactics; fairness norms set the reference point real people bargain around; delay usually signals an information problem that transparency fixes more cheaply than pressure.
 
 ## The 5-10 ideas you must carry out of this book
@@ -189,7 +187,6 @@ All-Hawk is invadable by Dove (0 > −1); all-Dove by Hawk (4 > 2). Stable hawk 
 - **Strategy** — a complete contingent plan, not a single move — bites when a rule is judged only by its expected path, ignoring what it commits you to off-path.
 - **Rollback** — solve sequential games from the end — bites when you ask "and then what will they do?" one step beyond intuition.
 - **Nash equilibrium** — no one gains by deviating alone — bites in diagnosing why a bad state is sticky.
-- **Dominant / dominated strategy** — best (never best) regardless of others — bites in checking whether a problem is really a PD.
 - **Subgame-perfect equilibrium** — Nash in every subgame; no incredible threats — bites in judging whether a sanction would actually be applied.
 - **Opponent's indifference** — your equilibrium mix depends on their payoffs — bites in random-audit design and in why raising your own stake does not change their behavior.
 - **Focal point** — equilibrium chosen by salience or convention — bites whenever a group has several ways to coordinate and needs a default.
@@ -198,17 +195,15 @@ All-Hawk is invadable by Dove (0 > −1); all-Dove by Hawk (4 > 2). Stable hawk 
 - **Discount factor / shadow of the future** — weight on future payoffs; the price of defection — bites in deciding whether repetition alone can hold a group together.
 - **Trigger strategies** — grim, tit-for-tat, generous TFT; trade harshness for noise-robustness — bites in designing graduated sanctions.
 - **Collective-action shapes (PD / chicken / assurance)** — bites in choosing between incentives, assignment and assurance.
-- **Externality** — my action's effect on others' payoffs not counted in mine — bites as the root of every commons problem.
 - **ESS and basin of attraction** — uninvadable strategy; the starting mixes that lead to it — bites in judging whether a norm survives a shock.
 - **Winner's curse** — winning a common-value contest implies overestimation — bites in volunteer allocation and estimates.
-- **BATNA** — what you get without agreement — bites in every internal negotiation.
 - **Incentive compatibility / participation constraint** — the desired action must be the agent's own best choice, and the deal worth accepting — bites in any pay-for-performance or points scheme.
 
 ## Evidence strength & limits
 - **Robust:** the mathematics. Existence of Nash equilibria, rollback in finite perfect-information games, ESS conditions, Vickrey dominance, Arrow and Gibbard–Satterthwaite, revenue equivalence under its assumptions are theorems and the book's exposition is standard. The folk-theorem logic of repeated games is also a theorem — but an *existence* result: cooperation *can* be an equilibrium, alongside permanent defection and much else. The theory does not say which occurs.
 - **Well supported empirically:** professionals' mixed-strategy play in zero-sum sports settings; winner's-curse over-bidding in labs and field data; cooperation in repeated PDs rising with continuation probability (Dal Bó 2005; Dal Bó & Fréchette 2011 — background knowledge, not verified for this file); median-voter and agenda effects in legislatures. Lab results on ultimatum, dictator and public-goods-with-punishment games have replicated broadly, with effect sizes varying across cultures (Henrich et al. 2001, the small-scale-societies study).
 - **Where the theory is thin:** (1) *Equilibrium selection* — with multiple equilibria the theory is silent; focal points, learning and evolutionary dynamics are patched on, and the book admits it. (2) *Depth of reasoning* — humans reason a few steps (level-k), not to a fixed point; the centipede and two-thirds games show it. (3) *Social preferences* — "put fairness in the payoffs" is formally fine but says nothing about how much or when; Camerer and Bicchieri supply the content. (4) *Backward induction* is philosophically contested (what should a player believe at a node rollback says is unreachable?); mentioned, not resolved. (5) The repeated-game rescue needs observability and patience many groups lack, and with more than two players the question of who punishes whom is hard — Ostrom's monitoring principles are the empirical answer.
-- **Author stance:** a textbook, so more shown than argued, but the authors do hold that rationality is a useful benchmark even when violated, that deviations should be modeled rather than used to discard the framework, and that market and mechanism design is the theory's most practical payoff. Behavioral and evolutionary critics say the benchmark framing privileges model over data; economists say it underplays how fragile many-equilibrium results are. The missile-crisis chapter is explicitly one interpretation among several.
+- **Author stance:** a textbook, so more shown than argued, but the authors hold that rationality is a useful benchmark even when violated and that deviations should be modeled, not used to discard the framework. Behavioral critics say this privileges model over data; economists say it underplays the fragility of many-equilibrium results.
 - **Replication:** the game-theory lab literature drawn on here is among the better-replicated parts of experimental social science; the replication-crisis issues in classic social psychology live in Gilovich's file.
 
 ## Design implications for cooperation in real groups
@@ -218,11 +213,9 @@ All-Hawk is invadable by Dove (0 > −1); all-Dove by Hawk (4 > 2). Stable hawk 
 - **Lengthen and blur the shadow of the future.** No announced end dates; stable membership; defection observed within a round or two. [E] theory and lab / [H] for magnitude in a given group.
 - **Build forgiveness into reciprocity.** Grim triggers are fragile to noise; use one-warning-then-escalate variants. [E] simulation results under noise.
 - **Sort types at the boundary with costly signals.** Onboarding effort, probationary contribution and time-consuming rituals separate committed members from opportunists when the cost is asymmetric. [E] signaling theory / [H] that a given ritual has the asymmetry.
-- **Screen with menus, not interrogations.** Tiered roles let members self-select honestly. [E] mechanism design / [H] in practice.
 - **Randomize monitoring.** A known inspection probability with a proportionate penalty deters as well as full monitoring; required probability ≈ gain/penalty. [E]
 - **Set the order of moves deliberately.** Visible first-mover commitment resolves chicken and some coordination; sealed simultaneous choices prevent bandwagons and intimidation. [E] formal effect / [H] which suits your case.
 - **Choose decision rules on purpose.** Approval voting or one-dimension-at-a-time decisions; published agenda rules. [E] Condorcet/Gibbard–Satterthwaite / [V] that manipulation-resistance deserves priority.
-- **Allocate scarce resources with truth-dominant rules.** Vickrey-style mechanisms reduce politicking. [E]
 - **Beware measuring what is measurable.** Partial-metric incentives displace unmeasured effort; with noisy output lean on norms and reputation. [E] multi-task theory; crowding-out evidence more mixed / [H] for your setting.
 - **Treat the predicted equilibrium as a floor, not a forecast.** Groups often start more cooperative than the PD predicts; the job is usually to *protect* initial cooperation from decay. [E] lab decay curves / [V] that protecting the cooperative default is the right target.
 
@@ -234,7 +227,6 @@ All-Hawk is invadable by Dove (0 > −1); all-Dove by Hawk (4 > 2). Stable hawk 
 - **09-governing-the-commons** — Ostrom answers Ch 11 with field evidence; her principles map onto observability, credible cheap sanctions (Chs 8, 10) and screening (Ch 9). Tension: she argues the PD framing itself misled policy.
 - **10-networks-crowds-markets** — Ch 6 there compresses Chs 3–7 and 12 here; their cascade and network-effects chapters extend Ch 11's tipping logic to network structure.
 - **01-secret-of-our-success / 02-darwins-unfinished-symphony** — Ch 12 supplies the ESS machinery behind cultural evolution; Henrich's credibility-enhancing displays are Ch 9 costly signals.
-- **03-social-psychology** — Fills in the payoffs (conformity, reciprocity, self-serving bias) and explains limited-depth reasoning.
 - **11-bounds-of-reason** — Gintis argues game theory cannot explain coordination without norms as correlating devices (correlated equilibrium); this book's reliance on focal points is the gap he attacks.
 
 ## Retrieval practice
@@ -275,5 +267,4 @@ All-Hawk is invadable by Dove (0 > −1); all-Dove by Hawk (4 > 2). Stable hawk 
 - **"Rationality means selfishness."** Rationality here is consistent pursuit of whatever your payoffs contain; fairness and spite are allowed in. The framework does not assume them away — nor tell you how to fill them in.
 - **"Tit-for-tat is optimal."** It won Axelrod's tournaments but is not uniquely optimal and is fragile under noise; what matters are the properties (nice, retaliatory, forgiving, clear).
 - **"Commitment means stubbornness."** A strategic move works only if credible, observed and understood by the other side. Private resolve does nothing.
-- **"Signals must be informative."** A costly signal can sort types while transmitting no content; the cost differential across types is what matters.
 - **"Repetition solves the PD."** Repetition *permits* cooperation as one equilibrium among many; it does not select it. Groups also need to coordinate on the cooperative equilibrium and detect defection fast — the selection problem the Order-level books address.
