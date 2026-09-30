@@ -29,14 +29,14 @@ TOC verified against library-catalog listings (UITM, UNC Argentina, EUI catalogu
 13. Summary (a short recap chapter; the catalog listing shows a subsection "Social Norms as Correlated Equilibria")
 Table of Symbols · References · Index
 
-The book is a hybrid of textbook and manifesto. Chapters 2, 5, 6 and 9 are largely technical; chapters 1, 3, 7, 8, 10, 11 and 12 carry the argument. This file spends its words accordingly.
+Chapters 2, 5, 6 and 9 are largely technical; chapters 1, 3, 7, 8, 10, 11 and 12 carry the argument. This file spends its words accordingly.
 
 ## Chapter-by-chapter: the salient knowledge
 
 ### Ch 1 — Decision Theory and Human Behavior
 - Core claims: The rational actor model (Savage-style expected utility over consistent preferences) is a theory of *preference consistency*, not of selfishness, materialism or conscious calculation. Beliefs, preferences and constraints (the "BPC model") are the minimal ingredients for any science of choice. Most alleged refutations of rationality are either (a) refutations of the selfishness add-on, which Gintis discards, or (b) performance errors under uncertainty, which he treats as a separate issue from the consistency of preferences.
 - Key model/example: prospect-theory anomalies (loss aversion, reference dependence — Kahneman & Tversky 1979) are reframed as *state-dependent* preferences: if the current endowment is part of the "state," a loss-averse agent can still be consistent. Hyperbolic discounting is treated the same way.
-- So-what: for design purposes, drop the question "are people rational?" and ask "what are their beliefs, what do they actually value (including fairness and status), and what constrains them?" That triple is your diagnostic checklist for any group.
+- So-what: drop "are people rational?" and ask "what do they believe, what do they value (including fairness and status), what constrains them?" That triple is your diagnostic checklist.
 
 ### Ch 2 — Game Theory: Basic Concepts
 - Core claims: Standard toolkit — normal and extensive forms, dominance, Nash equilibrium, mixed strategies, subgame perfection, and crucially **correlated equilibrium** (Aumann 1974, 1987), presented not as a footnote but as a first-class concept.
@@ -46,7 +46,7 @@ The book is a hybrid of textbook and manifesto. Chapters 2, 5, 6 and 9 are large
 ### Ch 3 — Game Theory and Human Behavior
 - Core claims: Experimental economics shows people are not selfish (ultimatum, dictator, public goods with punishment, trust games), but does not show they are inconsistent. The evidence supports "strong reciprocity": a predisposition to cooperate conditionally and to punish defectors at personal cost, even in one-shot anonymous settings. Preferences are partly other-regarding and partly *character-virtue*-like (honesty, promise-keeping valued for their own sake).
 - Key studies: Ultimatum game (Güth, Schmittberger & Schwarze 1982); public goods with costly punishment (Fehr & Gächter 2000, 2002); cross-cultural games in fifteen small-scale societies (Henrich, Boyd, Bowles, Camerer, Fehr, Gintis et al. 2001, 2004): offer *levels* vary with market integration and everyday cooperation, while pure self-interest is rejected everywhere.
-- So-what: your group is not full of free riders waiting to be bribed; it is full of conditional cooperators who will punish and who need to *see* others cooperating. Design for visibility of contribution and for cheap, legitimate sanctioning.
+- So-what: your group is not full of free riders waiting to be bribed but of conditional cooperators who will punish and need to *see* others cooperating. Design for visible contribution and cheap, legitimate sanctioning.
 
 ### Ch 4 — Rationalizability and Common Knowledge of Rationality
 - Core claims: What does rationality plus common knowledge of rationality (CKR) actually license? Only rationalizability (iterated elimination of never-best-responses; Bernheim 1984, Pearce 1984). In many games — most coordination games, Chicken, matching pennies — rationalizability leaves almost everything on the table. Nash equilibrium requires something more: that players' *conjectures about each other* coincide. Nothing in individual rationality delivers that.
@@ -70,7 +70,7 @@ The book is a hybrid of textbook and manifesto. Chapters 2, 5, 6 and 9 are large
 ### Ch 8 — Common Knowledge and Nash Equilibrium
 - Core claims: The technical spine. Aumann & Brandenburger (1995): for two players, mutual knowledge of rationality plus mutual knowledge of conjectures yields Nash; for more players, add a common prior and common knowledge of conjectures. These are *epistemic* conditions on what players know about each other, and no theory of individual reasoning produces them. So Nash is not "what rational agents do" but "what agents do once a social process has aligned their conjectures." Correlated equilibrium is the natural object, because Aumann (1987) showed Bayesian rationality with a common prior yields exactly correlated (not Nash) equilibrium.
 - Key result stated plainly: if everyone is Bayesian-rational and shares a prior over the states that determine what each player does, then the joint distribution of play *is* a correlated equilibrium. The common prior is the choreographer in disguise.
-- So-what: the notion "an agreement is stable because it is a Nash equilibrium" should be replaced by "an agreement is stable because there is a shared, trusted signal everyone conditions on." Ask what your group's signal is: a written policy, a leader's word, a visible dashboard, a ritual.
+- So-what: replace "stable because it is a Nash equilibrium" with "stable because there is a shared, trusted signal everyone conditions on." Ask what your group's signal is: a written policy, a leader's word, a dashboard, a ritual.
 
 ### Ch 9 — Reflective Reason and Equilibrium Refinements
 - Core claims: The 1980s refinement program (perfect, proper, sequential, stable equilibria; Selten, Myerson, Kreps & Wilson, Kohlberg & Mertens) tried to fix multiplicity with rationality-flavored conditions. Gintis: it failed on its own terms — refinements conflict, depend on arbitrary tremble structures, and lack an epistemic justification. Multiplicity is real and its resolution is *social*, not logical.
@@ -79,7 +79,7 @@ The book is a hybrid of textbook and manifesto. Chapters 2, 5, 6 and 9 are large
 ### Ch 10 — The Analytics of Human Sociality
 - Core claims: The heart of the book. Social norms are choreographers implementing correlated equilibria of the underlying game. Two features are essential. (1) *Epistemic*: the norm supplies the common conjecture — each person knows what others will do because the norm says so. (2) *Motivational*: humans have an evolved, culturally sharpened "normative predisposition" to follow norms and punish violators, so instructions are followed even where the bare game rewards deviation; norms can then sustain outcomes that are equilibria only once the normative payoff term is included. Gintis links this to Durkheim and Parsons on internalization and to Lewis (1969) and Bicchieri (2006) on conventions.
 - Key example: "First here has right of way" or "post your contribution on the visible board" is a public signal. If each person believes others follow it and mildly prefers to comply (or fears sanction), it is self-enforcing. Traffic light, office rota, seating convention — one mechanism.
-- So-what: this is the single most useful chapter. It gives you a two-part test for any norm you want to install in a group: does it *tell people unambiguously what to do* (epistemic), and *do people have any reason to comply given that others do* (motivational)? Most failed norms fail one of the two.
+- So-what: the most useful chapter. Two-part test for any norm you want to install: does it *tell people unambiguously what to do* (epistemic), and *do people have reason to comply given that others do* (motivational)? Most failed norms fail one of the two.
 
 ### Ch 11 — The Evolution of Property Rights
 - Core claims: Property extends animal territoriality: the "bourgeois" strategy (Maynard Smith 1982) — defend as incumbent, yield as intruder — is an evolutionarily stable, low-conflict convention, and a correlated equilibrium of Hawk–Dove with "who arrived first" as the signal. The endowment effect (Kahneman, Knetsch & Thaler 1990) is read as the psychological correlate that makes the incumbent's defense credible.
@@ -95,10 +95,10 @@ The book is a hybrid of textbook and manifesto. Chapters 2, 5, 6 and 9 are large
 
 ## The 5-10 ideas you must carry out of this book
 1. **Nash equilibrium is a social achievement, not a rational deduction.** Rationality and common knowledge of rationality yield only rationalizability; Nash needs aligned conjectures that must come from somewhere outside the players' heads.
-2. **Norms are choreographers.** A social norm is a public signal that tells each person what to do and, in so doing, makes everyone's conjectures consistent. Following it is a best response when others follow it. This is Aumann's correlated equilibrium with the norm as correlating device.
+2. **Norms are choreographers.** A norm is a public signal that tells each person what to do and thereby aligns conjectures; following it is a best response when others follow it. Aumann's correlated equilibrium with the norm as correlating device.
 3. **The BPC model (beliefs, preferences, constraints) is the minimal common language.** Rational choice means consistent preferences, which can be altruistic, spiteful, fairness-driven or norm-following; "rational" is not "selfish."
 4. **Common priors are culture.** The Harsanyi doctrine is not a theorem about rationality; it is an empirical claim that people share a belief-forming culture. Belief alignment is a cultural intervention.
-5. **Norm-following is motivated, not just informed.** The choreographer works because humans have an evolved and culturally trained disposition to comply with norms and to punish violators (strong reciprocity), not merely because the norm is informative.
+5. **Norm-following is motivated, not just informed.** Humans have an evolved, culturally trained disposition to comply with norms and punish violators (strong reciprocity).
 6. **Equilibrium multiplicity is resolved socially.** Refinements failed; history, focal points and norms select equilibria.
 7. **Property is a convention with a cue.** Ownership norms resolve Hawk–Dove conflicts by conditioning on a salient signal (possession), and the endowment effect is the psychological correlate that makes them stick.
 8. **Unification is a five-part program** (gene–culture coevolution, norms, game theory, rational actor, complexity), offered as a framework rather than a finished theory.
@@ -110,10 +110,8 @@ The book is a hybrid of textbook and manifesto. Chapters 2, 5, 6 and 9 are large
 - **Correlated equilibrium** — a distribution over joint actions, mediated by a signal, from which no one profits by deviating — bites whenever you can install a signal (schedule, rota, dashboard, referee).
 - **Choreographer** — Gintis's name for the correlating device when it is a social norm — bites when a norm is vague: a vague norm is a choreographer that does not choreograph.
 - **Common prior / Harsanyi doctrine** — all players' beliefs derive from one prior updated on private information — bites when sub-groups disagree persistently despite shared data.
-- **Purification** — reading a mixed equilibrium as pure strategies under small private payoff noise — bites when you see stable fractions of behaviors in a population.
-- **Strong reciprocity** — conditional cooperation plus costly punishment of defectors, even one-shot — bites when designing sanctions: people will pay to punish, so give them a channel that is legitimate and proportionate.
+- **Strong reciprocity** — conditional cooperation plus costly punishment, even one-shot — bites when designing sanctions: people will pay to punish, so give them a legitimate, proportionate channel.
 - **Normative predisposition** — evolved readiness to internalize and follow norms — bites when you rely on incentives alone: you leave the cheapest motivational lever unused.
-- **Gene–culture coevolution** — genes shape learning; culture shapes selection on genes — bites as background: why norm-following exists at all.
 
 ## Evidence strength & limits
 **What is robust.** The formal results are theorems: Aumann (1974, 1987), Aumann & Brandenburger (1995), Bernheim and Pearce. The chapter 3 experimental facts — ultimatum rejections, conditional cooperation, costly punishment, cross-cultural variation — replicate well. Rejection of pure self-interest is about as secure as anything in behavioral science.
@@ -130,15 +128,15 @@ The book is a hybrid of textbook and manifesto. Chapters 2, 5, 6 and 9 are large
 **What Gintis argues vs. shows.** He *shows* (with theorems) that Nash cannot be grounded in rationality alone and that correlated equilibrium is what Bayesian rationality plus a common prior gives you. He *argues* that social norms are the empirical realization of the correlating device, that norm-following is an evolved disposition, and that this closes the gap between economics and sociology. The first two are plausible and partly supported by other books on this list; the third is a promissory note.
 
 ## Design implications for cooperation in real groups
-- **Name the signal.** For any coordination problem, specify the public cue that tells each person which equilibrium is in play (rota, calendar, written rule, referee, dashboard). Ambiguity is the failure mode, not bad incentives. [E — correlated-equilibrium logic plus Schelling/Lewis convention evidence]
-- **Run the two-part norm test.** Before installing a norm, check (a) epistemic: can every member state what the norm requires of *them* and of *others* in the situation? (b) motivational: given others comply, does anyone gain by deviating, and if so, is there a cheap sanction? [H — the test follows from the model; whether it predicts norm survival in your group is to be tested]
-- **Stop trying to reason people into equilibrium.** Meetings that try to derive the "obviously rational" plan reproduce the refinement program's failure. Pick a focal option, announce it, and make it the default. [E — refinement literature; Camerer's coordination-game evidence]
-- **Align priors culturally, not by more data.** Persistent disagreement across sub-teams with the same data indicates different priors; fix with shared training, shared metrics definitions and shared narrative rather than more dashboards. [H]
+- **Name the signal.** For any coordination problem, specify the public cue that tells each person which equilibrium is in play (rota, calendar, written rule, dashboard). Ambiguity is the failure mode, not bad incentives. [E — correlated-equilibrium logic plus Schelling/Lewis evidence]
+- **Run the two-part norm test.** (a) Epistemic: can every member state what the norm requires of *them* and of *others*? (b) Motivational: given others comply, does anyone gain by deviating, and if so, is there a cheap sanction? [H — follows from the model; whether it predicts norm survival in your group is to be tested]
+- **Stop trying to reason people into equilibrium.** Meetings that derive the "obviously rational" plan reproduce the refinement program's failure. Pick a focal option, announce it, make it the default. [E — refinement literature; Camerer's coordination evidence]
+- **Align priors culturally, not by more data.** Persistent disagreement across sub-teams on the same data indicates different priors; fix with shared training, metric definitions and narrative, not more dashboards. [H]
 - **Treat ownership as a conflict-reducing convention and make it salient.** Assign clear owners even when the assignment is somewhat arbitrary; ambiguity produces Hawk–Dove fights. [E — bourgeois-strategy results; organizational evidence is weaker]
-- **Budget for legitimate punishment.** Members will sanction free riders at a cost to themselves; give them a low-cost, proportionate, public-enough channel (Ostrom's graduated sanctions) so punishment does not go underground. [E — costly punishment in the lab; field evidence favors cheap sanctions, so prefer gossip-grade channels over formal penalties]
-- **Do not model the group as selfish, and do not model it as saintly.** Use BPC: what do members believe about each other, what do they value (including status and fairness), what constrains them? Most "incentive" fixes fail because they change constraints while beliefs about what others will do stay the same. [E]
+- **Budget for legitimate punishment.** Members will sanction free riders at a cost to themselves; give them a low-cost, proportionate channel (Ostrom's graduated sanctions) so punishment does not go underground. [E — lab; field evidence favors cheap sanctions, so prefer gossip-grade channels over formal penalties]
+- **Model the group as neither selfish nor saintly.** Use BPC: what do members believe about each other, what do they value (including status and fairness), what constrains them? Most "incentive" fixes change constraints while beliefs about what others will do stay the same. [E]
 - **Prefer the norm to the incentive when both are available.** Norms exploit an existing motivational disposition and are cheaper to maintain; incentives can crowd out that disposition. [H — crowding-out evidence is real but context-dependent]
-- **Do not expect the unification to tell you which layer matters.** The framework is a checklist, not a decision procedure; the ordering of interventions must come from the other books and from your own diagnostic. [V — a methodological commitment of this course]
+- **Do not expect the unification to tell you which layer matters.** The framework is a checklist, not a decision procedure; ordering of interventions comes from the other books and your own diagnostic. [V]
 
 ## Connections
 - **01-secret-of-our-success** (Henrich): "common priors come from culture" and "normative predisposition" are Henrich's cultural learning and norm psychology stated abstractly; Henrich supplies the mechanism Gintis only names.
@@ -155,40 +153,40 @@ The book is a hybrid of textbook and manifesto. Chapters 2, 5, 6 and 9 are large
 ## Retrieval practice
 
 1. **Recall.** What does common knowledge of rationality license as a solution concept, according to Gintis, and why is that not Nash equilibrium?
-<details>Rationalizability: iterated elimination of never-best-responses. Nash additionally requires that players' conjectures about each other coincide (Aumann & Brandenburger 1995 conditions), which individual rationality cannot generate.</details>
+<details>Rationalizability. Nash additionally requires that players' conjectures coincide (Aumann & Brandenburger 1995), which individual rationality cannot generate.</details>
 
 2. **Explain-why.** Why is a traffic light a better analogy for a social norm than a rule book?
-<details>A traffic light is a correlating device: it sends each driver a private-but-related instruction and it is a best response to obey given that others obey. It produces a correlated equilibrium that beats the mixed Nash outcome. A rule book without a shared signal or shared belief that others follow it has no such self-enforcing property.</details>
+<details>A traffic light is a correlating device: it sends each driver a private-but-related instruction, and obeying is a best response given that others obey. A rule book without a shared signal or shared belief that others follow it is not self-enforcing.</details>
 
 3. **Apply.** A remote team has two viable release cadences; half the engineers assume weekly, half assume fortnightly, and merges keep colliding. Diagnose in Gintis's terms and propose a fix.
-<details>A coordination game with two equilibria and no choreographer; conjectures are misaligned. Fix: install a public signal (a published, pinned cadence with a visible calendar) so each engineer's best response, given the signal, is to conform. Incentives are unnecessary; the epistemic part is what is missing.</details>
+<details>Two equilibria, no choreographer, misaligned conjectures. Fix: a public signal (a published, pinned cadence with a visible calendar) so conforming is each engineer's best response. The epistemic part is what is missing; incentives are unnecessary.</details>
 
 4. **Spot the misconception.** "Gintis shows that people are irrational, so game theory is useless for real groups."
-<details>Wrong on both counts. Gintis defends the rational actor model (as preference consistency) and game theory (as lexicon); his target is the claim that rationality alone yields Nash play. He wants game theory embedded in a theory of norms, not discarded.</details>
+<details>Wrong on both counts. Gintis defends rational choice (as preference consistency) and game theory (as lexicon); his target is the claim that rationality alone yields Nash play. He wants game theory embedded in a theory of norms, not discarded.</details>
 
 5. **Recall.** State the two components a norm must have to function as a choreographer.
 <details>Epistemic (it tells each player what to do and what others will do, aligning conjectures) and motivational (players have a disposition, or face sanctions, so that compliance is a best response given others' compliance).</details>
 
 6. **Explain-why.** Why does Gintis say the common-prior assumption is really a claim about culture?
-<details>Bayesian rationality says nothing about where priors come from; a common prior across people can only arise if they share a belief-forming process. In humans that process is cultural transmission, so "common prior" is an empirical claim about shared culture.</details>
+<details>Bayesian rationality says nothing about where priors come from; a shared prior can only arise from a shared belief-forming process, which in humans is cultural transmission.</details>
 
 7. **Apply.** Two product squads look at identical metrics and reach opposite conclusions week after week. Which Gintis chapter is relevant and what intervention does it suggest?
-<details>Chapter 7 (Bayesian rationality and social epistemology). Persistent disagreement on shared data signals different priors. Intervention: cultural alignment (shared definitions, joint training, shared narratives), not more data.</details>
+<details>Chapter 7. Persistent disagreement on shared data signals different priors. Intervention: cultural alignment (shared definitions, joint training), not more data.</details>
 
 8. **Spot the misconception.** "Because ownership norms reduce conflict, the fairest allocation of ownership will reduce conflict the most."
-<details>The bourgeois-strategy result says conflict falls because the cue (possession) is salient and mutually recognized, not because it is fair. A fair but ambiguous allocation can produce more fights than a clear arbitrary one. Fairness matters for other reasons (legitimacy, willingness to sanction), which Ostrom and Bicchieri supply.</details>
+<details>Conflict falls because the cue is salient and mutually recognized, not because it is fair; a fair but ambiguous allocation can produce more fights than a clear arbitrary one. Fairness matters for other reasons (legitimacy, willingness to sanction), which Ostrom and Bicchieri supply.</details>
 
 9. **Explain-why.** What is the main charge that the unification is "programmatic rather than achieved"?
-<details>Chapter 12 lists five compatible principles and asserts they cover the behavioral sciences, but the book derives no new result in sociology, anthropology or psychology from the framework; it re-describes existing findings in a common vocabulary. Compatibility of principles is not the same as a unified theory that makes predictions the parts could not.</details>
+<details>Chapter 12 lists five compatible principles and asserts they suffice, but derives no new result in any discipline; it re-describes existing findings in a common vocabulary. Compatibility is not a unified theory that predicts what the parts could not.</details>
 
 10. **Apply.** You have installed a clear contribution norm on a visible board; conjectures are aligned; but compliance is still low. Which part of Gintis's account has failed and which other reading helps?
-<details>The motivational part: given others comply, some members still profit by deviating and no sanction bites. Ostrom (graduated sanctions, monitoring by participants) and Bicchieri (normative expectations: do people believe others *expect* them to comply?) supply the repair; Camerer's learning evidence warns that cooperation decays without feedback.</details>
+<details>The motivational part: some members still profit by deviating and no sanction bites. Ostrom (graduated sanctions, participant monitoring) and Bicchieri (normative expectations: do people believe others *expect* them to comply?) supply the repair; Camerer warns cooperation decays without feedback.</details>
 
 ## Common misreadings of this book
 - **"Gintis rejects rational choice."** He rejects the selfishness assumption and the claim that rationality yields Nash; he keeps consistent-preference rationality as the common core.
-- **"Correlated equilibrium replaces Nash because it fits data better."** The argument is conceptual, not empirical: correlated equilibrium is what Bayesian rationality plus a common prior gives you (Aumann 1987), and Nash needs stronger, socially supplied conditions. The book does not run a horse race on data.
+- **"Correlated equilibrium replaces Nash because it fits data better."** The argument is conceptual: correlated equilibrium is what Bayesian rationality plus a common prior gives you (Aumann 1987); Nash needs stronger, socially supplied conditions. The book runs no horse race on data.
 - **"The choreographer is a person."** It is any correlating signal: a norm, a convention, a clock, a possession cue. Leaders can be choreographers, but the concept is about the signal, not the authority.
-- **"The book proves that norms are internalized by evolution."** It argues that a normative predisposition evolved by gene–culture coevolution, drawing on the Bowles–Gintis–Boyd–Richerson program; that claim is contested (Binmore & Shaked; Guala) and the book does not itself provide the evolutionary models.
+- **"The book proves that norms are internalized by evolution."** It argues a normative predisposition evolved by gene–culture coevolution; that claim is contested (Binmore & Shaked; Guala) and the book does not itself provide the evolutionary models.
 - **"The unification is done."** It is a framework and a checklist. Reviewers consistently note that it is an agenda.
 
 ## Critical assessment: which claims hold up against the rest of the reading list
@@ -218,4 +216,4 @@ The purpose of this file in the course is to assess an attempted synthesis. Clai
 **Claim 8 — The five principles unify economics, psychology, sociology, anthropology and biology.**
 *Verdict: does not hold up as stated; holds up as a reading guide.* The charge that the unification is programmatic is fair. Every empirical achievement cited belongs to one of the other books on this list, done in that book's own idiom. Chapter 12 shows these are *compatible* — you are not forced to choose between "people follow norms" and "people respond to incentives" — but compatibility is not unification. No result in the book is one a sociologist or anthropologist could not have obtained without it, and the complexity principle is not used at all. The most generous reading is Rouchier's: game theory as a *complement* that keeps social theory honest about incentives and expectations, and social theory as supplier of the priors, preferences and signals game theory needs. On that reading the book is right and modest — but then the title's "unification" is marketing.
 
-**Net assessment for the course.** Carry out of Gintis two things and leave the rest: (1) the epistemic critique of Nash and the choreographer idea, which sharpen every Order-level book into a single design question — *what is the signal, and why does each person comply given the others do?* — and (2) the discipline of writing down beliefs, preferences and constraints before proposing an intervention. Do not carry out the claim that the behavioral sciences have been unified, or that norm-following is settled evolutionary fact. The synthesis is a map of how the other ten books fit together; it is not a substitute for any of them.
+**Net assessment for the course.** Carry out two things: (1) the epistemic critique of Nash and the choreographer idea, which sharpen every Order-level book into one design question — *what is the signal, and why does each person comply given the others do?* — and (2) the discipline of writing down beliefs, preferences and constraints before proposing an intervention. Do not carry out the claim that the behavioral sciences have been unified, or that norm-following is settled evolutionary fact. The synthesis is a map of how the other ten books fit together, not a substitute for any of them.
