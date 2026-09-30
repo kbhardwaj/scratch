@@ -79,8 +79,8 @@ Note on scope: the essay "The Intimate Contest for Self-Command" is *not* in thi
 - Core claims:
   - Suppose parents could choose their children's sex (and eventually other traits). The aggregate sex ratio would emerge from millions of private choices, each ignoring its effect on the marriage market of the next generation. If most parents want a boy first, first-borns skew male even if families also want a girl eventually.
   - Traits that are *positional* (height, perhaps intelligence as it is valued in competition) create arms races: every family choosing a taller child leaves the relative position unchanged and the absolute cost paid. Traits that are *absolute* (freedom from disease) do not.
-  - The externality runs to people who do not yet exist and cannot bargain: the next generation. Schelling uses this to argue that free individual choice here is not obviously better than collective rules, because the "market" has no way to price the effect on the future sex ratio or on positional competition.
-- So-what: Whenever people choose attributes of a population they are part of — hiring "culture fit," recruiting only from certain schools, choosing who joins a community — the aggregate composition is a by-product with no one responsible for it. Positional versus absolute distinguishes which choices need collective rules.
+  - The externality falls on people who do not yet exist and cannot bargain, so free individual choice is not obviously better than collective rules: no market prices the effect on the future sex ratio or on positional competition.
+- So-what: Whenever people choose attributes of a population they belong to (hiring for "culture fit," choosing who joins a community), the aggregate composition is a by-product with no owner. Positional versus absolute tells you which choices need collective rules.
 
 ### Ch 7 — Hockey Helmets, Daylight Saving, and Other Binary Choices
 - Core claims:
@@ -97,8 +97,8 @@ Note on scope: the essay "The Intimate Contest for Self-Command" is *not* in thi
 - So-what: Draw the two curves for your group's binary behavior (writing tests, attending standup, using the shared tool). If it is an MPD, only rules or side payments work; if it is a coordination game, seeding above the crossing and making the switch visible works; if it is a stable interior mix, stop trying to get everyone to comply. Most "culture" interventions fail by treating an MPD as if it were coordination.
 
 ### Ch 8 — An Astonishing Sixty Years: The Legacy of Hiroshima (2006 edition only)
-- Core claims: Nuclear weapons have not been used in war since 1945, not because of a treaty but because a convention — a "taboo" — accumulated through repeated non-use; each decade of non-use raised the perceived cost of first use, making the convention self-reinforcing. This is Schelling's own book's logic applied to the world's largest coordination problem: a focal norm sustained by expectations about what others expect. The lecture also warns that new nuclear states have not lived through the convention's formation and may not share it.
-- So-what: Norms harden by observed compliance; the age of a norm is part of its strength. Visible non-violation is a resource to protect.
+- Core claims: Nuclear weapons have not been used in war since 1945, not because of a treaty but because a convention accumulated through repeated non-use; each decade raised the perceived cost of first use, making the convention self-reinforcing — the book's logic applied to a focal norm sustained by expectations about others' expectations. New nuclear states did not live through the convention's formation and may not share it.
+- So-what: Norms harden by observed compliance; a norm's age is part of its strength.
 
 ## The 5-10 ideas you must carry out of this book
 1. **Macro is not micro summed.** Aggregate outcomes reflect the interaction structure as much as the preferences. Never infer motives from outcomes or outcomes from motives without a model in between.
