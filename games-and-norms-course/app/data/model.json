@@ -1,0 +1,587 @@
+{
+  "bands": [
+    {
+      "id": "origins",
+      "title": "Origins: why humans are cultural, social learners and where cooperation comes from",
+      "certainty": "Mostly [E] (5 [E], 3 [H]): cumulative culture, copying strategies, a content-neutral norm psychology and norm-versus-skill transmission are evidenced, while cultural group selection, the collective-brain effect, culture-drove-brains and Rogers's paradox are hypotheses; the mechanisms are [E], the evolutionary story connecting them is [H].",
+      "nodes": [
+        {
+          "id": "cumulative-culture",
+          "label": "Competence lives in inherited practice, not in individuals",
+          "summary": "Know-how ratchets across generations because each learner starts from the best available model; no individual could derive it, and explorers cut off from it died. Young children match chimpanzees on physical cognition and are far ahead on social learning. A group's competence sits in its practices and learning network, and turnover can lose it silently.",
+          "tag": "E",
+          "links": [
+            "copying-strategies",
+            "fidelity-and-teaching",
+            "learning-network-connectivity"
+          ],
+          "sources": [
+            "01-secret-of-our-success",
+            "02-darwins-unfinished-symphony"
+          ]
+        },
+        {
+          "id": "copying-strategies",
+          "label": "People copy by rules, and the rules are the levers",
+          "summary": "Whom and what people copy follows strategies: the successful, the prestigious, the majority when uncertain, the similar, with stale information discounted. Copying pays because demonstrators pre-filter what they display (Rendell et al. 2010, a simulation). Change what is visibly successful and who is visibly prestigious; explanation is the weak channel for norm adherence.",
+          "tag": "E",
+          "links": [
+            "cumulative-culture",
+            "rogers-paradox",
+            "correlation-master-variable",
+            "network-structure",
+            "situation-and-construal"
+          ],
+          "sources": [
+            "01-secret-of-our-success",
+            "02-darwins-unfinished-symphony"
+          ]
+        },
+        {
+          "id": "rogers-paradox",
+          "label": "Populations of pure copiers stagnate; someone must be paid to innovate",
+          "summary": "Copiers out-compete innovators individually, yet populations that copy too much sit on a stale knowledge pool and do worse on average. It is a model result, so a hypothesis for any group, but the symptom is familiar: best practice that circulates faster than anyone tests it. Pair every copy-the-successful lever with a protected budget for trying things.",
+          "tag": "H",
+          "links": [
+            "copying-strategies",
+            "learning-network-connectivity",
+            "limited-reasoning-and-history"
+          ],
+          "sources": [
+            "02-darwins-unfinished-symphony"
+          ]
+        },
+        {
+          "id": "learning-network-connectivity",
+          "label": "Skill retention and innovation track the connectivity of the learning network",
+          "summary": "Both Origins books argue that larger, better-connected learning populations retain and innovate more, and isolation loses skills. Lab transmission chains support the mechanism at small scale; the Tasmania case is contested and the variable is reframed from head-count to effective connectivity. Silos shrink the learning network; how much that costs is a hypothesis.",
+          "tag": "H",
+          "links": [
+            "cumulative-culture",
+            "network-structure",
+            "rogers-paradox"
+          ],
+          "sources": [
+            "01-secret-of-our-success",
+            "02-darwins-unfinished-symphony"
+          ]
+        },
+        {
+          "id": "fidelity-and-teaching",
+          "label": "Fidelity is the bottleneck for accumulation; hidden-structure skills need teaching, norms do not",
+          "summary": "Below a threshold of transmission accuracy, skills are lost as fast as gained; teaching and language are fidelity technologies, and in the stone-tool experiment (Morgan et al. 2015) they gained most while imitation added little. Over-imitation shows the reverse for practices with hidden payoffs: people copy without understanding and explanation does not produce adherence. Teach skills; model norms.",
+          "tag": "E",
+          "links": [
+            "cumulative-culture",
+            "copying-strategies",
+            "norm-psychology"
+          ],
+          "sources": [
+            "02-darwins-unfinished-symphony",
+            "01-secret-of-our-success"
+          ]
+        },
+        {
+          "id": "norm-psychology",
+          "label": "Humans carry a content-neutral norm psychology: learn rules, expect them of others, feel shame, sanction violators",
+          "summary": "Henrich's self-domestication and Gintis's normative predisposition agree that humans acquire and enforce rules, including as third parties; the disposition is universal, the content is not (small-scale-society ultimatum offers ran from about 26% to about 58%). How deeply norms are internalized is open, so assume a norm is conditional until it survives a collapse of expectations. Reputation and ostracism often move people more than fines, and people enforce rules you did not intend.",
+          "tag": "E",
+          "links": [
+            "norm-anatomy",
+            "social-preferences-conditional",
+            "strong-reciprocity-split",
+            "within-group-enforcement"
+          ],
+          "sources": [
+            "01-secret-of-our-success",
+            "11-bounds-of-reason"
+          ]
+        },
+        {
+          "id": "within-group-enforcement",
+          "label": "Reciprocity, reputation and sanction are the evidenced engines of cooperative norms; cultural group selection is the hypothesis",
+          "summary": "Within-group mechanisms are evidenced across all three lower bands. Cultural group selection, where groups with cooperative norm packages out-compete and are imitated by others, is defended by Henrich and Gintis, doubted by Laland, and heavily criticised; it is [H] and never the sole basis of a design claim. Copy a peer's norm package as a starting point, but justify the design by within-group mechanisms.",
+          "tag": "E",
+          "links": [
+            "norm-psychology",
+            "shadow-of-the-future",
+            "graduated-sanctions-monitoring",
+            "institutions-incremental"
+          ],
+          "sources": [
+            "01-secret-of-our-success",
+            "02-darwins-unfinished-symphony",
+            "11-bounds-of-reason"
+          ]
+        },
+        {
+          "id": "culture-drove-brains",
+          "label": "Reliance on culture selected for the capacities that make culture richer",
+          "summary": "The shared Origins hypothesis (Henrich's cultural brain, Laland's cultural drive) holds that brains, long lives and sociality are consequences of reliance on social learning. Support is correlational (Street et al. 2017) and diet and social-brain accounts remain live. It grounds the claim that cultural learning is fast and automatic but licenses no design decision on its own.",
+          "tag": "H",
+          "links": [
+            "cumulative-culture",
+            "norm-psychology"
+          ],
+          "sources": [
+            "01-secret-of-our-success",
+            "02-darwins-unfinished-symphony"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mechanisms",
+      "title": "Mechanisms: individuals in groups and the formal language of strategic interaction",
+      "certainty": "9 [E] with [H] sub-claims inside risk dominance and tipping: Nash and ESS, risk dominance under random mixing, the folk theorem, costly-signal logic, intention-sensitive fairness, limited first-contact reasoning and the robust social-psychology list are solid, but no parametric social-preference or learning model wins and lab point estimates do not transfer; relations are theorems, behavioural regularities are directions, not sizes.",
+      "nodes": [
+        {
+          "id": "draw-the-game",
+          "label": "Write down players, strategies, payoffs, order and information before arguing about the outcome, then classify",
+          "summary": "Most disputes about why people will not cooperate dissolve once the matrix is drawn. The one agreed diagnostic: does a member gain by defecting when everyone else cooperates? Yes means prisoner's dilemma (payoffs, repetition, sanctions); no means stag hunt (assurance); chicken and battle-of-the-sexes need turn-taking or tie-breaks. Schelling's binary-choice diagram is the population version of the test.",
+          "tag": "E",
+          "links": [
+            "nash-stability-test",
+            "risk-dominance-default",
+            "shadow-of-the-future",
+            "contingent-behaviour-tipping",
+            "norms-transform-games",
+            "ostrom-principles"
+          ],
+          "sources": [
+            "04-games-of-strategy",
+            "05-micromotives-and-macrobehavior"
+          ]
+        },
+        {
+          "id": "nash-stability-test",
+          "label": "Nash and ESS certify stability, not prediction and not goodness",
+          "summary": "A Nash equilibrium is a profile from which no one gains by deviating alone; mutual defection is one because it is stable, not because anyone wants it. With several equilibria the concept predicts nothing, history and salience pick, and ESS is the population form, so which stable norm a group holds depends on where it started. Never use \"equilibrium\" as approval and never contrast \"rational\" with \"fair\".",
+          "tag": "E",
+          "links": [
+            "draw-the-game",
+            "risk-dominance-default",
+            "contingent-behaviour-tipping",
+            "nash-is-social-achievement",
+            "four-layers"
+          ],
+          "sources": [
+            "04-games-of-strategy",
+            "07-stag-hunt"
+          ]
+        },
+        {
+          "id": "risk-dominance-default",
+          "label": "Absent intervention, groups drift to the risk-dominant outcome, not the best one",
+          "summary": "The payoff-dominant equilibrium is best for all if reached, but the risk-dominant one is the best reply against a 50/50 opponent and has the larger basin; under random mixing, best-response updating, large groups and no communication it wins in models and in the lab (weak-link groups of 14 to 16 fell to minimum effort while fixed pairs reached the top). Coordination failure is strategic uncertainty plus history, so sweetening the joint payoff is the weakest lever. Group size and the aggregation rule are design variables, and selection devices (two-way talk, leader communication, focal labels, gradual growth from a small core) beat payoff sweeteners.",
+          "tag": "E",
+          "links": [
+            "nash-stability-test",
+            "correlation-master-variable",
+            "cheap-talk-expectations",
+            "limited-reasoning-and-history",
+            "ostrom-principles",
+            "four-layers"
+          ],
+          "sources": [
+            "06-behavioral-game-theory",
+            "07-stag-hunt",
+            "04-games-of-strategy"
+          ]
+        },
+        {
+          "id": "shadow-of-the-future",
+          "label": "Repetition permits cooperation as one equilibrium among many; selection and fast detection are separate problems",
+          "summary": "Cooperation survives in a repeated dilemma only when the future is long, uncertain and observable; announced endpoints unravel it and noise demands forgiveness. The folk theorem is an existence result, so the group must still coordinate on the cooperative equilibrium and detect defection fast; recommend \"nice, retaliatory, forgiving, clear\", never tit-for-tat by name. Ostrom's field variable for the discount factor is turnover: make users transient and the commons breaks.",
+          "tag": "E",
+          "links": [
+            "draw-the-game",
+            "credibility-and-signals",
+            "within-group-enforcement",
+            "graduated-sanctions-monitoring",
+            "institutions-incremental"
+          ],
+          "sources": [
+            "04-games-of-strategy",
+            "09-governing-the-commons"
+          ]
+        },
+        {
+          "id": "credibility-and-signals",
+          "label": "Threats and promises work only when executing them is in your interest at the time; costly signals reveal type",
+          "summary": "Credibility is manufactured by limiting oneself through commitment devices, delegation, reputation and small steps; a sanction that would not actually be applied is not a sanction. Asymmetric information is solved by signals cheaper for the good type and menus that make each type reveal itself, and credibility-enhancing displays are the cultural version. A leader who says \"quality first\" and ships anyway is a non-signal, and members copy the shipping.",
+          "tag": "E",
+          "links": [
+            "shadow-of-the-future",
+            "copying-strategies",
+            "graduated-sanctions-monitoring",
+            "norm-as-choreographer"
+          ],
+          "sources": [
+            "04-games-of-strategy",
+            "01-secret-of-our-success"
+          ]
+        },
+        {
+          "id": "social-preferences-conditional",
+          "label": "Fairness and generosity are real, intention-sensitive and cue-dependent; model people as a distribution of types",
+          "summary": "Ultimatum offers average about 40% and about half of offers below 20% are rejected, falling at high stakes; dictator giving averages about 28% but collapses under double-blind anonymity, which is fragile norm compliance, not altruism. Roughly half of subjects are conditional cooperators and no single social-preference model wins. Treat fairness as a distribution of norm-sensitivities conditional on cues, and never state a baseline without the group's own norms.",
+          "tag": "E",
+          "links": [
+            "norm-psychology",
+            "norm-anatomy",
+            "situation-and-construal",
+            "strong-reciprocity-split",
+            "cheap-talk-expectations"
+          ],
+          "sources": [
+            "06-behavioral-game-theory",
+            "03-social-psychology"
+          ]
+        },
+        {
+          "id": "limited-reasoning-and-history",
+          "label": "First-contact play is one to two steps deep and norm-driven; early rounds lock in the steady state",
+          "summary": "Beauty-contest first rounds average about 35 to 36 against a Nash prediction of zero, and cognitive-hierarchy fits give about 1.5 steps of reasoning. Equilibrium is reached, if at all, through path-dependent learning: early rounds determine where weak-link groups settle, and what is robust is that feedback and early rounds matter, not any parametric learning model. The first few interactions of a group are disproportionately valuable.",
+          "tag": "E",
+          "links": [
+            "risk-dominance-default",
+            "nash-stability-test",
+            "rogers-paradox",
+            "institutions-incremental"
+          ],
+          "sources": [
+            "06-behavioral-game-theory"
+          ]
+        },
+        {
+          "id": "situation-and-construal",
+          "label": "Situations dominate, we underweight them, and the label on an interaction moves behaviour as much as its payoffs",
+          "summary": "The attribution error makes groups blame people for what structures produced; the robust list is conformity, obedience, attribution error, dissonance, polarization, loafing, minimal groups, moderate contact effects and low-risk bystander effects. Construal is the lever: the \"Community Game\" label roughly doubled dilemma cooperation over \"Wall Street Game\", descriptive and injunctive channels must point the same way, and descriptive feedback alone boomerangs above the norm. A single dissenter breaks conformity; do not build on ego depletion, priming, power posing, watching eyes, the prison experiment or IAT training.",
+          "tag": "E",
+          "links": [
+            "copying-strategies",
+            "social-preferences-conditional",
+            "norm-anatomy",
+            "pluralistic-ignorance-cascades",
+            "bpc-bookkeeping"
+          ],
+          "sources": [
+            "03-social-psychology"
+          ]
+        },
+        {
+          "id": "contingent-behaviour-tipping",
+          "label": "When choices depend on how many others choose, the population has thresholds, multiple equilibria and tipping points nobody intended",
+          "summary": "Macro is not micro summed: mild in-group preferences plus refusal to be a small minority can produce near-total sorting, so homogeneity is weak evidence of intolerance (a possibility proof; empirical tipping is roughly 5 to 20% minority share). A tipping point is an unstable equilibrium in the threshold distribution, and the scarce resource is low-threshold actors, not influencers. The binary-choice diagram separates multi-person dilemmas (enforce), coordination games (seed and switch) and stable interior mixes (leave alone); critical mass k is the size of the pilot you need.",
+          "tag": "E",
+          "links": [
+            "draw-the-game",
+            "nash-stability-test",
+            "network-structure",
+            "correlation-master-variable",
+            "pluralistic-ignorance-cascades"
+          ],
+          "sources": [
+            "05-micromotives-and-macrobehavior"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "title": "Order: how norms, institutions and networks turn interaction into stable collective patterns",
+      "certainty": "8 [E], 1 [H]: Bicchieri's taxonomy, cheap talk roughly doubling and decaying, pluralistic ignorance, the threshold and cluster theorems, the structural weak-tie claim, Ostrom's checklist and by-product monitoring are backed by models, lab effects and a systematic review, but every prescription about your group is [H] and every choice of what to optimize is [V].",
+      "nodes": [
+        {
+          "id": "norm-anatomy",
+          "label": "A social norm is a conditional preference plus an empirical expectation plus a normative expectation; diagnose by the expectations, not the behaviour",
+          "summary": "Bicchieri's taxonomy is the working vocabulary: a descriptive norm runs on empirical expectations alone and flips when the visible majority changes; a convention is a coordination equilibrium and needs no policeman; a social norm runs against private incentives, needs normative expectations, and collapses when people stop believing others expect it; a moral norm is unconditional and cannot be engineered by changing expectations. The two-step elicitation is usable but design-sensitive. The reference network, not the org chart, is the unit of measurement.",
+          "tag": "E",
+          "links": [
+            "norm-psychology",
+            "social-preferences-conditional",
+            "norms-transform-games",
+            "pluralistic-ignorance-cascades",
+            "four-layers",
+            "norm-as-choreographer"
+          ],
+          "sources": [
+            "08-grammar-of-society"
+          ]
+        },
+        {
+          "id": "norms-transform-games",
+          "label": "A live norm changes the game, not the payoffs, and only while the expectations that it applies are live",
+          "summary": "When enough people expect the norm to apply, a dilemma becomes a coordination game with a norm-following equilibrium. Activation is cue-driven: scripts select which norm applies, and framing, observation and salience switch it on without changing values, though any specific cue remains [H]. Norm-based utility is the working model, with the caveat that its superiority over inequity aversion is argued rather than shown.",
+          "tag": "E",
+          "links": [
+            "norm-anatomy",
+            "draw-the-game",
+            "situation-and-construal",
+            "cheap-talk-expectations",
+            "norm-as-choreographer"
+          ],
+          "sources": [
+            "08-grammar-of-society"
+          ]
+        },
+        {
+          "id": "cheap-talk-expectations",
+          "label": "Relevant talk roughly doubles cooperation by manufacturing expectations; it decays without repetition or sanctions where defection dominates",
+          "summary": "In eight-person dilemmas, relevant face-to-face discussion raised cooperation from roughly 30 to roughly 70 percent, and communication is the strongest single lever in the meta-analyses. The mechanism is that talk creates empirical and normative expectations, which is why it works for humans even though Skyrms's motive-free agents show talk only expands the stag basin transiently and cannot rescue a dilemma. Contributions decay over rounds and recover with punishment, so use talk to launch and back it with repetition and graduated sanctions.",
+          "tag": "E",
+          "links": [
+            "norms-transform-games",
+            "risk-dominance-default",
+            "graduated-sanctions-monitoring",
+            "correlation-master-variable"
+          ],
+          "sources": [
+            "08-grammar-of-society",
+            "07-stag-hunt",
+            "06-behavioral-game-theory"
+          ]
+        },
+        {
+          "id": "pluralistic-ignorance-cascades",
+          "label": "Unpopular norms live on shared misperception; measure and publish expectation gaps, and use trendsetters to collapse them",
+          "summary": "People infer others' approval from others' compliance, which rests on the same inference, so a norm most privately reject can persist. Because it rests on little information it is fragile: a credible public signal, a visible low-threshold trendsetter, or publishing the measured gap can collapse it fast. Name which kind of copying is meant: informational cascade (collect private signals first), network effect (cross the tipping point), or coordination on a graph (lower q or seed inside clusters).",
+          "tag": "E",
+          "links": [
+            "norm-anatomy",
+            "situation-and-construal",
+            "contingent-behaviour-tipping",
+            "network-structure"
+          ],
+          "sources": [
+            "08-grammar-of-society",
+            "03-social-psychology",
+            "10-networks-crowds-markets"
+          ]
+        },
+        {
+          "id": "correlation-master-variable",
+          "label": "Cooperation spreads when like meets like more than chance, and only under success-copying",
+          "summary": "Skyrms's master variable is any departure from random matching: local interaction, partner choice and reinforcement, cheap-talk handshakes and small stable groups all make stag hunters meet stag hunters. The learning rule decides whether structure helps: under imitate-the-best, fair division and stag hunting spread contagiously from small clusters, while under best response local interaction accelerates the risk-dominant outcome. When structure adapts faster than strategies cooperation wins, so the speed ratio is a rollout variable; every result is a model result.",
+          "tag": "E",
+          "links": [
+            "risk-dominance-default",
+            "copying-strategies",
+            "network-structure",
+            "four-layers"
+          ],
+          "sources": [
+            "07-stag-hunt"
+          ]
+        },
+        {
+          "id": "network-structure",
+          "label": "Bridges carry information, closure carries enforcement, and costly behaviour needs several adopting neighbours",
+          "summary": "Local bridges tend to be weak and carry novelty; closed triangles carry trust and sanction; a group needs both and the bridges are fragile. Adoption pays once a fraction q = b/(a + b) of neighbours have adopted, and a cluster of density greater than 1 - q blocks a cascade from outside and protects one inside, so information crosses one weak tie but costly behaviour needs wide bridges. Assume observed similarity is selection, not influence, without longitudinal data.",
+          "tag": "E",
+          "links": [
+            "copying-strategies",
+            "learning-network-connectivity",
+            "correlation-master-variable",
+            "contingent-behaviour-tipping",
+            "pluralistic-ignorance-cascades",
+            "ostrom-principles"
+          ],
+          "sources": [
+            "10-networks-crowds-markets"
+          ]
+        },
+        {
+          "id": "ostrom-principles",
+          "label": "Durable self-governed commons share eight structural regularities; they are a diagnostic checklist, not a recipe",
+          "summary": "Clear boundaries, congruence with local conditions and between benefit and cost, collective-choice arrangements, monitoring accountable to users, graduated sanctions, cheap conflict resolution, recognized right to organize, and nested enterprises; a review of 91 studies found them well supported, with publication bias and loose coding. Cases were selected on the dependent variable, the principles are structure not process, and several durable cases are inegalitarian. Scope is subtractable resources with costly exclusion, and failures most often lack boundaries, congruence or external recognition.",
+          "tag": "E",
+          "links": [
+            "draw-the-game",
+            "risk-dominance-default",
+            "network-structure",
+            "graduated-sanctions-monitoring",
+            "institutions-incremental",
+            "four-layers"
+          ],
+          "sources": [
+            "09-governing-the-commons"
+          ]
+        },
+        {
+          "id": "graduated-sanctions-monitoring",
+          "label": "Compliance is contingent on expected compliance and expected detection; cheap by-product monitoring plus small first sanctions keep the belief that the rule is alive",
+          "summary": "Ostrom's appropriators comply quasi-voluntarily: if most others do and violators are likely caught. Monitoring in durable cases is a by-product of use, and first sanctions are small, quick and public, escalating only for repeat offenders, which preserves information flow about violations. This is the field form of the lab's costly punishment: real sanctioning is mostly cheap (gossip, ostracism, small fines), and a harsh first sanction drives violations underground and kills the monitoring.",
+          "tag": "E",
+          "links": [
+            "shadow-of-the-future",
+            "credibility-and-signals",
+            "within-group-enforcement",
+            "cheap-talk-expectations",
+            "ostrom-principles",
+            "strong-reciprocity-split"
+          ],
+          "sources": [
+            "09-governing-the-commons",
+            "06-behavioral-game-theory"
+          ]
+        },
+        {
+          "id": "institutions-incremental",
+          "label": "Institutions are copied from successful peers and then crafted incrementally by the people they bind, in an arena recognized from outside",
+          "summary": "Ostrom's cases show incremental crafting in external arenas rather than one constitutional act, and Henrich's picture is copy-and-modify with designers rationalizing afterwards; neither \"design from scratch\" nor \"just copy\" is evidenced. Rules live at three levels (operational, collective-choice, constitutional) and most stalled reforms fail at the middle level, where those bound by the rules have no legitimate route to change them. Take-off is predicted by small stable groups, shared information, low discount rates and prior organizing experience.",
+          "tag": "H",
+          "links": [
+            "within-group-enforcement",
+            "shadow-of-the-future",
+            "limited-reasoning-and-history",
+            "ostrom-principles",
+            "norm-as-choreographer"
+          ],
+          "sources": [
+            "09-governing-the-commons",
+            "01-secret-of-our-success"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "synthesis",
+      "title": "Synthesis under critique: Gintis's attempted unification and its problems",
+      "certainty": "3 [E], 3 [H], with an [H] caveat inside every [E] node: the epistemic critique of Nash, correlated equilibrium with a norm as signal and the layered reconciliation are formal or theorem-backed, while the empirical superiority of correlated equilibrium, BPC as an explanation of construal, evolved strong reciprocity and the complexity program are argued, not shown; the band most argued and least shown.",
+      "nodes": [
+        {
+          "id": "nash-is-social-achievement",
+          "label": "Rationality plus common knowledge of rationality yields only rationalizability; equilibrium needs aligned conjectures from outside the players' heads",
+          "summary": "Theorem-backed and one of the two contributions reviewers credit: Nash cannot be derived from rationality alone, refinements failed to fix multiplicity, and alignment comes from history, focal points and norms. The common-prior doctrine is an empirical claim that people share a belief-forming culture, so belief alignment is a cultural intervention. \"Smart people will converge\" is not a prediction.",
+          "tag": "E",
+          "links": [
+            "nash-stability-test",
+            "norm-as-choreographer",
+            "four-layers",
+            "cumulative-culture"
+          ],
+          "sources": [
+            "11-bounds-of-reason"
+          ]
+        },
+        {
+          "id": "norm-as-choreographer",
+          "label": "A norm is a public signal implementing a correlated equilibrium: following it is a best response when others follow it",
+          "summary": "Aumann's correlated equilibrium with the norm as correlating device: the signal, not a person. A schedule, rota, dashboard, referee or clearly stated rule can play the role, and a vague norm is a choreographer that does not choreograph. The formal claim holds, but no data horse race was run, so do not claim correlated equilibrium fits behaviour better than Nash; the choreographer is weaker than Bicchieri on diagnosis, Ostrom on authorship and Skyrms on origins.",
+          "tag": "E",
+          "links": [
+            "nash-is-social-achievement",
+            "norm-anatomy",
+            "norms-transform-games",
+            "credibility-and-signals",
+            "institutions-incremental",
+            "four-layers"
+          ],
+          "sources": [
+            "11-bounds-of-reason"
+          ]
+        },
+        {
+          "id": "four-layers",
+          "label": "The four accounts of how a group settles on a pattern are layers, not rivals: stability test, drift prediction, public signal, inner expectations",
+          "summary": "Layer 1 (Nash/ESS) tests whether a candidate pattern is stable at all; layer 2 (Skyrms and Camerer) predicts which stable pattern a group reaches absent intervention; layer 3 (Gintis) names what a norm does, supplying a public signal that aligns conjectures; layer 4 (Bicchieri) specifies what must be true inside the agents for the signal to work and how to measure it. The layers are checked in order because a pattern that fails layer 1 cannot be rescued by layers 3 or 4. The relations are [E]; which layer bites in a given group is [H]; never present one as the theory of norms.",
+          "tag": "E",
+          "links": [
+            "nash-stability-test",
+            "risk-dominance-default",
+            "norm-as-choreographer",
+            "norm-anatomy",
+            "correlation-master-variable",
+            "ostrom-principles"
+          ],
+          "sources": [
+            "11-bounds-of-reason",
+            "07-stag-hunt",
+            "08-grammar-of-society",
+            "06-behavioral-game-theory"
+          ]
+        },
+        {
+          "id": "bpc-bookkeeping",
+          "label": "Beliefs, preferences and constraints are the minimal common language, and \"rational\" is not \"selfish\"; the model is bookkeeping, not an explanation of anomalies",
+          "summary": "Rational choice means consistent preferences, which may be altruistic, spiteful or norm-following; when a group \"isn't rational\", look for the belief or preference you mis-specified. Gintis's reframing of loss aversion, discounting and social preferences as state-dependent preferences partially holds up but is overstated, and construal and framing are better described as belief shifts. Use BPC to write down assumptions; do not use it to explain construal effects.",
+          "tag": "H",
+          "links": [
+            "situation-and-construal",
+            "social-preferences-conditional",
+            "nash-stability-test",
+            "strong-reciprocity-split"
+          ],
+          "sources": [
+            "11-bounds-of-reason"
+          ]
+        },
+        {
+          "id": "strong-reciprocity-split",
+          "label": "Willingness to pay to punish unfair intentions is lab evidence; \"an evolved strong-reciprocity trait\" is a hypothesis; real sanctioning is cheap",
+          "summary": "Gintis, with Bowles, Boyd and Fehr, argues for an evolved predisposition to cooperate conditionally and punish at cost even one-shot; Binmore and Shaked argue one-shot lab behaviour reflects heuristics tuned for repeated play, Guala argues field punishment is mostly gossip and ostracism, and rejections fall at high stakes. The lab effect is [E], the evolved trait is [H], and the book's own verdict is that the evidence supports a weaker version. Design on the cheap, graduated version and give the punishing impulse a legitimate channel.",
+          "tag": "H",
+          "links": [
+            "norm-psychology",
+            "social-preferences-conditional",
+            "graduated-sanctions-monitoring",
+            "within-group-enforcement",
+            "bpc-bookkeeping"
+          ],
+          "sources": [
+            "11-bounds-of-reason",
+            "06-behavioral-game-theory"
+          ]
+        },
+        {
+          "id": "unification-programmatic",
+          "label": "The five-part program (gene-culture coevolution, norms, game theory, rational actor, complexity) is a framework and checklist, not a finished theory",
+          "summary": "Reviewers call the book programmatic: the final chapter derives no new result and complexity theory is asserted, not used. Its durable contributions are the epistemic critique of Nash and the choreographer idea; the general equilibrium-selection problem is moved up a level, not solved. Its value for the learner is as a checklist of five things any account of a group must address; never write \"the unification\".",
+          "tag": "H",
+          "links": [
+            "four-layers",
+            "norm-as-choreographer",
+            "culture-drove-brains",
+            "within-group-enforcement"
+          ],
+          "sources": [
+            "11-bounds-of-reason"
+          ]
+        }
+      ]
+    }
+  ],
+  "chain": [
+    "Humans are cultural learners: a person's competence and sense of what is normal come from selectively copying others, not from working things out alone (cumulative-culture).",
+    "Copying runs on rules, not arguments: people copy the successful, the prestigious, the majority and the similar, especially when uncertain, because what is displayed has already been filtered by the displayer's incentives; persuasion is the weak channel (copying-strategies).",
+    "Copying carries norms, and humans are built to hold them: we learn what others expect, feel shame at violation and sanction violators, and the psychology is content-neutral, enforcing whatever rules it finds (norm-psychology).",
+    "Therefore what a group does is a stable pattern before it is anyone's choice: once enough people follow a rule, following it is each person's best reply; stability is the only thing equilibrium certifies, several patterns can coexist, and history picks one (nash-stability-test, contingent-behaviour-tipping).",
+    "Which pattern a group drifts to is predictable, and it is usually the safe one: under random mixing, best-response learning, large numbers and no communication, the risk-dominant outcome wins because its basin is larger, not because it is better (risk-dominance-default).",
+    "Most cooperation problems are trust problems, not temptation problems: ask whether a member gains by defecting when everyone else cooperates; no means stag hunt (assurance), yes means dilemma (payoff change, repetition or sanctions); diagnose before prescribing (draw-the-game, shadow-of-the-future).",
+    "Fairness and generosity are real but conditional: people pay to punish unfair intentions, give when observed and cooperate if they expect others to, and most of this is cued norm compliance that moves with framing, anonymity and expectations (social-preferences-conditional, situation-and-construal).",
+    "Therefore a norm is a fact about expectations: a social norm exists when people prefer to follow a rule on condition that they believe others follow it and believe others expect them to; remove either belief and the behaviour goes (norm-anatomy).",
+    "A live norm changes the game: while both expectations hold, a dilemma becomes a coordination game, and the cheapest way to create the expectations is relevant talk, which roughly doubles lab cooperation but decays without repetition or sanctions where defection dominates (norms-transform-games, cheap-talk-expectations).",
+    "Whether the good pattern spreads depends on who meets whom and who copies whom: any departure from random matching that makes cooperators meet cooperators enlarges the good basin, but only under success-copying; dense clusters block a norm entering and protect one adopted inside; costly behaviour needs several adopting neighbours (correlation-master-variable, network-structure).",
+    "None of this holds by itself, so durable groups build institutions: commons that last have clear boundaries, rules fitted to conditions, participation in rule-making, cheap by-product monitoring, graduated sanctions, cheap conflict resolution and outside recognition; a checklist, not a recipe (ostrom-principles, graduated-sanctions-monitoring).",
+    "Institutions are copied, then crafted incrementally by the people they bind: start from a visibly successful peer's norm package and revise in small steps with the members; rules are as strong as the arena for changing them (institutions-incremental).",
+    "A working institution is a choreographer: a public signal that tells each person what to do and expect, so the cooperative pattern is a correlated equilibrium nobody wants to leave; that alignment is a social achievement, not a deduction from rationality (nash-is-social-achievement, norm-as-choreographer).",
+    "A designed institution sustains cooperation in a real group when all four layers hold at once: the target pattern is stable (layer 1), the group's matching and learning regime lets it be reached (layer 2), a clear public signal names it (layer 3), and members' measured empirical and normative expectations point at it (layer 4); the learner checks each layer, in order, and keeps checking (four-layers)."
+  ],
+  "laws": [
+    "Classify before you prescribe. [E] If nobody has written down whether a member gains by defecting when all others cooperate, the fix is a guess between a dilemma and a stag hunt. (draw-the-game, nash-stability-test)",
+    "Stability is not approval. [E] A pattern everyone dislikes can be stable and one everyone prefers can be unreachable; watch for \"but it's the equilibrium\" used as a defence. (nash-stability-test, contingent-behaviour-tipping)",
+    "Absent intervention, a large mixed group takes the safe outcome, not the good one. [E] A payoff-dominant practice nobody adopts alone is strategic uncertainty, not insufficient reward; sweetening the payoff is the weakest lever. (risk-dominance-default)",
+    "A norm is a fact about expectations, so measure expectations, not attitudes. [E] A group that surveys \"buy-in\" and skips \"what do you think others do and expect\" will mispredict behaviour. (norm-anatomy, pluralistic-ignorance-cascades)",
+    "Descriptive and injunctive signals must point the same way; never advertise low adoption. [E] Any message of the form \"too many people still do X\" is a violation. (situation-and-construal, norm-anatomy)",
+    "Talk launches; repetition and sanction sustain. [E] lab, [H] persistence. Cooperation that rose after a discussion and fell over the following weeks with no payoff change is the expected decay. (cheap-talk-expectations, shadow-of-the-future)",
+    "Cooperators must meet cooperators more than chance, and only success-copying makes structure help. [E] A rollout to a large randomly mixed audience, or one where people copy the majority rather than the visibly successful, converges on the risk-dominant practice. (correlation-master-variable, copying-strategies)",
+    "Costly behaviour needs several adopting neighbours; seed inside clusters and grow slowly. [E] A practice announced across weak ties that spreads awareness but not adoption is a complex contagion pushed through a simple-contagion channel. (network-structure, contingent-behaviour-tipping)",
+    "First sanctions are small, quick and public; monitoring is a by-product of use. [E] Where the first response to a violation is severe, or monitoring needs a monitor nobody wants to be, violations go underground and enforcement lapses. (graduated-sanctions-monitoring, strong-reciprocity-split)",
+    "Those bound by the rules must have a legitimate route to change them. [E] as a regularity, [H] as a cause. A rule set with no collective-choice arena, or one unrecognized by the surrounding authority, is abandoned rather than revised. (institutions-incremental, ostrom-principles)",
+    "A norm is only as strong as its signal is specific and its signaller credible. [E] formal, [H] for any group. A vague value and a leader whose costly actions contradict the stated rule both align no one; watch what people copy, not what they applaud. (norm-as-choreographer, credibility-and-signals)",
+    "Certainty flows upward only as far as the mechanism beneath it, and what to optimize is your choice. [V] A brief that tags a prescription [E] while its mechanism is [H], or presents \"fairness\" as evidence rather than commitment, has broken the tagging discipline; the course adopts this, it does not prove it. (four-layers, unification-programmatic)"
+  ],
+  "loop": "The learner runs one loop with five stations, and the four layers of `four-layers` sit inside it; it is the same loop at three scales (a single practice, a group's norms, and the institution that governs who may change the rules). **1. Diagnose the game** (`draw-the-game`): write players, options, payoffs, order and information; ask whether a member gains by defecting when everyone else cooperates (yes is a dilemma, no is a stag hunt), add Schelling's binary-choice diagram for a large population, check layer 1 (is the target pattern an equilibrium at all?) and layer 2 (where does the group drift given size, matching and learning regime?), and record the classification as [H]. **2. Measure expectations** (`norm-anatomy`): run the two-step elicitation in the reference network, not the org chart, asking what people believe others do and what they believe others think they ought to do about specific behaviours; compare with private attitudes to find pluralistic ignorance (`pluralistic-ignorance-cascades`) and classify each rule as descriptive, convention, social or moral; this is layer 4 and the step most groups skip. **3. Choose the lever, by layer**: if layer 1 fails, change the game, not the messaging (payoffs, repetition, detection, boundaries, sanctions: `shadow-of-the-future`, `ostrom-principles`, `graduated-sanctions-monitoring`); if layer 2 fails, use correlation and selection devices (small stable units, success-visible imitation, public pledges, gradual growth from a core, seeding inside clusters: `correlation-master-variable`, `risk-dominance-default`, `network-structure`), where money is the weakest lever; if layer 3 fails, make the norm specific and the signaller credible with a written rule, a rota, a dashboard or a costly leader commitment (`norm-as-choreographer`, `credibility-and-signals`); if layer 4 fails, use relevant talk, publish the measured gap, recruit trendsetters and pair descriptive with injunctive signals, never advertising low adoption (`cheap-talk-expectations`, `situation-and-construal`); tag each lever [E] for the mechanism, [H] for its effect in this group, [V] where a goal rather than a means is being chosen. **4. Test small, with a prediction**: write the prediction the lever implies, a practical measure that would show it and a balancing measure that would show harm, run at the smallest scale where the game is the same (critical mass k, or one cluster), and, because early rounds lock in (`limited-reasoning-and-history`), engineer the pilot's first interactions most carefully with rich feedback, visible history and a core that already coordinates. **5. Re-measure and revise**: if behaviour and expectations both moved, scale gradually and keep the sanction and repetition backing; if behaviour moved but expectations did not, the change rides on observation and will decay when observation lapses; if expectations moved but behaviour did not, the game is unstable at layer 1, so return to station 1. The loop breaks in two predictable ways: skipping station 2 and prescribing values workshops, incentives or messaging without knowing which kind of norm you face (how boomerangs and dead rules are made), and treating a lab or model result as a point estimate for the group, when mechanisms transfer and numbers do not; a quieter third is copying a peer's practice without a test budget (`rogers-paradox`). At institution scale, station 3 is about collective-choice rules, the loop itself is what is being designed, and Ostrom's principles are the checklist for whether it can keep running (`institutions-incremental`)."
+}
