@@ -58,8 +58,8 @@ All chapters are covered below. The assignment of specific examples to chapters 
   - Content-based (what): attend preferentially to food, danger, sex, norm violations, fire.
   - Frequency-based: conformist transmission (copy the majority disproportionately when uncertain).
   - Credibility-enhancing displays (CREDs): beliefs are copied more when the model acts as if they are true at personal cost (Henrich, 2009).
-- Key studies: children's selective trust experiments (e.g. copying the model who was previously accurate; attending to those others look at); over-imitation, in which children faithfully copy causally irrelevant actions on a puzzle box (Horner and Whiten, 2005, chimps vs children; Lyons, Young and Keil, 2007, who coined the term); Morgan et al. (2012) showing adults conform more when uncertain and when the majority is larger, consistent with a conformist bias.
-- So-what: Your group's behaviour is being set by who is visibly successful and prestigious, what the majority appears to do, and whether leaders' costly actions match their words. Those three channels are your primary design levers. Slide decks about values are a weak fourth.
+- Key studies: children's selective-trust experiments (copying the previously accurate model; attending to whom others watch); over-imitation, in which children copy causally irrelevant puzzle-box actions that chimpanzees skip (Horner and Whiten, 2005; Lyons, Young and Keil, 2007, who coined the term); Morgan et al. (2012), adults conforming more when uncertain and when the majority is larger.
+- So-what: Your group's behaviour is set by who is visibly successful and prestigious, what the majority appears to do, and whether leaders' costly actions match their words. Those are the primary levers. Slide decks about values are a weak fourth.
 
 ### Ch 5 — What Are Big Brains For? Or, How Culture Stole Our Guts
 - Core claims: Once cultural know-how (cooking, tools, food processing) started doing digestive and ecological work, selection favoured bigger brains for cultural learning, smaller guts, longer childhoods and longer lifespans. Brain expansion is an effect of culture as much as a cause.
