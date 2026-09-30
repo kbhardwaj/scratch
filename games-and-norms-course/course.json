@@ -1,0 +1,22 @@
+{
+  "slug": "games-and-norms",
+  "title": "Games and Norms",
+  "subtitle": "From cultural evolution to institutions",
+  "description": "A self-paced course: why humans cooperate, how strategic interaction works, and how norms, networks and institutions turn it into order.",
+  "tagline": "Learn what 11 books know about cooperation, then design it into a real group.",
+  "lede": "Three levels, in order: where human sociality comes from, the psychology and game theory of interaction, and how norms, institutions and networks produce collective order. Then a critical look at one attempt to unify it all. Every decision you make about your own group goes into your cooperation brief, labeled as evidence, hypothesis, or value.",
+  "levels": ["Origins", "Mechanisms", "Order", "Synthesis"],
+  "source_count": 11,
+  "repo_path": "games-and-norms-course",
+  "artifact_name": "Cooperation brief",
+  "artifact_items": "decisions",
+  "artifact_lede": "One document about a real group you choose: a team, a community, a platform, a commons. It grows with every module.",
+  "artifact_critique_prompt": "Critique this cooperation brief. Check: (1) tagging discipline: anything tagged [E] that is really [H] or [V], or vice versa; (2) contradictions with what the course teaches (the game structure must be diagnosed before the fix; norms need both empirical and normative expectations; Ostrom's design principles; network structure shapes diffusion and cascades; social preferences are real but conditional; risk-dominance beats payoff-dominance under uncertainty); (3) internal inconsistencies between sections; (4) the single most important missing decision. Be direct.",
+  "case_noun": "cooperation dilemmas",
+  "case_singular": "cooperation dilemma",
+  "case_lede": "Realistic situations you hit when trying to get a team, community, platform or commons to cooperate.",
+  "laws_noun": "laws of cooperation",
+  "model_lede": "Read it like a building: cultural evolution is the foundation at the bottom, and each band constrains the one above it. Certainty drops as you go up: the formal results are theorems; the institutional prescriptions are mostly hypothesis and value.",
+  "mentor_voice": "You are a demanding but supportive mentor (high standards, high support) coaching a learner who is trying to design cooperation into a real group: a team, a community, a platform or a commons. They have a software/product background. Be specific and concise (under 250 words). Use markdown bullets. Tag design claims as [E] evidence, [H] hypothesis, [V] value where useful.",
+  "tags": { "E": "supported by evidence", "H": "hypothesis to test in your group", "V": "value commitment" }
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "founding-school",
+  "title": "Founding School",
+  "subtitle": "Learning science to school design to institution building",
+  "description": "A self-paced course: learning science to school design to institution building.",
+  "tagline": "Learn what 13 books know about learning, then design a school with it.",
+  "lede": "Three levels, in order: how minds learn, how learning experiences should be designed, and how institutions make good learning happen consistently. Every decision you make goes into your design brief, labeled as evidence, hypothesis, or value.",
+  "levels": ["Minds", "Design", "Institutions"],
+  "source_count": 14,
+  "repo_path": "school-design-course",
+  "artifact_name": "Design brief",
+  "artifact_items": "decisions",
+  "artifact_lede": "One document that grows with every module.",
+  "artifact_critique_prompt": "Critique this school-design brief. Check: (1) tagging discipline: anything tagged [E] that is really [H] or [V], or vice versa; (2) contradictions with the learning-science evidence (cognitive load and guidance for novices, retrieval/spacing, conceptual change, formative assessment, productive failure's boundary conditions, knowledge-rich curriculum, mentor mindset, improvement science); (3) internal inconsistencies between sections; (4) the single most important missing decision. Be direct.",
+  "case_noun": "founder dilemmas",
+  "case_singular": "founder dilemma",
+  "case_lede": "Realistic situations a founder hits in the first three years.",
+  "laws_noun": "laws of this school",
+  "model_lede": "Read it like a building: minds are the foundation at the bottom, and each band constrains the one above it. Certainty drops as you go up: memory research is mostly evidence; school structures are mostly hypothesis and value.",
+  "mentor_voice": "You are a demanding but supportive mentor (high standards, high support) coaching a learner who is designing a K-12 school from scratch. They have a software/product background. Be specific and concise (under 250 words). Use markdown bullets. Tag institutional claims as [E] evidence, [H] hypothesis, [V] value where useful.",
+  "tags": { "E": "supported by evidence", "H": "hypothesis to test", "V": "value commitment" }
+}
