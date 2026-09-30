@@ -116,15 +116,15 @@ The book is short (about 149 pages) and this file covers every chapter. The mode
   - The design mantra: *do not try to change preferences; change who meets whom, what they can signal, and how fast they can re-sort.*
 
 ## The 5-10 ideas you must carry out of this book
-1. Most cooperation problems worth solving are stag hunts (two equilibria, the good one requires trust), not prisoner's dilemmas (one bad equilibrium, cooperation never a best reply). Repetition and reputation turn PDs into stag hunts. Diagnose which one you have.
-2. In a stag hunt, populations under random mixing tend to the *risk-dominant* equilibrium, which is often the poor one. Basin size, not payoff size, decides; the watershed is set by the cost of being the lone cooperator relative to the gain from joint cooperation.
-3. Replicator dynamics — strategies grow in proportion to above-average payoff — is the model of success-biased imitation; it is what "the group learns" means in this book.
-4. Correlation between like strategies is what rescues cooperation. Every mechanism in the book works by making stag hunters meet stag hunters more often than chance.
-5. Location: local interaction plus imitate-the-successful lets fair division and stag hunting spread contagiously from small clusters; local interaction plus best-response favours the risk-dominant outcome. The learning rule decides whether structure helps.
-6. Signals: meaning evolves from nothing in Lewis signaling games; costless pre-play talk expands the basin of stag hunting by letting cooperators recognize each other transiently, even though the signal is uninformative once everyone cooperates. Cheap talk does not rescue a true PD.
-7. Association: letting agents choose and reinforce partners generates structure even with no payoff differences, and with stag hunt payoffs it sorts cooperators together so they out-earn hare hunters.
-8. Coevolution: when interaction structure adapts faster than strategies, cooperation wins; when strategies adapt faster, the risk-dominant outcome wins. The ratio of speeds is a design variable.
-9. Simple inference (acting on the conjunction of two signals) can evolve in populations of mindless agents — a warning against assuming that coordination requires shared understanding or explicit agreement.
+1. Most cooperation problems worth solving are stag hunts (two equilibria, the good one needs trust), not prisoner's dilemmas (one bad equilibrium). Repetition and reputation turn PDs into stag hunts. Diagnose which you have.
+2. Under random mixing, stag hunt populations tend to the *risk-dominant* equilibrium, often the poor one. Basin size, not payoff size, decides; the watershed is set by the cost of being the lone cooperator relative to the joint gain.
+3. Replicator dynamics — strategies grow in proportion to above-average payoff — is the model of success-biased imitation; it is what "the group learns" means here.
+4. Correlation between like strategies rescues cooperation. Every mechanism in the book makes stag hunters meet stag hunters more often than chance.
+5. Location: local interaction plus imitate-the-successful spreads fair division and stag hunting contagiously from small clusters; local interaction plus best response favours the risk-dominant outcome. The learning rule decides whether structure helps.
+6. Signals: meaning evolves from nothing in Lewis games; costless pre-play talk expands the stag basin by letting cooperators recognize each other transiently. It does not rescue a true PD.
+7. Association: choosing and reinforcing partners generates structure even without payoff differences, and with stag hunt payoffs sorts cooperators together so they out-earn hare hunters.
+8. Coevolution: when structure adapts faster than strategies, cooperation wins; when strategies adapt faster, risk dominance wins. The speed ratio is a design variable.
+9. Simple inference (acting on the conjunction of two signals) can evolve in mindless agents — coordination does not require shared understanding or explicit agreement.
 
 ## Mental models & vocabulary
 - **Stag hunt (assurance game)** — two strict equilibria, one payoff dominant, one risk dominant; the problem is trust. Bites when a "free rider problem" is really "nobody believes the others will show up".
@@ -199,7 +199,7 @@ The book is short (about 149 pages) and this file covers every chapter. The mode
 <details>Convergence to one of the two signaling systems from almost every initial state (proved by Huttegger 2007). With unequal state probabilities or larger games, partial-pooling equilibria can attract a positive share of starting points.</details>
 
 10. (Spot-the-misconception) "Skyrms shows that cooperation evolves naturally, so groups do not need institutions." What is wrong?
-<details>The results are for stag hunts under specific learning rules and structures; they do not rescue genuine prisoner's dilemmas, they depend on success-biased rather than conformist learning, and long-run stochastic-stability analyses under best response still favour the risk-dominant outcome. Institutions that create local interaction, signalling and partner choice are exactly what the models recommend, and enforcement remains needed where defection dominates.</details>
+<details>The results hold for stag hunts under specific learning rules and structures; they do not rescue true prisoner's dilemmas, they need success-biased rather than conformist learning, and long-run analyses under best response still favour risk dominance. Institutions that create local interaction, signalling and partner choice are exactly what the models recommend; enforcement is still needed where defection dominates.</details>
 
 ## Common misreadings of this book
 - Reading it as a book about one game. It is about *correlation*; the stag hunt is the simplest case where correlation flips the outcome.
