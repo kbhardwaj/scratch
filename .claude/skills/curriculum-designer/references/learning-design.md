@@ -77,10 +77,18 @@ The dedicated synthesis files are authoritative; this section seeds them.
 - Distractors are plausible to someone who has read a summary; at least one is "partly right,
   wrong level".
 - Across a module the 3-5 questions cover different ideas; no two diagnose the same misconception.
+- **Not guessable without reading**: all options in the same register and within ~25% of each
+  other's length; the correct option is not the only one with a mechanism/"because" clause; correct
+  positions spread across a-d over the module and the course (validate.py fails on >50% longest-is-
+  correct or >45% on one index).
+- The answer is derivable from the module's ideas; do not rely on a study only the diagnosis cites.
+- Change the surface (numbers, setting) from the idea and worked example it tests.
 
 ## (c) Diagnostic rules (16 items)
 
-- True/false statement + confidence 1-5; roughly half true, half false; each item names its
+- True/false statement + confidence 1-5; roughly half true, half false; both written as
+  scenario statements of similar length with no absolute-word tells ("always", "solves", "on its own"
+  only in false items is a giveaway); each item names its
   `folk_theory`, gives an `explanation` citing the source, and keys to one module.
 - Retaken on day 21; report accuracy and confidence-calibration delta.
 - Item 16 (or a separate free response) is the baseline "what makes a world-class {{X}}?"

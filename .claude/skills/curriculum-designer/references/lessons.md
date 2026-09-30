@@ -75,3 +75,20 @@ Each rule is binding on the orchestrator (SKILL.md) or on the agent prompt that 
   every miss becomes a ledger correction and a file edit.
 - **Cold-learner check:** an agent takes the diagnostic and m0 cold, reads m1-m3, retakes; the
   questions must discriminate and the sequence must show a gain, or the modules are rewritten.
+
+## Added after run 2 (games-and-norms), from the cold-learner QA
+- **Hinge questions were guessable without reading**: the correct option was the longest in 46/48
+  questions and sat at index 1 in 30/48; distractors were one-line slogans while the correct option
+  carried a mechanism clause. Run 1 had the same flaw (49/53, 35/53). Rule: all four options in the
+  same register and within ~25% of each other's length; correct positions shuffled roughly evenly;
+  no option is the only one with a "because" clause. `validate.py` now fails on either pattern.
+- **Diagnostic items had tells**: false items were short absolutes ("always", "solves", "on its
+  own"); true items were long, hedged, course-voice. Rule: write both as scenario statements of
+  similar length; put some absolutes in true items and some hedges in false ones. `validate.py` warns.
+- **Hinges and cases lifted verbatim from the module's own ideas/worked example** test recall, not
+  transfer. Rule: change the surface (numbers, setting, actors) between idea, hinge and case; key at
+  least a third of cases to a module other than the one that teaches the idea.
+- **A hinge's answer must be derivable from the module text**: if the diagnosis cites a study the
+  ideas never mention, add it to the ideas or drop the question.
+- **QA agents must not see answer keys**: print statements only (`python3 -c` filtering to id +
+  statement) before answering; the run-2 agent accidentally printed diagnoses alongside m1/m2 hinges.

@@ -521,7 +521,7 @@
           ],
           "answer": 2,
           "diagnoses": [
-            "The job-search claim as robust (ledger C51). Granovetter's finding was small-sample and retrospective; later large-scale work found most jobs via strong or moderately weak ties. Quote the structural claim only.",
+            "The job-search claim as robust (ledger C51). Granovetter's finding was small-sample and retrospective; later large-scale work found most jobs still arrive via weak ties in aggregate, while a single strong tie is more valuable at the margin and moderately weak ties do best. Quote the structural claim only.",
             "\"Weak ties beat strong ties\" (`10` misreadings). Closure supplies trust and enforcement; bridges supply information; neither is more valuable in general and cooperation needs both.",
             "Correct. Every local bridge is a weak tie by Strong Triadic Closure, and Onnela et al. 2007 confirmed on a national phone graph that removing weak ties first shatters the network (`10` ch 3; ledger rule 33).",
             "Six degrees as fact (ledger C50). The number is a median over the minority of completed chains; say \"short paths exist\" and leave the number out."

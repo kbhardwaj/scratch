@@ -81,6 +81,35 @@ def main(course_dir: Path):
             if len(idea.get("body", "").split()) < 120:
                 warn(f"{w}: idea '{idea.get('title','')[:40]}' body under 120 words")
 
+    # --- guessability (found by the cold-learner QA in run 2): correct option must not be
+    # identifiable by position or length, and diagnostic items must not carry absolute-word tells.
+    longest_hits, total_h, pos = 0, 0, Counter()
+    for m in modules:
+        for h in m.get("hinge", []):
+            opts = h.get("options", [])
+            a = h.get("answer")
+            if not opts or not isinstance(a, int) or not (0 <= a < len(opts)):
+                continue
+            total_h += 1
+            pos[a] += 1
+            if len(opts[a]) == max(len(o) for o in opts):
+                longest_hits += 1
+    if total_h:
+        if longest_hits / total_h > 0.5:
+            err(f"hinge guessability: longest option is the correct one in {longest_hits}/{total_h} questions (max 50%); equalise option length")
+        top = pos.most_common(1)[0]
+        if total_h >= 8 and top[1] / total_h > 0.45:
+            err(f"hinge guessability: answer index {top[0]} is correct in {top[1]}/{total_h} questions; shuffle positions")
+    tells = re.compile(r"\b(always|never|solves|mainly|whatever|on its own|guarantees|all|only|nothing)\b", re.I)
+    false_tells = [d.get("id") for d in diag if d.get("correct") is False and tells.search(d.get("statement", ""))]
+    if diag and len(false_tells) > len(diag) / 4:
+        warn(f"diagnostic tells: {len(false_tells)} false items use absolute words ({', '.join(false_tells)}); rewrite as scenario statements")
+    if diag:
+        t_len = [len(d["statement"]) for d in diag if d.get("correct") is True]
+        f_len = [len(d["statement"]) for d in diag if d.get("correct") is False]
+        if t_len and f_len and sum(t_len) / len(t_len) > 1.5 * sum(f_len) / len(f_len):
+            warn("diagnostic tells: true statements are much longer than false ones on average; balance lengths")
+
     # --- cards
     cid = Counter(c.get("id") for c in cards)
     for k, n in cid.items():
