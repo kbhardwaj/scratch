@@ -523,8 +523,9 @@ them and nobody acted. Which reading of the bystander literature is correct?
 - (c) In real emergencies someone always intervenes, so this is a non-problem. *Diagnoses:
   over-correction from Philpot 2020; the ambiguous online case is exactly where the effect is
   strongest.*
-- (d) Post the number of people who saw it and did nothing, to shame them into acting.
-  *Diagnoses: advertising the descriptive norm of inaction; the boomerang again (ledger rule 24).*
+- (d) Make sure such posts are seen by more people, so that someone is bound to act.
+  *Diagnoses: "more bystanders means more help"; diffusion of responsibility runs the other way,
+  and the fix is a named owner, not a larger audience (`03` ch 14).*
 
 **Repair paths.** Wrong on Q1: `03` ch 9 (Cialdini, Schultz, Allcott) and the misreading
 "descriptive-norm messaging always helps". Q2: `03` ch 5 (attribution) and ch 1 (naive realism).
@@ -1064,9 +1065,10 @@ Q3. A pilot cluster of cooperators sits inside a larger group. The larger group'
 - (b) It gets swamped, because majority-copying looks at what the neighbourhood does, not at
   who is thriving; only success-copying lets a cluster convert its boundary. **Correct** (`07`
   ch 3; ledger rule 3, 36).
-- (c) It spreads if the joint payoff is high enough. *Diagnoses: payoff size as the decider;
-  under best response the boundary is not the risk-dominance boundary and the learning rule
-  matters more.*
+- (c) It spreads if the cluster's members are the prestigious ones, since people copy the
+  prestigious. *Diagnoses: substituting Henrich's whom-to-copy bias for Skyrms's learning rule;
+  prestige decides whom people watch, but under majority-copying the boundary cells still act on
+  what most of their neighbours do (`01` ch 8 vs `07` ch 3).*
 - (d) It is protected by its density and stays as it is. *Diagnoses: partly right, wrong level;
   density protects an adopted behaviour (`10` ch 19), but under majority-copying the boundary
   cells see a hare-hunting majority and defect.*
@@ -1238,3 +1240,787 @@ misreadings (trendsetters, reference networks); `03` ch 9 (Asch, 133 studies in 
 verified; minority influence); `10` ch 16 (the urn model; a wrong cascade about one time in five
 with two-thirds-accurate signals, illustrative computation).
 
+### m8: Institutions for the commons: design principles, sanctions, polycentricity
+
+**Draws on:** `09-governing-the-commons` (all chapters; evidence section; common misreadings);
+`04` ch 8 (credible sanctions), ch 10 (repetition), ch 11 (collective action); ledger X10, X11,
+rules 13, 29, 30.
+
+**Learning objectives.** The learner can (a) say why the tragedy of the commons is a tragedy of
+open access and check whether members can communicate, observe each other and change their rules
+before calling anything a free-rider problem; (b) run the eight principles (Cox's split version)
+as a diagnostic checklist against a real group and name the missing ones; (c) design graduated
+sanctions, by-product monitoring and a cheap dispute forum, and say which level of rules
+(operational, collective-choice, constitutional) a stalled reform is failing at.
+
+**Load-bearing ideas.**
+1. *Hold in memory.* The PD, Hardin and Olson are valid for open access and wrong as laws:
+   they assume no communication, no rule-making, no monitoring, no shared past or future. Where
+   those exist, participants move themselves into a different game. Ask first whether the
+   channels exist; the payoff matrix is the symptom. [E; ledger C49]
+2. *Hold in memory.* Monitoring and commitment are one problem: compliance is contingent on
+   believing others comply and violations are likely caught; monitoring that is a by-product of
+   use is cheap; first sanctions are small and graduated because their job is to signal that the
+   rule is alive, and severe escalation is held for repeat offenders. Real-world sanctioning is
+   mostly cheap; design on the cheap version. [E from the cases; ledger rule 30, X4]
+3. The eight principles (boundaries of users and resource; congruence with local conditions and
+   proportionality of costs to benefits; collective-choice arrangements; monitoring of users and
+   resource; graduated sanctions; conflict-resolution mechanisms; recognition of the right to
+   organise; nested enterprises) are a diagnostic checklist supported by a review of 91 studies
+   (Cox et al. 2010, verified) with publication-bias and structure-not-process caveats; never a
+   recipe, never anti-state, never evidence of fairness; flag scope for digital or knowledge
+   commons. [E as a checklist; ledger rule 29]
+4. Institutions are supplied incrementally; the first cheap change that produces information
+   and standing lowers the cost of the next; external authority is most useful as backstop and
+   data supplier, least as rule-writer. Copy the norm package of a visibly successful peer, then
+   craft with the people bound by the rules. [H; ledger X10]
+5. Rules live at three levels; most proposed fixes are operational and most failures are at the
+   collective-choice level (nobody affected can legitimately change the rule) or the
+   constitutional level (the group has no recognised standing). Turnover raises discount rates
+   and undermines every other principle. [E for the levels; H for the discount-rate claim in a
+   given group]
+
+**Curiosity hook.** "A village capped how many cows each household could send to the shared
+alp in a rule dated 1517, and the rule is still in use. No state wrote it and nobody privatised
+the pasture. What did the villagers have that the textbook herders did not?" (`09` ch 3, Törbel:
+communication, rule-making, by-product monitoring, graduated fines, a forum; background date.)
+
+**Attempt (cold, before content).** "An engineering org shares a CI cluster. Queues are long,
+some teams submit huge jobs, and the platform team plans per-team quotas enforced by automatic
+lockout. In ten lines, predict what happens in three months and propose an alternative."
+Predictable errors: the learner accepts the quota as the obvious fix (an operational rule imposed
+from outside with an unaccountable monitor and a nuclear first sanction), does not ask whether
+usage is visible to teams, whether affected teams can change the rule, or where disputes go, and
+does not recognise the Kirindi Oya pattern. The reading gives the checklist and the failure
+cases (`09` ch 3, 5).
+
+**Worked example (faded: the learner supplies the nesting step).** *Decision: a growing online
+community whose moderation is run entirely by platform staff faces rising complaints about
+inconsistent bans.* (1) Checklist: 3 missing (members cannot change rules), 4 missing (monitors
+unaccountable to users), 5 missing (bans are not graduated), 6 missing (no cheap dispute forum),
+7 ambiguous (has the platform recognised members' right to govern any domain?). Scope flag: a
+community's attention and civility are not a subtractable resource in Ostrom's sense, so 1 and 2
+need reinterpretation (ledger C48). (2) Cheapest incremental change that produces information and
+standing: a public moderation log (by-product monitoring) and a recognised member forum with
+authority over one class of decisions. (3) Sanctions ladder as in m3's worked example, applied by
+rotating members. (4) The learner designs the nesting: sub-communities handle local disputes; a
+higher layer handles cross-community conflict and shared infrastructure. Tags: [E] for the
+principles as diagnosis; [H] for transfer to a digital commons; [V] for member governance over
+staff efficiency.
+
+**Hinge questions.**
+
+Q1. A funder says: "Ostrom showed communities manage shared resources better than states or
+markets, so we should just hand the resource to the community." What is wrong?
+- (a) Nothing; that is the book's thesis. *Diagnoses: Ostrom as anti-state and pro-panacea
+  (ledger C47).*
+- (b) Self-governance is a third option that works under identifiable conditions; durable cases
+  lean on courts and enabling law as backstops, and Ostrom warned against panaceas. **Correct**
+  (`09` ch 4, evidence section).
+- (c) Communities fail because the PD is a law; only privatisation works. *Diagnoses: the PD as
+  a law of nature (ledger C49).*
+- (d) It works if the community adopts all eight principles. *Diagnoses: principles as a recipe
+  to install (ledger rule 29).*
+
+Q2. A team's first response to a missed on-call handover is a formal HR warning. Six months
+later nobody reports handover problems. What happened?
+- (a) The warning worked; problems stopped. *Diagnoses: silence as compliance; rules-in-form vs
+  rules-in-use.*
+- (b) A nuclear first sanction drove violations and reports underground and eroded the
+  information flow monitoring depends on. **Correct** (`09` ch 3, principle 5).
+- (c) The team lacks a norm psychology and needs stronger penalties. *Diagnoses: deterrence
+  needs big penalties; the field pattern is small first sanctions.*
+- (d) The warning was not credible; make it a firing. *Diagnoses: partly right, wrong level;
+  credibility matters (`04` ch 8) but is achieved by making the sanction cheap to apply, not
+  bigger.*
+
+Q3. A reform (a new rota rule) stalls for a year although everyone agrees it is better. Where
+does `09` say to look first?
+- (a) At the operational rule; rewrite it more clearly. *Diagnoses: most fixes are operational;
+  most failures are a level up.*
+- (b) At the collective-choice level: do the people bound by the rota have a legitimate,
+  low-cost way to change it, and does anyone outside recognise their right to? **Correct** (`09`
+  ch 2, 6).
+- (c) At the individuals blocking it. *Diagnoses: dispositional diagnosis.*
+- (d) At the discount rate: people do not care about the future. *Diagnoses: partly right, wrong
+  level; discount rates affect willingness to invest in rule change, but "everyone agrees" says
+  the block is standing, not horizon.*
+
+Q4. Which claim about Ostrom's principles may be tagged [E]?
+- (a) They cause durability. *Diagnoses: causal reading of cases selected on the dependent
+  variable.*
+- (b) They transfer directly to open-source projects and knowledge commons. *Diagnoses: scope
+  over-extension (ledger C48).*
+- (c) Where a study assessed a principle, its presence was mostly associated with success and its
+  absence with failure, across 91 studies, with publication-bias and coding caveats. **Correct**
+  (Cox et al. 2010, verified).
+- (d) Durable commons are egalitarian. *Diagnoses: durability as fairness (`09` misreadings).*
+
+**Repair paths.** Wrong on Q1: `09` ch 1 and the misreadings list. Q2: `09` ch 3, the reasoning
+behind principles 4 and 5. Q3: `09` ch 2 (three levels of rules) and ch 6. Q4: `09` evidence
+section (Cox, Arnold and Villamayor-Tomás).
+
+**Brief deliverable (s9, "institutional design").** Add: the eight-principle checklist run
+against the group, each marked present, absent or not applicable with a scope note; the sanctions
+ladder; the by-product monitoring channel; the dispute forum; which rule level the v0 fix lives
+at and who has standing to change it; the recognised external backstop. Tag each. Prediction: the
+first cheap change that will produce information and standing, and what it will reveal in three
+months.
+
+**Deeper pointers.** `09` ch 4 (the California basins as a sequence of games), ch 5 (failure
+cases paired with missing principles), ch 6 (situational variables and discount rates); `04` ch 14
+(crowd-out of unmeasured effort); ledger open question on transfer to large or digital commons.
+
+### m9: Networks: ties, homophily, cascades, small worlds
+
+**Draws on:** `10-networks-crowds-markets` (ch 3, 4, 19, 20 in depth; ch 16, 17 recalled from m7
+and m4; evidence section; common misreadings); `07` Parts I and III; ledger X7, X15, rules 3,
+19, 33, 34, 35.
+
+**Learning objectives.** The learner can (a) distinguish the three kinds of copying (informational
+cascade, network effect, coordination on a graph) and name the fix for each; (b) compute the
+cascade threshold from payoffs and apply the cluster-density theorem to decide where to seed a
+norm and why a single liaison will not carry it; (c) tell closure from bridging, run the
+homophily test, assume selection over influence, and say what makes a group navigable.
+
+**Load-bearing ideas.**
+1. *Hold in memory.* On a graph where each edge is a coordination game, a node switches when at
+   least a fraction q = b/(a+b) of its neighbours have (a and b the payoffs to matching on the new
+   and old behaviour); a cluster of density greater than 1 − q outside the seed set blocks a
+   complete cascade, and conversely. Clusters block a norm entering from outside and protect one
+   adopted inside; seed inside dense clusters, lower q, build wide bridges. [E as a theorem;
+   Centola 2010 background; ledger rule 3, 19]
+2. *Hold in memory.* Simple contagion (information, awareness) crosses one weak tie; complex
+   contagion (costly behaviour) needs several adopting neighbours. Weak ties tend to be the
+   bridges (structural claim robust); "useful information comes from weak ties" and "six degrees"
+   are not to be quoted as facts. [E for the structural claims; ledger rule 33, 34]
+3. Closure gives trust and enforcement; bridges give information. Cooperation needs both; the
+   right mix is [H]. Connectivity for skill retention (m1) and closure for enforcement are
+   different variables. [E for the trade-off; ledger X15]
+4. Homophily has two sources, selection and influence, and only longitudinal data separate them;
+   fewer than 2pq cross-boundary edges indicates homophily; assume selection until shown
+   otherwise. [E; ledger rule 35]
+5. Short paths exist in any large network; findability is separate and needs ties at every scale
+   (Kleinberg 2000, theorem); rich-get-richer attention is the default consequence of copying and
+   not evidence of quality. [E as theorems; ledger C50, C53]
+
+**Curiosity hook.** "A documentation norm is adopted enthusiastically by one sub-team and by the
+one person who liaises with the other four sub-teams. A year later it lives in one sub-team. The
+liaison was diligent. Why did it not cross?" (Complex contagion: the liaison is one of many
+neighbours for each node on the other side; `10` ch 19.)
+
+**Attempt (cold, before content).** "Five sub-teams of eight rarely interact; each has one
+liaison to the others. A new review norm pays 3 to each pair that both use it and 2 to each pair
+that both keep the old way (illustrative payoffs). Where do you seed it, how many seeds, and
+through whom?" Predictable errors: the learner seeds through the liaisons (weak bridges cannot
+carry a complex contagion), spreads a few seeds evenly across all teams (each below its cluster's
+threshold), and does not compute the threshold (two fifths of a node's neighbours) or notice that
+each sub-team is a cluster of density well above three fifths and will therefore block entry
+from outside. The reading gives the threshold, the theorem and the seeding rule (`10` ch 19).
+
+**Worked example (rubric only: the learner reasons it through).** *Decision: a distributed
+organisation wants to reduce silos.* Rubric: (1) Which face of connectedness is the problem,
+structure (few cross-ties) or behaviour (people do not act on what crosses)? (2) Is the goal
+information flow (simple contagion; a few weak bridges suffice; protect the people who hold
+them) or norm adoption (complex contagion; needs wide bridges or moving whole sub-teams)? (3)
+Homophily check: are cross-edges below 2pq for the trait that matters, and is the similarity
+selection (fixed at recruiting) or influence? (4) Navigability: does each person have a contact at
+every scale (team, department, org)? (5) Which of the three copying kinds is producing the
+observed convergence, and what is the matching fix (private signals first; cross the tipping
+point; lower q or seed inside)? Required tags: [E] for the theorems and the structural weak-tie
+claim; [H] for the group's q and cluster densities; [V] for how much closure to give up for
+bridging.
+
+**Hinge questions.**
+
+Q1. Twelve engineers vote by show of hands; the two most senior vote first, both yes; ten follow.
+Which kind of copying, and which fix?
+- (a) Network effect; the vote is above its tipping point. *Diagnoses: confusing the three kinds
+  of copying (ledger rule 19); no payoff externality here.*
+- (b) Informational cascade; collect private judgments before anyone announces and reverse the
+  speaking order. **Correct** (`10` ch 16).
+- (c) Coordination on a graph; lower the threshold. *Diagnoses: applying the ch 19 fix to an
+  informational problem.*
+- (d) Conformity as weakness; tell people to be independent. *Diagnoses: rational herding as
+  irrationality; the third person's copy is correct Bayesian play.*
+
+Q2. A norm has been adopted by a dense sub-team of ten. Management worries the sub-team's
+insularity will "hold the norm back" and proposes breaking it up across the org.
+- (a) Right: clusters slow spread. *Diagnoses: "clusters are bad" (ledger X7).*
+- (b) Wrong: the cluster's density protects the adopted norm; breaking it up returns each member
+  to a neighbourhood below threshold. Keep the cluster and build wide bridges from it.
+  **Correct** (`10` ch 19; `07` ch 3).
+- (c) Right, provided the members are influential. *Diagnoses: influencer model of spread
+  (ledger C30).*
+- (d) Wrong: norms spread by information, so a newsletter is enough. *Diagnoses: weak ties carry
+  behaviour because they carry information (ledger C54).*
+
+Q3. The people who thrive in a community are strikingly similar. A member concludes the
+community "shapes people into that type". What is the correct default?
+- (a) Accept it; influence is visible. *Diagnoses: influence assumed over selection (ledger
+  C52).*
+- (b) Assume selection (who joined and stayed) until longitudinal data show similarity rising
+  after joining. **Correct** (`10` ch 4; Crandall 2008 as the design that can separate them).
+- (c) Reject it; communities cannot influence people. *Diagnoses: over-correction; both are
+  real where measured.*
+- (d) Accept it if the community is large. *Diagnoses: size as evidence of mechanism; irrelevant.*
+
+Q4. Which is the robust version of the weak-ties claim?
+- (a) Most useful information and most jobs come through weak ties. *Diagnoses: the job-search
+  claim as robust (ledger C51).*
+- (b) Weak ties tend to be the local bridges between clusters, so novelty enters through them;
+  they are fragile and worth protecting. **Correct** (Onnela 2007; `10` ch 3).
+- (c) Weak ties are more valuable than strong ties. *Diagnoses: "weak ties beat strong ties";
+  closure supplies trust and enforcement (`10` misreadings).*
+- (d) Everyone is six steps from everyone, via weak ties. *Diagnoses: six degrees as fact (ledger
+  C50).*
+
+**Repair paths.** Wrong on Q1: `10` ch 16 and the misreading on three kinds of copying. Q2: `10`
+ch 19 (cluster theorem, both directions) and `07` ch 3. Q3: `10` ch 4 (selection vs influence).
+Q4: `10` ch 3 and evidence section.
+
+**Brief deliverable (s10, "network map and seeding plan").** Add: a sketch of the group's
+clusters and bridges (who holds them, how many parallel ties between sub-groups); the homophily
+estimate for the trait that matters and whether selection or influence is assumed; for the target
+norm, the estimated q and the cluster(s) that will block it; the seed set and where it sits;
+which of the three copying kinds is currently producing the group's convergence and the matching
+fix. Tag each. Prediction: which sub-group adopts first and which never adopts through the current
+bridges.
+
+**Deeper pointers.** `10` ch 5 (structural balance and two-faction splits), ch 12 (bargaining
+power from outside options), ch 20 (navigable small worlds; the rank-based empirical check),
+ch 21 (simple contagion contrast); `07` ch 6 (partner choice generates structure without payoff
+differences).
+
+### m10: The four accounts reconciled and Gintis assessed
+
+**Draws on:** `11-bounds-of-reason` (ch 1, 3, 4, 7, 8, 10, 11, 12; evidence section; critical
+assessment; common misreadings); ledger X5, X4, X16, rules 1, 4, 31, 32; `04` ch 4, `07` ch 1,
+`08` ch 1 for the four accounts.
+
+**Learning objectives.** The learner can (a) state the four layers of "how a group settles on a
+way of behaving" (Nash/ESS as stability test; Skyrms and Camerer for which stable state is
+reached absent intervention; Gintis for the public signal that aligns conjectures; Bicchieri for
+what must be true inside agents and how to measure it) and refuse to present any one as "the"
+theory; (b) run Gintis's two-part norm test (epistemic: can everyone say what the norm requires
+of them and others; motivational: does anyone gain by deviating given others comply, and is
+there a cheap sanction) and the BPC bookkeeping (beliefs, preferences, constraints); (c) assess
+each of Gintis's eight claims against the rest of the list, carrying out the two that hold and
+declining the unification.
+
+**Load-bearing ideas.**
+1. *Hold in memory.* Nash equilibrium is a social achievement, not a rational deduction:
+   rationality plus common knowledge of rationality yields only rationalizability; Nash needs
+   aligned conjectures that come from outside the players' heads (Aumann and Brandenburger 1995,
+   theorem). Stop trying to reason a group into equilibrium; name the signal. [E; `11` claim 1
+   holds up]
+2. *Hold in memory.* A norm is a choreographer: a public signal that tells each person what to
+   do and what others will do, such that following it is a best response when others follow it
+   (correlated equilibrium). The model is weaker than Bicchieri on diagnosis, Ostrom on
+   authorship and Skyrms on origins, and does not fit data better than Nash by any horse race.
+   [E as a model; ledger rule 31, C58]
+3. Four layers, not four rivals: stability test (04, 07), selection absent intervention (07, 06),
+   the signal (11), the expectations inside agents (08). Which layer bites in a given group is [H].
+   [ledger rule 1]
+4. Strong reciprocity as an evolved trait is [H]; the lab willingness to punish is [E]; the
+   design lesson is a cheap, legitimate, proportionate channel for sanctioning. BPC is bookkeeping,
+   not an explanation of construal effects, and the falsifiability worry is real. [ledger rule 4,
+   X16]
+5. "Common priors are culture": persistent disagreement across sub-groups on shared data
+   indicates different priors; align by shared definitions, training and narrative, not more
+   dashboards. [E for the direction, supported by `01` and `02`; H for the intervention]
+
+**Curiosity hook.** "A traffic light tells each driver something different and nobody would
+gain by disobeying, given the others obey. A rule book tells everyone the same thing and is
+ignored. What does the light have that the book lacks, and what is your group's light?" (A
+correlating signal plus a reason to comply given others comply; `11` ch 2, 10.)
+
+**Attempt (cold, before content).** "Two product squads look at identical weekly metrics and
+reach opposite conclusions every week; a release cadence is half-assumed weekly and
+half-assumed fortnightly and merges collide. Diagnose both in one paragraph each and say what
+you would change." Predictable errors: the learner prescribes more data for the first (the
+problem is priors, not information) and incentives for the second (the problem is the missing
+epistemic half of a norm: no public signal). The reading gives ch 7 and ch 10.
+
+**Worked example (rubric only).** *Decision: the learner's own v0 fix, re-run through the four
+layers.* (1) Stability: is the proposed pattern an equilibrium at all (would anyone gain by
+deviating alone)? (2) Selection: absent the fix, which stable state does the group's regime
+(mixing, learning rule, size, talk) deliver, and does the fix change the regime or only the
+payoffs? (3) Signal: what public cue tells each member which equilibrium is in play, and is it
+visible across the whole network (`10`)? (4) Expectations: which empirical and normative
+expectations must be live, and how will they be measured? Then the Gintis two-part test and the
+BPC line for the group. Required tags: [E] for the formal relations; [H] for which layer bites;
+[V] for any claim about which equilibrium ought to be chosen.
+
+**Hinge questions.**
+
+Q1. A contribution norm is posted on a visible board; everyone can state it; compliance is still
+low. Which half has failed and which reading repairs it?
+- (a) The epistemic half; make the board more visible. *Diagnoses: all norm failures as
+  information failures.*
+- (b) The motivational half: some members gain by deviating and no sanction bites; repair with
+  Ostrom's graduated sanctions and Bicchieri's normative expectations. **Correct** (`11` ch 10;
+  retrieval Q10).
+- (c) Neither; people are irrational. *Diagnoses: "Gintis shows people are irrational" (`11`
+  misreadings).*
+- (d) The evolved norm psychology is absent in this group. *Diagnoses: strong reciprocity as a
+  settled trait that should have carried compliance (ledger rule 4).*
+
+Q2. Which statement about the four accounts is the course's position?
+- (a) Bicchieri's is the correct theory of norms; the others are approximations. *Diagnoses: one
+  account as "the" theory (ledger rule 1).*
+- (b) They are layered: stability test, selection absent intervention, the aligning signal, the
+  expectations inside agents; which layer bites in a group is a hypothesis. **Correct** (ledger
+  X5).
+- (c) Gintis unified them. *Diagnoses: "the unification" (ledger C55).*
+- (d) Skyrms's dynamics make the others redundant. *Diagnoses: dynamics without beliefs as the
+  whole story; Skyrms's agents have no expectations to measure (ledger C41).*
+
+Q3. What is the durable contribution of `11` for the brief?
+- (a) That correlated equilibrium fits data better than Nash. *Diagnoses: empirical superiority
+  claim the book never tests (ledger C58).*
+- (b) That the behavioural sciences now share one theory. *Diagnoses: programmatic unification
+  read as achieved (ledger rule 31).*
+- (c) The epistemic critique of Nash and the choreographer idea, which turn every Order-level
+  book into one question: what is the signal, and why does each person comply given the others
+  do? **Correct** (`11` net assessment).
+- (d) That Binmore's review discredited the book. *Diagnoses: an attributed review that was not
+  found (ledger C56).*
+
+Q4. Ambiguous ownership of a shared codebase produces recurring fights. Which reading of `11`
+ch 11 is right?
+- (a) Assign the fairest owner and fights will fall most. *Diagnoses: fairness as the mechanism;
+  the cue works by being salient, not fair.*
+- (b) Assign a clear owner, even somewhat arbitrarily, because an ambiguous ownership cue leaves
+  a hawk-dove game without a correlating signal; fairness matters for legitimacy and sanctioning,
+  which Ostrom and Bicchieri supply. **Correct** (ledger rule 32).
+- (c) Ownership fights are innate territoriality; only a manager's dominance stops them.
+  *Diagnoses: endowment effect as evolved property psychology treated as [E] (ledger C57), plus
+  dominance over prestige (`01`).*
+- (d) Ownership is a rule system, so write a rule. *Diagnoses: partly right, wrong level; a rule
+  nobody monitors is not a signal (`09` rules-in-use).*
+
+**Repair paths.** Wrong on Q1: `11` ch 10 (two components) and retrieval Q10. Q2: ledger X5 and
+`11` claim 2 assessment. Q3: `11` critical assessment, claims 1, 2, 8. Q4: `11` ch 11 and
+claim 7.
+
+**Brief deliverable (s11, "the signal and the BPC statement").** Add: the public signal for each
+of the group's central coordination problems and whether it is visible across the network; the
+two-part test result for the group's main norm; one BPC line (what members believe about each
+other, what they value including status and fairness, what constrains them); which of the four
+layers the v0 fix addressed and which it ignored. Tag each. Prediction: which layer, if addressed
+alone, moves behaviour, and which does nothing without the others.
+
+**Deeper pointers.** `11` ch 4-5 (rationalizability; backward induction's contradiction), ch 6
+(mixing as population conjecture), ch 9 (refinements failed), ch 12 (five principles as a checklist
+of layers a diagnosis has left out); ledger X16 and the open question on falsifiability.
+
+### m11: Integration: tensions, decision rules, the diagnostic path
+
+**Draws on:** all eleven files; ledger sections 1, 5 and 6; seeds 4a and 4b below (the dedicated
+`unified-model.md` and `tensions.md` are authoritative once written).
+
+**Learning objectives.** The learner can (a) walk the diagnostic path from a real failure to a
+fix set (collective brain and models; situation and construal; game shape; curve shape and
+threshold; type mix and amendment; regime and correlation; norm classification and
+expectations; institutional checklist; network seeding; signal and layers); (b) state each major
+tension as a conditional decision rule with the condition tagged [H]; (c) re-tag Brief v0 with a
+changelog and identify the single most important missing decision.
+
+**Load-bearing ideas.**
+1. *Hold in memory.* Diagnose before prescribing, in order: is it arithmetic; is it the situation;
+   what is the game shape; is behaviour contingent and where is the threshold; which amendment;
+   what regime; what kind of norm; which principles are missing; where in the network; what is
+   the signal. Most v0 fixes skip to a lever without a diagnosis. [V that this order is the
+   course's; E for each step's source]
+2. *Hold in memory.* The tensions are conditional, not contradictions: each resolves into an
+   "if the group is like X, do A; if like Y, do B" rule whose condition is a hypothesis to test in
+   the group. [ledger section 1]
+3. Certainty drops as one climbs the model: formal results are theorems; lab mechanisms are [E]
+   for direction; institutional and network prescriptions are [H] for any group; the choice of
+   which equilibrium ought to hold is [V]. [ledger rule 27, 40]
+
+**Curiosity hook.** "Five experts diagnose the same failing community: one says its learning
+network is broken, one says the game is a PD, one says it is below critical mass, one says the
+norm lacks normative expectations, one says the seed sat outside the cluster. All five are
+right. In what order do you act?" (The diagnostic path; the answer depends on which layer bites,
+which is the module's target.)
+
+**Attempt (cold, before content).** "Take the five disagreements below and, for each, write the
+condition under which each side is right: (i) sweeten the joint payoff vs cut the lone-cooperator
+cost; (ii) mix people more vs keep stable clusters; (iii) explain vs model; (iv) publish the
+descriptive norm vs never advertise prevalence; (v) install institutions vs let structure do the
+work." Predictable errors: the learner picks a side for each rather than writing a condition,
+and states the condition as a fact about groups in general rather than a hypothesis about theirs.
+
+**Worked example (rubric only).** *Decision: the learner's group, walked through the ten-step
+path in one page, ending in a ranked fix set with one prediction per fix and a tag per claim.*
+Rubric: every step names its source; no step's fix is proposed before its diagnosis; at least one
+step concludes "not the binding constraint here"; the fix set has no item that appears on the
+failed-replication list; every [E] is a ledger [E].
+
+**Hinge questions.**
+
+Q1. A learner's brief tags "our team is a stag hunt" as [E]. Correct?
+- (a) Yes; the stag hunt is a theorem. *Diagnoses: tagging the formal distinction's status onto
+  the group's classification (ledger rule 13: E for the distinction, H for the classification).*
+- (b) No; it is [H] until the defection question has been answered with the group's own
+  payoffs, and even then remains a hypothesis. **Correct**.
+- (c) No; it should be [V]. *Diagnoses: confusing an empirical hypothesis with a value
+  commitment.*
+- (d) Yes, if the team says so. *Diagnoses: self-report of payoffs as evidence; construal and
+  naive realism (`03`).*
+
+Q2. Which is a correctly stated tension rule?
+- (a) "Always keep stable clusters." *Diagnoses: a side, not a condition.*
+- (b) "Keep stable clusters while a norm is young if members copy success; if they copy the
+  majority, clusters will not spread it and you need success-visibility first." **Correct**
+  (ledger X7).
+- (c) "Mixing spreads information and norms alike." *Diagnoses: simple and complex contagion
+  collapsed (ledger rule 34).*
+- (d) "Clusters help because Centola proved it." *Diagnoses: one background study as a
+  theorem; the condition is missing.*
+
+Q3. A brief's single most important missing decision is most often:
+- (a) The incentive scheme. *Diagnoses: incentives as the default lever.*
+- (b) Who has standing to change the rules, and what the public signal is. **Correct**: the
+  collective-choice level (`09`) and the epistemic half of the norm (`11`) are the two decisions
+  learners skip most, per the worked examples in m8 and m10.
+- (c) The values statement. *Diagnoses: norms as values (ledger C43).*
+- (d) The team-building event. *Diagnoses: proximity as contact (`03` ch 10).*
+
+**Repair paths.** Wrong on Q1: `SPEC.md` tag definitions and ledger rule 13, 27. Q2: ledger X7
+and `07` ch 3. Q3: `09` ch 2 and `11` ch 10.
+
+**Brief deliverable (s12-s14 and the changelog).** Re-tag Brief v0 line by line against the
+current version with a changelog of every tag that changed and why; fill the open-hypotheses
+register (s12) with every [H] and its test; fill the value-commitments register (s13); write the
+measurement plan and ninety-day predictions (s14). This is Brief v5, the capstone's input.
+
+**Deeper pointers.** Ledger section 6 (open questions the sources cannot settle); each book file's
+Connections section; `11` critical assessment as a model for how to assess one's own brief.
+
+---
+## 4. Cross-cutting artifacts (pointers and seeds)
+
+The dedicated synthesis files are authoritative; this section seeds them and fixes the ids they
+must keep.
+
+### 4a. Unified model sketch (seeds `unified-model.md`)
+
+A building, read bottom-up, with certainty falling as one climbs:
+
+- **Foundation, Origins (m1):** cultural learners in a collective brain; copying rules
+  (success, prestige, conformity, self-similarity, CREDs; copy-when-uncertain, discount stale);
+  content-neutral norm psychology; fidelity threshold. Certainty: mechanisms [E], weights [H],
+  deep-time story [H].
+- **Band 2, Mechanisms (m2-m5):** situation and construal over disposition; the game shapes and
+  the defection question; contingent behaviour, thresholds, tipping, sorting; the three
+  amendments and the distribution of types. Certainty: theorems and replicated lab mechanisms
+  [E]; any group's classification [H].
+- **Band 3, Order (m6-m9):** regime and correlation (risk dominance vs payoff dominance); norms
+  as conditional preferences with two expectations; institutions as the eight structural
+  conditions with cheap graduated sanctions; networks as thresholds and clusters with three kinds
+  of copying. Certainty: models and reviews [E]; prescriptions for a group [H]; which equilibrium
+  ought to hold [V].
+- **Roof, Synthesis (m10):** four layers of "how a group settles" (stability, selection, signal,
+  expectations); Gintis's two durable ideas; the unification declined.
+- **Arrows between bands:** Origins supplies the learning rule that decides whether structure
+  helps (m1 to m6, m9); Mechanisms supplies the type mix that decides whether talk decays (m5 to
+  m7); Order's expectations supply what Skyrms's dynamics leave out (m7 to m6); networks decide
+  whether a signal is seen (m9 to m10).
+
+### 4b. Tensions seed list (seeds `tensions.md`; that file's order is canonical)
+
+Each becomes a conditional decision rule with the condition tagged [H]. Proposed ids follow the
+ledger's proposal.
+
+- t01 Evolved copying biases vs ecological copying strategies; copying vs teaching (X1, X13):
+  spread adherence by models and expectations; transfer hidden-structure skill by teaching.
+- t02 Strong reciprocity as evolved trait vs cheap graduated sanctioning (X4): design on the
+  cheap version.
+- t03 Four accounts of how a group settles (X5): layered, not rival.
+- t04 Risk vs payoff dominance; clusters block vs help (X6, X7): regime and learning rule decide.
+- t05 Stable social preferences vs cued norm compliance; internalised vs conditional (X8, X9):
+  assume conditional until it survives a collapse of expectations.
+- t06 Designed vs copied-and-evolved institutions (X10): copy a successful peer's package, then
+  craft incrementally with those bound by it.
+- t07 PD vs stag hunt; does cheap talk work (X11, X12): classify first; talk decays where
+  defection dominates.
+- t08 Cultural group selection and culture-drove-brains (X2, X3): [H], never load-bearing.
+- t09 Connectivity vs closure (X15): connectivity for information and retention; closure for
+  enforcement and complex contagion.
+- t10 Descriptive-norm messaging (X14): always pair with injunctive; never advertise prevalence.
+- t11 Anomalies as preferences vs unstable beliefs (X16): BPC as bookkeeping only.
+- t12 Incentives vs norms (crowd-out; `03` ch 7, `04` ch 14, `11`): prefer the norm where the
+  disposition exists; expect explicit incentives to displace it when large.
+- t13 Change expectations vs change structure (`08` vs `10` and `07`): expectations where the
+  group is one reference network; structure where clusters and bridges decide who sees the
+  signal.
+
+### 4c. Cooperation brief template skeleton (seeds `design-brief-template.md`)
+
+```
+# <Group> — Cooperation brief v<N>
+s1  The group and its boundary: who is in, what is shared, subtractable or not   [E/H]
+s2  Diagnosis: the games being played (matrix, defection question, shape, fix set)  [H]
+s3  The collective brain: who learns from whom; models; single points of failure  [H]
+s4  Situational audit and folk-psychology check (struck-through failed levers)     [E/H]
+s5  Threshold and tipping map; minimum viable coalition; arithmetic constraints    [H]
+s6  Population of types and fairness baseline; weak-link processes                  [H]
+s7  Equilibrium selection plan: regime, correlation device, pacing, lone-cooperator cost [H]
+s8  Norm register: taxonomy, expectation measurement, cues, trendsetters            [E for method, H for results]
+s9  Institutional design: eight-principle checklist, sanctions ladder, monitoring, forum, standing, backstop [H/V]
+s10 Network map and seeding plan: clusters, bridges, q, seed set, copying kind      [H]
+s11 The signal and the BPC statement; the four layers addressed                     [H]
+s12 Open hypotheses register (every [H] with its test and date)                      [H]
+s13 Value commitments register                                                       [V]
+s14 Measurement plan and ninety-day predictions                                      [H]
+```
+
+### 4d. Casebook seed list (seeds `casebook.md`; 24 one-liners, each with tension and slug)
+
+- k01 The deployment expert leaves in three months; runbook unused. (t01; `01` ch 12, `02` ch 8)
+- k02 "Quality first" announced; broken feature shipped to hit a date. (t01; `01` ch 4)
+- k03 The best-practices wiki nobody updates. (t01; `02` ch 3)
+- k04 Twelve-person team, two "coasters", output per head down. (t11; `03` ch 5, 12)
+- k05 The rule-breaking banner that made rule-breaking worse. (t10; `03` ch 9)
+- k06 Homogeneous hiring committee proposes implicit-bias training. (t11; `03` ch 10, 12)
+- k07 Forty people saw the alarming post; nobody acted. (t11; `03` ch 14)
+- k08 Volunteer event needs eight; call attendance falling. (t07; `04` ch 4, 11)
+- k09 Code-of-conduct violation: ban or note? (t02; `04` ch 8, `09` ch 3)
+- k10 Founder says years of repeat play guarantee cooperation. (t07; `04` ch 10)
+- k11 Weekly cross-team demo dies from twelve to three. (t04; `05` ch 1, 3)
+- k12 Architecture decision records stuck at a low share for a year. (t04; `05` ch 7)
+- k13 Seniors cluster on one team without anyone deciding it. (t09; `05` ch 4, 5)
+- k14 Unequal contributor rewards, complaints and exits every round. (t05; `06` ch 2)
+- k15 Sixteen sign-offs and one late reviewer. (t04; `06` ch 7)
+- k16 Quarterly team rotation to "spread the culture". (t04, t09; `07` ch 6-7)
+- k17 Pledge round before a resource split in a group where skipping pays. (t07; `07` ch 5,
+  `08` ch 4)
+- k18 Weekend messages nobody likes and everybody sends. (t05; `08` ch 5)
+- k19 CI cluster quotas with automatic lockout. (t06; `09` ch 3, 5)
+- k20 Staff-only moderation and inconsistent bans. (t06; `09` ch 5)
+- k21 Documentation norm that never crossed the liaison. (t09; `10` ch 19)
+- k22 Show-of-hands vote after the two most senior say yes. (t13; `10` ch 16)
+- k23 Two squads, same metrics, opposite conclusions weekly. (t03; `11` ch 7)
+- k24 Ambiguous ownership of a shared codebase. (t03; `11` ch 11, `09`)
+
+### 4e. Deck plan (seeds `flashcards.md`; ids c001..)
+
+About fifteen atomic cards per module (roughly 165 plus 20 integration and evidence-strength
+cards): per module, 4 definition cards (glossary terms in the ledger's wording), 3 mechanism
+cards ("why does X happen"), 3 number-with-hedge cards (only ledger section 4 rows, status
+included), 3 misconception cards (front: the folk claim; back: the correction and its ledger
+row), 2 apply cards (a one-line scenario; back: shape or lever). Cards for module N enter the
+deck the day after N completes; the first review is next day, then at 3, 7 and 14 days. The
+integration cards cover the four layers, the tension rules and the tag definitions.
+
+### 4f. Capstone outline (seeds `capstone.md`)
+
+Three sittings over days 22-24. (1) Brief v6, 90 minutes: every section s1-s14 filled; every claim
+tagged; no [E] that is not a ledger [E]; the diagnostic path visible. (2) Defence, 45 minutes:
+the learner answers the `course.json` critique prompt against their own brief in writing, then
+answers three casebook cases chosen to attack the brief's weakest tension. (3) First ninety days,
+45 minutes: the first cheap change that produces information and standing; the measurement
+plan; three predictions with dates; what would make the learner abandon the main hypothesis.
+Scoring penalises mis-tags most heavily, then fixes proposed before diagnosis, then any reliance
+on the failed-replication list.
+
+---
+
+## 5. Spaced schedule (21 days)
+
+Retrieval days (R) never introduce content: deck reviews at 1, 3, 7 and 14 days, one to three
+casebook cases, one free-recall task, and periodic re-tag checkpoints. Split modules put hook,
+attempt and reading map on day one and worked example, hinges and deliverable on day two.
+
+| Day | Session | Content | Min |
+|-----|---------|---------|-----|
+| 1 | m0 | Diagnostic d1-d16 with confidence (20) + cold challenge (40). Brief v0. Tag v0. | 60 |
+| 2 | m1a | Hook (lost explorers), attempt (handover), reading map for `01`, `02`. | 50 |
+| 3 | m1b | Worked example (flagging), hinges, brief diff s3. Deck: m1 cards introduced. | 50 |
+| 4 | m2 | Full module (situations, replication rules). Deck: m2 cards. | 70 |
+| 5 | R1 | Deck: m1 (day-1 and day-3 reviews), m2. Cases k01, k05. Free recall: redo the handover attempt from memory and compare with day 2. | 40 |
+| 6 | m3a | Hook (two teams, no first mover), attempt (volunteer event), reading map for `04`. | 50 |
+| 7 | m3b | Worked example (ban or note), hinges, brief diff s2. Deck: m3 cards. | 50 |
+| 8 | R2 | Deck: m1 (day-7), m2, m3 interleaved. Cases k04, k08. Free recall: write the six classification questions and the five shapes with fix sets. | 45 |
+| 9 | m4 | Full module (thresholds, tipping, sorting). Deck: m4 cards. | 70 |
+| 10 | m5 | Full module (social preferences, coordination, learning). Deck: m5 cards. | 70 |
+| 11 | R3 | Deck: m2 (day-7), m3, m4, m5. Cases k11, k14. Brief v2 checkpoint: re-tag s2-s6. | 45 |
+| 12 | m6a | Hook, attempt (sixty stag hunters), reading map for `07`, re-read `06` ch 7. | 50 |
+| 13 | m6b | Worked example (blameless post-mortems rollout), hinges, brief diff s7. Deck: m6 cards. | 50 |
+| 14 | R4 | Deck: m1 (day-14), m3 (day-7), m4, m5, m6. Cases k15, k16. Free recall: draw the two-curve diagram and the stag-hunt watershed from memory. | 45 |
+| 15 | m7 | Full module (norms). Deck: m7 cards. | 70 |
+| 16 | m8 | Full module (institutions). Deck: m8 cards. | 70 |
+| 17 | R5 | Deck: m4 (day-7), m5, m6, m7, m8. Cases k18, k19, k09. Free recall: the four-way norm taxonomy and the eight principles with Cox's splits. | 45 |
+| 18 | m9 | Full module (networks). Deck: m9 cards. | 70 |
+| 19 | m10 | Full module (four accounts, Gintis). Deck: m10 cards. | 70 |
+| 20 | m11 | Integration: attempt (five disagreements), tensions, ten-step path, hinges, re-tag Brief v0 with changelog; Brief v5. Deck: integration cards. | 75 |
+| 21 | R6 + prep | Deck: m6-m10 (day-7 and day-14 reviews), evidence-strength cards. Retake d1-d16; report accuracy and calibration delta; rewrite the baseline free response. Pick three capstone defence cases. | 55 |
+| 22-24 | Capstone | Brief v6 (90), defence (45), first ninety days (45), three sittings. | 180 |
+
+Scheduled total: 925 minutes of modules and 275 of retrieval, about 20 hours; with the capstone
+about 23 hours. A learner who takes 40 minutes on every retrieval day and 2 hours on the
+capstone lands near 17 hours. Cards for module N always enter the day after N completes; every
+retrieval session pulls from at least three modules. Post-course: the deck goes to the learner's
+own spaced-repetition system at one- to three-month spacing; the casebook cases not used during
+the course (about ten) are answered one per week in 200 words against the brief.
+
+---
+
+## 6. Gaps: what the reading list omits that the goal needs
+
+Seeds only; `gaps-primer.md` is written separately and is authoritative. Each area is labelled
+and carries a one- to three-hour recommendation. None of these is in the sources.
+
+1. **Measuring expectations in a real group — Critical.** `08` gives the definition and one
+   validated two-step method with design-sensitivity caveats; it does not give a survey
+   instrument, sampling advice or a way to map reference networks in a team or platform. About two
+   hours: draft, pilot on five people, revise. This is not in the sources.
+2. **Sanctioning in practice — Critical.** The list says sanctions should be cheap, graduated,
+   participant-run and legitimate (`09`, `04`, `11`) and warns of antisocial punishment (`01`);
+   it does not say how to run a restorative or graduated process in an organisation or online
+   community, or how to prevent capture. About two hours. Not in the sources.
+3. **Legitimacy, procedural justice and leadership — Critical.** Ostrom's cases and the
+   Milgram design lesson (exits, peers, legitimacy of refusal) point at legitimacy; no source
+   treats how a rule or sanction comes to be seen as legitimate, or the role of leaders beyond
+   "communicate publicly" (`06`). About two hours. Not in the sources.
+4. **Trust, reputation and identity systems — Critical for platforms, Important otherwise.**
+   `04` ch 9 and `06` ch 8 give signalling and reputation in the abstract; nothing on designing
+   reputation scores, identity verification, or their gaming. About two hours. Not in the sources.
+5. **Mechanism design in practice — Important.** `04` ch 14-16 give the theory; nothing on
+   implementing points, quotas or voting in a real organisation, or on the evidence for crowd-out
+   at scale. About one to two hours. Not in the sources.
+6. **Online governance, moderation and polarization — Important; Critical if the group is a
+   community or platform.** `03` (SIDE model, polarization) and `09` (staff-run moderation as
+   Kirindi Oya) gesture at it; no source treats scale, anonymity, recommendation systems or
+   federated governance. About two hours. Not in the sources.
+7. **Team-level practice: psychological safety and size — Important; Critical if the group is a
+   team.** `03` gives a working-unit rule of thumb of 2-5 people tagged [H] and the wise-feedback
+   pattern; the team-effectiveness literature is absent. About one hour. Not in the sources.
+8. **Scaling and polycentric design beyond small commons — Important.** `09` ch 3 principle 8
+   and `10` nesting are the only treatment; transfer to large, digital or knowledge commons is
+   an open question in the ledger. About one to two hours. Not in the sources.
+
+Useful but lower priority, also absent: the evolution-of-cooperation classics the list assumes
+(kin selection, indirect reciprocity, Axelrod in the original), and the ethics of engineering
+norms and consent (value-heavy).
+
+---
+
+## Reconciliation log
+
+Every factual claim in the modules and hinge questions was checked against the relevant book
+file's evidence section and the ledger's rules. Book files and the ledger won every disagreement.
+Changes made to the first draft:
+
+- **m5 idea 2 and d2.** Draft stated "half of offers below 20% are rejected" as a verified
+  figure. Ledger row 4.2 marks it background and approximate. Now quoted as "about half,
+  background", with the verified mean-offer row (about 40%, Oosterbeek 2004) carrying the weight.
+- **m7 hook and d6.** Draft quoted Dawes 1977 as "30% to 70%". Ledger C46 and rule 12: quote as
+  "roughly doubled" or "from about a third to about seven in ten, background". Rewritten in both
+  places.
+- **m6 hook and Q1.** Draft's hook said the efficient equilibrium is "the rational choice teams
+  fail to make". `07` common misreadings and ledger rule 2 forbid "the efficient equilibrium is the
+  rational one". Hook and Q1 rewritten around basin size and defensible safe choice.
+- **m9 idea 1 and Q2.** Draft said dense clusters "block cascades" without the second direction.
+  Ledger rule 3 and `10` misreadings require both: block from outside, protect inside. Added,
+  and the Centola 2010 figure marked background.
+- **m2 Q3.** Draft included "watching eyes on the honour box" as a cheap monitoring lever in the
+  worked example. `03` evidence section and ledger C18: mostly failed replications. Moved to a
+  distractor with diagnosis; identifiability retained as the lever.
+- **m5 idea 2 and m10 idea 4.** Draft described strong reciprocity as "the evolved disposition
+  behind costly punishment". Ledger X4 and rule 4 split the claim: lab willingness [E], evolved
+  trait [H], real sanctioning cheap. Rewritten in m5, m8 and m10; d3 built from the correction.
+- **m3 idea 3 and Q2.** Draft recommended tit-for-tat "with forgiveness". Ledger C26, rule 15:
+  recommend the properties, never the rule. Rewritten; Q2 option (c) diagnoses the draft's error.
+- **m3 Q2 option (d).** Draft treated "discount factor above one half" as a general threshold.
+  `04` ch 10 shows it is the illustrative payoffs' threshold (rises with temptation). Now a
+  distractor that diagnoses over-generalising the example.
+- **m4 idea 4 and d4.** Draft summarised Schelling as "segregation arises from mild preferences".
+  Ledger rule 17 prescribes exact wording (shows vs does not show; empirical 5-20% tipping; fragility
+  disputed). Adopted verbatim in spirit; Q1 distractors (c) and (d) diagnose both over-readings.
+- **m1 idea 4 and Q1.** Draft cited "Tasmania lost its technology when isolated" as the example
+  of the collective brain. Ledger rule 6, C1: contested; say "connectivity of the learning
+  network, lab-demonstrated, archaeologically contested". Rewritten; Q1 option (c) diagnoses the
+  population-size reading.
+- **m1 idea 5 and Q3.** Draft's worked example leaned on cultural group selection ("copy the
+  winning group's norms because selection made them adaptive"). Ledger rule 5: [H], never sole
+  basis. Rewritten as copy-and-modify with the CGS reading moved to a distractor.
+- **m2 idea 2.** Draft cited Allcott's 2% as verified. Ledger row 4.20 marks it background.
+  Now "about 2%, background".
+- **m2 worked example and gaps 7.** Draft tagged "working units of 2-5" as [E]. Ledger row 4.26:
+  a rule of thumb, tag [H]. Corrected in the gaps section; removed from the worked example.
+- **m5 idea 1.** Draft quoted "two-thirds game guesses of 20-35" from `04`. Ledger prefers the
+  verified Nagel figure (about 35-36) and τ about 1.5; the `04` range (background) dropped.
+- **m8 hook.** Draft said the Törbel rule "has been enforced since 1517". `09` gives the 1517
+  rule as background via Netting; the hook now says "dated 1517" and marks the date background.
+- **m9 idea 2 and Q4.** Draft stated "most jobs come through weak ties (Granovetter)". Ledger
+  C51, rule 33: quote the structural claim only. Rewritten; Q4 (a) diagnoses the draft's claim.
+- **m9 idea 5.** Draft opened with "six degrees of separation". Ledger C50: "short paths exist;
+  the number is unreliable". Rewritten; Q4 (d) diagnoses it.
+- **m10 Q3 option (d).** Draft's distractor said "Binmore's review panned the book". `11`
+  evidence section and ledger C56: no Binmore review found. The distractor now diagnoses the
+  attribution itself.
+- **m10 idea 2.** Draft said correlated equilibrium "fits the coordination data better than
+  Nash". Ledger C58: conceptual argument, no horse race. Removed; Q3 (a) diagnoses it.
+- **m7 idea 5.** Draft called norm activation "priming by cues". Ledger rule 37 and C12: do not
+  equate with behavioural priming. Rewritten as scripts with the caveat; m7 Q4 (d) diagnoses it.
+- **m2 Q2 option (c).** Draft's correct answer said "situations determine behaviour". Ledger
+  C23 forbids the phrase; the option now says situations are underestimated with moderate effect
+  sizes, and (c) diagnoses the strong claim.
+- **m8 idea 3.** Draft listed the eight principles in Ostrom's 1990 wording. `09` evidence
+  section says the Cox et al. 2010 split version is now standard; list rewritten with the splits.
+- **Module order (architecture rationale).** The proposed spine put `10` ch 17 and 19 wholly in
+  m9. `05` and `10` glossary say Schelling's tipping point and `10`'s z' are one object; the
+  population-model half of ch 17 and the threshold notion of ch 19 moved to m4, the graph version
+  stays in m9. Departure recorded.
+- **Illustrative numbers.** Draft used invented payoffs in several attempts. Replaced with the
+  ledger's illustrative rows (stag-hunt 4/0/3 with watershed three quarters; PD 3/5/0/1 with
+  sensitivity two thirds; q = b/(a+b); 2pq) or the book files' own worked examples, and labelled
+  "illustrative" wherever a number is not an evidence claim (m2 attempt's one-third drop, m4
+  attempt's fifteen percent, m7 hook's shares are scenario numbers and say so).
+
+Checked, no change needed:
+
+- Herrmann et al. 2007 as the children-vs-chimpanzee social-learning result (`01` ch 2, robust).
+- Morgan et al. 2015: N = 184, five conditions, teaching and language best (`02` ch 8, verified,
+  one study); tagged [E] modest throughout.
+- Rendell et al. 2010: 104 entries, a simulation, winner discounted stale information (`02` ch 3,
+  verified); always paired with Rogers's paradox per rule 39.
+- Hagger et al. 2016 ego-depletion figures; Ranehill 2015; Flore and Wicherts 2015; Burger 2009
+  (`03` evidence section, verified).
+- Bond and Smith 1996 (133 studies, 17 countries; verified).
+- Van Huyck 1990 group-size collapse (verified) with round counts marked background.
+- Camerer et al. 2016: 61% of 18, effects about two-thirds (verified).
+- Engel 2011 dictator figures (verified) with the double-blind and take-option caveats.
+- Henrich 2001 small-scale range 26-58% (verified) with causality unresolved (C59).
+- Weber 2006 gradual growth (verified, single lab) tagged [E] with the "test in your setting"
+  caveat (C60).
+- Card, Mas and Rothstein 2008 tipping at 5-20% (verified).
+- Cox, Arnold and Villamayor-Tomás 2010, 91 studies (verified), with publication-bias caveat.
+- Bicchieri and Xiao 2009 direction (verified).
+- The cluster-density theorem, q = b/(a+b), the 2pq test and Kleinberg's navigability exponent
+  as theorems (`10`).
+- Aumann and Brandenburger 1995 as the theorem behind `11` claim 1.
+- Ellison 1993, Kandori-Mailath-Rob and Young as the best-response and noise qualifications to
+  Skyrms (`07` evidence section).
+
+Still open (the sources cannot settle these; the modules say so where they arise):
+
+- Whether cultural group selection is a major engine or a redescription of within-group
+  mechanisms (m1; ledger section 6).
+- Whether norm-following is internalised or conditional-but-looks-internalised (m7; X9); the
+  course uses the collapse-of-expectations test as an operational rule.
+- Whether costly one-shot punishment is an evolved trait or repeated-play heuristics, and how
+  much real sanctioning is costly (m5, m8, m10; X4).
+- Whether payoff dominance is stable in the long run under noisy best response or only reachable
+  transiently under imitation (m6; ledger section 6).
+- Whether Ostrom's principles transfer to large or digital commons (m8; C48).
+- Whether influence can be separated from selection for behaviours that matter to the learner's
+  group without longitudinal data (m9; C52).
+- Whether descriptive and normative expectations can be disentangled in the field (m7; ledger
+  section 6).
+- Whether the learning-science defaults behind principles 2 and 5 (worked-example fading,
+  spacing intervals) hold for this content; they are not in the sources and are marked as such.
