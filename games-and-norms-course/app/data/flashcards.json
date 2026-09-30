@@ -1,0 +1,1476 @@
+{
+ "cards": [
+  {
+   "id": "c001",
+   "module": "m1",
+   "type": "recall",
+   "front": "What is the collective brain, and which three levers set a group's competence?",
+   "back": "The network of people who actually learn from each other. Competence lives there, not in individuals. Levers: the size of the pool that really shares, its connectivity, and transmission fidelity.",
+   "source": "01-secret-of-our-success"
+  },
+  {
+   "id": "c002",
+   "module": "m1",
+   "type": "recall",
+   "front": "Name five of Henrich's cultural learning biases.",
+   "back": "Success (skill) bias, prestige bias, conformist transmission, self-similarity bias, and credibility-enhancing displays (CREDs). Content biases (danger, food, norm violation) direct attention.",
+   "source": "01-secret-of-our-success"
+  },
+  {
+   "id": "c003",
+   "module": "m1",
+   "type": "recall",
+   "front": "Define prestige and dominance, and say what each does to information flow.",
+   "back": "Prestige: freely conferred deference paid for copying access; people approach, attend and imitate. Dominance: status held by threat; people avoid and comply under observation. Prestige enables copying and honest signalling; dominance suppresses both.",
+   "source": "01-secret-of-our-success"
+  },
+  {
+   "id": "c004",
+   "module": "m1",
+   "type": "recall",
+   "front": "What is a credibility-enhancing display (CRED)?",
+   "back": "A costly action that only makes sense if the model genuinely holds the belief, which makes the belief more copyable than any statement of it. Words transmit weakly; visible costly actions transmit strongly.",
+   "source": "01-secret-of-our-success"
+  },
+  {
+   "id": "c005",
+   "module": "m1",
+   "type": "recall",
+   "front": "Which social learning strategies does Laland say evolved, in place of indiscriminate copying?",
+   "back": "Copy when uncertain, copy the successful, copy the majority, and discount stale information. The rules are cheap; the ecology decides which one pays.",
+   "source": "02-darwins-unfinished-symphony"
+  },
+  {
+   "id": "c006",
+   "module": "m1",
+   "type": "explain",
+   "front": "Why did copying win the social-learning tournament even when observing cost no less than innovating?",
+   "back": "Demonstrators pre-filter. An agent performing a behaviour performs its best-known one, so observers sample from a distribution already biased toward high payoffs. The value of copying is set by demonstrators' incentive to show their best. It was a simulation, 104 entries (Rendell et al. 2010).",
+   "source": "02-darwins-unfinished-symphony"
+  },
+  {
+   "id": "c007",
+   "module": "m1",
+   "type": "explain",
+   "front": "Why is Rogers's paradox a problem for a group where everyone follows the same 'best practices'?",
+   "back": "Copiers only exploit knowledge others paid to produce. Copying beats innovating individually, but a population of pure copiers sits on a stale pool and does worse on average. Someone must be induced to innovate and old exemplars must expire.",
+   "source": "02-darwins-unfinished-symphony"
+  },
+  {
+   "id": "c008",
+   "module": "m1",
+   "type": "explain",
+   "front": "Why does Henrich say explanation is a weak channel for norm adherence?",
+   "back": "People adopt what visibly successful, prestigious or majority models do and what others expect, often without understanding it (over-imitation, faith in tradition). A memo supplies information, not a model or an expectation, so it raises fidelity but rarely adherence.",
+   "source": "01-secret-of-our-success"
+  },
+  {
+   "id": "c009",
+   "module": "m1",
+   "type": "explain",
+   "front": "Why is norm psychology 'content-neutral', and what does that imply for a designer?",
+   "back": "People internalise and enforce whatever pattern is first visible and expected, including harmful ones, and in some environments punish cooperators (antisocial punishment). The designer must fill the norm slot early and channel enforcement through a legitimate process.",
+   "source": "01-secret-of-our-success"
+  },
+  {
+   "id": "c010",
+   "module": "m1",
+   "type": "apply",
+   "front": "A respected, quiet engineer who alone knows the deployment system leaves in three months; the runbook goes unused. Diagnose and fix.",
+   "back": "A single copied node with no copying channel: skill-loss risk. Widen the learning network: two people shadow real deployments, she narrates decisions, repeated low-stakes occasions to copy. Documentation raises fidelity but does not replace modelling.",
+   "source": "01-secret-of-our-success"
+  },
+  {
+   "id": "c011",
+   "module": "m1",
+   "type": "apply",
+   "front": "A team lead announces 'quality over speed' and a week later ships a known-broken feature to hit a date. What spreads?",
+   "back": "'Speed over quality', more strongly than the announcement. The costly visible exception is a CRED; the words were not. Route norms through leaders' costly actions, not statements.",
+   "source": "01-secret-of-our-success"
+  },
+  {
+   "id": "c012",
+   "module": "m1",
+   "type": "apply",
+   "front": "An org copied a rival's best-practices wiki wholesale; two years on nobody updates it and it no longer fits. Which tournament findings apply?",
+   "back": "Recency-weighting: the winner discounted stale information, so practices need dates and expiry. Rogers's paradox: universal copying with no funded innovation leaves the pool stale. Also copy and modify, never wholesale.",
+   "source": "02-darwins-unfinished-symphony"
+  },
+  {
+   "id": "c013",
+   "module": "m1",
+   "type": "apply",
+   "front": "A team wants to spread a debugging technique whose reasoning is non-obvious. Shadowing or explicit teaching?",
+   "back": "Explicit teaching while demonstrating. In the stone-tool experiment (Morgan et al. 2015, N = 184, one study) imitation added little over reverse engineering; teaching and language gave the largest gains for skills with hidden structure. Tag [E], modest.",
+   "source": "02-darwins-unfinished-symphony"
+  },
+  {
+   "id": "c014",
+   "module": "m1",
+   "type": "discriminate",
+   "front": "Norm adherence versus skill transfer: which channel carries each, and what is the common error?",
+   "back": "Adherence spreads through models, prestige and expectations; explanation is weak there. A skill with hidden causal structure needs explicit teaching. The error is collapsing Henrich and Laland into 'explanation does not work' or 'just document it'.",
+   "source": "02-darwins-unfinished-symphony"
+  },
+  {
+   "id": "c015",
+   "module": "m1",
+   "type": "discriminate",
+   "front": "'Bigger populations produce more complex culture, so growing the company will make it more innovative.' Where does this go wrong?",
+   "back": "The variable is learning-network connectivity and fidelity, not head-count; growth without connection shrinks the effective collective brain. And the population-size effect is lab-demonstrated at small scale, archaeologically contested (Vaesen et al. 2016). Tag [H].",
+   "source": "01-secret-of-our-success"
+  },
+  {
+   "id": "c016",
+   "module": "m1",
+   "type": "discriminate",
+   "front": "Cultural group selection: what tag does it carry in this course, and which part of the cooperation story is [E]?",
+   "back": "CGS is [H] and never the sole basis for a design claim. The within-group mechanisms, reciprocity, reputation and punishment, are the [E] part. Benchmarking a peer's norm package is fine; 'selection made it adaptive' is not.",
+   "source": "01-secret-of-our-success"
+  },
+  {
+   "id": "c017",
+   "module": "m2",
+   "type": "recall",
+   "front": "Define the fundamental attribution error and name the follow-on bias that makes it hard to correct.",
+   "back": "Overweighting disposition and underweighting situation when explaining others' behaviour. Naive realism, the sense that one's own view is unmediated reality, makes the attribution feel like observation rather than inference.",
+   "source": "03-social-psychology"
+  },
+  {
+   "id": "c018",
+   "module": "m2",
+   "type": "recall",
+   "front": "What are the two channels of a norm in social psychology, and what must be true of them?",
+   "back": "Descriptive (what people do) and injunctive (what people approve). They must point the same way; a visible descriptive norm of defection beats any injunctive appeal.",
+   "source": "03-social-psychology"
+  },
+  {
+   "id": "c019",
+   "module": "m2",
+   "type": "recall",
+   "front": "List the five steps at which bystander intervention can fail.",
+   "back": "Notice; interpret as an emergency; take responsibility; know how to help; act. Each can be engineered: named ownership, a script, clear signals. The effect is [E] for ambiguous, low-risk settings only.",
+   "source": "03-social-psychology"
+  },
+  {
+   "id": "c020",
+   "module": "m2",
+   "type": "recall",
+   "front": "Which social-psychology findings are on the course's robust list, and which on the failed list?",
+   "back": "Robust: conformity, obedience, attribution error, dissonance, polarization, loafing, minimal groups, contact (moderate), bystander (low-risk), cooperation-game effects. Failed: ego depletion, social priming, power posing, watching eyes, Stanford Prison Experiment, groupthink as syndrome, IAT training.",
+   "source": "03-social-psychology"
+  },
+  {
+   "id": "c021",
+   "module": "m2",
+   "type": "recall",
+   "front": "State Allport's conditions for intergroup contact to reduce hostility.",
+   "back": "Equal status, a shared goal neither group can reach alone, genuine cooperation, and institutional support. Proximity, a social event or training do not meet them. Effect is moderate (Pettigrew and Tropp 2006), with fewer rigorous field trials.",
+   "source": "03-social-psychology"
+  },
+  {
+   "id": "c022",
+   "module": "m2",
+   "type": "explain",
+   "front": "Why did the sign 'please do not take petrified wood; many visitors do' increase theft?",
+   "back": "It broadcast a descriptive norm (many people steal) that contradicted the injunctive one. People follow what others do more than what they are told to approve, so the sign normalised the behaviour.",
+   "source": "03-social-psychology"
+  },
+  {
+   "id": "c023",
+   "module": "m2",
+   "type": "explain",
+   "front": "Why does a homogeneous committee drift to more extreme, confident decisions?",
+   "back": "Group polarization: discussion supplies arguments mostly on the side the group already leans, and members shift to be at least as extreme as the perceived norm. Early confident speakers become the group's evidence; dissent self-censors.",
+   "source": "03-social-psychology"
+  },
+  {
+   "id": "c024",
+   "module": "m2",
+   "type": "explain",
+   "front": "Why do small, freely chosen, public commitments produce belief while large incentives produce only compliance?",
+   "back": "Dissonance and self-perception: when external pressure is small, people infer their attitude from their behaviour. A large reward supplies an external reason, so no belief change is needed, and it can crowd out the intrinsic motive (overjustification).",
+   "source": "03-social-psychology"
+  },
+  {
+   "id": "c025",
+   "module": "m2",
+   "type": "explain",
+   "front": "Why does output per head fall when a team grows from five to twelve, before anyone's character is involved?",
+   "back": "Social loafing (pooled, unidentifiable effort) and diffusion of responsibility (no one owns the task). Both are structural; the 'coasters' story forms afterwards via the attribution error. Fix visibility and ownership first.",
+   "source": "03-social-psychology"
+  },
+  {
+   "id": "c026",
+   "module": "m2",
+   "type": "apply",
+   "front": "A community manager drafts a banner: 'Over a thousand posts broke the rules last month. Please do better.' Predict the effect.",
+   "back": "It backfires for most users: it advertises that rule-breaking is common (descriptive) while asking for compliance (injunctive). Pair a positive descriptive signal with an injunctive one; never publish the prevalence of misbehaviour.",
+   "source": "03-social-psychology"
+  },
+  {
+   "id": "c027",
+   "module": "m2",
+   "type": "apply",
+   "front": "A retrospective concludes that two named people are unreliable. What does the facilitator check first?",
+   "back": "Whether workload, information, ambiguity and ownership were visible to those making the attribution. Diagnose situationally before dispositionally. The check is a check, not a veto: effect sizes are moderate.",
+   "source": "03-social-psychology"
+  },
+  {
+   "id": "c028",
+   "module": "m2",
+   "type": "apply",
+   "front": "Forty members of an online community saw alarming posts from a member and nobody acted. What is the fix?",
+   "back": "Diffusion of responsibility in an ambiguous, low-risk setting, exactly where the bystander effect is strongest. Assign named ownership, give a script for the five steps, and do not enlarge the audience.",
+   "source": "03-social-psychology"
+  },
+  {
+   "id": "c029",
+   "module": "m2",
+   "type": "apply",
+   "front": "You want engineers to write tests without paying a bonus. Which mechanisms do you use and which do you avoid?",
+   "back": "Use: small public commitments, a visible descriptive norm that most PRs include tests, an injunctive signal, foot-in-the-door. Avoid: large bonuses (compliance without belief, crowd-out) and any message revealing that most people skip tests.",
+   "source": "03-social-psychology"
+  },
+  {
+   "id": "c030",
+   "module": "m2",
+   "type": "discriminate",
+   "front": "'The situation determines behaviour' versus 'situations are underestimated': which is the course's claim?",
+   "back": "The second. Effect sizes are moderate; people are not infinitely malleable. The claim is that the default dispositional diagnosis is usually wrong, not that structure is all-powerful.",
+   "source": "03-social-psychology"
+  },
+  {
+   "id": "c031",
+   "module": "m2",
+   "type": "discriminate",
+   "front": "Milgram: 'blind obedience' or something else? Give the verified number.",
+   "back": "The behaviour replicates: 70% continued past 150 V in Burger 2009 (verified) versus roughly 82% in Milgram. But obedience fell with victim proximity, absent authority or a refusing peer. Design lesson: exits, peers, legitimacy of refusal.",
+   "source": "03-social-psychology"
+  },
+  {
+   "id": "c032",
+   "module": "m2",
+   "type": "discriminate",
+   "front": "Groupthink as a diagnosis versus groupthink as a checklist: which survives the evidence?",
+   "back": "The checklist. Controlled studies do not support cohesion as the cause; the individual mechanisms (self-censorship, pressure on dissenters, directive leadership) are real. Never prescribe 'reduce cohesion'.",
+   "source": "03-social-psychology"
+  },
+  {
+   "id": "c033",
+   "module": "m2",
+   "type": "discriminate",
+   "front": "Ego depletion: what did the registered replication find, and what is the rule?",
+   "back": "Hagger et al. 2016: 23 labs, N = 2,141, d = 0.04 with the interval including zero (verified). Rule: never build a design on ego depletion or on rationing 'willpower'.",
+   "source": "03-social-psychology"
+  },
+  {
+   "id": "c034",
+   "module": "m3",
+   "type": "recall",
+   "front": "What five things must you write down to specify a game?",
+   "back": "Players; strategies (complete contingent plans, not single moves); payoffs as the players see them; order of moves; and what each player knows when moving.",
+   "source": "04-games-of-strategy"
+  },
+  {
+   "id": "c035",
+   "module": "m3",
+   "type": "recall",
+   "front": "What single question classifies a cooperation problem as PD-shaped or stag-hunt-shaped?",
+   "back": "Does a member gain by defecting when everyone else cooperates? Yes: PD (fix set is payoffs, repetition, credible sanctions). No: stag hunt (fix is assurance). The distinction is [E]; any group's classification is [H].",
+   "source": "04-games-of-strategy"
+  },
+  {
+   "id": "c036",
+   "module": "m3",
+   "type": "recall",
+   "front": "Name the fix that matches each shape: PD, stag hunt, chicken, battle of the sexes, pure coordination.",
+   "back": "PD: change payoffs, repetition with observability, or credible sanctions. Stag hunt: assurance (conditional pledges, thresholds). Chicken: assignment or rotation. Battle of the sexes: a fair tie-break. Pure coordination: a focal point.",
+   "source": "04-games-of-strategy"
+  },
+  {
+   "id": "c037",
+   "module": "m3",
+   "type": "recall",
+   "front": "Define Nash equilibrium in one sentence and say what it is not.",
+   "back": "A profile from which no player gains by deviating alone. It is a stability test, not a prediction (with several equilibria it predicts nothing) and not an endorsement (mutual defection qualifies because it is stable).",
+   "source": "04-games-of-strategy"
+  },
+  {
+   "id": "c038",
+   "module": "m3",
+   "type": "recall",
+   "front": "What makes a threat or sanction subgame-perfect, and why does that matter for enforcement design?",
+   "back": "Executing it must be in the enforcer's interest at the moment of enforcement, in every subgame. A sanction that costs the enforcer more than ignoring the violation will not be applied, and violators know it.",
+   "source": "04-games-of-strategy"
+  },
+  {
+   "id": "c039",
+   "module": "m3",
+   "type": "explain",
+   "front": "Why is mutual defection the equilibrium of a one-shot PD when both players prefer mutual cooperation?",
+   "back": "Defection is dominant: whatever the other does, defecting pays more. Cooperation is a best response to nothing, so no profile containing it is stable against unilateral deviation. Preferring an outcome does not make it an equilibrium.",
+   "source": "04-games-of-strategy"
+  },
+  {
+   "id": "c040",
+   "module": "m3",
+   "type": "explain",
+   "front": "Why does making a threat more severe usually make it less credible?",
+   "back": "Severity raises the cost of executing it to the threatener, so the other side expects it not to be carried out. Size a threat to what deters, structure it so executing is in your interest at the time, or make it probabilistic.",
+   "source": "04-games-of-strategy"
+  },
+  {
+   "id": "c041",
+   "module": "m3",
+   "type": "explain",
+   "front": "Why does a known finite endpoint unravel cooperation in a repeated PD?",
+   "back": "In the last round nobody fears retaliation, so both defect; knowing that, the second-to-last round has no shadow either, and the logic rolls back to the start. Cooperation needs a future that is long, uncertain and observable.",
+   "source": "04-games-of-strategy"
+  },
+  {
+   "id": "c042",
+   "module": "m3",
+   "type": "apply",
+   "front": "A shared on-call rota is decaying. If everyone else did their shifts, one person skipping still gains. What follows?",
+   "back": "PD-shaped. The fix set is payoff change, repetition with observability, or a credible sanction. Assurance mechanisms and clearer schedules address a different shape and will not work here.",
+   "source": "04-games-of-strategy"
+  },
+  {
+   "id": "c043",
+   "module": "m3",
+   "type": "apply",
+   "front": "Should a community's code-of-conduct violation be met by an immediate ban? Reason by rollback.",
+   "back": "At the moderator's node, banning an established member costs a public fight; ignoring costs little. The ban threat is not subgame-perfect, so it is not credible. Use a cheap, fast, public first response applied by rotation, with scheduled escalation.",
+   "source": "04-games-of-strategy"
+  },
+  {
+   "id": "c044",
+   "module": "m3",
+   "type": "apply",
+   "front": "A community wants to tell committed members from tourists before granting privileges. Design the screen.",
+   "back": "A multi-week task cheap for people who intend to stay and costly for those who do not. It separates because the cost differs by type. A statement of commitment (cheap talk) or an equal fee for all pools types and reveals nothing.",
+   "source": "04-games-of-strategy"
+  },
+  {
+   "id": "c045",
+   "module": "m3",
+   "type": "apply",
+   "front": "A volunteer event needs eight organisers; everyone wants the event, nobody wants to be one of the eight. Which shape?",
+   "back": "Two possibilities. If volunteering pays given enough others volunteer: threshold assurance game, fix with conditional pledges ('I'm in if seven others are'). If each strictly prefers others do it regardless: chicken, fix with assignment or rotation.",
+   "source": "04-games-of-strategy"
+  },
+  {
+   "id": "c046",
+   "module": "m3",
+   "type": "discriminate",
+   "front": "'Our engineers will work together for years, so repetition guarantees cooperation.' What is the correction?",
+   "back": "Repetition permits cooperation as one equilibrium among many, including permanent defection. The group must also coordinate on it and detect defection fast. The folk theorem is an existence result, not a guarantee.",
+   "source": "04-games-of-strategy"
+  },
+  {
+   "id": "c047",
+   "module": "m3",
+   "type": "discriminate",
+   "front": "Tit-for-tat as a rule versus the properties of a good repeated-game strategy: which does the course recommend?",
+   "back": "The properties: nice, retaliatory, forgiving, clear. Tit-for-tat won Axelrod's tournaments but feuds forever under noise; generous variants do better. Never recommend the rule.",
+   "source": "04-games-of-strategy"
+  },
+  {
+   "id": "c048",
+   "module": "m3",
+   "type": "discriminate",
+   "front": "A team is stuck where nobody invests in shared tooling and nobody can improve alone. A manager says 'so this is what they want.' Two errors?",
+   "back": "Equilibrium is stable, not preferred: it may be one of several and history picked it. And 'rational' does not mean selfish; consistent preferences can include fairness. Never use equilibrium as approval.",
+   "source": "04-games-of-strategy"
+  },
+  {
+   "id": "c049",
+   "module": "m3",
+   "type": "discriminate",
+   "front": "Someone quotes the textbook's discount-factor threshold as the general condition for cooperation. What is wrong?",
+   "back": "The threshold in any worked example depends on that example's temptation and cooperative payoffs; raise the temptation and it rises. Quote the condition (future long, uncertain, observable; patience above a payoff-dependent threshold), not the example's number.",
+   "source": "04-games-of-strategy"
+  },
+  {
+   "id": "c050",
+   "module": "m4",
+   "type": "recall",
+   "front": "What two directions of inference does Schelling warn against?",
+   "back": "Inferring intentions from outcomes (sorting implies strong prejudice) and outcomes from intentions (everyone wants mixing, so mixing will result). Both skip the interaction structure; put a model between them.",
+   "source": "05-micromotives-and-macrobehavior"
+  },
+  {
+   "id": "c051",
+   "module": "m4",
+   "type": "recall",
+   "front": "Define a tipping point in the ledger's wording.",
+   "back": "An unstable equilibrium in a threshold distribution or adoption curve: below it participation decays, above it snowballs. The scarce resource is low-threshold actors, never charismatic ones.",
+   "source": "05-micromotives-and-macrobehavior"
+  },
+  {
+   "id": "c052",
+   "module": "m4",
+   "type": "recall",
+   "front": "What is k (the minimum viable coalition) in Schelling's binary-choice analysis?",
+   "back": "The smallest group who, by choosing the cooperative option together, are each better off than under universal defection. It is the pilot size that can sustain itself.",
+   "source": "05-micromotives-and-macrobehavior"
+  },
+  {
+   "id": "c053",
+   "module": "m4",
+   "type": "recall",
+   "front": "Name the three shapes the binary-choice diagram can show and the fix for each.",
+   "back": "Multi-person PD (defect curve above cooperate curve everywhere, all-cooperate beats all-defect): rules, monitoring or side payments. Coordination with a crossing (two stable corners, unstable interior): seed above critical mass. Stable interior mix: leave alone.",
+   "source": "05-micromotives-and-macrobehavior"
+  },
+  {
+   "id": "c054",
+   "module": "m4",
+   "type": "recall",
+   "front": "State exactly what the checkerboard model shows and does not show.",
+   "back": "Shows: mild preferences plus interdependence can produce extreme sorting; homogeneity is weak evidence of intolerance. Does not show: that preferences are the main real-world cause, that they are exogenous, or that the outcome is acceptable.",
+   "source": "05-micromotives-and-macrobehavior"
+  },
+  {
+   "id": "c055",
+   "module": "m4",
+   "type": "explain",
+   "front": "Why is the mixed state in the bounded-neighbourhood model usually unstable?",
+   "back": "Tolerance schedules are cumulative: once composition passes the least tolerant member's limit, that member leaves, worsening the ratio for the next, whose limit is then breached. Departures feed on themselves, so only the corners are stable.",
+   "source": "05-micromotives-and-macrobehavior"
+  },
+  {
+   "id": "c056",
+   "module": "m4",
+   "type": "explain",
+   "front": "Why does a gap at the low end of a threshold distribution kill a cascade?",
+   "back": "Each person acts only once enough others have. If nobody's threshold is met by the current count, no one moves, however many people would join at higher counts. The cascade needs an unbroken chain from the lowest thresholds upward.",
+   "source": "05-micromotives-and-macrobehavior"
+  },
+  {
+   "id": "c057",
+   "module": "m4",
+   "type": "explain",
+   "front": "Why does a half-launch below critical mass poison the next attempt?",
+   "back": "Attendance contingent on expected attendance decays below the crossing, and everyone watches it die. That sets the expectation the next launch must overcome, so the effective threshold rises. Recruit a core above critical mass before announcing.",
+   "source": "05-micromotives-and-macrobehavior"
+  },
+  {
+   "id": "c058",
+   "module": "m4",
+   "type": "explain",
+   "front": "Why is Schelling's tipping point the same object as the network-effect curve's unstable point?",
+   "back": "Both are the crossing where the fraction willing to act given current adoption equals current adoption, with the curve crossing from above. Below it adoption unravels, above it grows; the population form and the adoption-curve form are one model.",
+   "source": "10-networks-crowds-markets"
+  },
+  {
+   "id": "c059",
+   "module": "m4",
+   "type": "apply",
+   "front": "Adoption of architecture decision records has sat at a low share for a year despite reminders and a template. What do you check first?",
+   "back": "Is the value of writing contingent on others writing and reading? If the curves cross, you are below critical mass: seed a subgroup. If not-writing dominates everywhere, it is an MPD: a rule or gate. If it is a stable interior mix, stop pushing.",
+   "source": "05-micromotives-and-macrobehavior"
+  },
+  {
+   "id": "c060",
+   "module": "m4",
+   "type": "apply",
+   "front": "A weekly cross-team demo goes from twelve attendees to seven to three and dies; nobody changed their mind. Plan the relaunch.",
+   "back": "Contingent behaviour below critical mass. Identify low-threshold people and guarantee their presence; recruit a core above the estimated crossing before announcing; make attendance visible so perceived matches real; avoid another half-launch.",
+   "source": "05-micromotives-and-macrobehavior"
+  },
+  {
+   "id": "c061",
+   "module": "m4",
+   "type": "apply",
+   "front": "A colleague proposes spreading a practice by recruiting 'the three most influential people'. Apply Schelling.",
+   "back": "Influence is secondary. Find the low-threshold actors, those who will adopt when few others have, and ensure no gap at the low end. Prestige decides whom people watch; the threshold distribution decides whether a cascade can run.",
+   "source": "05-micromotives-and-macrobehavior"
+  },
+  {
+   "id": "c062",
+   "module": "m4",
+   "type": "apply",
+   "front": "Senior engineers have ended up on one team and juniors on the others; nobody assigned by seniority and everyone says they value mixing. Conclude?",
+   "back": "Mild preferences not to be the least experienced in a group, plus free movement, can produce this without anyone wanting it. The homogeneity is weak evidence about attitudes; do not infer intentions from the outcome.",
+   "source": "05-micromotives-and-macrobehavior"
+  },
+  {
+   "id": "c063",
+   "module": "m4",
+   "type": "discriminate",
+   "front": "Two curves for daily standup attendance: not-attend is above attend at every level, yet all-attend beats all-skip. Coordination or MPD?",
+   "back": "Multi-person PD. There is no crossing, so seeding and communication will not move it; only a rule, monitoring or a side payment does. Calling every problem coordination is the standard misreading.",
+   "source": "05-micromotives-and-macrobehavior"
+  },
+  {
+   "id": "c064",
+   "module": "m4",
+   "type": "discriminate",
+   "front": "A team welcomes a new rule, then finds several members follow it only because it is a rule. Was the rule unnecessary?",
+   "back": "No. That is the signature of an MPD: each prefers all-comply to all-defect, but defecting dominated individually. The rule gives everyone what nobody would choose alone. Consult on the rule, not on voluntary adoption.",
+   "source": "05-micromotives-and-macrobehavior"
+  },
+  {
+   "id": "c065",
+   "module": "m4",
+   "type": "discriminate",
+   "front": "Self-enforcing convention versus a norm that needs a rule: how do you tell them apart and why does it matter?",
+   "back": "In a convention, unilateral deviation hurts the deviator, so it needs a focal point, not a policeman. In an MPD, deviation pays, so it needs enforcement. Reserve the enforcement budget for genuine MPDs.",
+   "source": "05-micromotives-and-macrobehavior"
+  },
+  {
+   "id": "c066",
+   "module": "m4",
+   "type": "discriminate",
+   "front": "'Card, Mas and Rothstein found real tipping, so Schelling was right that preferences cause segregation.' Sort this out.",
+   "back": "They found tipping at roughly 5 to 20 percent minority share (verified), higher where measured tolerance is higher. That supports the dynamic, not the cause: attitudes move the threshold, and institutional drivers the model omits remain in play.",
+   "source": "05-micromotives-and-macrobehavior"
+  },
+  {
+   "id": "c067",
+   "module": "m5",
+   "type": "recall",
+   "front": "Name Camerer's three amendments to equilibrium prediction.",
+   "back": "Social preferences (fairness, reciprocity), limited iterated reasoning (one to two steps on first contact), and learning (early rounds lock in). Amendments, not a rejection; diagnose which one is operating before intervening.",
+   "source": "06-behavioral-game-theory"
+  },
+  {
+   "id": "c068",
+   "module": "m5",
+   "type": "recall",
+   "front": "Quote the ultimatum-game numbers with their hedges.",
+   "back": "Mean offer about 40%, mode 40-50% (Oosterbeek et al. 2004, verified; student samples). About half of offers below 20% are rejected (background, approximate; falls at high stakes).",
+   "source": "06-behavioral-game-theory"
+  },
+  {
+   "id": "c069",
+   "module": "m5",
+   "type": "recall",
+   "front": "Quote the dictator-game numbers and the caveat that travels with them.",
+   "back": "Mean giving about 28%; about 64% give something (Engel 2011, verified). It collapses under double-blind anonymity and shifts with take options and earned endowments: fragile norm compliance, not altruism.",
+   "source": "06-behavioral-game-theory"
+  },
+  {
+   "id": "c070",
+   "module": "m5",
+   "type": "recall",
+   "front": "Describe the type distribution the course uses to model a group.",
+   "back": "Roughly 30% self-interested, about 50% conditional cooperators, a small tail of altruists (background, varies by game and population). Model the group as a distribution, never a representative agent.",
+   "source": "06-behavioral-game-theory"
+  },
+  {
+   "id": "c071",
+   "module": "m5",
+   "type": "recall",
+   "front": "What do the beauty-contest and cognitive-hierarchy results say about first-contact reasoning?",
+   "back": "First-round average about 35-36 with p = 2/3 (Nagel 1995, verified); mean thinking steps about 1.5 (Camerer, Ho and Chong 2004, verified). People reason one or two steps about others; play converges with repetition.",
+   "source": "06-behavioral-game-theory"
+  },
+  {
+   "id": "c072",
+   "module": "m5",
+   "type": "recall",
+   "front": "What happened in Van Huyck's minimum-effort games as group size changed?",
+   "back": "Groups of 14-16 fell to the lowest effort (verified) within about ten rounds (background); fixed pairs reached the highest. Weak-link coordination fails at scale; the aggregation rule and group size are design variables.",
+   "source": "06-behavioral-game-theory"
+  },
+  {
+   "id": "c073",
+   "module": "m5",
+   "type": "explain",
+   "front": "What did Blount's computer-generated-offer treatment show, and which model class does it favour?",
+   "back": "Rejections of low offers fell sharply when the offer came from a random device instead of a person. People punish inferred intentions, not outcomes alone, favouring reciprocity models over pure outcome-based inequity aversion.",
+   "source": "06-behavioral-game-theory"
+  },
+  {
+   "id": "c074",
+   "module": "m5",
+   "type": "explain",
+   "front": "Why did median-effort groups not collapse the way minimum-effort groups did?",
+   "back": "Under a median rule one low chooser cannot drag the outcome down; groups lock in on the first-round median. The aggregation rule sets how fragile coordination is to a single defector, and early history matters more than drift.",
+   "source": "06-behavioral-game-theory"
+  },
+  {
+   "id": "c075",
+   "module": "m5",
+   "type": "explain",
+   "front": "Why do a group's first few interactions matter disproportionately?",
+   "back": "Learning drifts toward equilibrium and stalls, and its direction is set by early rounds; median-effort groups lock in on their first outcome. Seed the first rounds deliberately and give feedback on forgone payoffs.",
+   "source": "06-behavioral-game-theory"
+  },
+  {
+   "id": "c076",
+   "module": "m5",
+   "type": "explain",
+   "front": "Why should lab results be used for mechanisms and directions rather than as field point estimates?",
+   "back": "61% of 18 top-journal economics experiments replicated, with effects about two-thirds of the originals (Camerer et al. 2016, verified); high-stakes rejections fall; samples are WEIRD. Magnitudes in your group are [H].",
+   "source": "06-behavioral-game-theory"
+  },
+  {
+   "id": "c077",
+   "module": "m5",
+   "type": "apply",
+   "front": "A twenty-person on-call rotation is only as good as its least-prepared engineer, and preparation has drifted to the minimum. Rank interventions.",
+   "back": "Weak-link game. First: shrink the set whose minimum matters (small pods) or change the aggregation rule. Then grow from a coordinated core with visible history; public leader communication naming the target. A bonus alone is the weakest lever.",
+   "source": "06-behavioral-game-theory"
+  },
+  {
+   "id": "c078",
+   "module": "m5",
+   "type": "apply",
+   "front": "A platform splits a fixed reward pool unequally; complaints and exits follow every round. Diagnose.",
+   "back": "People punish intended unfairness far more than rule-based or unlucky outcomes. The problem is the perceived proposer's choice, not inequality as such. Make the rule impersonal and public before contributions; use a lottery for any discretionary part.",
+   "source": "06-behavioral-game-theory"
+  },
+  {
+   "id": "c079",
+   "module": "m5",
+   "type": "apply",
+   "front": "A manager cites lab gift exchange to justify above-market pay for sustained extra effort. What does the evidence support?",
+   "back": "Positive reciprocity to a raise is real but weak and decays within hours in the field (Gneezy and List 2006, verified); negative reciprocity to cuts and broken promises is strong. Do not budget on durable extra effort.",
+   "source": "06-behavioral-game-theory"
+  },
+  {
+   "id": "c080",
+   "module": "m5",
+   "type": "apply",
+   "front": "A new community's first credit-allocation round is contested; the founders say it will settle with experience. Which amendment, and what to do?",
+   "back": "Learning, but the steady state is path-dependent, not automatic. Seed the first rounds deliberately, make the rule public, and give feedback on what each choice would have earned. Waiting locks in the contested pattern.",
+   "source": "06-behavioral-game-theory"
+  },
+  {
+   "id": "c081",
+   "module": "m5",
+   "type": "discriminate",
+   "front": "'Dictator giving proves people are altruists.' Correct this.",
+   "back": "Giving is fragile, observation-dependent norm compliance: it collapses under double-blind anonymity and shifts with take options. Reciprocity and cued norm compliance drive cooperation; unconditional altruists are a small minority.",
+   "source": "06-behavioral-game-theory"
+  },
+  {
+   "id": "c082",
+   "module": "m5",
+   "type": "discriminate",
+   "front": "'Fairness is a universal fifty-fifty.' What do the cross-cultural games actually show?",
+   "back": "Mean offers across small-scale societies ran from about 26% to about 58% (Henrich et al. 2001, verified). The disposition to have norms is universal; the content is not. Market integration correlates with fairer offers; causality is unresolved.",
+   "source": "06-behavioral-game-theory"
+  },
+  {
+   "id": "c083",
+   "module": "m5",
+   "type": "discriminate",
+   "front": "Coordination failure as a payoff problem versus strategic uncertainty: which is it in weak-link and stag-hunt games?",
+   "back": "Strategic uncertainty plus history. Payoffs already favour cooperation; people fear others will play safe. Fixes are informational and social: talk, leadership, focal labels, gradual growth. Money is the last lever, not the first.",
+   "source": "06-behavioral-game-theory"
+  },
+  {
+   "id": "c084",
+   "module": "m6",
+   "type": "recall",
+   "front": "Define payoff dominance and risk dominance.",
+   "back": "Payoff dominant: the equilibrium best for all if reached. Risk dominant: the best reply against an opponent equally likely to play either way, i.e. the equilibrium with the larger basin of attraction.",
+   "source": "07-stag-hunt"
+  },
+  {
+   "id": "c085",
+   "module": "m6",
+   "type": "recall",
+   "front": "State the risk-dominance rule with its conditions and the levers that make payoff dominance reachable.",
+   "back": "Risk dominance wins under random mixing, best-response updating, large groups and no communication. Payoff dominance is reachable through correlation: small stable groups, success-visible imitation, public pledges, gradual growth, lower cost of being the lone cooperator.",
+   "source": "07-stag-hunt"
+  },
+  {
+   "id": "c086",
+   "module": "m6",
+   "type": "recall",
+   "front": "What is 'correlation of interactions' and why is it Skyrms's master variable?",
+   "back": "Any departure from random matching that makes like meet like (location, signals, partner choice). Every mechanism in the book works by making stag hunters meet stag hunters more than chance, which expands the cooperative basin.",
+   "source": "07-stag-hunt"
+  },
+  {
+   "id": "c087",
+   "module": "m6",
+   "type": "recall",
+   "front": "What are replicator dynamics a model of?",
+   "back": "Success-biased imitation: a strategy's share grows in proportion to its payoff advantage over the population average. It is what 'the group learns' means in these models; agents have no beliefs.",
+   "source": "07-stag-hunt"
+  },
+  {
+   "id": "c088",
+   "module": "m6",
+   "type": "recall",
+   "front": "In the illustrative stag hunt (stag/stag 4, stag/hare 0, hare 3), where is the watershed, and what moves it to one half?",
+   "back": "The watershed is three quarters stag hunters. Raising the lone-cooperator payoff (stag against hare) from 0 to 2 moves it to one half. Illustrative numbers from the book file, not evidence.",
+   "source": "07-stag-hunt"
+  },
+  {
+   "id": "c089",
+   "module": "m6",
+   "type": "explain",
+   "front": "Why does cutting the cost of being the lone cooperator move the watershed more than sweetening the joint outcome?",
+   "back": "The watershed is set by how badly a cooperator does against a defector relative to the joint gain. Raising the joint payoff helps only when cooperators already meet; raising the lone-cooperator payoff shrinks the loss in every mismatched encounter.",
+   "source": "07-stag-hunt"
+  },
+  {
+   "id": "c090",
+   "module": "m6",
+   "type": "explain",
+   "front": "Why does local interaction help cooperation under imitate-the-best but not under best response?",
+   "back": "Best responders react to the neighbourhood mix, and the risk-dominant strategy is a best reply to any sufficiently mixed one (Ellison 1993). Imitators copy the most successful visible agent; a stag hunter inside a cluster earns the high payoff and gets copied at the boundary.",
+   "source": "07-stag-hunt"
+  },
+  {
+   "id": "c091",
+   "module": "m6",
+   "type": "explain",
+   "front": "Why does cheap talk expand the stag basin but not rescue a true PD?",
+   "back": "In a stag hunt a handshake signal lets cooperators find each other during the transition, and once there the signal can become uninformative without harm. In a PD a mimic who signals and defects earns more and invades, so talk decays without sanctions.",
+   "source": "07-stag-hunt"
+  },
+  {
+   "id": "c092",
+   "module": "m6",
+   "type": "explain",
+   "front": "Why is the ratio of structural to strategic adaptation speed decisive?",
+   "back": "If partnerships re-sort faster than behaviour is re-evaluated, cooperators associate first, out-earn hare hunters, and get imitated. If behaviour is re-judged while matching is still near random, cooperators see poor payoffs and switch before association can help.",
+   "source": "07-stag-hunt"
+  },
+  {
+   "id": "c093",
+   "module": "m6",
+   "type": "apply",
+   "front": "One hundred agents, sixty stag hunters, random matching, success-biased imitation, illustrative payoffs 4/0/3. Predict, and reverse it.",
+   "back": "Sixty percent is below the three-quarter watershed, so the population goes to all-hare. Reverse by raising the lone-cooperator payoff to 2 (watershed one half) or by correlating matching so stag hunters meet each other.",
+   "source": "07-stag-hunt"
+  },
+  {
+   "id": "c094",
+   "module": "m6",
+   "type": "apply",
+   "front": "A large org rotates everyone across teams every quarter to spread cooperation norms faster. Predict.",
+   "back": "Slower or failed spread. Rotation destroys the correlation that lets cooperators meet cooperators and forces re-evaluation of strategies before association can help. Random mixing is the regime under which cooperation is hardest.",
+   "source": "07-stag-hunt"
+  },
+  {
+   "id": "c095",
+   "module": "m6",
+   "type": "apply",
+   "front": "A pilot cluster of cooperators sits inside a group whose habit is 'do what most people here do'. What happens?",
+   "back": "It gets swamped. Majority-copying looks at what the neighbourhood does, not at who thrives, so boundary members see a defecting majority and defect. Only success-copying lets a cluster convert its boundary; make the pilot's success visible first.",
+   "source": "07-stag-hunt"
+  },
+  {
+   "id": "c096",
+   "module": "m6",
+   "type": "apply",
+   "front": "Rolling out blameless post-mortems across forty people, where it is a stag hunt. Set the pacing rule.",
+   "back": "Start in two stable teams; make their outcomes visible so success-copying can operate; a public opt-in pledge as a transient handshake; let people join the pilot before the org evaluates it. Evaluate only after the cluster's interior is stable.",
+   "source": "07-stag-hunt"
+  },
+  {
+   "id": "c097",
+   "module": "m6",
+   "type": "discriminate",
+   "front": "'Adopting the standard is obviously rational, so teams that refuse are irrational.' What is the correction?",
+   "back": "Under uncertainty about the other team, the safe choice is defensible. The failure is structural (basin size) and so is the fix. Never say the efficient equilibrium is the rational one; never say the hold-outs are selfish.",
+   "source": "07-stag-hunt"
+  },
+  {
+   "id": "c098",
+   "module": "m6",
+   "type": "discriminate",
+   "front": "Conformist transmission versus success bias: which one spreads cooperation from a cluster?",
+   "back": "Success bias (imitate-the-best) does; conformist transmission (copy the majority) does not, because boundary members act on what most neighbours do. State the learning rule every time clustering is invoked.",
+   "source": "07-stag-hunt"
+  },
+  {
+   "id": "c099",
+   "module": "m6",
+   "type": "discriminate",
+   "front": "'Skyrms shows cooperation evolves naturally, so institutions are unnecessary.' What is wrong?",
+   "back": "The results hold for stag hunts under specific learning rules and structures; they do not rescue true PDs, they need success-biased learning, and under noisy best response risk dominance is long-run stable. Pair Skyrms with Ostrom and Bicchieri.",
+   "source": "07-stag-hunt"
+  },
+  {
+   "id": "c100",
+   "module": "m6",
+   "type": "discriminate",
+   "front": "'Pledges only work if they are binding.' What do the models and experiments say?",
+   "back": "Pledges in every relevant model and experiment are non-binding, and they still raise stag hunting. What matters is game shape: in a stag hunt the handshake correlates cooperators; in a PD it needs sanctions or repetition behind it.",
+   "source": "07-stag-hunt"
+  },
+  {
+   "id": "c101",
+   "module": "m7",
+   "type": "recall",
+   "front": "Define a social norm in Bicchieri's sense.",
+   "back": "A rule people prefer to follow on condition that they expect enough others to follow it (empirical expectation) and believe enough others expect them to (normative expectation, possibly sanction-backed). A conditional preference keyed to two expectations.",
+   "source": "08-grammar-of-society"
+  },
+  {
+   "id": "c102",
+   "module": "m7",
+   "type": "recall",
+   "front": "Give the four-way norm taxonomy and the expectations each needs.",
+   "back": "Descriptive norm: empirical expectations only. Convention: a descriptive norm that is also a coordination equilibrium, so self-enforcing. Social norm: empirical plus normative expectations. Moral norm: neither; followed unconditionally.",
+   "source": "08-grammar-of-society"
+  },
+  {
+   "id": "c103",
+   "module": "m7",
+   "type": "recall",
+   "front": "What is pluralistic ignorance?",
+   "back": "Most people privately reject a norm but believe most others accept it, and comply. Each infers others' approval from others' compliance, which is driven by the same inference. The norm is a shared misperception.",
+   "source": "08-grammar-of-society"
+  },
+  {
+   "id": "c104",
+   "module": "m7",
+   "type": "recall",
+   "front": "What is a trendsetter, and what is a reference network?",
+   "back": "Trendsetter: a first mover with low sensitivity to the norm, high autonomy and enough visibility to be credible; the lever for collapsing a bad norm. Reference network: the people whose expectations actually matter to a person; the unit at which to measure and change norms.",
+   "source": "08-grammar-of-society"
+  },
+  {
+   "id": "c105",
+   "module": "m7",
+   "type": "recall",
+   "front": "What four items does the two-step expectation measurement ask, plus one?",
+   "back": "What do you do; what do most others do; what do most others think you should do; what happens if you do not. Plus a sanction item. Validated but design-sensitive (Bicchieri and Xiao 2009).",
+   "source": "08-grammar-of-society"
+  },
+  {
+   "id": "c106",
+   "module": "m7",
+   "type": "explain",
+   "front": "Why does a convention need no normative expectations while a social norm does?",
+   "back": "A convention is a coordination equilibrium: given others conform, conforming is already in your interest. A social norm prescribes behaviour against your interest in the underlying mixed-motive game, so only the belief that others expect and may sanction compliance makes conforming preferable.",
+   "source": "08-grammar-of-society"
+  },
+  {
+   "id": "c107",
+   "module": "m7",
+   "type": "explain",
+   "front": "How does a norm turn a PD into a stag hunt without changing material payoffs?",
+   "back": "With norm-based utility, deviation costs k times the largest loss imposed, but only when the norm is expected to apply. If k is high enough, mutual cooperation becomes an equilibrium beside mutual defection. In the illustrative PD (3,3)/(0,5)/(5,0)/(1,1), k of at least two thirds suffices. Lapsed expectations revert the game.",
+   "source": "08-grammar-of-society"
+  },
+  {
+   "id": "c108",
+   "module": "m7",
+   "type": "explain",
+   "front": "Why does ten minutes of relevant talk raise public-goods cooperation, on Bicchieri's account?",
+   "back": "It creates or makes salient the empirical and normative expectations a cooperation norm needs: people learn others intend to cooperate and expect them to. Cooperation roughly doubled in Dawes et al. 1977 (background). Only relevant talk works; identity accounts cannot explain that.",
+   "source": "08-grammar-of-society"
+  },
+  {
+   "id": "c109",
+   "module": "m7",
+   "type": "explain",
+   "front": "Why are cascades both the engine of bad norms and a reason for optimism?",
+   "back": "A cascade aggregates almost no private information, since later actors ignore their own signals, so an unpopular norm can spread fast. By the same token it is fragile: a credible public signal or a visible cluster of deviators can reverse it quickly.",
+   "source": "08-grammar-of-society"
+  },
+  {
+   "id": "c110",
+   "module": "m7",
+   "type": "apply",
+   "front": "Every engineer wrote thorough PR descriptions; a new lead writes terse ones and within a month everyone does. What kind of norm was it?",
+   "back": "A descriptive norm sustained by empirical expectations only. When the visible behaviour changed, the expectation changed and the practice flipped. A social norm with normative expectations would have sanctioned or ignored the deviation.",
+   "source": "08-grammar-of-society"
+  },
+  {
+   "id": "c111",
+   "module": "m7",
+   "type": "apply",
+   "front": "Most of a team privately think weekend messages are inappropriate, most believe colleagues think they are fine, most send them. Diagnose and prescribe.",
+   "back": "Pluralistic ignorance. Publish the measured gap credibly to correct normative expectations; recruit a visible trendsetter to stop sending, shifting empirical expectations; consider a coordinated simultaneous switch to remove first-mover cost.",
+   "source": "08-grammar-of-society"
+  },
+  {
+   "id": "c112",
+   "module": "m7",
+   "type": "apply",
+   "front": "A rule says 'cite sources'; most posts do not; asked privately, members say others do not care. Classify and choose the lever.",
+   "back": "A dead rule: neither empirical nor normative expectations support it, so it is not a social norm being violated. Create both, starting with visible compliance by credible members and expressed expectations. Do not publish that most posts lack sources.",
+   "source": "08-grammar-of-society"
+  },
+  {
+   "id": "c113",
+   "module": "m7",
+   "type": "apply",
+   "front": "'No blame in post-mortems' holds after the manager who introduced it leaves and the new one visibly blames. Conclude?",
+   "back": "It survived a collapse of expectations, so for these members treat it as internalised or moral. That is the course's operational test; it does not prove norms are generally internalised, a debate that remains open.",
+   "source": "08-grammar-of-society"
+  },
+  {
+   "id": "c114",
+   "module": "m7",
+   "type": "discriminate",
+   "front": "Descriptive norm versus social norm: why does the difference decide the intervention?",
+   "back": "A descriptive norm flips when the visible majority changes, so change what is visible. A social norm needs normative expectations and can persist while widely violated, so measure and shift what people believe others expect. 'What most do' is never a social norm by itself.",
+   "source": "08-grammar-of-society"
+  },
+  {
+   "id": "c115",
+   "module": "m7",
+   "type": "discriminate",
+   "front": "Norms as internalised values versus norms as conditional preferences: what does each imply for a values workshop?",
+   "back": "If a norm is conditional, a values workshop targets the wrong thing; expectations are the lever. Assume conditional until the norm survives a collapse of expectations. Only then treat it as internalised.",
+   "source": "08-grammar-of-society"
+  },
+  {
+   "id": "c116",
+   "module": "m7",
+   "type": "discriminate",
+   "front": "'A taste for fairness of fixed size' versus cued norm compliance: which does the evidence support, and what caveat remains?",
+   "back": "Fair behaviour varies with anonymity, entitlement, wiggle room and information about others, which a fixed taste cannot explain; cue-dependence is [E]. Norm-based utility is the working model, argued from fit not shown to beat inequity aversion, and a substantive fairness concept is still needed.",
+   "source": "08-grammar-of-society"
+  },
+  {
+   "id": "c117",
+   "module": "m7",
+   "type": "discriminate",
+   "front": "Script activation versus behavioural priming: why must the course keep them apart?",
+   "back": "Behavioural priming (elderly words, money images) failed to replicate; never build on it. Bicchieri's claim is that situational cues select a stored script carrying a norm, which is more robust, but any specific cue-to-norm mapping is still [H].",
+   "source": "08-grammar-of-society"
+  },
+  {
+   "id": "c118",
+   "module": "m8",
+   "type": "recall",
+   "front": "Define a common-pool resource and distinguish appropriation from provision problems.",
+   "back": "A CPR has subtractable units and costly exclusion. Appropriation: who takes how much of the flow (assignment, timing). Provision: who maintains the stock (contribution, free-riding on upkeep). Real problems mix both and need rules for both.",
+   "source": "09-governing-the-commons"
+  },
+  {
+   "id": "c119",
+   "module": "m8",
+   "type": "recall",
+   "front": "Name the three levels of rules with an example of each.",
+   "back": "Operational: the daily rotation of fishing spots. Collective-choice: the meeting that can change the rotation. Constitutional: the law and state tolerance that give the group standing to bind its members. Most stalled reforms fail at the middle level.",
+   "source": "09-governing-the-commons"
+  },
+  {
+   "id": "c120",
+   "module": "m8",
+   "type": "recall",
+   "front": "List the eight design principles in Cox's split version.",
+   "back": "Boundaries of users and of the resource; congruence with local conditions and proportionality of costs to benefits; collective-choice arrangements; monitoring of users and of the resource; graduated sanctions; conflict-resolution mechanisms; recognised right to organise; nested enterprises.",
+   "source": "09-governing-the-commons"
+  },
+  {
+   "id": "c121",
+   "module": "m8",
+   "type": "recall",
+   "front": "What is quasi-voluntary compliance?",
+   "back": "Complying on condition that most others comply and violators are likely to be caught. Commitment is contingent and fed by visible compliance; it is Bicchieri's conditional preference in field clothing.",
+   "source": "09-governing-the-commons"
+  },
+  {
+   "id": "c122",
+   "module": "m8",
+   "type": "recall",
+   "front": "What did Cox, Arnold and Villamayor-Tomás (2010) conclude, and with what caveats?",
+   "back": "Across 91 studies (verified) the principles were well supported; they split boundaries, congruence and monitoring into two each. Caveats: publication bias, qualitative coding, and the principles capture structure, not processes like trust and legitimacy.",
+   "source": "09-governing-the-commons"
+  },
+  {
+   "id": "c123",
+   "module": "m8",
+   "type": "explain",
+   "front": "Why are first-offence sanctions in durable systems small rather than large enough to make cheating unprofitable?",
+   "back": "Compliance is contingent. A small first sanction tells the violator they were seen and tells everyone the rule is alive, preserving the expectation that most comply. Harsh first sanctions drive violations and reports underground; escalation is held for repeat offenders.",
+   "source": "09-governing-the-commons"
+  },
+  {
+   "id": "c124",
+   "module": "m8",
+   "type": "explain",
+   "front": "Why does Ostrom treat monitoring and commitment as one problem?",
+   "back": "A person's commitment is contingent on believing others comply and violations are likely detected; monitoring generates that belief. People monitor because they benefit from knowing whether their own contingent compliance is warranted. Neither is explicable alone.",
+   "source": "09-governing-the-commons"
+  },
+  {
+   "id": "c125",
+   "module": "m8",
+   "type": "explain",
+   "front": "Why is the tragedy of the commons a tragedy of open access rather than of shared property?",
+   "back": "Hardin, the PD and Olson assume no communication, no rule-making, no monitoring, no shared future. Where those exist, participants move themselves into a different game. The PD is valid for open access; as a law of nature it is wrong.",
+   "source": "09-governing-the-commons"
+  },
+  {
+   "id": "c126",
+   "module": "m8",
+   "type": "explain",
+   "front": "How did the California groundwater basins escape a pumping race without an authority writing the rules?",
+   "back": "Incrementally: a lawsuit using a state referee produced shared data; a negotiated judgment defined shares; a court-appointed watermaster; associations as entrepreneurs; districts under enabling law. The state lowered information and enforcement costs; the pumpers designed the rules.",
+   "source": "09-governing-the-commons"
+  },
+  {
+   "id": "c127",
+   "module": "m8",
+   "type": "apply",
+   "front": "An org shares a CI cluster; queues are long; the platform team plans per-team quotas with automatic lockout. Predict and propose.",
+   "back": "An operational rule imposed from outside, an unaccountable monitor, a nuclear first sanction: expect gaming and hidden workarounds. Instead make usage visible as a by-product of the queue, give affected teams a forum to set and change the rule, and warn before locking out.",
+   "source": "09-governing-the-commons"
+  },
+  {
+   "id": "c128",
+   "module": "m8",
+   "type": "apply",
+   "front": "An online community's moderation is run entirely by platform staff; complaints about inconsistent bans are rising. Run the checklist.",
+   "back": "Missing: collective-choice (members cannot change rules), accountable monitoring, graduated sanctions, a cheap dispute forum; right to organise ambiguous. Scope flag: attention and civility are not subtractable, so reinterpret boundaries and congruence.",
+   "source": "09-governing-the-commons"
+  },
+  {
+   "id": "c129",
+   "module": "m8",
+   "type": "apply",
+   "front": "A new rota rule everyone agrees is better has stalled for a year. Where do you look first?",
+   "back": "The collective-choice level: do the people bound by the rota have a legitimate, low-cost way to change it, and does anyone outside recognise their right to? Rewriting the operational rule more clearly will not move it.",
+   "source": "09-governing-the-commons"
+  },
+  {
+   "id": "c130",
+   "module": "m8",
+   "type": "apply",
+   "front": "A team's first response to a missed on-call handover is a formal HR warning. Six months later nobody reports handover problems. What happened?",
+   "back": "A nuclear first sanction drove violations and reports underground and eroded the information flow monitoring depends on. Silence is not compliance. Replace with a small, quick, public first response and scheduled escalation.",
+   "source": "09-governing-the-commons"
+  },
+  {
+   "id": "c131",
+   "module": "m8",
+   "type": "discriminate",
+   "front": "The eight principles as a recipe versus as a diagnostic checklist: which is defensible, and why?",
+   "back": "Checklist. Cases were selected on the dependent variable and the principles specify no rules; durable commons run different rules under the same conditions. Use them to name what is missing, never to install features.",
+   "source": "09-governing-the-commons"
+  },
+  {
+   "id": "c132",
+   "module": "m8",
+   "type": "discriminate",
+   "front": "Lab costly punishment versus real-world sanctioning: which should a design rest on?",
+   "back": "The field version. Willingness to pay to punish is [E] in the lab; 'evolved strong reciprocity' is [H]. Durable commons sanction cheaply, gradually and through participants, so design a cheap, legitimate, proportionate channel.",
+   "source": "09-governing-the-commons"
+  },
+  {
+   "id": "c133",
+   "module": "m8",
+   "type": "discriminate",
+   "front": "'Ostrom showed communities always beat states and markets, so hand them the resource.' What is wrong?",
+   "back": "Self-governance is a third option that works under identifiable conditions; durable cases lean on courts and enabling law as backstops; several are inegalitarian; Ostrom warned against panaceas. External authority is best as backstop and data supplier.",
+   "source": "09-governing-the-commons"
+  },
+  {
+   "id": "c134",
+   "module": "m8",
+   "type": "discriminate",
+   "front": "Do Ostrom's principles transfer to an open-source project or a knowledge commons?",
+   "back": "Only with a scope flag. The book concerns subtractable resources with costly exclusion; knowledge commons found partial fit with the boundary and congruence principles reinterpreted. Tag any transfer [H].",
+   "source": "09-governing-the-commons"
+  },
+  {
+   "id": "c135",
+   "module": "m9",
+   "type": "recall",
+   "front": "State the cascade threshold and the cluster-blocking condition.",
+   "back": "A node switches when at least a fraction q = b/(a+b) of its neighbours have, where a and b are the payoffs to matching on the new and old behaviour. A cluster of density greater than 1 - q outside the seed set blocks a complete cascade, and conversely.",
+   "source": "10-networks-crowds-markets"
+  },
+  {
+   "id": "c136",
+   "module": "m9",
+   "type": "recall",
+   "front": "Name the three kinds of copying and the fix for each.",
+   "back": "Informational cascade: collect private signals before anyone announces. Network effect: concentrate to cross the tipping point. Coordination on a graph: lower q or seed inside clusters. Name which one you mean every time.",
+   "source": "10-networks-crowds-markets"
+  },
+  {
+   "id": "c137",
+   "module": "m9",
+   "type": "recall",
+   "front": "Simple versus complex contagion: define and give the design consequence.",
+   "back": "Simple (information, awareness) crosses one exposure, so one weak tie suffices. Complex (costly behaviour) needs several adopting neighbours, so it needs wide bridges or moving whole sub-teams.",
+   "source": "10-networks-crowds-markets"
+  },
+  {
+   "id": "c138",
+   "module": "m9",
+   "type": "recall",
+   "front": "State strong triadic closure and its consequence for local bridges.",
+   "back": "If a node has strong ties to two others, they must be at least weakly tied. So every local bridge (an edge whose endpoints share no neighbours) is a weak tie. This structural claim is robust (Onnela et al. 2007).",
+   "source": "10-networks-crowds-markets"
+  },
+  {
+   "id": "c139",
+   "module": "m9",
+   "type": "recall",
+   "front": "What is the 2pq homophily test?",
+   "back": "With fractions p and q of two types, random mixing gives 2pq cross-type edges. Fewer than that indicates homophily. It measures how siloed a group is, not why.",
+   "source": "10-networks-crowds-markets"
+  },
+  {
+   "id": "c140",
+   "module": "m9",
+   "type": "explain",
+   "front": "Why do dense clusters block behavioural cascades but not rumours?",
+   "back": "Behaviour is a complex contagion: a node switches only when fraction q of neighbours has, and cluster members have most neighbours inside, so the first would-be switcher never sees enough adopters. A rumour needs one exposure, so one bridge in is enough.",
+   "source": "10-networks-crowds-markets"
+  },
+  {
+   "id": "c141",
+   "module": "m9",
+   "type": "explain",
+   "front": "Why does the third person in the urn model rationally ignore her own private draw?",
+   "back": "Two earlier public guesses reveal two signals that outweigh her one. Guessing with them is correct Bayesian play, and from then on nobody's guess adds information. Rational herding is real and shallow.",
+   "source": "10-networks-crowds-markets"
+  },
+  {
+   "id": "c142",
+   "module": "m9",
+   "type": "explain",
+   "front": "Why do closure and bridging trade off, and what does cooperation need?",
+   "back": "Closure (many triangles) gives trust and enforcement because everyone sees everyone. Bridges give novelty because they reach outside. Cooperation needs both; the right mix is [H]. Connectivity for skill retention and closure for enforcement are different variables.",
+   "source": "10-networks-crowds-markets"
+  },
+  {
+   "id": "c143",
+   "module": "m9",
+   "type": "apply",
+   "front": "Matching on the new behaviour pays 4 to both, matching on the old pays 1. What fraction of neighbours must switch, and what density blocks? (illustrative)",
+   "back": "q = 1/(4+1) = 0.2. A cluster of density greater than 0.8 outside the seed set blocks a complete cascade; a cluster of density 0.8 or less does not.",
+   "source": "10-networks-crowds-markets"
+  },
+  {
+   "id": "c144",
+   "module": "m9",
+   "type": "apply",
+   "front": "Five sub-teams rarely interact; each has one liaison to the others. Where do you seed a new review norm?",
+   "back": "Inside each dense sub-team, not through the liaisons: a weak bridge cannot carry a complex contagion, and each sub-team blocks entry from outside until a member inside has switched. Also lower q with templates and tooling.",
+   "source": "10-networks-crowds-markets"
+  },
+  {
+   "id": "c145",
+   "module": "m9",
+   "type": "apply",
+   "front": "Twelve engineers vote by show of hands; the two most senior vote first, both yes; ten follow. What do you know, and what do you change?",
+   "back": "Very little: after two visible agreeing signals the rest may be a cascade carrying no private information. Collect independent private judgments before anyone announces, and reverse the speaking order.",
+   "source": "10-networks-crowds-markets"
+  },
+  {
+   "id": "c146",
+   "module": "m9",
+   "type": "apply",
+   "front": "A dense sub-team of ten has adopted a norm; management wants to break the team up so the norm spreads. Advise.",
+   "back": "Keep the cluster. Its density protects the adopted norm; dispersing members returns each to a neighbourhood below threshold. Build wide bridges from the cluster outward and make its success visible instead.",
+   "source": "10-networks-crowds-markets"
+  },
+  {
+   "id": "c147",
+   "module": "m9",
+   "type": "discriminate",
+   "front": "Clusters block versus clusters protect: how are both true?",
+   "back": "Same theorem, two directions. A dense cluster outside the seed set blocks a norm entering from outside; a dense cluster that has adopted protects the norm inside. 'Clusters are bad' and 'clusters are good' are both half the rule.",
+   "source": "10-networks-crowds-markets"
+  },
+  {
+   "id": "c148",
+   "module": "m9",
+   "type": "discriminate",
+   "front": "Which weak-ties claim is robust, and which must not be quoted?",
+   "back": "Robust: local bridges tend to be weak ties, so novelty enters through them. Not to be quoted: 'most useful information and most jobs come through weak ties'; later work found most jobs via strong or moderately weak ties.",
+   "source": "10-networks-crowds-markets"
+  },
+  {
+   "id": "c149",
+   "module": "m9",
+   "type": "discriminate",
+   "front": "'The people who thrive here are strikingly similar, so the community shapes people.' What is the correct default?",
+   "back": "Assume selection (who joined and stayed) until longitudinal data show similarity rising after joining. Latent homophily produces the same patterns as influence; only before-and-after data separate them.",
+   "source": "10-networks-crowds-markets"
+  },
+  {
+   "id": "c150",
+   "module": "m9",
+   "type": "discriminate",
+   "front": "Collective-brain connectivity (m1) versus network correlation and closure (m6, m9): why must they not be confused?",
+   "back": "Connectivity spreads information and retains skill; it is a simple-contagion variable. Correlation and closure make like meet like and supply enforcement; costly behaviour is a complex contagion. Mixing everyone helps the first and can destroy the second.",
+   "source": "10-networks-crowds-markets"
+  },
+  {
+   "id": "c151",
+   "module": "m9",
+   "type": "discriminate",
+   "front": "'Everyone is six steps from everyone.' What may you say instead?",
+   "back": "Short paths exist in any large network. The number is unreliable: Milgram's six is a median over the minority of completed chains, and most chains died. Findability is a separate question.",
+   "source": "10-networks-crowds-markets"
+  },
+  {
+   "id": "c152",
+   "module": "m10",
+   "type": "recall",
+   "front": "What does common knowledge of rationality license, and why is that not Nash equilibrium?",
+   "back": "Only rationalizability: strategies surviving iterated deletion of never-best-responses. Nash additionally needs players' conjectures to coincide (Aumann and Brandenburger 1995), which individual rationality cannot generate. Nash is a social achievement.",
+   "source": "11-bounds-of-reason"
+  },
+  {
+   "id": "c153",
+   "module": "m10",
+   "type": "recall",
+   "front": "Define correlated equilibrium and the choreographer.",
+   "back": "A distribution over joint actions mediated by a public signal, from which no one profits by deviating. When the signal is a social norm, Gintis calls it a choreographer. The signal, not a person.",
+   "source": "11-bounds-of-reason"
+  },
+  {
+   "id": "c154",
+   "module": "m10",
+   "type": "recall",
+   "front": "State the two components a norm must have to function as a choreographer.",
+   "back": "Epistemic: it tells each person what to do and what others will do, aligning conjectures. Motivational: people have a disposition, or face sanctions, so that compliance is a best response given others' compliance.",
+   "source": "11-bounds-of-reason"
+  },
+  {
+   "id": "c155",
+   "module": "m10",
+   "type": "recall",
+   "front": "What is the BPC model, and what does it say 'rational' means?",
+   "back": "Beliefs, preferences, constraints: the rational-actor model stripped of selfishness. Rational means consistent preferences, which may be altruistic, spiteful, fairness-driven or norm-following. It is bookkeeping, not an explanation of construal effects.",
+   "source": "11-bounds-of-reason"
+  },
+  {
+   "id": "c156",
+   "module": "m10",
+   "type": "recall",
+   "front": "Name the four layers of 'how a group settles on a way of behaving'.",
+   "back": "Stability test (Nash/ESS: 04, 07); selection absent intervention (risk dominance: 07, 06); the public signal that aligns conjectures (11); the expectations inside agents and how to measure them (08). Layered, not rival; which one bites is [H].",
+   "source": "11-bounds-of-reason"
+  },
+  {
+   "id": "c157",
+   "module": "m10",
+   "type": "explain",
+   "front": "Why is a traffic light a better analogy for a social norm than a rule book?",
+   "back": "The light is a correlating device: it sends each driver a related instruction and obeying is a best response given that others obey. A rule book without a shared signal or a shared belief that others follow it is not self-enforcing.",
+   "source": "11-bounds-of-reason"
+  },
+  {
+   "id": "c158",
+   "module": "m10",
+   "type": "explain",
+   "front": "Why does Gintis say the common-prior assumption is really a claim about culture?",
+   "back": "Bayesian rationality says nothing about where priors come from. A shared prior can only arise from a shared belief-forming process, which in humans is cultural transmission. Aligning beliefs is therefore a cultural intervention, not a data one.",
+   "source": "11-bounds-of-reason"
+  },
+  {
+   "id": "c159",
+   "module": "m10",
+   "type": "explain",
+   "front": "Why is the 'unification of the behavioural sciences' called programmatic rather than achieved?",
+   "back": "Chapter 12 lists five compatible principles and asserts they suffice, but derives no new result in any discipline; it re-describes existing findings in a common vocabulary. Compatibility is not a theory that predicts what the parts could not.",
+   "source": "11-bounds-of-reason"
+  },
+  {
+   "id": "c160",
+   "module": "m10",
+   "type": "apply",
+   "front": "Two product squads look at identical weekly metrics and reach opposite conclusions every week. Diagnose and intervene.",
+   "back": "Persistent disagreement on shared data signals different priors. More dashboards will not help; align by shared definitions, joint training and narrative. Direction is [E] (supported by the Origins books); the specific intervention is [H].",
+   "source": "11-bounds-of-reason"
+  },
+  {
+   "id": "c161",
+   "module": "m10",
+   "type": "apply",
+   "front": "Half the engineers assume a weekly release cadence, half fortnightly, and merges collide. Diagnose in Gintis's terms.",
+   "back": "Two equilibria, misaligned conjectures, no choreographer. Install a public signal: a published, pinned cadence with a visible calendar, so conforming is each engineer's best response. The epistemic half was missing; incentives are unnecessary.",
+   "source": "11-bounds-of-reason"
+  },
+  {
+   "id": "c162",
+   "module": "m10",
+   "type": "apply",
+   "front": "A contribution norm sits on a visible board, everyone can state it, and compliance is still low. Which half failed and who repairs it?",
+   "back": "The motivational half: some members gain by deviating and no sanction bites. Repair with Ostrom's graduated, participant-run sanctions and Bicchieri's normative expectations; Camerer warns cooperation decays without feedback.",
+   "source": "11-bounds-of-reason"
+  },
+  {
+   "id": "c163",
+   "module": "m10",
+   "type": "apply",
+   "front": "Ambiguous ownership of a shared codebase produces recurring fights. What does the property-rights chapter recommend?",
+   "back": "Assign a clear owner, even somewhat arbitrarily: an ambiguous cue leaves a hawk-dove game without a correlating signal. Fairness matters for legitimacy and willingness to sanction, which Ostrom and Bicchieri supply, not for the cue itself.",
+   "source": "11-bounds-of-reason"
+  },
+  {
+   "id": "c164",
+   "module": "m10",
+   "type": "discriminate",
+   "front": "Strong reciprocity: which part is [E] and which is [H]?",
+   "back": "Lab willingness to pay to punish unfair intentions is [E]. 'An evolved trait that sustains cooperation' is [H] (Binmore and Shaked 2010; Guala 2012). Real sanctioning is mostly cheap and graduated; design on that.",
+   "source": "11-bounds-of-reason"
+  },
+  {
+   "id": "c165",
+   "module": "m10",
+   "type": "discriminate",
+   "front": "'Gintis shows people are irrational, so game theory is useless for real groups.' Two errors?",
+   "back": "He defends rational choice as preference consistency and game theory as the lexicon; his target is the claim that rationality alone yields Nash play. He wants game theory embedded in a theory of norms, not discarded.",
+   "source": "11-bounds-of-reason"
+  },
+  {
+   "id": "c166",
+   "module": "m10",
+   "type": "discriminate",
+   "front": "Which two claims about The Bounds of Reason may not be made, and why?",
+   "back": "That correlated equilibrium fits data better than Nash: the argument is conceptual, no horse race was run. That Binmore panned the book: no such review was found; cite Binmore and Shaked 2010 on strong reciprocity instead.",
+   "source": "11-bounds-of-reason"
+  },
+  {
+   "id": "c167",
+   "module": "m10",
+   "type": "discriminate",
+   "front": "'Assign the fairest owner and conflicts will fall most.' Salience or fairness?",
+   "back": "Salience. Ownership cues resolve hawk-dove conflict by being mutually recognised, not fair; a fair but ambiguous allocation can cause more fights than a clear arbitrary one. The endowment-effect link to property psychology is [H].",
+   "source": "11-bounds-of-reason"
+  },
+  {
+   "id": "c168",
+   "module": "m10",
+   "type": "discriminate",
+   "front": "'Bicchieri's is the correct theory of norms; the others approximate it.' What is the course's position?",
+   "back": "No single account is the theory. Stability (Nash), selection (Skyrms, Camerer), signal (Gintis) and expectations (Bicchieri) are layers; Skyrms's agents have no beliefs to measure, and Bicchieri does not say which equilibrium a beliefless dynamic reaches.",
+   "source": "11-bounds-of-reason"
+  },
+  {
+   "id": "c169",
+   "module": "m11",
+   "type": "recall",
+   "front": "Recite the ten-step diagnostic path in order.",
+   "back": "Arithmetic constraint; situation and construal; game shape; contingency and threshold; which amendment; regime and correlation; norm kind and expectations; missing principles; network position and seeding; the public signal. Diagnose before prescribing.",
+   "source": "05-micromotives-and-macrobehavior"
+  },
+  {
+   "id": "c170",
+   "module": "m11",
+   "type": "recall",
+   "front": "Define the three tags [E], [H] and [V].",
+   "back": "[E]: supported by evidence the ledger marks [E]. [H]: a hypothesis to test in the group, with a stated test. [V]: a value commitment, such as which equilibrium ought to hold. Mis-tags are the capstone's heaviest penalty.",
+   "source": "11-bounds-of-reason"
+  },
+  {
+   "id": "c171",
+   "module": "m11",
+   "type": "recall",
+   "front": "How does certainty change as you climb the unified model?",
+   "back": "Formal results are theorems; replicated lab mechanisms are [E] for direction; institutional and network prescriptions are [H] for any particular group; the choice of which equilibrium ought to hold is [V].",
+   "source": "06-behavioral-game-theory"
+  },
+  {
+   "id": "c172",
+   "module": "m11",
+   "type": "explain",
+   "front": "Why are the course's tensions conditional decision rules rather than contradictions?",
+   "back": "Each disagreement between sources resolves into 'if the group is like X, do A; if like Y, do B'. The condition is a hypothesis about the learner's own group, so it is tagged [H] and paired with a test.",
+   "source": "07-stag-hunt"
+  },
+  {
+   "id": "c173",
+   "module": "m11",
+   "type": "explain",
+   "front": "Why is 'our team is a stag hunt' [H] rather than [E]?",
+   "back": "The PD/stag-hunt distinction is [E]; any group's classification depends on the members' own payoffs, which are inferred, and stays a hypothesis after the defection question is answered. Self-report of payoffs is not evidence.",
+   "source": "04-games-of-strategy"
+  },
+  {
+   "id": "c174",
+   "module": "m11",
+   "type": "explain",
+   "front": "Why must a lab mechanism be tagged [H] when applied to the learner's own group?",
+   "back": "Lab results transfer as mechanisms and directions, not magnitudes: replicated effects average about two-thirds of originals and samples are WEIRD. The mechanism is [E]; that it bites in this group at a material size is [H].",
+   "source": "06-behavioral-game-theory"
+  },
+  {
+   "id": "c175",
+   "module": "m11",
+   "type": "apply",
+   "front": "Sweeten the joint payoff or cut the lone-cooperator cost? Write the condition.",
+   "back": "If the interaction is a stag hunt under near-random mixing, cut the cost of being the lone cooperator: it moves the watershed most. If it is a PD, payoffs and sanctions are the lever. Sweetening the joint outcome is the weakest lever in either case.",
+   "source": "07-stag-hunt"
+  },
+  {
+   "id": "c176",
+   "module": "m11",
+   "type": "apply",
+   "front": "Mix people more or keep stable clusters? Write the condition.",
+   "back": "Keep stable clusters while a norm is young if members copy success; if they copy the majority, clusters will not spread it and you need success-visibility first. Mix for information flow and skill retention, which are simple contagions.",
+   "source": "07-stag-hunt"
+  },
+  {
+   "id": "c177",
+   "module": "m11",
+   "type": "apply",
+   "front": "Explain or model? Write the condition.",
+   "back": "To spread adherence to a norm, use models, prestige and expectations; explanation is weak there. To transfer a skill with hidden causal structure, teach the reasons explicitly while demonstrating. Documentation supports fidelity in both.",
+   "source": "01-secret-of-our-success"
+  },
+  {
+   "id": "c178",
+   "module": "m11",
+   "type": "apply",
+   "front": "Publish the descriptive norm or never advertise prevalence? Write the condition.",
+   "back": "Publish a descriptive norm only when it is favourable and paired with an injunctive signal. Never advertise that misbehaviour is common; descriptive feedback alone boomerangs for those above the norm.",
+   "source": "03-social-psychology"
+  },
+  {
+   "id": "c179",
+   "module": "m11",
+   "type": "apply",
+   "front": "Install institutions or let structure do the work? Write the condition.",
+   "back": "Where defection dominates (a genuine PD or open-access commons), install cheap graduated sanctions, by-product monitoring and a forum, copying a successful peer's package then crafting incrementally. Where the game is a stag hunt, correlation and signals may suffice.",
+   "source": "09-governing-the-commons"
+  },
+  {
+   "id": "c180",
+   "module": "m11",
+   "type": "discriminate",
+   "front": "Incentives versus norms: when does an explicit incentive displace the disposition it was meant to support?",
+   "back": "When the disposition already exists and the incentive is large: overjustification and crowd-out of unmeasured effort. Prefer the norm where the disposition exists; expect explicit incentives to displace it when they are big.",
+   "source": "03-social-psychology"
+  },
+  {
+   "id": "c181",
+   "module": "m11",
+   "type": "discriminate",
+   "front": "Change expectations or change structure? What decides?",
+   "back": "Expectations, where the group is one reference network and the signal is seen by all. Structure, where clusters and bridges decide who sees the signal at all. Networks decide whether a signal is seen; then Bicchieri decides whether it moves anyone.",
+   "source": "10-networks-crowds-markets"
+  },
+  {
+   "id": "c182",
+   "module": "m11",
+   "type": "discriminate",
+   "front": "Internalised or conditional? State the operational test the course uses.",
+   "back": "Assume every norm is conditional until it survives a collapse of expectations, such as a visible prestigious deviation with no sanction. Only then call it internalised or moral. The theoretical debate stays open.",
+   "source": "08-grammar-of-society"
+  },
+  {
+   "id": "c183",
+   "module": "m11",
+   "type": "discriminate",
+   "front": "A brief proposes an offsite to 'reduce groupthink', eyes on the honesty box, and willpower-friendly scheduling. What does the capstone rubric say?",
+   "back": "All three sit on the failed-replication list (groupthink as syndrome, watching eyes, ego depletion). Any reliance on that list is penalised after mis-tags and fixes-before-diagnosis. Replace with structured procedures, real identifiability and ownership.",
+   "source": "03-social-psychology"
+  },
+  {
+   "id": "c184",
+   "module": "m11",
+   "type": "discriminate",
+   "front": "A learner tags 'the team ought to adopt the cooperative equilibrium' as [E]. Correct the tag.",
+   "back": "It is [V]: a value commitment about which equilibrium should hold. Evidence can say which equilibria are stable and which the regime will reach; it cannot say which one ought to hold.",
+   "source": "11-bounds-of-reason"
+  }
+ ]
+}
