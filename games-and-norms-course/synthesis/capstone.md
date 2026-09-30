@@ -63,12 +63,10 @@ at 2.**
   correlation devices in cost order (lower the lone-cooperator cost, leader names the target, public
   opt-in pledges, gradual growth from a core with visible history, small stable units); the pacing
   rule; the lone-cooperator cost before and after; the switch signal toward risk dominance. [2]
-- **s8 Norm register.** Every rule the brief relies on, classified with Bicchieri's four-way
-  taxonomy; for each social norm the empirical and the normative expectation as separate sentences;
-  the elicitation instrument (what do you do; what do most here do; what do most here think you
-  should do; what happens if you don't) with sample and date; the private-attitude question so the
-  pluralistic-ignorance gap is computable; cues; trendsetters chosen by position and sensitivity,
-  not charisma. [3, 4]
+- **s8 Norm register.** Every rule classified with Bicchieri's four-way taxonomy; for each social
+  norm the empirical and the normative expectation as separate sentences; the four-question
+  elicitation instrument with sample and date, plus the private-attitude question; cues;
+  trendsetters chosen by position and sensitivity, not charisma. [3, 4]
 - **s9 Institutional design.** The eight principles answered as questions, including "not binding
   here"; the sanction ladder with a small, quick, public first step; monitoring as a by-product of
   the work; the dispute forum; **standing: who may change which rules, in what arena, recognized by
@@ -78,10 +76,8 @@ at 2.**
   19); q = b/(a+b) estimated in words; the seed set inside the resisting cluster; bridges to widen;
   whether s3's learning rule lets clusters help. [7]
 - **s11 The signal and the BPC statement.** The public cue that tells each member which equilibrium
-  is in play; the two-part norm test (can each member state what the norm requires of them and of
-  others; does anyone gain by deviating, and is there a cheap sanction); what the design assumes
-  about members' beliefs about each other, their preferences (including fairness and status) and
-  their constraints; which of the four layers (stability, selection, signal, expectations) each
+  is in play; the two-part norm test (epistemic and motivational); what the design assumes about
+  members' beliefs about each other, preferences and constraints; which of the four layers each
   element addresses. [10]
 - **s12 Open hypotheses register.** Every [H] with its test, measure and date; at least eight. [8]
 - **s13 Value commitments register.** Every [V] with the reading-list dissenter and the cost the
@@ -106,8 +102,7 @@ the six named course teachings (game before fix; both expectation types; Ostrom'
 network structure shapes diffusion; social preferences real but conditional; risk dominance beats
 payoff dominance under uncertainty); (3) inconsistencies between sections; (4) the single most
 important missing decision. A Part A that finds nothing scores 1 on criterion 10: m11's hinge Q3
-says the standing decision and the signal are missing from most briefs, and a v6 with neither gap
-nor a sentence showing why is not yet defended.
+says the standing decision and the signal are missing from most briefs.
 
 **Part B** answers six sealed challenges: four casebook cases transplanted into the learner's group
 and two value attacks on the learner's own [V] commitments. Each answer is 200-300 words, or the six
@@ -177,10 +172,9 @@ worth a slower merge" attacked in Dixit's voice, and "contributors outside the g
 review rules" attacked in Ostrom's voice with `09` ch 3 principle 3. Step 4 transplants k21 as "the
 test-line norm never reached the docs team, whose only tie to the guild is one liaison". Seal.
 
-Note on ids: seed 4d was written against a proposed tension list in which its t13 covered
-informational cascades. Under `tensions.md`, k22 is an informational cascade (t11, with t13's
-structure branch as the fix). Until `casebook.md` is written, use the case's book chapter to
-identify the primary tension; the draw above does so.
+Note on ids: seed 4d tagged k22 with a proposed t13 that covered cascades; under `tensions.md` k22
+is an informational cascade (t11). Until `casebook.md` exists, identify a case's primary tension
+from its book chapter.
 
 ### What the defense is not
 
@@ -218,12 +212,10 @@ once at practice scale and set up to run again. Six parts:
    date of its first revision. This is the reference pattern's "development routine": what develops
    is the rule set and the group's ability to revise it.
 5. **Three mechanisms observed personally, weekly**, each with "good" in one sentence and the
-   two-week no-show action. For example: "the first sanction is alive: good is at least one public
-   'please add the test line' comment a week from someone other than me; none in two weeks, I ask
-   the forum why"; "the elicitation gap is closing: good is the monthly four-question pulse moving
-   the empirical expectation toward measured behaviour; if not, the messenger was not credible and
-   I change it"; "the lone cooperator is not worse off: good is early adopters' cycle time at the
-   guild median; if slower for two weeks, I lower the lone-cooperator cost before anything else".
+   two-week no-show action. For example: "the first sanction is alive: good is one public 'please
+   add the test line' comment a week from someone other than me; none in two weeks, I ask the forum
+   why"; "the lone cooperator is not worse off: good is early adopters' cycle time at the guild
+   median; slower for two weeks, I lower the lone-cooperator cost before anything else".
 6. **Days 30, 60, 90.** For each: what must be true (a measured statement) and what if not (return
    to station 1 because the game is unstable; to station 2 because expectations did not move; or
    scale to the next cluster because both moved). Day 90 names what would make the learner abandon
@@ -253,11 +245,10 @@ not assumed) and 7 (cluster logic used correctly)**. These four separate a brief
 cooperation works from one built on how cooperation plans usually look. An ordinary plan already has
 sanctions, owners and metrics in list form; it never has a drawn game with the defection question
 answered, a selection plan that starts from the risk-dominant default, a measured pair of
-expectations, or a seed set placed inside the resisting cluster on the condition that people copy
-success. Those are the four loop stations where the course's mechanism is the only reason to do the
-step, and they are what ledger rule 1 (stability, selection, expectations) and rule 3 (the cluster
-condition) hang on. Criteria 5, 6 and 9 a careful manager can reach; 8 and 10 are the course's
-discipline, graded hard, but a 3 on them is compatible with world-class practice.
+expectations, or a seed set inside the resisting cluster conditional on success-copying. Those are
+the loop stations where the course's mechanism is the only reason to do the step, and they are what
+ledger rule 1 and rule 3 hang on. Criteria 5, 6 and 9 a careful manager can reach; 8 and 10 are the
+course's discipline, graded hard, but a 3 on them is compatible with world-class practice.
 
 ### Criteria 1-7: domain criteria, in level order
 
@@ -388,15 +379,15 @@ Deliverable 3 part 5. Law 9; rules 4, 30; t02; t12.
 *Where to look:* s10, s3 (copying bias), s7 (pacing). Laws 7 and 8; rules 3, 19, 33, 34, 36; t09;
 t04's cluster clause.
 
-- **4.** Reference network sketched with clusters and bridges; the behaviour classified as
-  informational cascade, network effect or coordination on a graph, with the matching fix (collect
-  private signals first; cross the tipping point; lower q or seed inside clusters); q estimated in
-  words from the switching cost and the lone-adopter cost; seed set inside the most cohesive
-  resisting cluster with the reason (it blocks only while none of its members has switched); bridges
-  widened into parallel ties rather than one liaison, because costly behaviour is a complex contagion;
-  the learning-rule condition stated (clusters help only under success-copying) and tied to s3's
-  copying bias and a plan to make success visible; awareness (crosses a weak tie) distinguished from
-  adoption (does not); similarity assumed to be selection, not influence, absent longitudinal data.
+- **4.** Clusters and bridges sketched; the behaviour classified as informational cascade, network
+  effect or coordination on a graph, with the matching fix (collect private signals first; cross the
+  tipping point; lower q or seed inside clusters); q estimated in words from the switching and
+  lone-adopter costs; seed set inside the most cohesive resisting cluster, with the reason (it blocks
+  only while none of its members has switched); bridges widened into parallel ties, not one liaison,
+  because costly behaviour is a complex contagion; the learning-rule condition stated (clusters help
+  only under success-copying), tied to s3 and to a plan for making success visible; awareness
+  (crosses a weak tie) distinguished from adoption; similarity read as selection, not influence,
+  absent longitudinal data.
 - **3.** Seeded inside a cluster with bridges widened, but the copying kind unnamed, or the
   learning-rule condition asserted without s3, or q unestimated.
 - **2.** "Find the influencers"; a single announcement to everyone; clusters treated as always good or
@@ -411,15 +402,15 @@ t04's cluster clause.
 40; SPEC tag definitions.
 
 - **4.** Every declarative design sentence carries exactly one tag; compound claims split into "[E]
-  for the mechanism, [H] for its effect here" where the ledger requires; every [E] names its ledger
-  slug or book file and chapter; no number outside ledger section 4, background figures marked
-  approximate; contested findings caveated wherever they appear (cultural group selection, the
-  collective-brain size effect, culture-drove-brains, evolved strong reciprocity, norm-based utility's
-  superiority, gradual growth as one lab lineage, the 2-5 rule of thumb); s12 has at least eight [H]
-  with tests and dates, s13 at least six [V] with dissenters; the changelog shows at least eight
-  substantive reversals with module and author attribution, at least one v0 position kept with
-  reason, the free response rewritten beside the original, and the retake with calibration delta;
-  nothing from the failed-replication list used.
+  for the mechanism, [H] for its effect here"; every [E] names its ledger slug or book file and
+  chapter; no number outside ledger section 4, background figures marked approximate; contested
+  findings caveated wherever they appear (cultural group selection, the collective-brain size effect,
+  culture-drove-brains, evolved strong reciprocity, norm-based utility's superiority, gradual growth
+  as one lab lineage, the 2-5 rule of thumb); s12 has at least eight [H] with tests and dates, s13
+  at least six [V] with dissenters; the changelog shows at least eight substantive reversals with
+  module and author attribution, one v0 position kept with reason, the free response rewritten
+  beside the original, and the retake with calibration delta; nothing from the failed-replication
+  list used.
 - **3.** Complete, but one or two compound claims untagged, one [E] without its slug, or the
   changelog has fewer than eight reversals or no kept position (caps here).
 - **2.** Most sentences tagged but "we believe" and "research shows" appear untagged; [E] used for a
@@ -457,12 +448,11 @@ t04's cluster clause.
 *Where to look:* s11 (signal, norm test, BPC statement, layers); Part A and Part B. Rules 1, 14, 16,
 31; t03; t11; law 11; `11` critical assessment.
 
-The critique is the one `11` makes of game theory and the one the course makes of `11`. A design that
-says "members will reach the cooperative equilibrium because it is rational" has assumed the common
-knowledge of conjectures that nothing in the design supplies. A design that says "members are not
-rational, so we nudge" has thrown away the consistency the levers rely on. A design that tags its
-BPC model or its correlated-equilibrium framing as [E] has made the mistake the ledger names in
-C55-C58.
+The critique is the one `11` makes of game theory and the one the course makes of `11`: "members
+will cooperate because it is rational" assumes common knowledge of conjectures that nothing in the
+design supplies; "members are not rational, so we nudge" throws away the consistency the levers rely
+on; tagging the BPC model or the correlated-equilibrium framing as [E] is the mistake the ledger
+names in C55-C58.
 
 - **4.** s11 names the public signal for each coordination point, who is credible enough to send it
   and what costly action makes them so; the two-part norm test is answered; the BPC statement says
@@ -547,11 +537,10 @@ line". Every number below is the learner's own estimate or count, not a ledger f
 > capacity exceeds the qualifying-PR rate, so this is not an arithmetic constraint [H, re-check
 > monthly, s12-03]. Dropped.
 
-*Why it earns a 4.* Players, options, ordinal payoffs, order and information are all drawn; the
-defection question is answered with the group's own numbers and its answer drives the shape; the
-shape is [H] and the distinction [E], which is rule 13 exactly; licensed and forbidden fix sets are
-both stated and the forbidden set is placed at its right layer rather than discarded; a v0 belief is
-tested against arithmetic and dropped; no villain sits in the matrix.
+*Why it earns a 4.* All five elements of the game are drawn; the defection question is answered with
+the group's own numbers and drives the shape; the shape is [H] and the distinction [E] (rule 13);
+both fix sets are stated and the forbidden one is placed at its layer rather than discarded; a v0
+belief is tested against arithmetic and dropped; no villain sits in the matrix.
 
 *What would drop it to 3.* Omitting the "not a game" check, or writing "it is a repeated PD so
 tit-for-tat holds it" (rule 15), or payoffs with no review-log source. "This is a PD" with no
@@ -584,12 +573,11 @@ defection question would drop it to 2.
 > put the forum's first revision on the agenda. Expectations moved, behaviour unchanged: s2 was wrong
 > about the hour; lower it before anything else.
 
-*Why it earns a 4.* The instrument asks about a specific behaviour; the sample is the reference
-network with the exclusion stated as an [H]; empirical and normative expectations are separated and
-each read; private attitude makes the gap computable; the taxonomy yields "descriptive norm plus
-pluralistic ignorance", which licenses a different lever than "social norm of skipping" would; the
-re-measure is dated and each of the three outcomes returns to a loop station. The counts are the
-learner's own; the one citation is for direction.
+*Why it earns a 4.* A specific behaviour; the reference network as sample with the exclusion tagged
+[H]; empirical and normative expectations separated and each read; private attitude makes the gap
+computable; the taxonomy yields "descriptive norm plus pluralistic ignorance", which licenses a
+different lever than "social norm of skipping" would; a dated re-measure whose three outcomes each
+return to a loop station. Counts are the learner's own; the one citation is for direction.
 
 *What would drop it to 3.* Sampling the whole project, omitting the private-attitude question, or an
 undated re-measure. Replacing the four questions with "how much do you agree that tests matter?"
@@ -664,7 +652,6 @@ resubmission date if any.
 - **World-class criteria** 1, 2, 3, 7, argued in the rubric introduction.
 - **Checked, no change.** Ledger rules 2, 3, 4, 10, 11, 13-16, 18, 19, 20, 24, 27-31, 33, 34, 36, 40
   each sit in at least one descriptor or cap; laws 1-12 each appear in a "where to look" line; the
-  five moves and five selection steps follow the reference verbatim in structure.
-- **Open.** Whether requiring antisocial-punishment risk to be named for a 4 on criterion 5 is too
-  demanding for a team rather than a community; kept because `01` and `gaps-primer.md` section 2
-  both raise it and it is one sentence.
+  five moves and five selection steps follow the reference in structure.
+- **Open.** Whether naming antisocial-punishment risk for a 4 on criterion 5 is too demanding for a
+  team; kept because `01` and `gaps-primer.md` section 2 both raise it.
