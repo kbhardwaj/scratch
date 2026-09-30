@@ -127,17 +127,17 @@ The book is short (about 149 pages) and this file covers every chapter. The mode
 9. Simple inference (acting on the conjunction of two signals) can evolve in populations of mindless agents — a warning against assuming that coordination requires shared understanding or explicit agreement.
 
 ## Mental models & vocabulary
-- **Stag hunt (assurance game)** — 2x2 game with two strict equilibria, one payoff dominant and one risk dominant — where the problem is trust in others' choices. Bites when a team's "free rider problem" is really a "nobody believes the others will show up" problem.
-- **Payoff dominance vs risk dominance** — payoff dominant: best for everyone if reached; risk dominant: best reply against a 50/50 opponent, equivalently the larger basin of attraction. Bites when a clearly better process fails to be adopted because trying it alone is costly.
-- **Basin of attraction** — the set of population states from which dynamics lead to a given equilibrium. Bites when estimating whether a change initiative starting from current practice will tip or fizzle.
-- **Replicator dynamics** — share of a strategy grows at a rate proportional to its payoff advantage over the population average. Bites as the baseline model of success-biased imitation.
-- **Polymorphic trap** — a stable mix of incompatible strategies (e.g. 4/10 and 6/10 demanders) that blocks the fair norm. Bites when a group has settled into unequal but stable roles.
-- **Local interaction / imitate-the-best** — play neighbors, copy the most successful neighbor. Bites as the mechanism of contagious norm spread in small stable subgroups.
-- **Lewis signaling game / signaling system** — sender-receiver game whose equilibria are conventions of meaning. Bites when a team's vocabulary or status labels drift or fork.
-- **Cheap talk / secret handshake** — costless message that correlates cooperators during transition. Bites when deciding whether public pledges are worth anything.
+- **Stag hunt (assurance game)** — two strict equilibria, one payoff dominant, one risk dominant; the problem is trust. Bites when a "free rider problem" is really "nobody believes the others will show up".
+- **Payoff vs risk dominance** — best for all if reached vs best reply against a 50/50 opponent (larger basin). Bites when a better process is not adopted because trying it alone is costly.
+- **Basin of attraction** — the states from which dynamics lead to a given equilibrium. Bites when judging whether a change will tip or fizzle from current practice.
+- **Replicator dynamics** — strategy share grows with its payoff advantage over the average; the baseline model of success-biased imitation.
+- **Polymorphic trap** — a stable mix of incompatible strategies (4/10 and 6/10 demanders) that blocks the fair norm. Bites when a group has settled into unequal but stable roles.
+- **Local interaction / imitate-the-best** — play neighbors, copy the most successful one; the mechanism of contagious norm spread in small stable subgroups.
+- **Lewis signaling game / signaling system** — sender-receiver game whose equilibria are conventions of meaning. Bites when vocabulary or status labels drift or fork.
+- **Cheap talk / secret handshake** — a costless message that correlates cooperators during transition. Bites when deciding whether public pledges are worth anything.
 - **Reinforcement learning of partners (Pólya urn)** — visit propensity grows with the payoff a partner produced. Bites in any opt-in collaboration design.
-- **Correlation of interactions** — the deviation from random matching that makes like meet like. The master variable.
-- **Structure/strategy speed ratio** — how fast partnerships re-sort relative to how fast people change behavior. Bites in rollout pacing.
+- **Correlation of interactions** — deviation from random matching that makes like meet like. The master variable.
+- **Structure/strategy speed ratio** — how fast partnerships re-sort relative to behavior change. Bites in rollout pacing.
 
 ## Evidence strength & limits
 - **What is shown**: every result is a model result — analytic (replicator dynamics on 2x2 games, Pólya-urn limits in Skyrms–Pemantle) or simulation (lattice bargaining and stag hunt, cheap talk, coevolution). Within their assumptions they are robust; convergence to signaling systems in the simplest Lewis game was later proved (Huttegger 2007).
@@ -162,13 +162,13 @@ The book is short (about 149 pages) and this file covers every chapter. The mode
 
 ## Connections
 - 04-games-of-strategy — supplies the static concepts (Nash equilibrium, assurance game, focal points); Skyrms adds the dynamics that select among equilibria.
-- 05-micromotives-and-macrobehavior — same spirit: local rules, global pattern; Schelling's tipping and segregation models are close cousins of the lattice and association dynamics.
-- 06-behavioral-game-theory — ch 7 (coordination) gives the lab evidence on stag-hunt failure and communication; ch 6 (learning) gives reinforcement learning as an empirical model of people, which Skyrms uses normatively for partner choice.
-- 01-secret-of-our-success and 02-darwins-unfinished-symphony — success-biased and conformist social learning are the empirical learning rules whose difference Skyrms shows is decisive.
-- 08-grammar-of-society — tension and complement: Bicchieri explains norms via conditional preferences and expectations; Skyrms explains behaviour via dynamics without any account of expectations. Her empirical expectations are the psychology of Skyrms's basin of attraction.
-- 09-governing-the-commons — tension: Ostrom's commons often have genuine PD structure at the margin and require monitoring and graduated sanctions; Skyrms's optimism about structure alone is weaker there. Agreement: small, stable, self-selected groups (Ostrom's boundaries) are exactly Skyrms's correlation devices.
-- 10-networks-crowds-markets — ch 19 (cascading behaviour in networks) formalizes the same threshold coordination-on-networks question; ch 3-4 (ties, homophily) describe empirically the association structure Skyrms derives from learning.
-- 11-bounds-of-reason — Gintis also argues that PD framings are overused and that correlated equilibria and social norms as "choreographers" carry the load; Skyrms provides the bottom-up dynamics Gintis largely asserts.
+- 05-micromotives-and-macrobehavior — same spirit: local rules, global pattern; Schelling's tipping and segregation models are cousins of the lattice and association dynamics.
+- 06-behavioral-game-theory — ch 7 gives lab evidence on stag-hunt failure and communication; ch 6 gives reinforcement learning as an empirical model of people, which Skyrms uses for partner choice.
+- 01-secret-of-our-success, 02-darwins-unfinished-symphony — success-biased vs conformist social learning are the empirical learning rules whose difference Skyrms shows is decisive.
+- 08-grammar-of-society — complement and tension: Bicchieri explains norms via conditional preferences and expectations; Skyrms explains behaviour via dynamics with no account of expectations. Her empirical expectations are the psychology of his basin of attraction.
+- 09-governing-the-commons — tension: Ostrom's commons often have PD structure at the margin and need monitoring and sanctions. Agreement: small, stable, self-selected groups with clear boundaries are exactly Skyrms's correlation devices.
+- 10-networks-crowds-markets — ch 19 (cascades in networks) formalizes the same threshold coordination-on-networks question; ch 3-4 (ties, homophily) describe empirically the association structure Skyrms derives from learning.
+- 11-bounds-of-reason — Gintis also holds that PD framings are overused and that correlated equilibria and norms as "choreographers" carry the load; Skyrms supplies bottom-up dynamics Gintis largely asserts.
 
 ## Retrieval practice
 1. (Recall) State the two pure equilibria of the stag hunt and name which is payoff dominant and which is risk dominant in the payoffs Stag/Stag 4, Stag/Hare 0, Hare 3.
@@ -202,9 +202,9 @@ The book is short (about 149 pages) and this file covers every chapter. The mode
 <details>The results are for stag hunts under specific learning rules and structures; they do not rescue genuine prisoner's dilemmas, they depend on success-biased rather than conformist learning, and long-run stochastic-stability analyses under best response still favour the risk-dominant outcome. Institutions that create local interaction, signalling and partner choice are exactly what the models recommend, and enforcement remains needed where defection dominates.</details>
 
 ## Common misreadings of this book
-- Reading it as a book about the stag hunt game only. It is a book about *correlation*: the stag hunt is the test case because it is the simplest game where correlation flips the outcome.
-- Taking the local-interaction result as unconditional. It depends on imitation dynamics; with best response, local interaction accelerates the risk-dominant outcome.
-- Believing cheap talk solves the prisoner's dilemma. In the book it helps the stag hunt substantially and the PD only transiently.
-- Assuming "signals evolve meaning almost surely" for all signaling games. Proved for the simplest symmetric case; partial pooling appears in richer cases.
-- Treating the models as descriptions of human psychology. They are dynamics over behaviour with no beliefs or motives; the learner needs Bicchieri and Camerer for the psychology, and Ostrom for the institutions.
-- Assuming the payoff-dominant equilibrium is "the rational one" and that its failure to appear is irrationality. Under uncertainty the risk-dominant choice is defensible; the failure is structural, and so is the fix.
+- Reading it as a book about one game. It is about *correlation*; the stag hunt is the simplest case where correlation flips the outcome.
+- Taking the local-interaction result as unconditional. It depends on imitation dynamics; under best response, local interaction accelerates the risk-dominant outcome.
+- Believing cheap talk solves the prisoner's dilemma. It helps the stag hunt substantially and the PD only transiently.
+- Assuming "meaning evolves almost surely" for all signaling games. Proved for the simplest symmetric case; partial pooling appears in richer ones.
+- Treating the models as psychology. They are dynamics over behaviour with no beliefs or motives; see Bicchieri and Camerer for the psychology, Ostrom for the institutions.
+- Assuming the payoff-dominant equilibrium is "the rational one" and its absence is irrationality. Under uncertainty the risk-dominant choice is defensible; the failure is structural, and so is the fix.
