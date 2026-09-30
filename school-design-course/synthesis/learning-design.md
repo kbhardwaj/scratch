@@ -1453,3 +1453,28 @@ claim in the modules, hinge questions and section 4 was checked against the rele
 - **Still open.** Reading maps should be built from each file's "5-10 ideas" and "Mental models"
   sections first, targeting 25-35% of each file read during the course. The casebook's case 12
   ("the 60/20 result") remains a scenario, which is fine; it is not a citation.
+
+## QA fixes (guessability)
+
+Applied after the run-1 cold-learner QA flagged that hinges and the diagnostic could be answered
+without reading (validate.py: longest-is-correct 49/53, index 1 correct 35/53, true diagnostic
+statements ~1.6x longer than false ones).
+
+- **Hinge options rewritten (all 53 questions, `modules-a.json` / `modules-b.json`).** Every
+  distractor now carries its own mechanism/"because" clause, phrased as the confident claim of
+  someone holding the misconception the diagnosis names; correct options were tightened where they
+  ran long (m2 h4, m3 h2, m3 h4, m4 h4, m5 h3, m7 h4, m10 h0, m10 h1, m10 h3) without losing the
+  mechanism. All four options in a question are in the same register and within 25% of each
+  other's length (max ratio 1.24). The correct option is now the longest in 12/53 (23%).
+- **Option order shuffled.** `options` and `diagnoses` were permuted together and `answer`
+  updated. Correct indices per module: m0 1/1/1/1, m1 2/1/1/1, m2 1/1/1/2, m3 1/2/1/1,
+  m4 1/1/2/1, m5 1/1/1/2, m6 1/1/1/1, m7 1/2/1/1, m8 1/1/2/1, m9 1/1/1/2, m10 2/1/1/1
+  (index 0/1/2/3); course-wide 13/13/13/14.
+- **Diagnostic statements rewritten (`diagnostic.json`, all 16).** False items are now
+  scenario statements of the same length as true ones (true mean 166 chars, false mean 157;
+  previously 163 vs 103); "mainly" removed from d2 and d6; an absolute ("almost always") added
+  to the true item d3 and "far more" to d11 so absolutes no longer mark falsity. Ids, keys,
+  `correct`, `folk_theory`, `explanation` and `module` unchanged.
+- Idea bodies, counts and ids untouched. Validator: 0 errors, 0 warnings; app rebuilt.
+- Still open (not in scope here): only 4 of 16 diagnostic items are true, so a "false" bias
+  remains a weak tell; consider flipping four false items to true scenarios in a later pass.

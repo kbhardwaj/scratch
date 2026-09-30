@@ -44,64 +44,64 @@
     {
      "q": "Why does this course ask you to design a whole school cold, before any content?",
      "options": [
-      "To test whether you are already qualified to found a school.",
-      "To surface your current theory of schooling and activate what you believe, so later explanations have something specific to confirm or break.",
-      "Because learning by discovery is generally more effective than being taught.",
-      "It is a warm-up; the real learning starts in Module 1."
+      "To test whether you are already qualified to found a school, since a graded baseline tells the course what it needs to teach you.",
+      "As a warm-up that gets you writing; the real learning starts in Module 1, so the draft itself is not returned to later on.",
+      "To surface and activate your current theory of schooling, so later explanations have something specific to confirm or break.",
+      "Because discovering the design for yourself produces deeper learning than being taught it, for novices as much as for experts."
      ],
-     "answer": 1,
+     "answer": 2,
      "diagnoses": [
       "Treating the attempt as a summative test. It is not graded against any standard except your own later work; its job is generation, not measurement.",
+      "Underestimates the attempt. Without it, you would read later modules as general information instead of as answers to decisions you have already made, and you would have no baseline to measure your own growth against.",
       "Correct. This is productive failure applied to you: generation activates prior knowledge and exposes its limits, which makes the subsequent instruction more meaningful. It works only because instruction follows.",
-      "Confuses productive failure with discovery learning. The course holds that unguided discovery is weak for novices; the attempt is short, bounded and followed by explicit teaching.",
-      "Underestimates the attempt. Without it, you would read later modules as general information instead of as answers to decisions you have already made, and you would have no baseline to measure your own growth against."
+      "Confuses productive failure with discovery learning. The course holds that unguided discovery is weak for novices; the attempt is short, bounded and followed by explicit teaching."
      ]
     },
     {
      "q": "A draft brief says: \"We will use 90-minute blocks because longer periods allow deeper work.\" Which tag fits best?",
      "options": [
-      "[E], because deeper work obviously needs more time.",
-      "[H], because it is a plausible bet about outcomes that has not been established and should come with a prediction.",
-      "[V], because scheduling is a matter of school philosophy.",
-      "No tag needed; timetabling is operational, not a design claim."
+      "[H], because it is a plausible bet about an outcome that has not been established, so it should come with a prediction.",
+      "[V], because scheduling expresses what the school cares about, and a philosophy of time is a value rather than a fact.",
+      "[E], because it is obvious that deeper work needs more time, and obvious claims do not need a citation to count as evidence.",
+      "No tag, because timetabling is an operational decision, and the tagging scheme is meant for claims about pedagogy."
      ],
-     "answer": 1,
+     "answer": 0,
      "diagnoses": [
-      "Laundering plausibility as evidence. 'Obviously' is a warning sign; a claim is [E] only if research supports it, with a known size and boundary.",
       "Correct. It predicts a learning outcome, so it is testable. Tag it [H] and write down what you would expect to see and how you would check.",
       "Mis-tagging a testable prediction as a value. Values are about what matters, not about what will happen; this claim is about what will happen.",
+      "Laundering plausibility as evidence. 'Obviously' is a warning sign; a claim is [E] only if research supports it, with a known size and boundary.",
       "Timetables are among the most consequential design choices in a school. Leaving them untagged is how untested assumptions become permanent."
      ]
     },
     {
      "q": "Why does the course teach Minds before Design before Institutions, even though you began with an institutional design?",
      "options": [
-      "Because institutions matter least for student outcomes.",
-      "Because each level constrains the one above: you cannot evaluate a lesson without a model of memory, or a school structure without a model of good instruction.",
-      "Because that is the order in which the research was historically done.",
-      "Because the Minds material is easiest and builds confidence."
+      "Because institutions matter least for outcomes, so the course spends its scarce early attention on what moves students most.",
+      "Because that is the order in which the research was done, and the course follows the field's history so the debates make sense.",
+      "Because the Minds material is the easiest and most concrete, so starting there builds confidence before the harder institutional work later on.",
+      "Because each level constrains the next: you cannot judge a lesson without a model of memory, or a structure without one of instruction."
      ],
-     "answer": 1,
+     "answer": 3,
      "diagnoses": [
       "Reverses the argument. The institutional level is where the median classroom is made good or bad; it comes last because it depends on the other two, not because it matters least.",
-      "Correct. The order follows dependency, like building a system from its lowest-level constraints up. The cold start was top-down so that the bottom-up material answers your own questions.",
       "Historical order is not the logic; much institutional research (school improvement, teacher development) is contemporary with the cognitive research.",
-      "Difficulty is not the criterion. The Minds material is in fact dense; it comes first because everything else is evaluated against it."
+      "Difficulty is not the criterion. The Minds material is in fact dense; it comes first because everything else is evaluated against it.",
+      "Correct. The order follows dependency, like building a system from its lowest-level constraints up. The cold start was top-down so that the bottom-up material answers your own questions."
      ]
     },
     {
      "q": "A well-run study with adults in a brain scanner shows that curiosity about trivia questions improves memory for the answers. How should a claim that 'curiosity hooks improve learning in our Year 5 classes' be tagged?",
      "options": [
-      "[E], because the study is peer-reviewed and replicated.",
-      "[V], because curiosity is something the school values.",
-      "[E] for the mechanism in its original setting, [H] for its transfer to Year 5 classrooms and school content.",
-      "It cannot be tagged until the school runs its own randomized trial."
+      "[E] throughout, because a peer-reviewed, replicated study establishes the mechanism, and a mechanism holds wherever people learn.",
+      "[E] for the mechanism in its original setting, [H] for its transfer to Year 5 classrooms and to school content.",
+      "[V] throughout, because curiosity is something the school values, and what a school values is a matter of choice rather than evidence.",
+      "Untaggable, because a claim about your own classes cannot be tagged until the school has run its own randomized trial on them."
      ],
-     "answer": 2,
+     "answer": 1,
      "diagnoses": [
       "Ignores transfer. A solid finding in one population and task does not automatically hold for children learning a curriculum; you must tag the application separately.",
-      "Confuses valuing curiosity (legitimately [V]) with the causal claim that hooks improve learning, which is testable.",
       "Correct. Tag the finding and its application separately. As Module 3 shows, later studies found the curiosity effect on unrelated material is small and can even reverse for school-like facts, which is exactly why the transfer step deserves its own tag.",
+      "Confuses valuing curiosity (legitimately [V]) with the causal claim that hooks improve learning, which is testable.",
       "Too strict. [H] exists for this case: act on the plausible bet, state a prediction, and check it with a practical measure. Waiting for a trial before doing anything would freeze the school."
      ]
     }
@@ -177,81 +177,81 @@
     {
      "q": "A teacher explains a new concept using a slide with a diagram and a paragraph of text, which she reads aloud. Which change most reduces extraneous load?",
      "options": [
-      "Remove the diagram so students can focus on the words.",
-      "Remove the on-screen paragraph and keep the diagram while she explains aloud.",
-      "Give students the slide to read silently first, then explain it.",
-      "Add a second worked example to the same slide."
+      "Remove the on-screen paragraph and keep the diagram while she explains aloud, because spoken words and a picture use separate channels.",
+      "Give students the slide to read silently first, then explain it, because processing the text before the talk spreads the load over time.",
+      "Add a second worked example to the same slide, because seeing two instances side by side helps students abstract the structure faster.",
+      "Remove the diagram so students focus on the words, because every extra element on a slide competes for the same limited working memory."
      ],
-     "answer": 1,
+     "answer": 0,
      "diagnoses": [
-      "Believes fewer channels are always better; misses the modality effect. A diagram with spoken explanation uses both channels well.",
       "Correct. Reading text while hearing the same text read aloud is redundancy, pure extraneous load. Diagram plus narration uses the visual and auditory channels without duplication.",
       "Believes pre-exposure reduces load. It keeps the redundancy and splits attention across time.",
-      "Conflates more examples with less load. Crowding the slide adds extraneous load; a second example belongs on its own, after the first is understood."
+      "Conflates more examples with less load. Crowding the slide adds extraneous load; a second example belongs on its own, after the first is understood.",
+      "Believes fewer channels are always better; misses the modality effect. A diagram with spoken explanation uses both channels well."
      ]
     },
     {
      "q": "Two Year 9 classes learn the same 12 topics over a term. Class A studies each topic in one block of three lessons. Class B returns to each topic every few weeks. On an end-of-term test, which result is most likely?",
      "options": [
-      "Class A scores higher, because uninterrupted focus builds deeper understanding.",
-      "Class B scores higher, even though its students felt they were learning less during the term.",
-      "They score about the same, because total practice time is equal.",
-      "Class B scores higher only on the topics it saw most recently."
+      "Class A scores higher, because uninterrupted focus on one topic builds the deeper understanding that a test at the end of term rewards.",
+      "They score about the same, because total practice time was equal and the test comes soon enough that forgetting is not yet a factor.",
+      "Class B scores higher on the topics it revisited most recently, and Class A on the rest, because the freshest memory wins on a test.",
+      "Class B scores higher, even though during the term its students felt they were learning less than the students in Class A did."
      ],
-     "answer": 1,
+     "answer": 3,
      "diagnoses": [
       "The fluency illusion: blocked practice feels productive and looks good in the moment but produces weaker retention.",
-      "Correct. Spacing and interleaving produce better retention despite feeling harder; the gap between how learning feels and how well it lasts is the central point.",
       "Treats time-on-task as the only variable; ignores how practice is distributed, which is one of the most robust effects in the field.",
-      "A recency-only model of memory. Spacing benefits all revisited topics, because each return strengthens retrieval."
+      "A recency-only model of memory. Spacing benefits all revisited topics, because each return strengthens retrieval.",
+      "Correct. Spacing and interleaving produce better retention despite feeling harder; the gap between how learning feels and how well it lasts is the central point."
      ]
     },
     {
      "q": "A student says: \"I understand it when you explain it, but I can't do it on the test.\" What is the most likely mechanism?",
      "options": [
-      "Test anxiety.",
-      "Her learning style does not match the test format.",
-      "Following an explanation loads working memory far less than generating a solution; she has not yet built and practised the schema that lets her generate one.",
-      "She has not memorized enough facts."
+      "Test anxiety: she understands the material, but the pressure of the exam blocks access to what she knows and could show in class.",
+      "Following an explanation loads working memory far less than generating a solution, and she has not yet practised the schema that generates one.",
+      "Too few memorized facts: she can follow the reasoning when it is supplied, but on the test she lacks the raw facts that the reasoning needs to run.",
+      "A learning-styles mismatch: she takes in spoken explanation well, but the test's written format does not suit the way she learns."
      ],
-     "answer": 2,
+     "answer": 1,
      "diagnoses": [
       "Reaches for an affective explanation first. Anxiety is possible, but it is not the default mechanism and it would not explain why she can follow but not produce.",
-      "The learning-styles myth. Matching instruction to preferred style has no adequate evidence.",
       "Correct. Recognizing a solution is not the same as producing one. The fix is guided practice, worked examples fading into problems, and spaced retrieval until she can generate it.",
-      "Partly right at the wrong level. Knowledge matters, but as organized schemas that can be retrieved and applied, not as a list of facts."
+      "Partly right at the wrong level. Knowledge matters, but as organized schemas that can be retrieved and applied, not as a list of facts.",
+      "The learning-styles myth. Matching instruction to preferred style has no adequate evidence."
      ]
     },
     {
      "q": "A department runs a weekly low-stakes quiz but returns marked answers two weeks later. What single change would most improve its effect on learning?",
      "options": [
-      "Make the quiz count toward grades so students take it seriously.",
-      "Give the correct answers immediately after students attempt each quiz.",
-      "Replace the quiz with a rereading session of the week's notes.",
-      "Make the quiz shorter so students are less stressed."
+      "Replace the quiz with a rereading session of the week's notes, because re-exposure to the material is what actually consolidates it in memory.",
+      "Make the quiz shorter, because stress during retrieval crowds working memory and undoes the benefit of the practice for many students.",
+      "Give the correct answers immediately after each attempt, because retrieval strengthens whatever is stored, including uncorrected errors.",
+      "Make the quiz count toward grades, because students put real retrieval effort into a test only when something rides on the result."
      ],
-     "answer": 1,
+     "answer": 2,
      "diagnoses": [
-      "Raising stakes invites cramming and anxiety and turns retrieval practice into a high-stakes test, a classic lethal mutation.",
-      "Correct. Retrieval followed promptly by feedback lets the corrected version be what is stored; retrieving errors without feedback can strengthen them, and confident errors are the most correctable when feedback is fast.",
       "Swaps a high-utility technique for a low-utility one that builds familiarity rather than retrievable knowledge.",
-      "Length is not the problem; the delay in feedback is. Low stakes already limit stress."
+      "Length is not the problem; the delay in feedback is. Low stakes already limit stress.",
+      "Correct. Retrieval followed promptly by feedback lets the corrected version be what is stored; retrieving errors without feedback can strengthen them, and confident errors are the most correctable when feedback is fast.",
+      "Raising stakes invites cramming and anxiety and turns retrieval practice into a high-stakes test, a classic lethal mutation."
      ]
     },
     {
      "q": "A teacher proposes podcasts for 'auditory learners' and diagrams for 'visual learners'. What is the best response?",
      "options": [
-      "Good idea: matching mode to style improves learning.",
-      "Use words and well-designed visuals together for everyone, and choose the mode by what the content needs, not by the student's preference.",
-      "Use only text, because multimedia increases load.",
-      "Let students pick whichever format they enjoy most, since enjoyment drives learning."
+      "Use words and well-designed visuals together for everyone, and choose the mode by what the content needs rather than by student preference.",
+      "Let students pick the format they enjoy most, because enjoyment drives the attention and persistence that learning ultimately depends on.",
+      "Good idea: matching the mode to each student's style improves learning, because information arrives through the channel they process best and retain.",
+      "Use text alone for everyone, because adding audio or images to a written explanation increases cognitive load rather than reducing it."
      ],
-     "answer": 1,
+     "answer": 0,
      "diagnoses": [
-      "The meshing hypothesis. Pashler et al. (2008) found no adequate evidence for it.",
       "Correct. This is dual coding: combining words and visuals helps all learners when designed well. Mode should follow content.",
-      "Over-applies load theory. Well-integrated words and visuals reduce load; only redundant or split-attention designs increase it.",
-      "Enjoyment and preference are poor proxies for learning; learners often prefer the methods from which they learn least."
+      "Enjoyment and preference are poor proxies for learning; learners often prefer the methods from which they learn least.",
+      "The meshing hypothesis. Pashler et al. (2008) found no adequate evidence for it.",
+      "Over-applies load theory. Well-integrated words and visuals reduce load; only redundant or split-attention designs increase it."
      ]
     }
    ],
@@ -330,81 +330,81 @@
     {
      "q": "A student correctly answers 'the earth is round' on a test. Which follow-up best reveals whether they hold a scientific model?",
      "options": [
-      "Ask them to explain why the earth is round.",
-      "Ask where people live on the earth and where the sky is, and have them draw it; ask what would happen if they walked in a straight line for many days.",
-      "Ask a harder question about gravity.",
-      "Accept the answer; the misconception is fixed."
+      "Accept the answer, because a confident, unprompted correct statement shows the earlier misconception has been replaced by the taught one.",
+      "Ask a harder question about gravity, because the model is secure only once it survives the next, more demanding step in the sequence.",
+      "Ask them to explain why the earth is round, because a student who can give reasons must be holding the model rather than a phrase.",
+      "Ask where people live and where the sky is, have them draw it, and ask what happens if they walk in a straight line for many days."
      ],
-     "answer": 1,
+     "answer": 3,
      "diagnoses": [
-      "Believes verbal explanation reveals the model. Students reproduce taught phrases; a correct sentence is compatible with a synthetic model.",
-      "Correct. Generative questions and drawings cannot be answered from a memorized sentence, so they surface hollow-sphere or dual-earth models (Vosniadou and Brewer 1992).",
+      "The belief-equals-model confusion: 'can repeat' is taken as 'model changed'.",
       "Assumes understanding progresses by difficulty rather than by model coherence. A harder question may just produce a different memorized answer.",
-      "The belief-equals-model confusion: 'can repeat' is taken as 'model changed'."
+      "Believes verbal explanation reveals the model. Students reproduce taught phrases; a correct sentence is compatible with a synthetic model.",
+      "Correct. Generative questions and drawings cannot be answered from a memorized sentence, so they surface hollow-sphere or dual-earth models (Vosniadou and Brewer 1992)."
      ]
     },
     {
      "q": "Which misconception does Chi's framework predict will be hardest to change by demonstration and explanation alone?",
      "options": [
-      "Heavier objects fall faster.",
-      "Heat is a substance that flows into cold things.",
-      "Plants get their mass from the soil.",
-      "Seasons are caused by the earth's distance from the sun."
+      "Seasons are caused by distance from the sun, because it is the most widespread misconception of all and survives even university physics teaching.",
+      "Plants get their mass from the soil, because the truth (mass from a gas) is so counterintuitive that showing it is simply not believed.",
+      "Heat is a substance that flows into cold things, because the error puts a process in the wrong category and demonstrations get assimilated.",
+      "Heavier objects fall faster, because the intuition is confirmed by daily experience and no single demonstration can outweigh that."
      ],
-     "answer": 1,
+     "answer": 2,
      "diagnoses": [
-      "Robust, but the concept stays in the right category (motion of objects); demonstrations plus explanation can work, especially with committed predictions.",
-      "Correct. It is a categorical error: a process treated as a substance. Demonstrations get assimilated into the substance theory, so the emergent-process category has to be taught.",
+      "Common and sticky, but a mental-model problem (tilt and angle of sunlight), not an ontological one.",
       "A factual and model error (where the mass comes from) that needs prerequisite knowledge (gases have mass), not a category shift.",
-      "Common and sticky, but a mental-model problem (tilt and angle of sunlight), not an ontological one."
+      "Correct. It is a categorical error: a process treated as a substance. Demonstrations get assimilated into the substance theory, so the emergent-process category has to be taught.",
+      "Robust, but the concept stays in the right category (motion of objects); demonstrations plus explanation can work, especially with committed predictions."
      ]
     },
     {
      "q": "A school teaches evolution in Year 8 and most students give the scientific view on the end-of-unit test. Two years later most give need-based, purpose-based explanations again. What is the best institutional response?",
      "options": [
-      "Teach it later, when students are more mature.",
-      "Teach it more intensively in Year 8.",
-      "Return to it in later years (for example Years 9 and 11), explicitly confronting the need-based explanation each time with generative diagnostics and delayed tests.",
-      "Accept it; the test showed they learned it."
+      "Return to it in later years (say Years 9 and 11), confronting the need-based explanation each time with generative diagnostics and delayed tests.",
+      "Teach it later, when students are more mature, because population-level reasoning needs a developmental stage that Year 8 has not reached.",
+      "Teach it more intensively in Year 8, because the relapse shows the first dose was too weak to overwrite the intuitive theory for good.",
+      "Accept the result, because the end-of-unit test showed they learned it, and a later relapse is a retention issue for the later year teams to handle."
      ],
-     "answer": 2,
+     "answer": 0,
      "diagnoses": [
+      "Correct. Intuitive theories are suppressed, not deleted, so the curriculum must spiral with increasingly demanding diagnostics.",
       "A maturational theory of conceptual change. The evidence runs the other way: some mechanisms can be taught to 5-8-year-olds before teleology entrenches.",
       "A dosage theory: cover it once but harder. Suppression means the old theory resurfaces unless the new one is repeatedly exercised.",
-      "Correct. Intuitive theories are suppressed, not deleted, so the curriculum must spiral with increasingly demanding diagnostics.",
       "Performance-equals-learning. The end-of-unit test measured 'can repeat', not whether the model wins over time."
      ]
     },
     {
      "q": "A student says she 'believes in evolution' and uses the phrase 'natural selection' correctly. What can you conclude about her understanding?",
      "options": [
-      "She understands it; acceptance and correct terminology show the model has changed.",
-      "Little; you need to see her explain a case starting from a population with variation, because acceptance and understanding are only weakly related.",
-      "She misunderstands it, because students who accept evolution usually reason incorrectly.",
-      "Nothing can be concluded without a standardized test."
+      "Nothing, because classroom talk is too informal to show understanding; only a standardized test can separate knowledge from fluency.",
+      "Little, because acceptance and understanding are only weakly related; you need to see her explain a case starting from a varied population.",
+      "She misunderstands it, because students who say they accept evolution have usually adopted the vocabulary without the reasoning behind it.",
+      "She understands it, because acceptance plus correct use of the vocabulary shows the taught model has replaced her intuitive one."
      ],
      "answer": 1,
      "diagnoses": [
-      "Treats acceptance and vocabulary as understanding. Shtulman (2006) found most adults who accepted evolution still reasoned transformationally.",
+      "A well-designed generative question in class tells you more than a standardized test that may reward terminology.",
       "Correct. Ask for a mechanism ('cheetahs got faster; explain how, starting from a population of slower cheetahs') and listen for variation and differential reproduction versus need.",
       "Overcorrects. Acceptance does not predict misunderstanding; it simply does not predict understanding.",
-      "A well-designed generative question in class tells you more than a standardized test that may reward terminology."
+      "Treats acceptance and vocabulary as understanding. Shtulman (2006) found most adults who accepted evolution still reasoned transformationally."
      ]
     },
     {
      "q": "A Year 10 student solves textbook force problems correctly but, on a new question about a ball thrown upward, says a force pushes it up while it rises. What is the most useful reading?",
      "options": [
-      "She has forgotten the unit and needs to reread her notes.",
-      "The scientific concept does not yet have the span to work across contexts; the impetus intuition is still cued here, so she needs varied-context practice, predictions and diagrams, and a return to the concept later.",
-      "The question was unfair because it was not like the textbook problems.",
-      "She has a learning difficulty with abstract reasoning."
+      "The question was unfair, because it was not like the textbook problems she practised, and a fair test samples what was actually taught in class.",
+      "She has a difficulty with abstract reasoning, because a student who has really grasped forces would transfer the idea to any thrown object.",
+      "She has forgotten the unit and needs to reread her notes, because a student who could solve the textbook problems clearly once had the concept securely.",
+      "The concept does not yet span contexts; the impetus intuition is still cued here, so she needs varied-context practice, predictions and a later return."
      ],
-     "answer": 1,
+     "answer": 3,
      "diagnoses": [
-      "Treats a model problem as a storage problem; rereading builds familiarity, not a model that wins in new contexts.",
-      "Correct. This is the 'can repeat versus model changed' gap (Clement 1982 found the same in engineering students). Probe across contexts and treat the hybrid state as expected.",
       "The new context is exactly what reveals whether the model changed; surface-matched tests hide the problem.",
-      "Attributes a near-universal pattern, seen even in physics-trained adults, to an individual deficit."
+      "Attributes a near-universal pattern, seen even in physics-trained adults, to an individual deficit.",
+      "Treats a model problem as a storage problem; rereading builds familiarity, not a model that wins in new contexts.",
+      "Correct. This is the 'can repeat versus model changed' gap (Clement 1982 found the same in engineering students). Probe across contexts and treat the hybrid state as expected."
      ]
     }
    ],
@@ -484,80 +484,80 @@
     {
      "q": "Per Gruber and colleagues and the follow-up studies, when does a curiosity state most reliably improve memory?",
      "options": [
-      "For any material presented after the answer is revealed, as a reward effect.",
-      "For the answer to the question the learner is curious about, and to a small degree for unrelated material shown shortly after the question is posed.",
-      "Equally for the answer and for any complex school content presented during the wait.",
-      "When the question is easy, so students feel successful."
+      "When the question is easy, because feeling successful keeps students in the positive state in which memory encoding works best.",
+      "For the answer to the question itself, and to a small degree for unrelated material shown shortly after the question is posed.",
+      "Equally for the answer and for any complex school content shown during the wait, because the aroused state tags everything in it.",
+      "For any material presented after the answer is revealed, because the answer works as a reward that consolidates whatever follows it."
      ],
      "answer": 1,
      "diagnoses": [
-      "A reward-after model. The benefit is tied to anticipation, and the incidental effect was strongest right after the question, not around the answer (Murphy and colleagues 2021).",
+      "Fluency-equals-engagement. An easy question opens no information gap.",
       "Correct. The target effect is robust; the incidental halo is small, brief and timing-dependent.",
       "Ignores Keller and colleagues (2024): with complex school-like facts, high curiosity made memory for unrelated material worse.",
-      "Fluency-equals-engagement. An easy question opens no information gap."
+      "A reward-after model. The benefit is tied to anticipation, and the incidental effect was strongest right after the question, not around the answer (Murphy and colleagues 2021)."
      ]
     },
     {
      "q": "A teacher writes on returned essays: 'I'm giving you these comments because I have very high standards and I know you can meet them.' What best explains why this can work?",
      "options": [
-      "It raises the student's self-esteem.",
-      "It makes the criticism feel less harsh.",
-      "It resolves the ambiguity about whether the criticism signals bias or low expectations, protecting the student's status while keeping the bar high.",
-      "It works mainly for high-achieving students who already trust the teacher."
+      "It resolves the ambiguity about whether the criticism signals bias or low expectations, protecting status while keeping the bar high.",
+      "It works mainly for high achievers who already trust the teacher, because the message confirms an expectation they already hold.",
+      "It raises the student's self-esteem, because a student who feels valued by the teacher becomes more willing to invest effort in the work.",
+      "It makes the criticism feel less harsh, because softening the blow keeps the student from shutting down before reading the comments."
      ],
-     "answer": 2,
+     "answer": 0,
      "diagnoses": [
-      "A self-esteem theory of motivation. The mechanism is about interpreting the adult's intentions, not general self-worth.",
-      "The protector theory. Softening is not the mechanism; the standards are stated as high.",
       "Correct. This is why effects were largest for students with the least trust in school.",
-      "Reverses the finding: effects were largest for students with low trust, and smaller where baseline trust was high."
+      "Reverses the finding: effects were largest for students with low trust, and smaller where baseline trust was high.",
+      "A self-esteem theory of motivation. The mechanism is about interpreting the adult's intentions, not general self-worth.",
+      "The protector theory. Softening is not the mechanism; the standards are stated as high."
      ]
     },
     {
      "q": "A middle school wants students to ask more questions of their own. Based on Engel, which is most likely to work?",
      "options": [
-      "A weekly 'wonder hour' of open exploration, with regular lessons unchanged.",
-      "Teachers take student questions seriously in lessons (following up, showing their own curiosity, admitting when they don't know), with a question board and scheduled time to return to questions.",
-      "Buying more hands-on science kits.",
-      "Awarding points to students who ask questions."
+      "Buying more hands-on science kits, because rich materials and objects to manipulate are what provoke real questions in the first place.",
+      "Awarding points to students who ask questions, because a behaviour that is rewarded consistently becomes a habit that outlives the reward.",
+      "Teachers take questions seriously in lessons (following up, showing curiosity, admitting ignorance), plus a question board and time to return to them.",
+      "A weekly 'wonder hour' of open exploration, with regular lessons unchanged, because curiosity needs a protected space free of the pressure of content."
      ],
-     "answer": 1,
+     "answer": 2,
      "diagnoses": [
-      "Curiosity as a scheduled special event. Engel does propose a protected Idea Workshop, but a single hour while every other lesson shuts questions down sends a mixed signal.",
-      "Correct. Adult response is the main lever; the question board lets teachers follow up without derailing the lesson.",
       "Materials-produce-curiosity. Kits used as recipes keep the materials and remove the inquiry.",
-      "Extrinsic reward for a behaviour that is valuable because it is genuine; likely to produce performed questions."
+      "Extrinsic reward for a behaviour that is valuable because it is genuine; likely to produce performed questions.",
+      "Correct. Adult response is the main lever; the question board lets teachers follow up without derailing the lesson.",
+      "Curiosity as a scheduled special event. Engel does propose a protected Idea Workshop, but a single hour while every other lesson shuts questions down sends a mixed signal."
      ]
     },
     {
      "q": "In the National Study of Learning Mindsets, where did the brief growth-mindset program improve lower achievers' grades most?",
      "options": [
-      "Uniformly across all schools; a well-designed program works everywhere.",
-      "In schools whose peer norms supported taking on challenges (and, per later analyses, in classrooms of teachers who held growth-mindset beliefs).",
-      "Only in high-achieving schools with the most resources.",
-      "Nowhere; the study found no effect."
+      "Uniformly across schools, because a well-designed, brief online program delivers the same message to every student regardless of the setting.",
+      "Nowhere, because the study found no reliable effect once the trial was run at national scale with a preregistered analysis plan.",
+      "Only in high-achieving, well-resourced schools, because students there had the support needed to act on a new belief about ability.",
+      "In schools whose peer norms supported taking on challenges (and, per later analyses, in classrooms of teachers with growth-mindset beliefs)."
      ],
-     "answer": 1,
+     "answer": 3,
      "diagnoses": [
       "Assumes average effects are universal. Heterogeneity was the main scientific result.",
-      "Correct. Seeds need soil: brief student-directed messages work where the adult and peer context reinforces them.",
+      "Overcorrects. The average effect was small (about a tenth of a grade point for lower achievers) but real, and larger in supportive contexts.",
       "Invents a moderator the study did not report; the effect depended on norms, not wealth.",
-      "Overcorrects. The average effect was small (about a tenth of a grade point for lower achievers) but real, and larger in supportive contexts."
+      "Correct. Seeds need soil: brief student-directed messages work where the adult and peer context reinforces them."
      ]
     },
     {
      "q": "A 15-year-old has stopped doing her maths work. Which teacher response best fits the mentor mindset?",
      "options": [
-      "'If it's not in by Friday it's a zero, and I'll call home.'",
-      "'Don't worry about this unit, it's a hard one; just do the first page.'",
-      "'This work matters and I know you can do it at the level I'm asking. What's been getting in the way? Let's set a plan: we'll work through the first problems together at lunch Tuesday, and the rest is due Thursday.'",
-      "'It's your choice; I'm not going to chase you.'"
+      "'If it's not in by Friday it's a zero, and I'll call home.' Clear consequences make the standard real, and teenagers respond best to firm, predictable limits.",
+      "'This matters and I know you can do it. What's been getting in the way? We'll do the first problems together at lunch Tuesday; the rest is due Thursday.'",
+      "'Don't worry about this unit, it's a hard one; just do the first page.' Lowering the demand keeps her engaged until her confidence recovers.",
+      "'It's your choice; I'm not going to chase you.' Respecting a 15-year-old's autonomy avoids the power struggle that chasing her would provoke."
      ],
-     "answer": 2,
+     "answer": 1,
      "diagnoses": [
       "Enforcer: high standards, no support, no explanation. Likely to be read as a status threat and provoke resistance.",
-      "Protector: support with a lowered bar, which signals 'I don't think you can do this.'",
       "Correct. It states the standard and the belief (transparency), asks a sincere question, and pairs a fixed bar with concrete support.",
+      "Protector: support with a lowered bar, which signals 'I don't think you can do this.'",
       "Disengagement (low standards, low support), framed as respecting autonomy. It leaves her alone with the problem."
      ]
     }
@@ -638,80 +638,80 @@
     {
      "q": "Kirschner, Sweller and Clark's central argument is that minimally guided instruction fails novices because:",
      "options": [
-      "Students lack motivation without a teacher directing them.",
+      "Students lack the motivation to persist without a teacher directing them, so open-ended tasks drift into off-task behaviour.",
+      "Students are not intelligent enough to discover principles on their own, so only the strongest learners gain from inquiry.",
       "Searching a problem space consumes the working memory that would otherwise go to building schemas in long-term memory.",
-      "Students are not intelligent enough to discover principles on their own.",
-      "Discovery suits science but not mathematics."
+      "Discovery suits science, where the method is inquiry, but not mathematics, where procedures have to be transmitted directly."
      ],
-     "answer": 1,
+     "answer": 2,
      "diagnoses": [
       "A motivational misreading. The argument is about cognitive architecture, not willingness.",
-      "Correct. It is a load argument grounded in Sweller's means-ends analysis finding, plus the point that a discipline's epistemology is not its pedagogy.",
       "An ability-deficit misreading. Experts can inquire because of their knowledge, not their intelligence; novices of any ability lack the schemas.",
+      "Correct. It is a load argument grounded in Sweller's means-ends analysis finding, plus the point that a discipline's epistemology is not its pedagogy.",
       "A domain misreading. The argument applies to novices in any well-structured domain; the evidence spans maths, science and programming."
      ]
     },
     {
      "q": "Which of these is NOT a requirement for productive failure to work, according to Kapur?",
      "options": [
-      "Students have prior knowledge relevant to the problem.",
-      "The problem admits multiple representations or solution methods.",
-      "Students solve the problem correctly before instruction.",
-      "A consolidation phase compares student solutions with the canonical one."
+      "The problem admits multiple representations or solution methods, so students generate a diverse set of attempts.",
+      "A consolidation phase compares student solutions with the canonical one, so the attempts are built on and contrasted.",
+      "Students have prior knowledge relevant to the problem, so that the generation phase has something to activate.",
+      "Students solve the problem correctly before instruction, so that the consolidation phase confirms what they found."
      ],
-     "answer": 2,
+     "answer": 3,
      "diagnoses": [
-      "This is required: a problem with nothing to activate is just confusing (unproductive failure).",
       "This is required: the diversity of generated solutions predicts learning, and a one-path task is not a PF task.",
-      "Correct. Students almost never produce the canonical solution; generating varied, partly wrong attempts is the mechanism.",
-      "This is required and is the most important ingredient; the benefit depends on instruction that builds on and contrasts student solutions."
+      "This is required and is the most important ingredient; the benefit depends on instruction that builds on and contrasts student solutions.",
+      "This is required: a problem with nothing to activate is just confusing (unproductive failure).",
+      "Correct. Students almost never produce the canonical solution; generating varied, partly wrong attempts is the mechanism."
      ]
     },
     {
      "q": "A teacher of experienced Year 12 chemistry students gives them a fully worked example for every new problem type. Their test performance falls. The best explanation is:",
      "options": [
-      "Worked examples only work in mathematics.",
-      "Expertise reversal: for learners who already have the schemas, studying worked examples is redundant load, and independent problem solving would serve them better.",
-      "Year 12 students find examples unmotivating.",
-      "The worked examples were badly designed."
+      "Expertise reversal: for learners who already hold the schemas, studying worked examples is redundant load, and problem solving serves better.",
+      "The examples were badly designed, because a well-built worked example lowers load for every learner regardless of prior knowledge.",
+      "Year 12 students find examples unmotivating, because being shown solutions signals that the teacher does not trust them to think.",
+      "Worked examples only help in mathematics, because chemistry problems are too context-dependent to be learned from any single model solution."
      ],
-     "answer": 1,
+     "answer": 0,
      "diagnoses": [
-      "A domain misreading. The worked example effect appears across well-structured domains.",
       "Correct. The support that helps novices burdens experts, which is why guidance should fade based on what students know.",
+      "Possible, but the pattern is exactly what expertise reversal predicts even for well-designed examples.",
       "A motivational explanation for a cognitive effect the evidence already predicts.",
-      "Possible, but the pattern is exactly what expertise reversal predicts even for well-designed examples."
+      "A domain misreading. The worked example effect appears across well-structured domains."
      ]
     },
     {
      "q": "In Sinha and Kapur's (2021) meta-analysis, on which outcome did problem-solving-first show essentially no advantage over instruction-first?",
      "options": [
-      "Conceptual understanding.",
-      "Transfer to new problems.",
-      "Procedural knowledge.",
-      "None; problem-solving-first won on every outcome."
+      "None; problem-solving-first won on every outcome, because the activated prior knowledge improves whatever is learned next.",
+      "Procedural knowledge, because the consolidation phase is where the procedure is actually taught, and both conditions receive it.",
+      "Transfer to new problems, because the benefit of struggle is tied to the specific problem and does not carry over to novel ones.",
+      "Conceptual understanding, because generation without instruction leaves students with fragments rather than the organizing idea."
      ],
-     "answer": 2,
+     "answer": 1,
      "diagnoses": [
-      "The advantage was on conceptual knowledge (g about 0.36 pooled with transfer).",
-      "Transfer is where the advantage was found, together with conceptual knowledge.",
+      "Overgeneralizes the finding. The advantage is specific to conceptual understanding and transfer, and depends on design fidelity.",
       "Correct. Procedural knowledge showed g about -0.03, no difference, which is why the rule is 'teach procedures first'.",
-      "Overgeneralizes the finding. The advantage is specific to conceptual understanding and transfer, and depends on design fidelity."
+      "Transfer is where the advantage was found, together with conceptual knowledge.",
+      "The advantage was on conceptual knowledge (g about 0.36 pooled with transfer)."
      ]
     },
     {
      "q": "Walkthrough data show productive-failure lessons score lower than explain-first lessons on 'percentage of students on track by the end of the lesson.' What should you conclude?",
      "options": [
-      "Productive failure is failing and should be dropped.",
-      "Nothing yet: the metric measures in-lesson performance, which PF is designed to lower; check fidelity (was there a real consolidation?) and compare delayed conceptual and transfer results.",
-      "Explain-first lessons are proven superior for all goals.",
-      "Teachers need to give more hints during the generation phase so students stay on track."
+      "Productive failure is failing and should be dropped, because students who are off track at the end of a lesson leave without the concept.",
+      "Explain-first lessons are proven superior for all goals, because a walkthrough measure taken across many lessons is a fair head-to-head test of the two.",
+      "Nothing yet: the metric is in-lesson performance, which PF is designed to lower; check fidelity and compare delayed conceptual and transfer results.",
+      "Teachers need to give more hints during the generation phase, because scaffolding the struggle keeps students on track without removing it."
      ],
-     "answer": 1,
+     "answer": 2,
      "diagnoses": [
       "Judges learning by performance during learning, the exact error Module 1 and Kapur warn against.",
-      "Correct. Use the right outcome measure and check the active ingredient before deciding; if delayed outcomes are also no better, then investigate task design, prerequisites and consolidation quality.",
       "Overgeneralizes from the wrong metric.",
+      "Correct. Use the right outcome measure and check the active ingredient before deciding; if delayed outcomes are also no better, then investigate task design, prerequisites and consolidation quality.",
       "Rescuing during generation removes the mechanism; evidence suggests adding scaffolding to the problem phase does not reliably help."
      ]
     }
@@ -791,26 +791,26 @@
     {
      "q": "A Year 4 student decodes fluently but comprehends poorly across many texts. Which lever is most likely to help?",
      "options": [
-      "More comprehension-strategy lessons.",
-      "More silent reading time with self-chosen books.",
-      "Building background knowledge and vocabulary on the topics of the texts she reads, through coherent content units.",
-      "Phonics review."
+      "Phonics review, because comprehension problems in Year 4 usually trace back to decoding that is fast but not yet fully automatic.",
+      "More comprehension-strategy lessons, because a student who decodes well but understands poorly is missing the tools to monitor her reading.",
+      "More silent reading time with self-chosen books, because volume and enjoyment build the fluency that comprehension eventually rides on.",
+      "Building background knowledge and vocabulary on the topics of the texts she reads, through coherent content units taught across the year."
      ],
-     "answer": 2,
+     "answer": 3,
      "diagnoses": [
+      "Misdiagnosis. Decoding is not the bottleneck; the Simple View separates the two components for exactly this reason.",
       "The skills theory of comprehension. Strategies give a small, quick boost that saturates; more of them will not fix a knowledge gap.",
       "The volume theory. Reading volume helps, but self-chosen texts that hop between topics build knowledge slowly and unevenly.",
-      "Correct. Once decoding is secure, comprehension depends mainly on topic knowledge and vocabulary (Simple View of Reading; Recht and Leslie).",
-      "Misdiagnosis. Decoding is not the bottleneck; the Simple View separates the two components for exactly this reason."
+      "Correct. Once decoding is secure, comprehension depends mainly on topic knowledge and vocabulary (Simple View of Reading; Recht and Leslie)."
      ]
     },
     {
      "q": "Wiliam argues curriculum choice is a high-leverage decision mainly because:",
      "options": [
-      "A good curriculum is a substitute for good teachers.",
-      "It shapes what is actually taught at low marginal cost, and coherence across years lets knowledge compound; textbook choice alone has shown effects comparable to costlier reforms.",
-      "Curriculum standards are legally required.",
-      "Students prefer structured content."
+      "A good curriculum substitutes for good teachers, because well-sequenced materials carry the lesson even when the teaching is weak.",
+      "It shapes what is actually taught at low marginal cost, coherence lets knowledge compound, and textbook choice alone has shown sizeable effects.",
+      "Curriculum standards are legally required, because a school that fails to cover them loses its licence regardless of the quality of its teaching.",
+      "Students prefer structured content, because knowing what comes next lowers anxiety and lets them invest their attention in the material."
      ],
      "answer": 1,
      "diagnoses": [
@@ -823,15 +823,15 @@
     {
      "q": "Which claim is best tagged [V] rather than [E]?",
      "options": [
-      "Systematic phonics improves decoding for most children.",
-      "Background knowledge improves comprehension of a text on that topic.",
-      "Every child should study the history of their own country before other countries' histories.",
-      "Writing about content tends to improve learning of that content."
+      "Background knowledge improves comprehension of a text on that topic, because what counts as knowledge is decided by the culture.",
+      "Systematic phonics improves decoding for most children, because how a community teaches reading reflects its beliefs about childhood.",
+      "Every child should study the history of their own country before other countries' histories, because sequence expresses what matters.",
+      "Writing about content tends to improve learning of that content, because whether writing belongs in every subject is a philosophy."
      ],
      "answer": 2,
      "diagnoses": [
-      "Over-tagging settled evidence as a value.",
       "Over-tagging robust evidence as a value.",
+      "Over-tagging settled evidence as a value.",
       "Correct. It is a choice about which knowledge matters; evidence can inform the sequence but cannot settle what a community wants children to know.",
       "Over-tagging. The principle has modest positive evidence ([E]); a specific method would be [H]."
      ]
@@ -839,33 +839,33 @@
     {
      "q": "A board member cites the Core Knowledge lottery study as proof that a knowledge curriculum closes the income achievement gap. What is the most accurate response?",
      "options": [
-      "Agree: a lottery design proves the curriculum caused the gains.",
-      "Encouraging but not proof: the paper was not peer-reviewed at the time, the curriculum cannot be separated from other features of the schools, the low-income estimate rests on about 16 students at one school, and gains plateaued after grade 3.",
-      "Reject it: charter school studies are always biased.",
-      "It is irrelevant, because reading gains do not matter if students are happy."
+      "Encouraging but not proof: the curriculum cannot be separated from the schools, the low-income estimate rests on about 16 students, and gains plateaued after grade 3.",
+      "Agree: a lottery design proves the curriculum caused the gains, because random assignment removes every alternative explanation for the difference.",
+      "It is beside the point: reading gains matter less than wellbeing, and a curriculum chosen for its test scores will cost students their happiness.",
+      "Reject it: charter school studies are systematically biased, because the families who enter a lottery differ from those who do not, and no statistical design fixes that."
      ],
-     "answer": 1,
+     "answer": 0,
      "diagnoses": [
-      "Confuses a strong design for the school effect with proof of the curriculum's specific effect and of gap-closing.",
       "Correct. The mechanism is well supported; the size of effects on general tests and the gap-closing claim are [H]. Plan to measure your own effects.",
-      "Dismisses evidence by category. Lottery studies are among the better designs available; the issue is what exactly they can attribute.",
-      "Sets up a false trade-off and sidesteps the evidence question."
+      "Confuses a strong design for the school effect with proof of the curriculum's specific effect and of gap-closing.",
+      "Sets up a false trade-off and sidesteps the evidence question.",
+      "Dismisses evidence by category. Lottery studies are among the better designs available; the issue is what exactly they can attribute."
      ]
     },
     {
      "q": "Two years after adopting a highly rated knowledge-building curriculum, observers find most comprehension lessons are worksheet-style standards tasks. What is the best next step?",
      "options": [
-      "Switch to a different curriculum with a higher rating.",
-      "Invest in curriculum-specific coaching, observe for lessons focused on the text's meaning, align internal assessments to the content, and remove competing test-prep materials.",
-      "Add a comprehension-strategies program on top.",
-      "Accept it; the curriculum is in place, so results will follow."
+      "Accept it, because the curriculum is in place and results follow the materials adopted rather than the style of the individual lessons.",
+      "Switch to a curriculum with a higher rating, because a product that lets lessons drift back to worksheets was never well designed, whatever its reviews said.",
+      "Add a comprehension-strategies program on top, because the worksheet lessons show teachers need a structured way to teach comprehension.",
+      "Invest in curriculum-specific coaching, observe for lessons focused on the text's meaning, align internal assessments, and remove test-prep materials."
      ],
-     "answer": 1,
+     "answer": 3,
      "diagnoses": [
+      "Confuses the intended curriculum with the enacted one; outcomes depend on what is actually taught.",
       "Treats an enactment problem as a selection problem; the same gap would likely reappear with a new product.",
-      "Correct. Adoption is not enactment (the SRI finding: about two-thirds of lessons stayed surface-level). The lever is implementation support and aligned measures.",
       "Pulls instruction further toward content-free skills practice, the pattern the curriculum was meant to replace.",
-      "Confuses the intended curriculum with the enacted one; outcomes depend on what is actually taught."
+      "Correct. Adoption is not enactment (the SRI finding: about two-thirds of lessons stayed surface-level). The lever is implementation support and aligned measures."
      ]
     }
    ],

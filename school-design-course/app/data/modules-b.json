@@ -70,65 +70,65 @@
     {
      "q": "Which of these is a formative use of a test?",
      "options": [
-      "A quiz returned with scores so students know where they stand",
-      "A quiz whose results the teacher uses to regroup students for the next two lessons",
-      "Any quiz that is low-stakes and not recorded",
-      "A quiz the teacher wrote herself rather than one from an external body"
+      "A quiz whose results the teacher uses to regroup students for the next two lessons, because the evidence changed what happens next",
+      "Any quiz that is low-stakes and not recorded, because removing the grade is what turns a measurement into a learning event",
+      "A quiz the teacher wrote herself rather than one from an external body, because only the author knows what the items are probing",
+      "A quiz returned with scores so students know where they stand, because feedback on standing is what lets students adjust their effort"
      ],
-     "answer": 1,
+     "answer": 0,
      "diagnoses": [
-      "Information-to-student equals formative. Knowing where you stand changes nothing unless someone makes a different next-step decision; a bare score can even push students into ego-involvement.",
       "Correct. Formative is defined by use: evidence was elicited, interpreted, and it changed what happens next for specific students.",
       "Stakes define formativeness. Low stakes help, but a low-stakes quiz whose results change nothing is not formative, and a high-stakes test can be used formatively.",
-      "Authorship defines formativeness. Who wrote the instrument is irrelevant; what matters is whether the evidence changes the next decision."
+      "Authorship defines formativeness. Who wrote the instrument is irrelevant; what matters is whether the evidence changes the next decision.",
+      "Information-to-student equals formative. Knowing where you stand changes nothing unless someone makes a different next-step decision; a bare score can even push students into ego-involvement."
      ]
     },
     {
      "q": "A hinge question is well designed if:",
      "options": [
-      "About half the class gets it right",
-      "Each wrong option corresponds to a specific misconception and the teacher can act on the result in the same lesson",
-      "It requires an extended written answer so students show their full reasoning",
-      "It is asked at the very end of the lesson so it covers everything"
+      "About half the class gets it right, because an item at that difficulty best discriminates students who understand from those who do not",
+      "It is asked at the very end of the lesson, because only then does it cover everything taught and show what needs reteaching",
+      "Each wrong option corresponds to a specific misconception, and the teacher can act on the result in the same lesson",
+      "It requires an extended written answer, because a short response cannot reveal the full reasoning a teacher needs to diagnose"
      ],
-     "answer": 1,
+     "answer": 2,
      "diagnoses": [
       "Difficulty-calibration theory, borrowed from test design. A hinge exists to support a decision, not to spread scores; if nearly everyone is right, that is useful information too.",
+      "Timing error. A hinge sits at the fork in the lesson, mid-lesson, so the lesson can still change; an end-of-lesson check is an exit ticket, which informs tomorrow instead.",
       "Correct. Diagnostic distractors tell you what to fix, and a response that can be read in about 30 seconds lets the lesson change while it is still happening.",
-      "Rigor equals length. Extended answers cannot be read for 30 students in real time, so they cannot drive a decision at the hinge point.",
-      "Timing error. A hinge sits at the fork in the lesson, mid-lesson, so the lesson can still change; an end-of-lesson check is an exit ticket, which informs tomorrow instead."
+      "Rigor equals length. Extended answers cannot be read for 30 students in real time, so they cannot drive a decision at the hinge point."
      ]
     },
     {
      "q": "A school runs a two-day formative assessment workshop with a famous speaker. Nine months later, practice is unchanged. What is Wiliam and Leahy's most likely explanation?",
      "options": [
-      "The teachers are resistant to change",
-      "The techniques do not work in this school's context",
+      "The teachers are resistant to change, because a two-day workshop with a compelling speaker gives anyone willing all they need to start",
       "Practice changes only through sustained, small, accountable steps with peer support; workshops transmit knowledge, not habits",
-      "The school needed a follow-up workshop to reinforce the message"
+      "The school needed a follow-up workshop, because a single event fades and a reinforcing message restores the momentum that was lost",
+      "The techniques do not work in this school's context, because if they had fitted, nine months would have been enough for teachers to keep them"
      ],
-     "answer": 2,
+     "answer": 1,
      "diagnoses": [
       "Attribution to disposition. This is the fundamental attribution error applied to staff; Bryk would say the system that delivered the workshop produced the result.",
-      "Evidence-does-not-transfer. The techniques were never actually tried, so the context was never tested; nothing can be concluded about fit.",
       "Correct. Teaching is habitual real-time performance, and habit change needs repeated practice in one's own room with spaced follow-up, which is what the TLC structure provides.",
-      "More of the same. A second workshop repeats the delivery mechanism that failed; the missing ingredient is practice plus accountability over months."
+      "More of the same. A second workshop repeats the delivery mechanism that failed; the missing ingredient is practice plus accountability over months.",
+      "Evidence-does-not-transfer. The techniques were never actually tried, so the context was never tested; nothing can be concluded about fit."
      ]
     },
     {
      "q": "A new principal requires every teacher to use traffic-light cards daily and checks for them on walkthroughs. What is the most likely result?",
      "options": [
-      "Strong gains, because consistency across classrooms is what formative assessment needs",
-      "The cards appear in every room but teachers stop acting on the signals and students show green to avoid attention: a lethal mutation",
-      "Teachers will refuse outright, so nothing changes",
-      "Gains for younger students only, since traffic lights are a primary-school technique"
+      "Strong gains, because consistency across classrooms is what formative assessment needs and a mandate is the quickest route to getting it",
+      "Gains for younger students only, because traffic lights are a primary-school device that adolescents find patronizing and ignore",
+      "Teachers refuse outright, because a technique imposed by a new principal without consultation is rejected before it is ever tried",
+      "The cards appear in every room but teachers stop acting on the signals and students show green to avoid attention: a lethal mutation"
      ],
-     "answer": 1,
+     "answer": 3,
      "diagnoses": [
       "Consistency of surface equals consistency of mechanism. The active ingredient is the teacher acting on the signal; a walkthrough can see the cards but not the adaptation.",
-      "Correct. This plan is tight on the technique and loose on the idea, the reverse of tight-but-loose. It produces compliance displays whose active ingredient is gone. Better: tight on the big idea and TLC process, with teacher choice of technique.",
+      "Age-appropriateness theory. The problem is mutation under an evaluative mandate, not the age of the students.",
       "Adoption-is-the-risk. Open refusal is rare; the realistic failure is quiet surface compliance, which is harder to detect.",
-      "Age-appropriateness theory. The problem is mutation under an evaluative mandate, not the age of the students."
+      "Correct. This plan is tight on the technique and loose on the idea, the reverse of tight-but-loose. It produces compliance displays whose active ingredient is gone. Better: tight on the big idea and TLC process, with teacher choice of technique."
      ]
     }
    ],
@@ -207,81 +207,81 @@
     {
      "q": "According to Mehta & Fine, the main reason electives and clubs often show deeper learning than core classes is:",
      "options": [
-      "Students choose them, so they are more motivated",
+      "They have smaller groups, and with fewer students each one gets the individual attention that produces depth in any setting",
       "They combine real purpose and audience, apprenticeship to practitioners, mixed-age community and iteration, as well as choice",
-      "They are not tested",
-      "They have smaller classes"
+      "Students choose them, and choosing an activity supplies the motivation that required classes cannot, whatever their design",
+      "They are not tested, and removing the exam pressure lets teachers and students pursue a topic as deeply as it deserves"
      ],
      "answer": 1,
      "diagnoses": [
-      "Choice-only theory. Choice is one of the features, and selection is a real confound, but it cannot explain why the same students go flat in required courses that lack the other features.",
+      "Resource explanation. Group size differs, but Module 8 shows class size alone has modest effects; the features that matter are about the nature of the work.",
       "Correct. The periphery bundles several structural features the core reverses; choice is one of six, alongside purpose, apprenticeship, community, iteration and identity.",
-      "Testing-kills-learning theory. The lack of test pressure is an acknowledged confound, but IB High shows that assessment demanding depth can pull teaching toward depth.",
-      "Resource explanation. Group size differs, but Module 8 shows class size alone has modest effects; the features that matter are about the nature of the work."
+      "Choice-only theory. Choice is one of the features, and selection is a real confound, but it cannot explain why the same students go flat in required courses that lack the other features.",
+      "Testing-kills-learning theory. The lack of test pressure is an acknowledged confound, but IB High shows that assessment demanding depth can pull teaching toward depth."
      ]
     },
     {
      "q": "A founder plans a project-based school with no traditional courses. Mehta & Fine's evidence suggests the most likely failure mode is:",
      "options": [
-      "Students will be bored",
-      "Disciplinary mastery will be uneven, and some projects will be activity without learning",
-      "Teachers will refuse to teach that way",
-      "Parents will withdraw their children"
+      "Students will be bored, because projects lack the pace and variety of a timetable and long tasks lose adolescents' attention",
+      "Teachers will refuse to teach that way, because most were trained in courses and resist a model that sidelines their subject expertise",
+      "Parents will withdraw their children, because families judge schools by recognizable courses and grades and distrust project work",
+      "Disciplinary mastery will be uneven, and some projects will be activity without learning, depending on which teacher a student gets"
      ],
-     "answer": 1,
+     "answer": 3,
      "diagnoses": [
       "Engagement-is-the-risk. Dewey High's students were engaged and liked school; engagement was not the problem.",
-      "Correct. This is Dewey High's signature failure (the origami-in-maths problem): without explicit disciplinary goals, exemplars and a system to spread good designs, quality depends on which teacher you get.",
       "Adoption-is-the-risk. Teachers at Dewey High chose it and embraced the model; autonomy produced variance, not refusal.",
-      "Market-is-the-risk. Possible, but not what the observational evidence speaks to; the evidence is about uneven rigor."
+      "Market-is-the-risk. Possible, but not what the observational evidence speaks to; the evidence is about uneven rigor.",
+      "Correct. This is Dewey High's signature failure (the origami-in-maths problem): without explicit disciplinary goals, exemplars and a system to spread good designs, quality depends on which teacher you get."
      ]
     },
     {
      "q": "Deeper learning in Mehta & Fine's sense requires:",
      "options": [
-      "Student choice of topic",
-      "Mastery, identity and creativity together",
-      "Interdisciplinary content",
-      "A technology-rich environment"
+      "Mastery, identity and creativity together, because each alone is common and only their combination marks the richest learning",
+      "A technology-rich environment, because real tools let students produce work of a kind that textbook exercises cannot reach",
+      "Student choice of topic, because a learner who has chosen the subject invests the sustained attention that depth requires",
+      "Interdisciplinary content, because a problem seen through several subjects at once cannot be handled at a surface level"
      ],
-     "answer": 1,
+     "answer": 0,
      "diagnoses": [
-      "Choice equals depth. Choice can support identity, but a freely chosen shallow project is still shallow.",
       "Correct. Each alone is common; their combination is what the authors observed in the richest learning, and it gives you a test to apply to any course.",
-      "Integration equals depth. Interdisciplinary units can be as shallow as any other; depth is about the learner's relationship to a field.",
-      "Tools equal depth. Nothing in the definition concerns technology; Module 1's point that medium is not mechanism applies here too."
+      "Tools equal depth. Nothing in the definition concerns technology; Module 1's point that medium is not mechanism applies here too.",
+      "Choice equals depth. Choice can support identity, but a freely chosen shallow project is still shallow.",
+      "Integration equals depth. Interdisciplinary units can be as shallow as any other; depth is about the learner's relationship to a field."
      ]
     },
     {
      "q": "Which conclusion does Mehta & Fine's evidence actually support?",
      "options": [
-      "Extracurriculars cause deeper learning, so required academics should be replaced with clubs",
-      "Project-based schools produce better learning outcomes than no-excuses schools",
-      "Deep learning was rare in the core classes even of admired schools, and recurred in the periphery; this is a robust pattern, not causal proof",
-      "Longer blocks produce deeper learning"
+      "Longer blocks produce deeper learning, since every school where the authors found depth had abandoned the 50-minute period",
+      "Project-based schools produce better learning outcomes than no-excuses schools, since depth appeared in the former and not the latter",
+      "Deep learning was rare in the core classes even of admired schools and recurred in the periphery; a robust pattern, not causal proof",
+      "Extracurriculars cause deeper learning, so required academics should be replaced with clubs, since the same students flourish there"
      ],
      "answer": 2,
      "diagnoses": [
-      "Correlation-as-causation plus misreading the prescription. The evidence is selection-confounded, and the authors want the core made more like the periphery, keeping mastery, not academics abolished.",
+      "Structure-as-solution. Longer blocks are one of the authors' proposals, not a finding; Wiliam's evidence cautions that structure alone changes little.",
       "Outcome claim the study cannot make. There were no learning-outcome measures and one school per model; the authors praise No Excuses High's adult systems.",
       "Correct. The strength of the book is descriptive: a recurring pattern across 30 reputationally selected schools. The prescriptions are well-grounded hypotheses.",
-      "Structure-as-solution. Longer blocks are one of the authors' proposals, not a finding; Wiliam's evidence cautions that structure alone changes little."
+      "Correlation-as-causation plus misreading the prescription. The evidence is selection-confounded, and the authors want the core made more like the periphery, keeping mastery, not academics abolished."
      ]
     },
     {
      "q": "Your founding design team's family focus groups strongly favor teaching students in their preferred learning style. Using Transcend's process as this module bounds it, you should:",
      "options": [
-      "Adopt it: community ownership is a design requirement",
-      "Ignore it: community input should not touch pedagogy",
-      "Treat it as evidence of a real need (instruction does not fit some children) and meet that need with evidence-based customization such as pace, feedback and choice of context",
-      "Put it to a vote of the whole community"
+      "Put it to a vote of the whole community, because a contested question about teaching is settled most legitimately by the people whose children it affects most directly",
+      "Treat it as evidence of a real need (instruction does not fit some children) and meet it with evidence-based customization of pace, feedback and context",
+      "Ignore it, because community input should not touch pedagogy and families who choose the school are choosing its expertise over their own instincts",
+      "Adopt it, because community ownership is a design requirement and a school that overrides its families loses the coalition it needs to open and survive"
      ],
-     "answer": 2,
+     "answer": 1,
      "diagnoses": [
-      "Voice-validates-mechanism. Ownership matters, but communities can converge on popular, ineffective ideas; learning-styles matching is not supported by evidence.",
-      "Voice-is-noise. This discards a real signal and damages the community conditions the design depends on; the need is legitimate even though the proposed mechanism is wrong.",
+      "Majority-rule-on-mechanism. Voting settles values questions, not empirical ones.",
       "Correct. Voice defines needs and priorities; evidence constrains mechanisms. The founding compact should say which layer is open to codesign.",
-      "Majority-rule-on-mechanism. Voting settles values questions, not empirical ones."
+      "Voice-is-noise. This discards a real signal and damages the community conditions the design depends on; the need is legitimate even though the proposed mechanism is wrong.",
+      "Voice-validates-mechanism. Ownership matters, but communities can converge on popular, ineffective ideas; learning-styles matching is not supported by evidence."
      ]
     }
    ],
@@ -368,81 +368,81 @@
     {
      "q": "Wiliam's main argument against building a strategy on firing weak teachers and hiring stronger ones is:",
      "options": [
-      "It is unkind to teachers",
-      "Our measures of teacher quality are too noisy before and after hiring, replacements are often novices, and change comes too slowly to move the average",
-      "Unions make it impossible",
-      "Teachers are all roughly equally effective"
+      "It is unkind to teachers, because a profession built on trust cannot survive a strategy that treats its members as replaceable parts",
+      "Teachers are all roughly equally effective, because once training and experience are equal the differences between them are small",
+      "Our measures of teacher quality are too noisy before and after hiring, replacements are often novices, and change comes too slowly",
+      "Unions make it impossible, because tenure protections and grievance procedures mean the weakest teachers can rarely be removed"
      ],
-     "answer": 1,
+     "answer": 2,
      "diagnoses": [
       "Values reading of an evidence argument. Wiliam may also hold that value, but his case rests on measurement reliability, supply and time.",
+      "Reverses the premise. Variation among teachers is large; that is the whole reason teacher quality is the key lever.",
       "Correct. Credentials predict weakly, value-added correlates only about 0.2-0.5 year to year, deselection improves the workforce only as cohorts turn over, and replacements start less effective.",
-      "Political-constraint reading. Even with no political barriers, the measurement and supply problems remain.",
-      "Reverses the premise. Variation among teachers is large; that is the whole reason teacher quality is the key lever."
+      "Political-constraint reading. Even with no political barriers, the measurement and supply problems remain."
      ]
     },
     {
      "q": "Two interventions both report an effect size of 0.4. One was measured on 7-year-olds with a researcher-designed test one week later; the other on 15-year-olds with a standardized test one year later. Which is more impressive?",
      "options": [
-      "The first, because 0.4 is large for young children",
-      "The second",
-      "Neither; 0.4 is 0.4",
-      "The first, because a shorter delay gives a cleaner measurement"
+      "The second, because older students, a broad standardized test and a year's delay all deflate effect sizes, so 0.4 there means more",
+      "Neither, because 0.4 is 0.4: an effect size standardizes the gain so that studies with different tests and ages can be compared",
+      "The first, because 0.4 is a large effect for young children, whose scores are hard to move before basic skills are in place",
+      "The first, because a shorter delay gives a cleaner measurement, uncontaminated by everything else that happens over a year"
      ],
-     "answer": 1,
+     "answer": 0,
      "diagnoses": [
-      "Reverses the age effect. Young children grow fast relative to the score spread, so effect sizes are naturally larger for them; 0.4 means less for a 7-year-old.",
       "Correct. Older students, a broad standardized test and a delayed measure all deflate effect sizes, so 0.4 under those conditions represents a much larger real change.",
       "Effect sizes as universal currency. They depend on age, test and sample; comparing them raw is the league-table error.",
+      "Reverses the age effect. Young children grow fast relative to the score spread, so effect sizes are naturally larger for them; 0.4 means less for a 7-year-old.",
       "Proximity equals validity. A test right after the intervention on its own content measures short-term performance, which flatters; a delayed broad test shows what lasted."
      ]
     },
     {
      "q": "According to Wiliam, the best-evidenced use of a marginal dollar of school improvement money is:",
      "options": [
-      "Reducing class size",
-      "Technology",
-      "Sustained, school-based teacher development in classroom formative assessment, alongside a strong curriculum",
-      "Performance pay"
+      "Performance pay, because teachers who are rewarded for results direct their effort where it counts and the weakest are pushed to improve or leave",
+      "Technology, because well-designed adaptive software gives each student the individualized pace and feedback no teacher can provide",
+      "Reducing class size, because every student gets more of the teacher's attention and the effect is proven by a large randomized trial",
+      "Sustained, school-based teacher development in classroom formative assessment, alongside a strong curriculum, because it reaches every room"
      ],
-     "answer": 2,
+     "answer": 3,
      "diagnoses": [
-      "Intuitive and popular. Real but modest effects at very high recurring cost, diluted at scale (STAR versus California).",
+      "Incentive theory. Randomized US merit-pay trials mostly found no effect; teachers' bottleneck is know-how, not effort.",
       "Modernity theory. Technology does not teach by itself; it helps only when it delivers a specific mechanism.",
-      "Correct. It reaches every classroom, is cheap relative to structural change, and has trial evidence at scale (about two months' progress), with curriculum as the cheap complementary lever.",
-      "Incentive theory. Randomized US merit-pay trials mostly found no effect; teachers' bottleneck is know-how, not effort."
+      "Intuitive and popular. Real but modest effects at very high recurring cost, diluted at scale (STAR versus California).",
+      "Correct. It reaches every classroom, is cheap relative to structural change, and has trial evidence at scale (about two months' progress), with curriculum as the cheap complementary lever."
      ]
     },
     {
      "q": "Tennessee STAR found meaningful gains from small classes. California's statewide class-size reduction produced much smaller gains. The best explanation is:",
      "options": [
-      "STAR was a flawed study",
-      "California's students were harder to teach",
-      "Scaling required mass hiring of less experienced and often uncertified teachers, which offset much of the benefit",
-      "Small classes only work in Tennessee"
+      "Small classes only work in Tennessee, because every intervention depends on context and effects found in one place rarely travel",
+      "Scaling required mass hiring of less experienced and often uncertified teachers, which offset much of the benefit of smaller classes",
+      "California's students were harder to teach, because a more diverse and mobile population responds less to changes in class size",
+      "STAR was a flawed study, because a single state's experiment with volunteer schools could not show what a real policy would do"
      ],
-     "answer": 2,
+     "answer": 1,
      "diagnoses": [
-      "Dismissing strong evidence. STAR was a large randomized trial and is among the most credible studies in education.",
-      "Population-difference guess. Student mix may matter at the margin, but the documented mechanism is the change in teacher quality.",
+      "Context-mysticism. Everything works somewhere does not mean effects are arbitrary; here the mechanism of the failure is known.",
       "Correct. This is scale-up decay with a named mechanism: the reform consumed the very resource (good teachers) that makes classes effective, and moved strong teachers toward advantaged schools.",
-      "Context-mysticism. Everything works somewhere does not mean effects are arbitrary; here the mechanism of the failure is known."
+      "Population-difference guess. Student mix may matter at the margin, but the documented mechanism is the change in teacher quality.",
+      "Dismissing strong evidence. STAR was a large randomized trial and is among the most credible studies in education."
      ]
     },
     {
      "q": "A co-founder says: our charter status and freedom from district rules will make us better than local schools. The best response from this module is:",
      "options": [
-      "Agreed: lottery studies show charters produce large gains",
-      "Structure confers no advantage by itself; choice schools show small average effects with very wide variation, and the good ones win on what they do in classrooms",
-      "Wrong: charters perform worse on average",
-      "It depends entirely on funding levels"
+      "It depends entirely on funding, because autonomy without the money to use it changes nothing, and with it any structure would work",
+      "Agreed, because lottery studies of charter schools show large gains, and freedom from district rules is what lets those schools achieve them at scale",
+      "Structure confers no advantage by itself; choice schools show small average effects with wide variation, and the good ones win inside classrooms",
+      "Wrong, because charters perform worse on average, and the freedom from rules that founders prize is what lets standards slip unnoticed"
      ],
-     "answer": 1,
+     "answer": 2,
      "diagnoses": [
+      "Resource reductionism. Funding matters at the margin, but the evidence points to what happens inside classrooms as the differentiator.",
       "Cherry-picking the tail. Some urban networks show large lottery-based gains; national averages are near zero. Your school is not automatically in the good tail.",
       "Correct. Autonomy is an option, not an asset; it pays only if spent on curriculum, instruction, culture and teacher development.",
-      "Overcorrection. Averages are near zero with wide spread, not reliably negative.",
-      "Resource reductionism. Funding matters at the margin, but the evidence points to what happens inside classrooms as the differentiator."
+      "Overcorrection. Averages are near zero with wide spread, not reliably negative."
      ]
     }
    ],
@@ -529,81 +529,81 @@
     {
      "q": "Bryk's principle 'see the system that produces the current outcomes' means:",
      "options": [
-      "Build data dashboards so leaders can see results",
-      "Map the actual processes, handoffs and conditions that produce the outcome, including the ones nobody designed",
-      "Hold everyone accountable for the outcome",
-      "Adopt a coherent whole-school program"
+      "Hold everyone accountable for the outcome, because a system in which each person owns a result is one that produces it",
+      "Adopt a coherent whole-school program, because a fragmented set of initiatives is the system failure most schools suffer",
+      "Build data dashboards so leaders can see results, because outcomes made visible in real time let the system correct itself",
+      "Map the actual processes, handoffs and conditions that produce the outcome, including the ones nobody designed or notices"
      ],
-     "answer": 1,
+     "answer": 3,
      "diagnoses": [
-      "Tools equal seeing. Dashboards show outcomes, not the process producing them; New Visions' lesson is that data helps only inside routines.",
-      "Correct. Process maps, fishbones and conversations with the people doing the work reveal where results are actually produced, like a blameless incident review.",
       "Accountability equals system. Assigning blame to people is exactly what 'every system is perfectly designed to get the results it gets' warns against.",
-      "Program equals system. Programs are solutions; seeing the system is diagnosis, and it comes first."
+      "Program equals system. Programs are solutions; seeing the system is diagnosis, and it comes first.",
+      "Tools equal seeing. Dashboards show outcomes, not the process producing them; New Visions' lesson is that data helps only inside routines.",
+      "Correct. Process maps, fishbones and conversations with the people doing the work reveal where results are actually produced, like a blameless incident review."
      ]
     },
     {
      "q": "A PDSA cycle run without a written prediction is deficient mainly because:",
      "options": [
-      "Nobody will remember what was planned",
-      "Without a prediction the result cannot surprise you, so the theory of the system is never tested or revised",
-      "Predictions are required for research ethics",
-      "Predictions motivate the team"
+      "Predictions are required for research ethics, so a cycle without one cannot be shared or written up as improvement science",
+      "Without a prediction the result cannot surprise you, so the theory of the system is never tested and never has to be revised",
+      "Nobody will remember what was planned, so at the study step the team cannot tell what it changed from what it merely intended",
+      "Predictions motivate the team, so a cycle without one loses the commitment that carries a change through its first hard weeks"
      ],
      "answer": 1,
      "diagnoses": [
-      "Documentation reading. Record-keeping matters, but you could document a plan perfectly and still learn nothing.",
-      "Correct. The gap between prediction and result is the learning, and writing it down first is the main defense against narrating any outcome as success.",
       "Compliance reading. PDSA is not a research protocol; this confuses improvement with research measurement.",
+      "Correct. The gap between prediction and result is the learning, and writing it down first is the main defense against narrating any outcome as success.",
+      "Documentation reading. Record-keeping matters, but you could document a plan perfectly and still learn nothing.",
       "Motivational reading. Any motivational effect is incidental; the function is epistemic."
      ]
     },
     {
      "q": "Which of these is a practical measure, in Bryk's sense, for the change 'students revise their writing'?",
      "options": [
-      "End-of-year state writing score",
-      "A validated 40-item writing self-efficacy scale given each term",
-      "A weekly count of drafts submitted per student, pulled from the platform already in use",
-      "The teacher's overall impression at the end of the unit"
+      "A weekly count of drafts submitted per student, pulled from the platform already in use, because it is cheap, frequent and specific",
+      "A validated 40-item writing self-efficacy scale given each term, because a measure with known reliability is worth the extra time",
+      "The end-of-year state writing score, because it is the outcome the school is judged on and the one measure everyone trusts",
+      "The teacher's overall impression at the end of the unit, because the person closest to the work sees what no instrument captures"
      ],
-     "answer": 2,
+     "answer": 0,
      "diagnoses": [
-      "Accountability measure used for improvement. It is lagging and coarse, and arrives too late to guide any change this term.",
-      "Research measure. Rigorous but slow, burdensome and not specific to the change; it produces paralysis, not iteration.",
       "Correct. It is specific to the change, cheap, frequent, embedded in the work and back in teachers' hands within days, and it stays low stakes.",
+      "Research measure. Rigorous but slow, burdensome and not specific to the change; it produces paralysis, not iteration.",
+      "Accountability measure used for improvement. It is lagging and coarse, and arrives too late to guide any change this term.",
       "Too vague to detect change. An impression is not comparable week to week and is open to confirmation bias."
      ]
     },
     {
      "q": "A teammate says: 'A PDSA cycle is basically an A/B test for teachers.' What is the best correction?",
      "options": [
-      "Right; that is why each cycle needs a control group",
-      "Wrong: a PDSA is usually n = 1 with no control; it builds practical knowledge through many small predicted tests, run charts and replication across contexts, not statistical inference from one test",
-      "Wrong: PDSA cycles are purely qualitative and use no data",
-      "Right, except PDSA uses larger samples"
+      "Right, and that is why each cycle needs a control group, because without one you cannot tell the change from everything else going on in the school",
+      "Right, except that PDSA uses larger samples, because a whole school runs the change rather than the two arms of an A/B test",
+      "Wrong: a PDSA is usually n = 1 with no control; it builds practical knowledge through many small predicted tests, run charts and replication",
+      "Wrong: PDSA cycles are qualitative and use no data, because improvement is a matter of professional judgement rather than measurement"
      ],
-     "answer": 1,
+     "answer": 2,
      "diagnoses": [
       "Imports the A/B frame. Adding a control to every two-week classroom test is usually impractical and misses how PDSA builds knowledge.",
+      "Reverses the facts. PDSA samples are smaller, which is exactly why self-deception is the main risk.",
       "Correct. The ramp logic resembles a canary release, but the inference is different; its protections are the prior prediction, run charts and replication, and students cannot be rolled back.",
-      "Overcorrection. PDSA relies on practical measures and run charts; it is disciplined and quantitative where possible.",
-      "Reverses the facts. PDSA samples are smaller, which is exactly why self-deception is the main risk."
+      "Overcorrection. PDSA relies on practical measures and run charts; it is disciplined and quantitative where possible."
      ]
     },
     {
      "q": "Your new advisory program raises attendance. Which is a balancing measure you should also be tracking?",
      "options": [
-      "Attendance rate",
-      "The share of advisors who ran the advisory session as planned",
-      "Advisor workload and instructional time lost from core classes",
-      "Students' sense of belonging"
+      "Attendance rate, because the measure the program set out to move is the one that must be watched for slippage after the launch",
+      "Students' sense of belonging, because the mechanism through which advisory is supposed to raise attendance must also be checked",
+      "The share of advisors who ran the session as planned, because a gain in attendance means little if the program was not delivered",
+      "Advisor workload and instructional time lost from core classes, because a gain in one place can quietly break something elsewhere"
      ],
-     "answer": 2,
+     "answer": 3,
      "diagnoses": [
       "That is the outcome measure: it tells you whether the aim moved, not what else changed.",
+      "That is a driver measure if belonging is a hypothesized lever for attendance.",
       "That is a process measure: it tells you whether the change was carried out as designed.",
-      "Correct. Balancing measures are guardrail metrics that catch improvement in one place quietly breaking something else, and teacher workload is the most often forgotten.",
-      "That is a driver measure if belonging is a hypothesized lever for attendance."
+      "Correct. Balancing measures are guardrail metrics that catch improvement in one place quietly breaking something else, and teacher workload is the most often forgotten."
      ]
     }
    ],
@@ -697,81 +697,81 @@
     {
      "q": "'Productive failure contradicts Kirschner, Sweller & Clark.' Which is the best assessment?",
      "options": [
-      "True; you must pick a side",
-      "False; they agree entirely",
-      "Mostly false: PF includes full explicit consolidation and targets learners with relevant prior knowledge, so it respects the core mechanism while disagreeing about sequencing for conceptual goals",
-      "True for mathematics, false for science"
+      "Mostly false: PF includes explicit consolidation and targets learners with prior knowledge, so it keeps the core mechanism and disagrees on sequencing",
+      "True for mathematics, false for science, because inquiry is the method of science and procedures are the substance of mathematics at school level",
+      "False; they agree entirely, because both accept that explicit instruction is needed and differ only in how they describe it",
+      "True; you must pick a side, because one camp says struggle before instruction helps novices and the other says it harms them, and both cannot be right"
      ],
-     "answer": 2,
+     "answer": 0,
      "diagnoses": [
-      "Winner-take-all reading. The debate resolves by conditions (goal, prior knowledge, consolidation), not by a winner.",
-      "False harmony. They genuinely differ on how much struggle before instruction helps, and on where the prior-knowledge threshold sits.",
       "Correct. Kirschner, Sweller & Clark attack minimal guidance; PF is generate-then-instruct with scripted consolidation, beneficial for conceptual understanding and transfer and not for procedures.",
-      "Domain reading. The boundary is goal type and prior knowledge, not the subject."
+      "Domain reading. The boundary is goal type and prior knowledge, not the subject.",
+      "False harmony. They genuinely differ on how much struggle before instruction helps, and on where the prior-knowledge threshold sits.",
+      "Winner-take-all reading. The debate resolves by conditions (goal, prior knowledge, consolidation), not by a winner."
      ]
     },
     {
      "q": "Which is the correct chain from institution to mind for the policy 'all teachers use hinge questions'?",
      "options": [
-      "The institution mandates it, teachers comply, students learn more",
-      "TLCs build the habit; the hinge question makes every student's thinking visible; the teacher's next move adapts; students get instruction matched to their current schema, with misconceptions caught while they can still be corrected",
-      "Hinge questions test students, and testing improves memory",
-      "Students see that teachers care, so motivation rises"
+      "Students see that teachers care about their understanding, so motivation rises, and motivated students learn more from any lesson they are given",
+      "The institution mandates it, teachers comply, and students learn more because every class now checks understanding every lesson, closing the policy-practice gap",
+      "TLCs build the habit; the hinge makes each student's thinking visible; the teacher's next move adapts; instruction matches each student's current schema",
+      "Hinge questions test students, and testing improves memory, because every retrieval strengthens the trace that was just retrieved, in every classroom"
      ],
-     "answer": 1,
+     "answer": 2,
      "diagnoses": [
+      "Affective-only reading. Relationship matters, but it is not the mechanism by which a hinge question improves learning.",
       "Mandate theory. Mandates produce surface compliance and lethal mutations; habit change needs the TLC structure.",
       "Correct. Each link names the band and mechanism: adult learning, elicitation, contingent teaching, and the prior-knowledge and working-memory constraints in minds.",
-      "Retrieval-only reading. True as far as it goes, but it misses the main mechanism, which is the adaptive decision the evidence enables.",
-      "Affective-only reading. Relationship matters, but it is not the mechanism by which a hinge question improves learning."
+      "Retrieval-only reading. True as far as it goes, but it misses the main mechanism, which is the adaptive decision the evidence enables."
      ]
     },
     {
      "q": "Your brief says: 'Small classes improve learning.' What is the correct tag, and why?",
      "options": [
-      "[E], because it is obvious",
-      "[E] with a caveat: the effects are real (strongest in early grades) but modest and expensive relative to alternatives, and they shrink at scale",
-      "[V], because class size is a values choice",
-      "[H], because nobody has studied it"
+      "[E], because it is obvious: fewer students means more attention for each, and no study is needed to establish what every teacher knows",
+      "[V], because class size is a values choice: a school that wants every child known chooses small classes whatever the test scores say",
+      "[H], because nobody has studied it properly: the trials are old, from one state, and say nothing about a new school with its own teachers and families",
+      "[E] with a caveat: the effects are real (strongest in early grades) but modest and expensive relative to alternatives, and they shrink at scale"
      ],
-     "answer": 1,
+     "answer": 3,
      "diagnoses": [
       "Obviousness as evidence. The tag is right only by luck; the reasoning would let any intuition pass as evidence.",
-      "Correct. Tennessee STAR supports a real effect; California shows dilution at scale; the strategic question is cost per unit of learning. If parents value being known, that part is a separate [V].",
       "Over-tagging V to avoid scrutiny. There is strong evidence about class size; a value may also be involved, but it does not replace the evidence.",
-      "Ignorance of the literature. Class size is among the most studied questions in education."
+      "Ignorance of the literature. Class size is among the most studied questions in education.",
+      "Correct. Tennessee STAR supports a real effect; California shows dilution at scale; the strategic question is cost per unit of learning. If parents value being known, that part is a separate [V]."
      ]
     },
     {
      "q": "At a community design session, families propose replacing systematic phonics in K-2 with a 'balanced literacy' approach they saw at a neighboring school. Under your standardization-vs-codesign rule, you:",
      "options": [
-      "Adopt it; community ownership is essential to survival",
-      "End community codesign; families should not shape the school",
-      "Recognize a proposal to change a mechanism, which the compact fixes by evidence, then surface the underlying need (for example, joy in reading, rich books) and meet it in the open layer, such as read-alouds, knowledge-rich texts and the library",
-      "Run a PDSA cycle comparing phonics with balanced literacy in two classes"
+      "Adopt it, because community ownership is essential to survival and a school that overrides families on early reading will lose the coalition it depends on by the end of Year 2",
+      "Recognize a proposal to change a mechanism the compact fixes by evidence, then surface the need behind it and meet it in the open layer: read-alouds, rich texts, library",
+      "End community codesign, because families should not shape the school's teaching and this proposal shows exactly where open input leads a school",
+      "Run a PDSA cycle comparing phonics with balanced literacy in two classes, because a local test with practical measures settles it for this community"
      ],
-     "answer": 2,
+     "answer": 1,
      "diagnoses": [
       "Voice-validates-mechanism. Early reading mechanics are one of the most settled areas in the curriculum; adopting this would harm children.",
-      "Throwing out the signal. Codesign is how you learn needs and build the coalition that sustains the school; the fix is governance of layers, not abolition.",
       "Correct. The compact says which layer is open. The need behind the proposal is real and answerable without abandoning the mechanism.",
+      "Throwing out the signal. Codesign is how you learn needs and build the coalition that sustains the school; the fix is governance of layers, not abolition.",
       "Misuse of PDSA. Improvement cycles implement settled science locally; they are not for re-testing it on children who cannot be rolled back."
      ]
     },
     {
      "q": "Your brief says: 'Every core course ends each term in an authentic product for a real audience, which will deepen learning.' What is the best tag?",
      "options": [
-      "[E], because Mehta & Fine showed it",
-      "[H], because it is grounded in a strong but observational, selection-confounded pattern, and needs testing in your core courses with practical measures",
-      "[V], because authenticity is a preference",
-      "Delete it; there is no evidence at all"
+      "[H], because it rests on a strong but observational, selection-confounded pattern, and needs testing in your core courses with practical measures",
+      "Delete it, because there is no evidence at all: no study has measured learning from authentic products, so the claim cannot stand in a brief",
+      "[E], because Mehta & Fine showed it: across thirty schools, depth appeared wherever students made real products for real audiences",
+      "[V], because authenticity is a preference: a school may choose real audiences for its own reasons, but that choice is not an empirical claim at all"
      ],
-     "answer": 1,
+     "answer": 0,
      "diagnoses": [
-      "Promoting a case study to evidence. Mehta & Fine describe where depth appeared; they did not measure learning outcomes or test the transplant.",
       "Correct. It is a well-grounded hypothesis. Register it with a first test and a switch signal, such as mastery checks on the disciplinary content inside the product.",
-      "Under-tagging. There may be a value component, but the causal claim ('will deepen learning') is empirical and testable.",
-      "Overcorrection. The periphery pattern, apprenticeship research and motivation research make it a reasonable bet; weak evidence is not no evidence."
+      "Overcorrection. The periphery pattern, apprenticeship research and motivation research make it a reasonable bet; weak evidence is not no evidence.",
+      "Promoting a case study to evidence. Mehta & Fine describe where depth appeared; they did not measure learning outcomes or test the transplant.",
+      "Under-tagging. There may be a value component, but the causal claim ('will deepen learning') is empirical and testable."
      ]
     }
    ],
