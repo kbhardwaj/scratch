@@ -121,10 +121,10 @@ Note on scope: the essay "The Intimate Contest for Self-Command" is *not* in thi
 - **Multi-person prisoner's dilemma (MPD)** — a binary choice where one option dominates individually but all-cooperate beats all-defect — the case where enforcement, not communication, is the fix.
 - **k (minimum viable coalition)** — the smallest cooperating group that is better off than universal defection — the size of the pilot you need.
 - **Self-enforcing convention** — an equilibrium where unilateral deviation hurts the deviator — needs a focal point, not a policeman.
-- **Lemons / unravelling** — quality exit driven by uninformed average pricing — bites in peer-review pools, volunteer rotas and internal marketplaces where the best opt out.
-- **Thermostat dynamics** — feedback with a lag — expect oscillation from any control loop that reacts to stale signals (hiring, on-call load).
-- **Sorting externality** — each entrant changes the value of the group to others — makes admission and exit rules design levers.
-- **Positional good** — value depends on relative standing — collective choice over it is an arms race by default.
+- **Lemons / unravelling** — quality exit driven by average pricing under asymmetric information — bites in review pools and volunteer rotas where the best opt out.
+- **Thermostat dynamics** — feedback with a lag — expect oscillation from any control loop reacting to stale signals.
+- **Sorting externality** — each entrant changes the group's value to others — makes admission and exit rules design levers.
+- **Positional good** — value depends on relative standing — individual choice over it is an arms race by default.
 
 ## Evidence strength & limits
 - **What the book is.** A set of analytic demonstrations and thought experiments. Schelling presents essentially no data; the arguments are about *possibility* and *structure* ("this could happen with mild preferences"), not about *magnitude* in any real case. The robust content is the logic of thresholds and externalities, which is mathematically sound and has been formalized many times since.
