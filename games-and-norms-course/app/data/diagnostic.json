@@ -2,10 +2,10 @@
  "items": [
   {
    "id": "d1",
-   "statement": "If most people in a group privately disapprove of a practice, it will die out on its own.",
-   "correct": false,
+   "statement": "A team has kept a practice for years that most members, asked privately, say they dislike. The practice can persist indefinitely, because each member reads the others' compliance as approval.",
+   "correct": true,
    "folk_theory": "Disapproval kills norms: a practice nobody likes cannot last.",
-   "explanation": "Pluralistic ignorance keeps disliked norms alive. Each person infers that others approve from the fact that others comply, and that compliance is itself driven by the same inference. The norm is a shared misperception, and it dies only when the private disapproval becomes common knowledge, through a credible published measurement or a visible trendsetter (Bicchieri, The Grammar of Society, ch 5; ledger C44).",
+   "explanation": "Pluralistic ignorance keeps disliked norms alive. Each person infers that others approve from the fact that others comply, and that compliance is itself driven by the same inference. The norm is a shared misperception, and it dies only when the private disapproval becomes common knowledge, through a credible published measurement or a visible trendsetter; it does not fade because each person knows their own view (Bicchieri, The Grammar of Society, ch 5; ledger C44).",
    "module": "m7"
   },
   {
@@ -26,7 +26,7 @@
   },
   {
    "id": "d4",
-   "statement": "Schelling's checkerboard model shows that residential segregation is mainly caused by people's mild preferences rather than by discrimination.",
+   "statement": "Because Schelling's checkerboard produces segregation from mild preferences, a city's observed segregation is evidence that residents' preferences, not discrimination, produced it.",
    "correct": false,
    "folk_theory": "Schelling proved that preferences, not discrimination, produce segregation.",
    "explanation": "The checkerboard is a possibility proof. It shows that mild preferences plus interdependence can produce extreme sorting, and that homogeneity is weak evidence of intolerance. It says nothing about the real-world share due to discrimination, prices, lending or law, and Schelling says so. Real tipping does exist in US census tracts at roughly 5 to 20 percent minority share, higher where measured tolerance is higher (Card, Mas and Rothstein 2008), which is evidence for the dynamic, not for the cause (Schelling ch 4; ledger C29, rule 17).",
@@ -34,8 +34,8 @@
   },
   {
    "id": "d5",
-   "statement": "In a stag hunt, if the cooperative outcome pays more for everyone, a group of rational people will reach it.",
-   "correct": false,
+   "statement": "Two teams both prefer a shared standard to their separate ones, and each knows the other prefers it too. They can still fail to adopt it, because each fears switching while the other does not.",
+   "correct": true,
    "folk_theory": "The efficient equilibrium is the rational one, so sensible people find it.",
    "explanation": "A stag hunt has two equilibria, and which one a population reaches depends on the basin of attraction it starts in, not on how attractive the good outcome is. Under random mixing, best-response updating, large groups and no communication the risk-dominant equilibrium usually has the larger basin and wins; laboratory groups converge to it without communication (Cooper et al.; Van Huyck et al.). Choosing the safe action under uncertainty about the others is defensible, so the failure is structural and so is the fix (Skyrms ch 1; Camerer ch 7; ledger X6, rule 2).",
    "module": "m6"
@@ -50,23 +50,23 @@
   },
   {
    "id": "d7",
-   "statement": "Tightly knit clusters in a network always slow the spread of a new behaviour.",
-   "correct": false,
+   "statement": "A costly new practice adopted by a tight-knit sub-team of ten is more likely to survive and spread than the same practice seeded in ten well-connected people scattered across the organisation.",
+   "correct": true,
    "folk_theory": "Clusters are bad: insular sub-groups hold new practices back.",
-   "explanation": "Clusters cut both ways. A cluster whose density exceeds one minus the adoption threshold blocks a cascade entering from outside, and by the same arithmetic it protects a behaviour adopted inside it. Costly behaviour is a complex contagion needing several adopting neighbours, so clustered networks spread it faster than random ones (Centola 2010, background). The rule is: seed inside dense clusters and build wide bridges out of them (Easley and Kleinberg ch 19; ledger X7, rule 3).",
+   "explanation": "Clusters cut both ways. A cluster whose density exceeds one minus the adoption threshold blocks a cascade entering from outside, and by the same arithmetic it protects a behaviour adopted inside it. Costly behaviour is a complex contagion needing several adopting neighbours, so a scattered seed leaves each adopter below threshold and reverting, while a clustered seed holds and can spread through wide bridges (Centola 2010, background). The rule is: seed inside dense clusters and build wide bridges out of them (Easley and Kleinberg ch 19; ledger X7, rule 3).",
    "module": "m9"
   },
   {
    "id": "d8",
-   "statement": "The main structural fact about weak ties is that they tend to be the bridges between groups.",
-   "correct": true,
-   "folk_theory": "Weak ties are about job-hunting: most useful information and jobs come through acquaintances.",
-   "explanation": "The structural claim is robust: by strong triadic closure a local bridge must be a weak tie, and Onnela et al. (2007) confirmed the pattern in phone-network data. The popular job-search claim rests on a small sample, and later large-scale work (Gee et al. 2017; Rajkumar et al. 2022) found a more mixed picture: most jobs still arrive through weak ties in aggregate, but any single strong tie is more valuable at the margin, and moderately weak ties do best. Quote the structural claim only, and remember that weak ties carry information, not costly behaviour (Easley and Kleinberg ch 3; ledger C51, rule 33).",
+   "statement": "The reason weak ties matter is that an acquaintance is a better source of job leads and useful information than a close friend is.",
+   "correct": false,
+   "folk_theory": "Weak ties are about job-hunting: acquaintances beat close friends as sources of jobs and information.",
+   "explanation": "The robust claim is structural: by strong triadic closure a local bridge must be a weak tie, and Onnela et al. (2007) confirmed the pattern in phone-network data. The popular job-search claim rests on a small retrospective sample, and later large-scale work found a mixed picture: most jobs still arrive through weak ties in aggregate, because people have many more of them, but any single strong tie is more valuable at the margin (Gee et al. 2017) and moderately weak ties do best (Rajkumar et al. 2022). Quote the structural claim only, and remember that weak ties carry information, not costly behaviour (Easley and Kleinberg ch 3; ledger C51, rule 33).",
    "module": "m9"
   },
   {
    "id": "d9",
-   "statement": "Willpower is a limited resource that gets used up during the day, so cooperation designs should ration demands on it.",
+   "statement": "A team schedules its hardest cooperative decisions for the morning, on the grounds that self-control is a resource that gets used up over the day.",
    "correct": false,
    "folk_theory": "Ego depletion: self-control is a muscle that tires.",
    "explanation": "The registered replication of the ego-depletion effect across 23 labs with N = 2,141 found d = 0.04 with a confidence interval including zero (Hagger et al. 2016, verified), and a later multi-lab effort was similar. The course's replication rule is to build nothing on ego depletion, social priming, power posing, watching eyes, the Stanford Prison Experiment as usually told, groupthink as a syndrome or IAT-based training (Gilovich et al., evidence section; ledger C11, rule 20).",
@@ -74,26 +74,26 @@
   },
   {
    "id": "d10",
-   "statement": "Milgram's participants mostly obeyed because they trusted the institution and had no graceful exit, and obedience drops sharply when a peer refuses.",
-   "correct": true,
-   "folk_theory": "Blind obedience: most people are secretly willing to hurt others when told to.",
-   "explanation": "The behaviour replicates: 70 percent continued past 150 volts in Burger's 2009 partial replication (verified) against roughly 82 percent at the same point in Milgram. But obedience fell sharply with victim proximity, an absent authority or a disobedient peer, participants were distressed, and archival work shows engaged followership rather than sadism. The design lesson is exits, peers and legitimacy of refusal, not a verdict on human nature (Gilovich et al. ch 9; ledger C21, rule 22).",
+   "statement": "In Milgram's obedience studies, most participants went to the maximum shock even when a peer beside them refused to continue.",
+   "correct": false,
+   "folk_theory": "Blind obedience: most people will hurt others when told to, whoever else is in the room.",
+   "explanation": "The baseline behaviour replicates: 70 percent continued past 150 volts in Burger's 2009 partial replication (verified) against roughly 82 percent at the same point in Milgram. But obedience fell sharply with victim proximity, an absent authority or a disobedient peer: with two peers refusing, only about one in ten went to the maximum (background figure). Participants were distressed, and archival work shows engaged followership rather than sadism. The design lesson is exits, peers and legitimacy of refusal, not a verdict on human nature (Gilovich et al. ch 9; ledger C21, rule 22).",
    "module": "m2"
   },
   {
    "id": "d11",
-   "statement": "Repeating an interaction indefinitely solves the prisoner's dilemma.",
-   "correct": false,
+   "statement": "Two parties expect to keep dealing with each other indefinitely, and each can see what the other did last time. Permanent mutual defection is still an equilibrium of their game.",
+   "correct": true,
    "folk_theory": "Repetition solves the PD: the shadow of the future guarantees cooperation.",
    "explanation": "The folk theorem is an existence result. With a long, uncertain and observable future, cooperation becomes one equilibrium among many, including permanent mutual defection. The group must still coordinate on the cooperative equilibrium and detect defection fast enough for retaliation to bite, and under noise it needs forgiving strategies. Repetition permits cooperation; selection is a separate problem (Dixit, Skeath and McAdams ch 10; ledger C27, rule 15).",
    "module": "m3"
   },
   {
    "id": "d12",
-   "statement": "A social norm is whatever most people in the group actually do.",
-   "correct": false,
+   "statement": "A practice that most members follow and that newcomers copy can fail to be a social norm of the group, if nobody expects disapproval for skipping it.",
+   "correct": true,
    "folk_theory": "Norm equals majority: the norm is what people do.",
-   "explanation": "What most people do is a descriptive norm, sustained by empirical expectations alone and liable to flip when the visible majority changes. A social norm in Bicchieri's sense is a conditional preference that also needs normative expectations, the belief that others think one ought to comply and may sanction, and it can exist while widely violated. The four-way taxonomy (descriptive, convention, social, moral) tells you which lever to pull (Bicchieri ch 1; ledger C42, rule 11).",
+   "explanation": "What most people do is a descriptive norm, sustained by empirical expectations alone and liable to flip when the visible majority changes. A social norm in Bicchieri's sense is a conditional preference that also needs normative expectations, the belief that others think one ought to comply and may sanction; without them a widely followed practice is not a social norm, and a social norm can exist while widely violated. The four-way taxonomy (descriptive, convention, social, moral) tells you which lever to pull (Bicchieri ch 1; ledger C42, rule 11).",
    "module": "m7"
   },
   {
@@ -106,25 +106,25 @@
   },
   {
    "id": "d14",
-   "statement": "Ostrom's eight design principles are conditions found in durable commons, not a set of rules to install.",
-   "correct": true,
+   "statement": "A commons whose rules satisfy each of Ostrom's eight design principles can be expected to hold.",
+   "correct": false,
    "folk_theory": "The principles are a recipe: adopt all eight and the commons will hold.",
-   "explanation": "The principles specify no rules; Törbel, the Japanese villages, Valencia and the Philippine zanjeras all run different rules under the same structural conditions. A review of 91 empirical studies (Cox, Arnold and Villamayor-Tomás 2010, verified) found the principles well supported and split three of them, while warning of publication bias and that they capture structure, not processes such as trust and legitimacy. Use them as a diagnostic checklist, and flag scope for digital or knowledge commons (Ostrom ch 3 and evidence section; ledger C47, rule 29).",
+   "explanation": "The principles specify no rules; Törbel, the Japanese villages, Valencia and the Philippine zanjeras run different rules under the same structural conditions. They are conditions found in durable cases, not a recipe: a review of 91 empirical studies (Cox, Arnold and Villamayor-Tomás 2010, verified) found them well supported and split three of them, while warning of publication bias and that they capture structure, not processes such as trust and legitimacy. Association in selected cases does not license a guarantee. Use them as a diagnostic checklist, and flag scope for digital or knowledge commons (Ostrom ch 3 and evidence section; ledger C47, rule 29).",
    "module": "m8"
   },
   {
    "id": "d15",
-   "statement": "Copying other people is efficient mainly because the people you copy have already filtered out bad options.",
-   "correct": true,
-   "folk_theory": "Copying is lazy: imitation is a cheap shortcut that stops innovation.",
-   "explanation": "In the social-learning tournament (104 entries, Rendell et al. 2010, verified) copying won even when observing cost no less than innovating, because demonstrators perform their best-known action, so what an observer sees is a sample already filtered toward high payoffs. Three caveats travel with the result: it was a computer simulation, not people; the winner discounted stale information; and populations of pure copiers stagnate (Rogers's paradox), so someone must be paid to innovate (Laland ch 3; ledger rule 39).",
+   "statement": "In a population where everyone learns by copying others, average performance is higher than in a population where everyone learns by trial and error.",
+   "correct": false,
+   "folk_theory": "Copying is a free lunch: a group that copies well outperforms a group that experiments.",
+   "explanation": "Copying pays for the individual: in the social-learning tournament (104 entries, Rendell et al. 2010, verified) copying won even when observing cost no less than innovating, because demonstrators perform their best-known action, so what an observer sees is a sample already filtered toward high payoffs. But the benefit is parasitic on innovators. A population of pure copiers sits on a stale pool and does no better than a population of trial-and-error learners (Rogers's paradox); in the tournament, populations with very high copying rates had lower average fitness. Someone must be paid to innovate, and the winner discounted stale information. The tournament was a simulation, not people (Laland ch 3; ledger rule 39).",
    "module": "m1"
   },
   {
    "id": "d16",
-   "statement": "Tipping points are a property of a population's threshold distribution, not of a few influential people.",
-   "correct": true,
-   "folk_theory": "Influencers cause tipping: find the charismatic few and the rest follow.",
+   "statement": "To tip a group into a new practice, the scarce resource is a small number of members with wide influence.",
+   "correct": false,
+   "folk_theory": "Influencers cause tipping: find the few with wide influence and the rest follow.",
    "explanation": "Schelling's tipping point is an unstable equilibrium in a threshold distribution or adoption curve: below it participation decays, above it snowballs. Whether a cascade can start depends on whether there are enough low-threshold actors and no gap at the low end, so the scarce resource is people who will act when few others have, not charismatic ones. The influencer framing inverts the model (Schelling ch 3; Easley and Kleinberg ch 17; ledger C30, rule 18).",
    "module": "m4"
   }

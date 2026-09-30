@@ -66,10 +66,10 @@
   },
   {
    "id": "d9",
-   "statement": "A maths teacher who lets students wrestle with a new type of problem for fifteen minutes before explaining the method is, in most cases, wasting instructional time.",
-   "correct": false,
+   "statement": "Letting students wrestle with a new type of maths problem for fifteen minutes before the method is explained can deepen their conceptual understanding, if the explanation then builds on their attempts.",
+   "correct": true,
    "folk_theory": "Explanation must always come first.",
-   "explanation": "It depends on the goal. For load-bearing concepts where students have relevant prior knowledge, a designed generation phase followed by consolidation that builds on students' attempts improved conceptual understanding and transfer (Sinha and Kapur 2021, g about 0.36), with no advantage for procedural skills. Without the consolidation, the struggle is wasted.",
+   "explanation": "True, with conditions. For load-bearing concepts where students have relevant prior knowledge, a designed generation phase followed by consolidation that builds on students' attempts improved conceptual understanding and transfer (Sinha and Kapur 2021, g about 0.36), with no advantage for procedural skills. Without the consolidation, the struggle is wasted.",
    "module": "m4"
   },
   {
@@ -90,10 +90,10 @@
   },
   {
    "id": "d12",
-   "statement": "A student who receives a grade together with a written comment on an essay improves more on the next essay than one who receives the same comment alone.",
-   "correct": false,
+   "statement": "A student who receives only a written comment on an essay tends to improve more on the next essay than a student who receives the same comment together with a grade.",
+   "correct": true,
    "folk_theory": "More feedback information is always better.",
-   "explanation": "Butler (1987/88) found students given comments only improved, while those given grades, or grades plus comments, did not: the grade swamped the comment. Hence comment-only marking on formative work, or grades delayed until students have acted on the comments.",
+   "explanation": "True. Butler (1987/88) found students given comments only improved, while those given grades, or grades plus comments, did not: the grade swamped the comment. Hence comment-only marking on formative work, or grades delayed until students have acted on the comments.",
    "module": "m6"
   },
   {
@@ -114,18 +114,18 @@
   },
   {
    "id": "d15",
-   "statement": "Cutting class sizes from 30 to 20 across a school is among the most cost-effective changes a leadership team can make to raise achievement.",
-   "correct": false,
+   "statement": "Cutting class sizes from 30 to 20 across a school produces real gains, especially in the early grades, yet costs far more per unit of learning than teacher development or curriculum.",
+   "correct": true,
    "folk_theory": "Smaller classes are the obvious quality lever.",
-   "explanation": "Smaller classes help somewhat, especially in the early grades (Tennessee STAR, roughly 0.15-0.2 SD), but they are very expensive, and at scale force mass hiring of less experienced teachers, which diluted California's gains. Per dollar, curriculum and teacher development look much better.",
+   "explanation": "True. Smaller classes help somewhat, especially in the early grades (Tennessee STAR, roughly 0.15-0.2 SD), but they are very expensive, and at scale force mass hiring of less experienced teachers, which diluted California's gains. Per dollar, curriculum and teacher development look much better.",
    "module": "m8"
   },
   {
    "id": "d16",
-   "statement": "When an intervention works well in a two-class pilot, the right next step is to roll it out across the whole school in the following term.",
-   "correct": false,
+   "statement": "When an intervention works well in a two-class pilot, testing it next in a few more classrooms with a prediction and a practical measure is safer than a school-wide rollout next term.",
+   "correct": true,
    "folk_theory": "Scale what works on average.",
-   "explanation": "Bryk's improvement science says results vary by classroom and context, and the question is why something works here and fails there. Move through widening cycles of testing (one teacher, then several, then a department), with predictions and practical measures, and scale only once it holds across conditions.",
+   "explanation": "True. Bryk's improvement science says results vary by classroom and context, and the question is why something works here and fails there. Move through widening cycles of testing (one teacher, then several, then a department), with predictions and practical measures, and scale only once it holds across conditions.",
    "module": "m9"
   }
  ]

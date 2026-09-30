@@ -1478,3 +1478,10 @@ statements ~1.6x longer than false ones).
 - Idea bodies, counts and ids untouched. Validator: 0 errors, 0 warnings; app rebuilt.
 - Still open (not in scope here): only 4 of 16 diagnostic items are true, so a "false" bias
   remains a weak tell; consider flipping four false items to true scenarios in a later pass.
+- **Follow-up: true/false split balanced to 8/8.** d9, d12, d15 and d16 were flipped from false
+  to true by restating the source finding as a scenario (struggle-then-consolidate deepens
+  concepts; comment-only beats comment-plus-grade; class-size gains are real but poor value per
+  dollar; widen a pilot in tested steps rather than a whole-school rollout). `correct` set to
+  true and each explanation prefixed to match; folk theories unchanged since the same
+  misconception still drives a wrong answer. Lengths remain balanced (true mean 174, false mean
+  161 chars). Validator 0/0; app rebuilt.
