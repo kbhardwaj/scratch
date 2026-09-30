@@ -1181,7 +1181,7 @@
    "module": "m9",
    "type": "discriminate",
    "front": "Which weak-ties claim is robust, and which must not be quoted?",
-   "back": "Robust: local bridges tend to be weak ties, so novelty enters through them. Not to be quoted: 'most useful information and most jobs come through weak ties'; later work found most jobs via strong or moderately weak ties.",
+   "back": "Robust: local bridges tend to be weak ties, so novelty enters through them. Not to be quoted as settled: 'most useful information and jobs come through weak ties'; large studies found most jobs arrive via weak ties only because people have many, while a single strong tie is more valuable at the margin.",
    "source": "10-networks-crowds-markets"
   },
   {
@@ -1309,7 +1309,7 @@
    "module": "m10",
    "type": "discriminate",
    "front": "Strong reciprocity: which part is [E] and which is [H]?",
-   "back": "Lab willingness to pay to punish unfair intentions is [E]. 'An evolved trait that sustains cooperation' is [H] (Binmore and Shaked 2010; Guala 2012). Real sanctioning is mostly cheap and graduated; design on that.",
+   "back": "Lab willingness to pay to punish unfair intentions is [E]. 'An evolved trait that sustains cooperation' is [H] (Guala 2012; Binmore 2006). Real sanctioning is mostly cheap and graduated; design on that.",
    "source": "11-bounds-of-reason"
   },
   {
@@ -1325,7 +1325,7 @@
    "module": "m10",
    "type": "discriminate",
    "front": "Which two claims about The Bounds of Reason may not be made, and why?",
-   "back": "That correlated equilibrium fits data better than Nash: the argument is conceptual, no horse race was run. That Binmore panned the book: no such review was found; cite Binmore and Shaked 2010 on strong reciprocity instead.",
+   "back": "That correlated equilibrium fits data better than Nash: the argument is conceptual, no horse race was run. That Binmore panned the book: no such review was found; cite Binmore 2006 and Guala 2012 on strong reciprocity instead.",
    "source": "11-bounds-of-reason"
   },
   {

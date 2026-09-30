@@ -21,7 +21,7 @@
    "statement": "Humans evolved to punish cheats at personal cost, and that evolved trait is what keeps cooperation stable in real communities.",
    "correct": false,
    "folk_theory": "Strong reciprocity is settled science and explains real-world cooperation.",
-   "explanation": "Two claims are bundled here. Willingness to pay to punish unfair intentions in the lab is [E]. The claim that this is an evolved trait, strong reciprocity, is contested (Binmore and Shaked 2010; Guala 2012) and is [H] in this course. Field evidence from durable commons shows that real-world sanctioning is mostly cheap, graduated and run by participants, so designs should rest on the cheap version (Gintis, evidence section; Ostrom ch 3; ledger X4, rule 4).",
+   "explanation": "Two claims are bundled here. Willingness to pay to punish unfair intentions in the lab is [E]. The claim that this is an evolved trait, strong reciprocity, is contested (Guala 2012; Binmore 2006) and is [H] in this course. Field evidence from durable commons shows that real-world sanctioning is mostly cheap, graduated and run by participants, so designs should rest on the cheap version (Gintis, evidence section; Ostrom ch 3; ledger X4, rule 4).",
    "module": "m10"
   },
   {
@@ -61,7 +61,7 @@
    "statement": "The main structural fact about weak ties is that they tend to be the bridges between groups.",
    "correct": true,
    "folk_theory": "Weak ties are about job-hunting: most useful information and jobs come through acquaintances.",
-   "explanation": "The structural claim is robust: by strong triadic closure a local bridge must be a weak tie, and Onnela et al. (2007) confirmed the pattern in phone-network data. The popular job-search claim rests on a small sample, and later work found most jobs arrive through strong or moderately weak ties. Quote the structural claim only, and remember that weak ties carry information, not costly behaviour (Easley and Kleinberg ch 3; ledger C51, rule 33).",
+   "explanation": "The structural claim is robust: by strong triadic closure a local bridge must be a weak tie, and Onnela et al. (2007) confirmed the pattern in phone-network data. The popular job-search claim rests on a small sample, and later large-scale work (Gee et al. 2017; Rajkumar et al. 2022) found a more mixed picture: most jobs still arrive through weak ties in aggregate, but any single strong tie is more valuable at the margin, and moderately weak ties do best. Quote the structural claim only, and remember that weak ties carry information, not costly behaviour (Easley and Kleinberg ch 3; ledger C51, rule 33).",
    "module": "m9"
   },
   {
