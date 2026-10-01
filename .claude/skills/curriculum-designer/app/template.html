@@ -266,9 +266,23 @@ const SAMPLE_MSG = {
   rate_limited: "Too many requests just now. Try again in a minute.", session_expired: "Sign in to claude.ai again, then retry.",
   prompt_too_large: "That was too long to send. Shorten your answer and retry.", refused: "Claude declined this one. Rephrase and retry."
 };
+async function mentorViaEndpoint(outEl, btn, prompt) {
+  // Self-hosted mode: POST the prompt to your own server, which calls the Claude API and streams
+  // plain text back (see scripts/mentor-proxy.mjs). Nothing else leaves the browser.
+  btn.disabled = true; outEl.hidden = false; outEl.textContent = "Thinking...";
+  try {
+    const r = await fetch(C.mentor_endpoint, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ prompt }) });
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    const reader = r.body.getReader(), dec = new TextDecoder(); let text = "";
+    for (;;) { const { value, done } = await reader.read(); if (done) break; text += dec.decode(value, { stream: true }); outEl.innerHTML = md(text); }
+    if (!text) outEl.textContent = "No reply.";
+  } catch (e) { outEl.innerHTML = "<p class='muted'>" + esc("Couldn't reach the mentor service (" + (e && e.message || e) + ").") + "</p>"; }
+  finally { btn.disabled = false; }
+}
 async function mentor(outEl, btn, prompt) {
+  if (C.mentor_endpoint && !(window.claude && window.claude.use)) return mentorViaEndpoint(outEl, btn, prompt);
   const sample = await getSample();
-  if (!sample) { outEl.hidden = false; outEl.textContent = "Mentor feedback works when this page is opened on claude.ai."; return; }
+  if (!sample) { outEl.hidden = false; outEl.textContent = "Mentor feedback works when this page is opened on claude.ai, or when the course is hosted with a mentor endpoint."; return; }
   btn.disabled = true; outEl.hidden = false; outEl.textContent = "Thinking...";
   try {
     await sample(prompt, { modelTier: "default", cache: false, onText: ({ text }) => { outEl.innerHTML = md(text); } });

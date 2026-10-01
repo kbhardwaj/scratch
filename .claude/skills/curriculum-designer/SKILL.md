@@ -50,6 +50,13 @@ whenever the inputs exist. **Commit and push after each hand-back.** Use the Fab
 7. **QA** — two agents in parallel: (i) fact spot-check of ~30 claims across files via search, report confirmed/unclear/wrong; (ii) cold-learner run: take the diagnostic and M0 challenge without content, read M1–M3, retake, report whether items discriminate. Fix what they find, rebuild, republish.
 8. **README + report** — README lists every file, the how-to-use sequence (diagnostic → M0 cold challenge → one module a day → daily cards → artifact updates → capstone), and the honesty notes (what was verified how; least-certain items; corrections made). Final reply: the artifact link, what was built, caveats. Do not open a PR unless asked.
 
+## Self-hosting a course
+`python3 app/build.py <course-dir> --standalone [--mentor-endpoint https://your.site/mentor]` writes a
+complete HTML document that runs anywhere (progress in the browser's localStorage; no account sync).
+Mentor feedback needs a server: `scripts/mentor_proxy.py` is a 90-line Python endpoint that streams
+Claude API replies to the page; put it behind your own auth if the page is public. `books/` and
+`synthesis/` are plain Markdown and render with any static-site generator.
+
 ## Quality bar (what "done" means)
 - validate.py: 0 errors. smoke.js: ALL PASS. Every module has a cold attempt, ≥2 hinge questions with a diagnosis per option, ~15 atomic cards.
 - Hinge questions are not guessable without reading (options equal in length and register, correct positions shuffled) and diagnostic items carry no absolute-word tells; validate.py enforces both. Run the cold-learner QA before calling the course done: run 1 and run 2 both shipped guessable questions until it caught them.
